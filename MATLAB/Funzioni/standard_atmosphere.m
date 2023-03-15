@@ -11,6 +11,6 @@ R = 287.1;      %[J/(kg*K)]
 % gradiente di temperatura
 a = 0.0065;     %[K/m]
 
-P_z = P_0 .* (1 - ((a*altitude)/T_0)).^(g/(R*a));
+P_z = P_0 .* (1 - ((a.*altitude)/T_0)).^(g/(R*a));
 
 end
