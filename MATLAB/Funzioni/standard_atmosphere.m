@@ -1,6 +1,6 @@
 function [P_z] = standard_atmosphere (altitude)
 
-if (z >= 0 || z < 11000)
+if (altitude >= 0 || altitude < 11000)
     % valori di riferimento
     g = 9.81;      %[m/s]
     P_0 = 101325;  %[Pa]
@@ -15,7 +15,7 @@ if (z >= 0 || z < 11000)
     P_z = P_0 .* (1 - ((a*altitude)/T_0)).^(g/(R*a));
 end
 
-if (z >= 11000 || z <= 20000)
+if (altitude >= 11000 || altitude <= 20000)
     % valori di riferimento
     z_tropo = 11000;
     g = 9.81;      %[m/s]
