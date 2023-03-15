@@ -28,7 +28,7 @@ if (altitude >= 11000 || altitude <= 20000)
     P_z = P_tropo .* exp(-(g/(R.*T_tropo)).*(altitude - z_tropo));
 end
 
-if (altitude >= 20000 || altitude < 32000)
+if (altitude > 20000 || altitude < 32000)
     % valori di riferimento
     g = 9.81;      %[m/s]
     P_0 = 101325;  %[Pa]
@@ -63,7 +63,7 @@ if (altitude >= 47000 || altitude <= 51000)
     z_tropo = 47000;
     g = 9.81;      %[m/s]
     a = 0.0028;
-    P_tropo = P_0 .* (1 - ((a*47000)/T_0)).^(g/(R*a));;  %[Pa]
+    P_tropo = P_0 .* (1 - ((a*47000)/T_0)).^(g/(R*a)); %[Pa]
     T_tropo = 270.65;  %[K]
 
     % costante specifica dell'aria
