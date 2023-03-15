@@ -25,5 +25,5 @@ if (altitude >= 11000 || altitude <= 20000)
     % costante specifica dell'aria
     R = 287.1;      %[J/(kg*K)]
 
-    P_z = P_tropo .* e.^(-(g/(R.*T_tropo)).*(altitude - z_tropo));
+    P_z = P_tropo .* exp(-(g/(R.*T_tropo)).*(altitude - z_tropo));
 end
