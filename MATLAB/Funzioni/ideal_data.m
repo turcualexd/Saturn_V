@@ -1,4 +1,4 @@
-function ideal = ideal_data(gamma, MM, T_amb, p_amb, p_e, A_e, p_c, A_t, u_e)
+function ideal = ideal_data(gamma, MM, T_amb, p_amb,T_c, p_e, A_e, p_c, A_t, u_e)
 
 R = 8314;  % [kJ / kg * K]
 g0 = 9.81  % [m/s^2]
@@ -22,3 +22,15 @@ T = mp * u_e + (p_e - p_amb) * A_e;
 % mass flowrate ideal
 m_p_dot = T ./ (IS_ideal .* g0);
 
+% T_efflux
+T_e = T_c .* (p_e./ p_c) .^ ((gamma-1)./gamma);
+
+% sound velocity
+c_e = sqrt( gamma * (R./MM) *T_e);
+
+% Mach_efflux
+M_e = u_e ./ c_e;
+
+% areas
+eps = 1 ./ M_e .* [2 ./ (gamma +1) .* (1 + (gamma -1)./2 .* Me_e.^2)].^...
+      ((gamma + 1) ./ (2 .* (gamma -1)));
