@@ -1,4 +1,4 @@
-function [ct_ideal, IS_ideal, m_p_dot, T, M_e, eps] = ideal_data(gamma, MM, p_amb,T_c, p_e, A_e, p_c, A_t, u_e)
+function [ct_ideal, IS_ideal, m_p_dot, T, M_e, eps] = ideal_data(gamma, MM, p_amb, p_e, A_e, T_c, p_c, A_t, u_e)
 
 R = 8314;  % [kJ / kg * K]
 g0 = 9.81;  % [m/s^2]
