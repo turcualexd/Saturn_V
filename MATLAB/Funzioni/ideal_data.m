@@ -1,4 +1,4 @@
-function [ct_ideal IS_ideal m_p_dot T M_e] = ideal_data(gamma, MM, T_amb, p_amb,T_c, p_e, A_e, p_c, A_t, u_e)
+function [ct_ideal, IS_ideal, m_p_dot, T, M_e, eps] = ideal_data(gamma, MM, p_amb,T_c, p_e, A_e, p_c, A_t, u_e)
 
 R = 8314;  % [kJ / kg * K]
 g0 = 9.81;  % [m/s^2]
@@ -32,6 +32,6 @@ c_e = sqrt( gamma * (R./MM) *T_e);
 M_e = u_e ./ c_e;
 
 % areas
-eps = 1 ./ M_e .* [2 ./ (gamma +1) .* (1 + (gamma -1)./2 .* M_e.^2)].^...
+eps = 1 ./ M_e .* (2 ./ (gamma +1) .* (1 + (gamma -1)./2 .* M_e.^2)).^...
       ((gamma + 1) ./ (2 .* (gamma -1)));
 
