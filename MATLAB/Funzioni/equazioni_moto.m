@@ -3,13 +3,13 @@ close all
 clc
 
 % m0 massa iniziale del sistema
-m0 = 0;
+m0 = 2898941;
 
 % mf massa totale del sistema alla fine della fase propulsa
-mf = 0;
+mf = 949147;
 
 % mp massa di propellente necessaria allo svolgimento del sistema
-mp = 0;
+mp = m0 - mf;
 
 % MR rapporto di massa del sistema
 MR = mf / m0;
@@ -18,15 +18,13 @@ MR = mf / m0;
 csi_p = 1 - MR;
 
 % m_t variazione di massa nel tempo 
-t = 0;       % istante di tempo generico
-tb = 0;      %inserire tempo di combustione dello stadio 
+t = 40;       % istante di tempo generico
+tb = 150;      %inserire tempo di combustione dello stadio 
 m_t = m0 .* (1 - (1-MR) .* (t./tb));
 
 %% Attenzione si usano relazioni differenziali
 
-% c velocità efficace del razzo
-c = 0;
-% dv = (csi_p ./ (1-csi_p.*(t/tb))).*(c/tb)dt
+dv = mc / (m0 - mt) * dt;
 
 % Per una traiettoria bi-dimensionale
 % A è la superficie dell'intero vettore di lancio che contribuisce a creare drag
