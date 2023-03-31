@@ -1,0 +1,324 @@
+% A LaTeX template for EXECUTIVE SUMMARY of the MSc Thesis submissions to 
+% Politecnico di Milano (PoliMi) - School of Industrial and Information Engineering
+%
+% S. Bonetti, A. Gruttadauria, G. Mescolini, A. Zingaro
+% e-mail: template-tesi-ingind@polimi.it
+%
+% Last Revision: October 2021
+%
+% Copyright 2021 Politecnico di Milano, Italy. NC-BY
+
+\documentclass[11pt,a4paper,twocolumn]{article}
+
+%------------------------------------------------------------------------------
+%	REQUIRED PACKAGES AND  CONFIGURATIONS
+%------------------------------------------------------------------------------
+% PACKAGES FOR TITLES
+\usepackage{titlesec}
+\usepackage{color}
+
+% PACKAGES FOR LANGUAGE AND FONT
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage[T1]{fontenc} % Font encoding
+
+% PACKAGES FOR IMAGES
+\usepackage{graphicx}
+\graphicspath{{Images/}} % Path for images' folder
+\usepackage{eso-pic} % For the background picture on the title page
+\usepackage{subfig} % Numbered and caption subfigures using \subfloat
+\usepackage{caption} % Coloured captions
+\usepackage{transparent}
+
+% STANDARD MATH PACKAGES
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{bm}
+\usepackage[overload]{empheq}  % For braced-style systems of equations
+
+% PACKAGES FOR TABLES
+\usepackage{tabularx}
+\usepackage{longtable} % tables that can span several pages
+\usepackage{colortbl}
+
+% PACKAGES FOR ALGORITHMS (PSEUDO-CODE)
+\usepackage{algorithm}
+\usepackage{algorithmic}
+
+% PACKAGES FOR REFERENCES & BIBLIOGRAPHY
+\usepackage[colorlinks=true,linkcolor=black,anchorcolor=black,citecolor=black,filecolor=black,menucolor=black,runcolor=black,urlcolor=black]{hyperref} % Adds clickable links at references
+\usepackage{cleveref}
+\usepackage[square, numbers, sort&compress]{natbib} % Square brackets, citing references with numbers, citations sorted by appearance in the text and compressed
+\bibliographystyle{plain} % You may use a different style adapted to your field
+
+% PACKAGES FOR THE APPENDIX
+\usepackage{appendix}
+
+% PACKAGES FOR ITEMIZE & ENUMERATES 
+\usepackage{enumitem}
+
+% OTHER PACKAGES
+\usepackage{amsthm,thmtools,xcolor} % Coloured "Theorem"
+\usepackage{comment} % Comment part of code
+\usepackage{fancyhdr} % Fancy headers and footers
+\usepackage{lipsum} % Insert dummy text
+\usepackage{tcolorbox} % Create coloured boxes (e.g. the one for the key-words)
+\usepackage{stfloats} % Correct position of the tables
+
+%-------------------------------------------------------------------------
+%	NEW COMMANDS DEFINED
+%-------------------------------------------------------------------------
+% EXAMPLES OF NEW COMMANDS -> here you see how to define new commands
+\newcommand{\bea}{\begin{eqnarray}} % Shortcut for equation arrays
+\newcommand{\eea}{\end{eqnarray}}
+\newcommand{\e}[1]{\times 10^{#1}}  % Powers of 10 notation
+\newcommand{\mathbbm}[1]{\text{\usefont{U}{bbm}{m}{n}#1}} % From mathbbm.sty
+\newcommand{\pdev}[2]{\frac{\partial#1}{\partial#2}}
+% NB: you can also override some existing commands with the keyword \renewcommand
+
+%----------------------------------------------------------------------------
+%	ADD YOUR PACKAGES (be careful of package interaction)
+%----------------------------------------------------------------------------
+
+
+%----------------------------------------------------------------------------
+%	ADD YOUR DEFINITIONS AND COMMANDS (be careful of existing commands)
+%----------------------------------------------------------------------------
+
+
+% Do not change Configuration_files/config.tex file unless you really know what you are doing. 
+% This file ends the configuration procedures (e.g. customizing commands, definition of new commands)
+\input{Configuration_files/config}
+
+% Insert here the info that will be displayed into your Title page 
+% -> title of your work
+\renewcommand{\title}{Title of the thesis}
+% -> author name and surname
+\renewcommand{\author}{Name Surname}
+% -> MSc course
+\newcommand{\course}{Xxxxxxxxxxxx Engineering - Ingegneria Xxxxxxxxxxxx}
+% -> advisor name and surname
+\newcommand{\advisor}{Prof. Name Surname}
+% IF AND ONLY IF you need to modify the co-supervisors you also have to modify the file Configuration_files/title_page.tex (ONLY where it is marked)
+\newcommand{\firstcoadvisor}{Name Surname} % insert if any otherwise comment
+%\newcommand{\secondcoadvisor}{Name Surname} % insert if any otherwise comment
+% -> academic year
+\newcommand{\YEAR}{20XX-20XX}
+
+%-------------------------------------------------------------------------
+%	BEGIN OF YOUR DOCUMENT
+%-------------------------------------------------------------------------
+\begin{document}
+
+%-----------------------------------------------------------------------------
+% TITLE PAGE
+%-----------------------------------------------------------------------------
+% Do not change Configuration_files/TitlePage.tex (Modify it IF AND ONLY IF you need to add or delete the Co-advisors)
+% This file creates the Title Page of the document
+\input{Configuration_files/title_page}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%     THESIS MAIN TEXT     %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%-----------------------------------------------------------------------------
+% INTRODUCTION
+%-----------------------------------------------------------------------------
+\section{Introduction}
+\label{sec:introduction}
+
+This document is intended to be both an example of the Polimi \LaTeX{} template for the Executive Summary
+of your thesis, as well as a short introduction to its use.
+
+The Executive Summary is required only
+if the thesis has been assigned to a reviewer (\textit{controrelatore})
+for an independent evaluation of its quality, scientific/technical relevance and original contribution.
+
+\section{Guidelines}
+\label{sec:guidelines}
+
+The Executive Summary is a critical overview of your thesis
+with a focus on the main achievements that have emerged from your research.
+
+The Executive Summary should be organized in sections/paragraphs
+in order to better highlight the major points of your work.
+The length should range from four to six pages depending on the length of the thesis manuscript.
+Keep the Executive Summary concise enough to be effective but long enough to allow it to be complete.
+It should be written after completing the thesis manuscript as a stand-alone independent document
+of sufficient clarity and detail to ensure that the reader can figure out the overall objectives,
+the methodology employed and the results/impact of your research.
+
+In writing the Executive Summary, keep in mind that it is not an abstract, it is not a preface,
+and it is not a random collection of highlights.
+With a few exceptions, do not simply cut and paste whole sections or paragraphs of the thesis manuscript
+into a disorganized and cluttered Executive Summary.
+You should reorganize information to be informative as well as concise.
+
+The Executive Summary could contain a few important equations related to your work.
+It could also include the most relevant figures and tables taken or elaborated from the thesis manuscript.
+
+You should also include in the Executive Summary the very essential bibliography of your study.
+The number of selected references should range from three to five depending on the type of work.
+
+The Executive Summary should contain a final section reporting the main conclusions drawn from your research.
+
+\section{Sections and subsections}
+\label{sec:sec_and_subsec}
+It is convenient to organize the Executive Summary of your thesis into sections and subsections. 
+If necessary, subsubsections, paragraphs and subparagraphs can be also used. 
+A new section or subsection can be included  with the commands
+\begin{verbatim}
+\section{Title of the section}
+\end{verbatim}
+\begin{verbatim}
+\subsection{Title of the subsection}
+\end{verbatim}
+It is recommended to give a label to each section by using the command
+\begin{verbatim}
+\label{sec:section_name}%
+\end{verbatim}
+where the argument is just a text string that you'll use to reference that part
+as follows: \textit{Section~\ref{sec:sec_and_subsec} contains \sc{SECTIONS AND SUBSECTIONS}  \dots}.\\
+
+%-----------------------------------------------------------------------------
+% EQUATIONS AND FIGURES
+%-----------------------------------------------------------------------------
+\section{Equations, Figures, Tables and Algorithms}
+\label{sec:equations_and_figures}
+All Figures, Tables and Algorithms have to be properly referred in the text.
+Equations have to be numbered only if they are referred in the text.
+\subsection{Equations}
+\label{sec_equations}
+A few important equations related to your work might be reported in the Executive Summary. For example, the Maxwell's equations read:
+\begin{subequations}
+    \label{eq:maxwell}
+    \begin{align}[left=\empheqlbrace]
+    \nabla\cdot \bm{D} & = \rho, \label{eq:maxwell1} \\
+    \nabla \times \bm{E} +  \frac{\partial \bm{B}}{\partial t} & = \bm{0}, \label{eq:maxwell2} \\
+    \nabla\cdot \bm{B} & = 0, \label{eq:maxwell3} \\
+    \nabla \times \bm{H} - \frac{\partial \bm{D}}{\partial t} &= \bm{J}. \label{eq:maxwell4}
+    \end{align}
+\end{subequations}
+
+Equation~\eqref{eq:maxwell} is automatically labeled by \texttt{cleveref},
+as well as Equation~\eqref{eq:maxwell1} and Equation~\eqref{eq:maxwell3}.
+Thanks to the \verb|cleveref| package, there is no need to use \verb|\eqref|.
+
+\subsection{Figures}
+\label{sec:figures}
+To include Figures in your text you can use \texttt{TikZ} for high-quality hand-made figures \cite{tikz},
+or just include them with the command
+\begin{verbatim}
+\includegraphics[options]{filename.xxx}
+\end{verbatim}
+where xxx is the format (\verb|.png|, \verb|.jpg|, \verb|.eps|, \dots).
+An example is shown in Figure~\ref{fig:quadtree}.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.3\textwidth]{logo_polimi_scritta.eps}
+    \caption{Caption of the Figure.}
+    \label{fig:quadtree}
+\end{figure}
+
+\subsection{Tables}
+\label{subsec:tables}
+
+Within the environments \texttt{table} and  \texttt{tabular} you can create very fancy tables like the one shown in Table~\ref{table:example}.
+\begin{table}[H]
+    \caption*{\textbf{Example of Table}}
+    \centering 
+    \begin{tabular}{|p{3em} c c c |}
+    \hline
+    \rowcolor{bluePoli!40}
+     & \textbf{column1} & \textbf{column2} & \textbf{column3} \T\B \\
+    \hline \hline
+    \textbf{row1} & 1 & 2 & 3 \T\B \\
+    \textbf{row2} & $\alpha$ & $\beta$ & $\gamma$ \T\B\\
+    \textbf{row3} & alpha & beta & gamma \B\\
+    \hline
+    \end{tabular}
+    \\[10pt]
+    \caption{Caption of the Table.}
+    \label{table:example}
+\end{table}
+
+\subsection{Algorithms}
+\label{subsec:algorithms}
+
+Pseudo-algorithms can be written in \LaTeX{} with the \texttt{algorithm} and \texttt{algorithmic} packages.
+One example follows.
+\begin{algorithm}[H]
+\label{alg:example}
+\caption{Name of the Algorithm}
+\label{alg:var}
+\label{protocol1}
+\begin{algorithmic}[1]
+\STATE Initial instructions
+\FOR{$for-condition$}
+\STATE{Some instructions}
+\IF{$if-condition$}
+\STATE{Some other instructions}
+\ENDIF
+\ENDFOR
+\WHILE{$while-condition$}
+\STATE{Some further instructions}
+\ENDWHILE
+\STATE Final instructions
+\end{algorithmic}
+\end{algorithm} 
+
+\section{Some further useful recommendations}
+
+Theorems and Propositions have to be formatted as follows:
+\begin{theorem}
+\label{a_theorem}
+Write here your theorem. 
+\end{theorem}
+\textit{Proof.} If useful you can report here the proof.
+\vspace{0.3cm} % Insert vertical space
+
+How to write propositions:
+\begin{proposition}
+Write here your proposition.
+\end{proposition}
+\vspace{0.3cm} % Insert vertical space
+
+How to insert itemized lists:
+\begin{itemize}
+    \item first item;
+    \item second item.
+\end{itemize}
+How to insert numbered lists:
+\begin{enumerate}
+    \item first item;
+    \item second item.
+\end{enumerate}
+
+%-----------------------------------------------------------------------------
+% HOW TO CITE BIBLIOGRAPHY
+%-----------------------------------------------------------------------------
+\section{Bibliography}
+\label{sec:bibliography}
+The Executive Summary should contain the very essential bibliography of your study.
+It is suggested to use the BibTeX package \cite{bibtex} and save the bibliographic references
+in the file  \verb|bibliography.bib|.
+
+%-----------------------------------------------------------------------------
+% CONCLUSION
+%-----------------------------------------------------------------------------
+\section{Conclusions}
+A final section containing the main conclusions of your research/study have to be inserted here.
+
+%---------------------------------------------------------------------------
+%  ACKNOWLEDGEMENTS 
+%---------------------------------------------------------------------------
+\section{Acknowledgements}
+Here you might want to acknowledge someone.
+
+%---------------------------------------------------------------------------
+%  BIBLIOGRAPHY
+%---------------------------------------------------------------------------
+% Remember to insert here only the essential bibliography of your work
+\bibliography{bibliography.bib} % automatically inserted and ordered with this command 
+
+\end{document}
