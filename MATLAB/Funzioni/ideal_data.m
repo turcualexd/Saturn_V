@@ -34,4 +34,3 @@ M_e = u_e ./ c_e;
 % areas
 eps = 1 ./ M_e .* (2 ./ (gamma +1) .* (1 + (gamma -1)./2 .* M_e.^2)).^...
       ((gamma + 1) ./ (2 .* (gamma -1)));
-
