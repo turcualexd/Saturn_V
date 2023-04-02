@@ -2,6 +2,9 @@ clear
 close all
 clc
 
+syms t;
+g0 = 9.81;
+
 % m0 massa iniziale del sistema
 m0 = 2898941;
 
@@ -18,13 +21,19 @@ MR = mf / m0;
 csi_p = 1 - MR;
 
 % m_t variazione di massa nel tempo 
-t = 40;       % istante di tempo generico
-tb = 150;      %inserire tempo di combustione dello stadio 
+% t = 40;       % istante di tempo generico
+tb = 161;      %inserire tempo di combustione dello stadio 
 m_t = m0 .* (1 - (1-MR) .* (t./tb));
 
 %% Attenzione si usano relazioni differenziali
 
-dv = mc / (m0 - mt) * dt;
+isp = 265.3;
+c = isp * g0;
+
+dv_dt = csi_p / (1 - csi_p * t / tb) * c / tb;
+
+F = double(int(dv_dt, 0, 83))
+
 
 % Per una traiettoria bi-dimensionale
 % A è la superficie dell'intero vettore di lancio che contribuisce a creare drag
@@ -35,14 +44,14 @@ dv = mc / (m0 - mt) * dt;
 % u0 è la velocità iniziale (nel nostro caso è nulla)
 % B deve essere integrato usando metodi numerici
 % B = integrale tra 0 e tb di (1/2*pho*u^2)/(1-csi_p*t/tb)
-g = 0;
-u_p = -c .* log(1-csi_p) - g*tb - (B*CD*A)/m0 + u0;  % bisogna vedere bene quale valore di g usare
+% g = 0;
+% u_p = -c .* log(1-csi_p) - g*tb - (B*CD*A)/m0 + u0;  % bisogna vedere bene quale valore di g usare
 
 %% Considerazioni su struttura del lanciatore (attenzione perchè le formule non considerano resistenza e gravità in questo caso)
 
 % mp / m0 = 1 - exp(-deltav / (g0*IS))
 
 % deltaV per un singolo stadio
-g0 = 9.81;
+
 IS = 0;    % impulso specifico relativo allo stadio considerato
 delta_v = g0 .* IS .* log(m0 ./ mf);
