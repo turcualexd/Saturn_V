@@ -1,7 +1,7 @@
 clear, clc, close all;
 
 %% Initial data and parameters
-dt = 0.01;                       % time increment
+dt = 0.01;                      % time increment
 tb = 161;                       % combustion time
 t = 0:dt:tb;                    % time vector
 k = length(t);                  % number of iterations
