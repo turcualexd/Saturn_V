@@ -1,7 +1,7 @@
 clear, clc, close all;
 
 %% Initial data and parameters
-dt = 0.01;                      % time increment
+dt = 0.001;                     % time increment
 tb = 161;                       % combustion time
 t = 0:dt:tb;                    % time vector
 k = length(t);                  % number of iterations
@@ -14,12 +14,17 @@ I_sp = 304;                     % specific impulse vacuum
 S = 113;                        % drag surface
 g0 = 9.80665;                   % acceleration of gravity
 m_d = 242186;                   % mass dry
-m_dot = T_vac / (g0 * I_sp);    % propellant mass flow rate
 m_i = 2898941;                  % total mass at t=0
 mp_i = m_i - m_d;               % propellant mass at t=0
 
-mp = @(t) mp_i - m_dot * t;     % propellant mass
-m = @(t) m_d + mp(t);           % total mass
+m_dot_5 = T_vac / (g0 * I_sp);  % propellant mass rate 5 motors
+m_dot_4 = m_dot_5 * 4/5;        % propellant mass rate 4 motors
+
+mp_5 = @(t) mp_i - m_dot_5 * t; % propellant mass 5 motors
+mp_4 = @(t) mp_i - m_dot_4 * t; % propellant mass 4 motors
+
+m_5 = @(t) m_d + mp_5(t);       % total mass 5 motors
+m_4 = @(t) m_d + mp_4(t);       % total mass 4 motors
 
 % height
 h = nan(1,k);
@@ -57,7 +62,7 @@ D(1) = 1/2 * rho(1) * v(1)^2 * S * drag_coeff(Ma(1));
 
 % acceleration
 a = nan(1,k);
-a(1) = -g(1) + (T(1) - D(1)) / m(t(1));
+a(1) = -g(1) + (T(1) - D(1)) / m_5(t(1));
 
 %% Solution
 for i = 2:k
@@ -68,10 +73,15 @@ for i = 2:k
 
     Ma(i) = v(i) / c(i);
     g(i) = mu / (R_E + h(i))^2;
-    T(i) = T_vac - A_e .* p(i);
     D(i) = 1/2 * rho(i) * v(i)^2 * S * drag_coeff(Ma(i));
 
-    a(i) = -g(i) + (T(i) - D(i)) / m(t(i));
+    if t(i) <= 135
+        T(i) = T_vac - A_e .* p(i);
+        a(i) = -g(i) + (T(i) - D(i)) / m_5(t(i));
+    else
+        T(i) = 4/5 * T_vac - A_e .* p(i);
+        a(i) = -g(i) + (T(i) - D(i)) / m_4(t(i));
+    end
 end
 
 %% Plots
@@ -141,7 +151,7 @@ title("Acceleration")
 
 % total mass
 figure
-plot(t, m(t))
+plot(t, m_5(t))
 xlabel("t [s]")
 ylabel("m [kg]")
 title("Total mass")
