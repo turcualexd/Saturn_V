@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.12.16)  1 APR 2023 11:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.12.16)  12 APR 2023 17:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -995,11 +995,11 @@ Package hyperref Info: Link coloring ON on input line 100.
 
 (Configuration_files/title_page.tex
 Package epstopdf Info: Source file: <Images//logo_polimi_ing_indinf.eps>
-(epstopdf)                    date: 2023-03-31 19:29:13
+(epstopdf)                    date: 2023-04-11 13:39:35
 (epstopdf)                    size: 1016894 bytes
 (epstopdf)             Output file: <Images//logo_polimi_ing_indinf-eps-convert
 ed-to.pdf>
-(epstopdf)                    date: 2023-03-31 19:31:11
+(epstopdf)                    date: 2023-04-11 13:39:35
 (epstopdf)                    size: 81939 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=Images//logo_polimi_
 ing_indinf-eps-converted-to.pdf Images//logo_polimi_ing_indinf.eps>
@@ -1010,7 +1010,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex (file ./Images//logo_polimi_ing_indinf-eps-converted-t
 o.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allow
 ed
-<Images//logo_polimi_ing_indinf-eps-converted-to.pdf, id=10, 493.845pt x 227.85
+<Images//logo_polimi_ing_indinf-eps-converted-to.pdf, id=14, 493.845pt x 227.85
 126pt>
 File: Images//logo_polimi_ing_indinf-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -1064,6 +1064,10 @@ CUTED [output]: 0.0pt
 CUTED [leftcolumn badness]: 0
 CUTED [rightcolumn badness]: 0
 
+Underfull \hbox (badness 1590) in paragraph at lines 124--124
+|[]\T1/cmr/bx/n/14.4 Introduzione - req-ui-siti di
+ []
+
 
 Package caption Warning: Unused \captionsetup[figure] on input line 22.
 See the caption package documentation for explanation.
@@ -1077,26 +1081,26 @@ Package caption Warning: Unused \captionsetup[algorithm] on input line 24.
 See the caption package documentation for explanation.
 
 Package epstopdf Info: Source file: <Images//raggiera_polimi.eps>
-(epstopdf)                    date: 2023-03-31 19:29:13
+(epstopdf)                    date: 2023-04-11 13:39:35
 (epstopdf)                    size: 1813066 bytes
 (epstopdf)             Output file: <Images//raggiera_polimi-eps-converted-to.p
 df>
-(epstopdf)                    date: 2023-03-31 19:31:13
+(epstopdf)                    date: 2023-04-11 13:39:35
 (epstopdf)                    size: 40418 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=Images//raggiera_pol
 imi-eps-converted-to.pdf Images//raggiera_polimi.eps>
-(epstopdf)             \includegraphics on input line 128.
+(epstopdf)             \includegraphics on input line 145.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./Images//raggiera_polimi-eps-converted-to.pdf):
  PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Images//raggiera_polimi-eps-converted-to.pdf, id=11, 502.87875pt x 502.87875pt
+<Images//raggiera_polimi-eps-converted-to.pdf, id=15, 502.87875pt x 502.87875pt
 >
 File: Images//raggiera_polimi-eps-converted-to.pdf Graphic file (type pdf)
 <use Images//raggiera_polimi-eps-converted-to.pdf>
 Package pdftex.def Info: Images//raggiera_polimi-eps-converted-to.pdf  used on 
-input line 128.
+input line 145.
 (pdftex.def)             Requested size: 298.75394pt x 298.75233pt.
 [1{C:/Users/danie/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
 
@@ -1108,26 +1112,35 @@ dinf-eps-converted-to.pdf>] (Prova Finale.aux)
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.4641pt have occurred.
 
-Package rerunfilecheck Info: File `"Prova Finale".out' has not changed.
-(rerunfilecheck)             Checksum: 9814C2D956916ADB9290ECA4E25C967A;103.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `"Prova Finale".out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `"Prova Finale".out':
+(rerunfilecheck)             Before: D453B1AA03D0D5194D919332F4AB989B;338
+(rerunfilecheck)             After:  F933B7061E2AEE4953F83E161EB4019B;502.
  ) 
 Here is how much of TeX's memory you used:
- 28210 strings out of 475385
- 527619 string characters out of 2793321
- 962275 words of memory out of 3000000
- 49088 multiletter control sequences out of 15000+600000
+ 28217 strings out of 475385
+ 527956 string characters out of 2793321
+ 965275 words of memory out of 3000000
+ 49093 multiletter control sequences out of 15000+600000
  481523 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 83i,12n,80p,483b,458s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 83i,12n,80p,926b,458s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\danie\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm
 1095.pk> <C:\Users\danie\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
 0\ecbx0900.pk> <C:\Users\danie\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
 /dpi600\ecxc0900.pk> <C:\Users\danie\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
 pen/ec/dpi600\ecbx1440.pk><C:/Miktex/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
 <C:/Miktex/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-Output written on "Prova Finale.pdf" (1 page, 178872 bytes).
+Output written on "Prova Finale.pdf" (1 page, 183269 bytes).
 PDF statistics:
- 182 PDF objects out of 1000 (max. 8388607)
- 3 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 196 PDF objects out of 1000 (max. 8388607)
+ 5 named destinations out of 1000 (max. 500000)
+ 39 words of extra memory for PDF output out of 10000 (max. 10000000)
 
