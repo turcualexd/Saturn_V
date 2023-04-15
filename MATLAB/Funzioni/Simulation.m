@@ -87,7 +87,7 @@ for i = 2:k
     v_h(i) = v_h(i-1) + a_h(i-1)*dt;
     v(i) = v(i-1) + a(i-1)*dt;
 
-    phi(i) = v_h(i) / v_v(i);
+    phi(i) = atan(v_h(i) / v_v(i));
 
     [rho(i),c(i),Temp(i),p(i),nu(i)] = atmos(h(i));
 
@@ -118,67 +118,67 @@ figure
 plot(t, h)
 xlabel("t [s]")
 ylabel("h [m]")
-title("Height")
+title("Quota di volo")
 
 % velocity
 figure
 plot(t, v)
 xlabel("t [s]")
 ylabel("v [m/s]")
-title("Velocity")
+title("Velocità di volo")
 
 % temperature
-figure
-plot(t, Temp)
-xlabel("t [s]")
-ylabel("T [K]")
-title("Temperature")
+% figure
+% plot(t, Temp)
+% xlabel("t [s]")
+% ylabel("T [K]")
+% title("Temperatura ambientale")
 
 % pressure
-figure
-plot(t, p)
-xlabel("t [s]")
-ylabel("p [Pa]")
-title("Pressure")
+% figure
+% plot(t, p)
+% xlabel("t [s]")
+% ylabel("p [Pa]")
+% title("Pressione ambientale")
 
 % Mach number
-figure
-plot(t, Ma)
-xlabel("t [s]")
-ylabel("Ma [-]")
-title("Mach number")
+% figure
+% plot(t, Ma)
+% xlabel("t [s]")
+% ylabel("Ma [-]")
+% title("Numero di Mach")
 
 % acceleration of gravity
-figure
-plot(t, g)
-xlabel("t [s]")
-ylabel("g [m/s^2]")
-title("Acceleration of gravity")
+% figure
+% plot(t, g)
+% xlabel("t [s]")
+% ylabel("g [m/s^2]")
+% title("Accelerazione di gravità")
 
 % thrust
 figure
 plot(t, T)
 xlabel("t [s]")
 ylabel("T [N]")
-title("Thrust")
+title("Spinta dei motori")
 
 % drag
 figure
 plot(t, D)
 xlabel("t [s]")
 ylabel("D [N]")
-title("Drag")
+title("Drag aerodinamico")
 
 % acceleration
 figure
 plot(t, a)
 xlabel("t [s]")
 ylabel("a [m/s^2]")
-title("Acceleration")
+title("Accelerazione del razzo")
 
 % total mass
 figure
 plot(t, m)
 xlabel("t [s]")
 ylabel("m [kg]")
-title("Total mass")
+title("Massa totale del razzo")
