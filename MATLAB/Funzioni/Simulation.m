@@ -30,6 +30,10 @@ m(1) = m_i;
 h = nan(1,k);
 h(1) = 0;
 
+% horizontal shift
+s = nan(1,k);
+s(1) = 0;
+
 % velocity
 v = nan(1,k);
 v(1) = 0;
@@ -83,6 +87,8 @@ phi(1) = 0;
 %% Solution
 for i = 2:k
     h(i) = h(i-1) + v_v(i-1)*dt;
+    s(i) = s(i-1) + v_h(i-1)*dt;
+
     v_v(i) = v_v(i-1) + a_v(i-1)*dt;
     v_h(i) = v_h(i-1) + a_h(i-1)*dt;
     v(i) = v(i-1) + a(i-1)*dt;
@@ -119,6 +125,7 @@ plot(t, h)
 xlabel("t [s]")
 ylabel("h [m]")
 title("Quota di volo")
+xline(135, '--r')
 
 % velocity
 figure
@@ -126,6 +133,7 @@ plot(t, v)
 xlabel("t [s]")
 ylabel("v [m/s]")
 title("Velocità di volo")
+xline(135, '--r')
 
 % temperature
 % figure
@@ -161,6 +169,7 @@ plot(t, T)
 xlabel("t [s]")
 ylabel("T [N]")
 title("Spinta dei motori")
+xline(135, '--r')
 
 % drag
 figure
@@ -168,6 +177,7 @@ plot(t, D)
 xlabel("t [s]")
 ylabel("D [N]")
 title("Drag aerodinamico")
+xline(135, '--r')
 
 % acceleration
 figure
@@ -175,6 +185,7 @@ plot(t, a)
 xlabel("t [s]")
 ylabel("a [m/s^2]")
 title("Accelerazione del razzo")
+xline(135, '--r')
 
 % total mass
 figure
@@ -182,3 +193,11 @@ plot(t, m)
 xlabel("t [s]")
 ylabel("m [kg]")
 title("Massa totale del razzo")
+xline(135, '--r')
+
+% trajectory
+figure
+plot(s, h, 'r')
+xlabel("x [m]")
+ylabel("y [m]")
+title("Traiettoria di volo")
