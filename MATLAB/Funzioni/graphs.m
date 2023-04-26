@@ -63,3 +63,8 @@ poly = polyfit(temperature, O_F, 4);
 poly_OF = polyval(poly, temperature);
 plot(temperature, poly_OF, 'green');
 legend('data', 'interpolation');
+
+%% F1
+cp_F1 = polyval(polyfit(temperature, cp, 11), 1062);
+gamma_F1 = polyval(polyfit(temperature, gamma, 11), 1062);
+OF_F1 = polyval(polyfit(temperature, O_F, 4), 1062);
