@@ -7,23 +7,59 @@ cp = [2658.62; 2675.36; 2692.11; 2704.67; 2713.05; 2725.61; 2733.98; 2742.35; 27
 gamma = [1.097; 1.100; 1.106; 1.111; 1.115; 1.119; 1.124; 1.128; 1.132; 1.137; 1.140; 1.144; 1.148];
 O_F = [0.308; 0.320; 0.337; 0.354; 0.372; 0.390; 0.408; 0.425; 0.443; 0.460; 0.478; 0.497; 0.516];
 
-figure;
+%% CP
+figure
 grid on;
 grid minor;
-tx = 800:0.001:1250;
-cpq1 = interp1(temperature, cp, tx,'spline');
-plot(temperature, cp,'o', tx, cpq1, ':.');
+plot(temperature, cp, '.k', 'MarkerSize', 8);
+xlabel('Temperature [K]');
+ylabel('cp [kJ/(K kg)]')
+hold on
 
-figure;
-grid on;
-grid minor;
-tx = 800:0.001:1250;
-gammaq1 = interp1(temperature, gamma, tx,'spline');
-plot(temperature, gamma,'o', tx, gammaq1, ':.');
+for i = 1:13
+    poly = polyfit(temperature, cp, i);
+    poly_cp = polyval(poly, temperature);
+    [m(i), k(i)] = max(abs(poly_cp - cp));
+end
+poly = polyfit(temperature, cp, 11);
+poly_cp = polyval(poly, temperature);
+plot(temperature, poly_cp, 'red');
+legend('data', 'interpolation');
 
-figure;
+%% GAMMA
+figure
 grid on;
 grid minor;
-tx = 800:0.001:1250;
-O_Fq1 = interp1(temperature, O_F, tx);
-plot(temperature, O_F,'o', tx, O_Fq1, ':.');
+plot(temperature, gamma, '.k', 'MarkerSize', 8);
+xlabel('Temperature [K]');
+ylabel('\gamma')
+hold on
+
+for i = 1:13
+    poly = polyfit(temperature, gamma, i);
+    poly_gamma = polyval(poly, temperature);
+    [m(i), k(i)] = max(abs(poly_gamma - gamma));
+end
+poly = polyfit(temperature, gamma, 11);
+poly_gamma = polyval(poly, temperature);
+plot(temperature, poly_gamma, 'blue');
+legend('data', 'interpolation');
+
+%% O/F
+figure
+grid on;
+grid minor;
+plot(temperature, O_F, '.k', 'MarkerSize', 8);
+xlabel('Temperature [K]');
+ylabel('O/F')
+hold on
+
+for i = 1:13
+    poly = polyfit(temperature, O_F, i);
+    poly_OF = polyval(poly, temperature);
+    [m(i), k(i)] = max(abs(poly_OF - O_F));
+end
+poly = polyfit(temperature, O_F, 4);
+poly_OF = polyval(poly, temperature);
+plot(temperature, poly_OF, 'green');
+legend('data', 'interpolation');
