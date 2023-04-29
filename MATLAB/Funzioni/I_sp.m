@@ -10,12 +10,12 @@ g     = 1.174;
 M_mm  = 22.2152;
 p_e   = 0.049; %MPa
 T_c   = 3500; %combustion temp
-v_e   = @(p_c) sqrt(2*R*(g/(g-1))*(T_c/M_mm)*(1-(p_e./p_c).^((g-1)/g)) );%m/s
+v_e   = @(p_c) sqrt(2*R*(g/(g-1))*(T_c/M_mm)*(1-(p_e./p_c).^((g-1)/g)) ); %m/s
 gg = 9.81;
 I_spec_see = @(v) (v + (A_e/m_dot)*1e6*(p_e - 0.101325))/gg;
 I_spec_vac = @(v) (v + (A_e/m_dot)*p_e*1e6)/gg;
 
-pp   = linspace(2,60,1000); %from 0.2 to 10Mpa. Pressure at chamber 7.57 MPa
+pp   = linspace(2,10,1000); %from 0.2 to 10Mpa. Pressure at chamber 7.57 MPa
 vv   = v_e(pp); 
 I_ss = I_spec_see(vv);
 I_ss_vac = I_spec_vac(vv);
@@ -46,11 +46,13 @@ eta_t = 0.605;
 T_in  = 1061;
 %from CEA hP problem (gas gen)
 M_mm_gg = 19.247;
-gamma_s = 1.1378;
-der = -1.12404;
-gamma= - gamma_s*der;
-P_te = 0.3998;
-c_p_gas = (gamma/(gamma - 1)) * R/M_mm_gg;
+% gamma_s = 1.1378;
+% der = -1.12404;
+% gamma= - gamma_s*der;
+ P_te = 0.3998;
+% c_p_gas = (gamma/(gamma - 1)) * R/M_mm_gg;
+gamma = 1.128179;
+c_p_gas =  2742.2380;
 
 P_c_gg = 0.85 * pp; %best practice 
 eta_tt = 1 - (P_te./P_c_gg).^((gamma-1)/(gamma));
