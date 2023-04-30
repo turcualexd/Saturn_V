@@ -1,4 +1,4 @@
-\documentclass[11pt,a4paper,twocolumn]{article}
+\documentclass[11pt,a4paper]{article}
 
 %------------------------------------------------------------------------------
 %	REQUIRED PACKAGES AND  CONFIGURATIONS
@@ -13,6 +13,8 @@
 \usepackage[italian]{babel}
 \usepackage[T1]{fontenc} % Font encoding
 \usepackage{kpfonts}
+\tolerance=1
+\emergencystretch=\maxdimen
 \hyphenpenalty=10000
 \hbadness=10000
 
@@ -80,10 +82,27 @@
 %----------------------------------------------------------------------------
 %	ADD YOUR DEFINITIONS AND COMMANDS (be careful of existing commands)
 %----------------------------------------------------------------------------
-\newcommand{\figura}[3]{
+\newcommand{\twofig}[6]{
+\begin{figure}[H]
+	\begin{minipage}{0.48\linewidth}
+		\centering
+		\includegraphics[width=\linewidth]{#1}
+		\caption{#2}
+		\label{fig:#3}
+	\end{minipage}\hfill
+	\begin{minipage}{0.48\linewidth}
+		\centering
+		\includegraphics[width=\linewidth]{#4}
+		\caption{#5}
+		\label{fig:#6}
+	\end{minipage}
+\end{figure}
+}
+
+\newcommand{\cfig}[4]{
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=\linewidth]{#1}
+	\includegraphics[width=#4\linewidth]{#1}
 	\caption{#2}
 	\label{fig:#3}
 \end{figure}
@@ -126,17 +145,12 @@
 % This file creates the Title Page of the document
 \input{Configuration_files/title_page}
 
-\begin{strip}
-    \centering
-    \begin{minipage}{1\textwidth}
-    	\vspace{15mm}
-        \begin{abstract}
-			\vspace*{5mm}
+\vspace{15mm}
+\begin{abstract}
+	\vspace*{5mm}
 La presente relazione di prova finale intende dare una descrizione dell'endoreattore F-1 prodotto da Rocketdyne. Cinque di questi motori vennero installati sul primo stadio S-IC del vettore Saturn V che portò il primo uomo sulla luna. L'obiettivo di questo stadio era quello di portare il razzo ad una quota di 61 km, fornendo un $\Delta v \simeq $ 2300 m/s.\\
 Di seguito verranno analizzati i principali sistemi per un singolo motore, partendo dal sistema di alimentazione, passando per il sistema di generazione della potenza ed arrivando infine al sistema di espansione gasdinamico e al suo raffreddamento. Si provvederà inoltre a dare una descrizione quali/quantitativa delle scelte progettuali applicate ai tempi. Infine, verrà studiata una alternativa ai propellenti utilizzati, rimarcando le conseguenze sull'intero sistema propulsivo che tale variazione implica.
-        \end{abstract}
-    \end{minipage}
-\end{strip}
+\end{abstract}
 
 \clearpage
 
@@ -176,43 +190,38 @@ per ricavare le forze di resistenza aerodinamica è stata usata una curva empiri
 Il modello matematico realizzato per la descrizione del vettore di lancio consta dunque delle seguenti equazioni:
 
 \begin{empheq}{gather*}
-	h = \frac{dv_{v}}{dt}									\\
+	h = \frac{dv_{v}}{dt}									\qquad
 	v_{v} = \frac{da_{v}}{dt}								\qquad
-	v_{h} = \frac{da_{h}}{dt}								\\
-	v_{tot} = \sqrt{v_{v}^2 + v_{h}^2}						\qquad
-	\phi = \arctan \frac{v_{h}}{v_{v}}						\\
-	a_{v} = -g + \frac{T \cos \theta - D \cos \phi}{m}		\\
-	a_{h} = \frac{T \sin \theta - D \sin \phi}{m}			\\
-	g = \frac{\mu}{\left( R_T + h \right) ^2}				\qquad
-	m = m_i - \dot{m} t										\\
+	v_{h} = \frac{da_{h}}{dt}								\qquad
+	v_{tot} = \sqrt{v_{v}^2 + v_{h}^2}						\\
+	\phi = \arctan \frac{v_{h}}{v_{v}}						\qquad
+	a_{v} = -g + \frac{T \cos \theta - D \cos \phi}{m}		\qquad
+	a_{h} = \frac{T \sin \theta - D \sin \phi}{m}				\\
+	g = \frac{\mu}{\left( R_T + h \right) ^2}					\qquad
+	m = m_i - \dot{m} t										\qquad
 	T = T_{vac} - A_e p_e									\qquad
 	D = \frac{1}{2} \, \rho \, v_{tot}^2 \, S \, C_D
 \end{empheq}
+\vspace*{5mm}
 
 Seppur il modello risulti semplificato rispetto alla complessa realtà fisica di funzionamento, si ottengono andamenti delle principali grandezze fisiche di interesse perfettamente in linea con gli andamenti tabellati forniti nei manuali di volo del vettore di lancio.	% qua mettiamo la reference ai dati reali
 I requisiti fondamentali, ovvero il raggiungimento della quota prefissata e della velocità finale prima dello sgancio dello stadio S-IC, risultano soddisfatti e sufficientemente precisi, con un valore ottenuto di 59557 m (errore percentuale di 000\% rispetto al reale) e 2353 m/s (errore percentuale di 000\%).	% sostituire i dati trovati
 
 Di seguito sono riportati i grafici di alcune grandezze in funzione del tempo di volo:
 
-\figura{01_quota_t}{Quota in funzione del tempo}{quota_t}
+%\figura{01_quota_t}{Quota in funzione del tempo}{quota_t}
+%\figura{02_velocita_t}{Velocità in funzione del tempo}{velocita_t}
+%\figura{03_accelerazione_t}{Accelerazione in funzione del tempo}{accelerazione_t}
+%\figura{04_spinta_t}{Spinta in funzione del tempo}{spinta_t}
+%\figura{05_drag_t}{Drag in funzione del tempo}{drag_t}
+%\figura{06_massa_t}{Massa totale in funzione del tempo}{massa_t}
+%\figura{07_traiettoria}{Traiettoria del vettore}{traiettoria}
 
-\figura{02_velocita_t}{Velocità in funzione del tempo}{velocita_t}
+\twofig{01_quota_t}{Quota in funzione del tempo}{quota_t}{02_velocita_t}{Velocità in funzione del tempo}{velocita_t}
 
-\figura{03_accelerazione_t}{Accelerazione in funzione del tempo}{accelerazione_t}
-
-\figura{04_spinta_t}{Spinta in funzione del tempo}{spinta_t}
-
-\figura{05_drag_t}{Drag in funzione del tempo}{drag_t}
-
-\figura{06_massa_t}{Massa totale in funzione del tempo}{massa_t}
-
-
+\cfig{04_spinta_t}{Spinta in funzione del tempo}{spinta_t}{0.48}
 
 Le evidenze sperimentali ci permettono quindi di assumere il modello implementato come effettivamente rappresentativo del lancio del Saturn V avvenuto nella realtà.
-
-%\clearpage
-
-\figura{07_traiettoria}{Traiettoria del vettore}{traiettoria}
 
 
 %-----------------------------------------------------------------------------
@@ -247,7 +256,7 @@ Le evidenze sperimentali ci permettono quindi di assumere il modello implementat
 \label{sec:gas generator}
 
 Le difficoltà progettuali incontrate per il design del GG furono molte: vennero sviluppate molte geometrie diverse negli anni precedenti. Per ovviare a problemi futuri, tutte le scelte effettuate dai progettisti della NASA vennero raccolte in un manuale tecnico basato su un approccio sperimentale piuttosto che teorico, in cui vengono giustificate le scelte progettuali effettuate per il sistema GG di un LRE (*).
-Il gas generator del motore F-1 è il sistema adibito alla produzione di gas caldi per alimentare la turbopompa. Tale sistema è composto idealmente da una camera di combustione progettata ad hoc per questo tipo di sottosistema. Vengono utilizzati gli stessi propellenti che producono il getto principale ma con proporzione O/F diversa dalla camera principale, il valore corrsipondente si trova nella tabella (1). La necessità di avere un O/F lontano dal valore stechiometrico è dettata dal contenere le temperature del flusso che impatterà sulla turbina: questo si ottiene con miscele ricche in ossidante o ricche in combustibile. In questo caso si è preferita una miscela ricca in combustibile per diversi motivi: evitare ossidazioni di componenti che sarebbero convenute con una miscela ad alta percentuale in LOX, diminuire eventuali guasti causati da flussi surriscaldati più probabili nel caso di OR, infine, consumo specifico minore per la turbina con FR perché il peso molecolare dei gas è minore in questo caso (appendice). La scelta di optare per una miscela FR ha anche alcuni aspetti negativi come la cinetica del processo chimico molto complessa data dalla produzione di idrocarburi, che solitamente creano dei depositi solidi (appendice analisi CEA). Solitamente però in un GG, anche con questi valori bassi di O/F,  la combustione viene completata i camera (quindi è molto rapida); al contrario i processi di evaporazione e mixing sono molto lenti. Questo problema si presenta soprattutto nei design di GG ,ma non in quello delle camere di spinta di LRE dove tali processi sono più veloci. Per avere buona evaporazione dei propellenti servirebbero delle zone di combustione molto larghe (più iniettori con portate minori) e per avere un buon mixaggio serve una lunga camera in direzione del flusso, che permetta tale processo: questi due problemi vengono ovviati tramite delle scelte di design specifiche che vedremo in seguito. 
+Il gas generator del motore F-1 è il sistema adibito alla produzione di gas caldi per alimentare la turbopompa. Tale sistema è composto idealmente da una camera di combustione progettata ad hoc per questo tipo di sottosistema. Vengono utilizzati gli stessi propellenti che producono il getto principale ma con proporzione O/F diversa dalla camera principale, il valore corrsipondente si trova nella tabella \ref{table:gas generator}. La necessità di avere un O/F lontano dal valore stechiometrico è dettata dal contenere le temperature del flusso che impatterà sulla turbina: questo si ottiene con miscele ricche in ossidante o ricche in combustibile. In questo caso si è preferita una miscela ricca in combustibile per diversi motivi: evitare ossidazioni di componenti che sarebbero convenute con una miscela ad alta percentuale in LOX, diminuire eventuali guasti causati da flussi surriscaldati più probabili nel caso di OR, infine, consumo specifico minore per la turbina con FR perché il peso molecolare dei gas è minore in questo caso (appendice). La scelta di optare per una miscela FR ha anche alcuni aspetti negativi come la cinetica del processo chimico molto complessa data dalla produzione di idrocarburi, che solitamente creano dei depositi solidi (appendice analisi CEA). Solitamente però in un GG, anche con questi valori bassi di O/F,  la combustione viene completata i camera (quindi è molto rapida); al contrario i processi di evaporazione e mixing sono molto lenti. Questo problema si presenta soprattutto nei design di GG ,ma non in quello delle camere di spinta di LRE dove tali processi sono più veloci. Per avere buona evaporazione dei propellenti servirebbero delle zone di combustione molto larghe (più iniettori con portate minori) e per avere un buon mixaggio serve una lunga camera in direzione del flusso, che permetta tale processo: questi due problemi vengono ovviati tramite delle scelte di design specifiche che vedremo in seguito. 
 Nella creazione di un elemento GG, in particolare la sua camera di combustione, si devono considerare dei prerequisiti fondamentali per il suo corretto funzionamento:
 
 \begin{itemize}[wide,itemsep=3pt,topsep=3pt]
@@ -283,22 +292,14 @@ Il TR (turbulence ring), posto poco dopo il piatto di iniezione, viene posiziona
 \item
 L’ignitore deve essere posizionato poco dopo il piatto di iniezione (una best practice è tra 2.5 e 3.8 cm al di sotto del piatto). Viene inoltre posizionato in zone molto vicine ai punti di ristagno del flusso, in cui la combustione viene resa efficace.
 
-\vspace*{5mm}
-\begin{table}[h!]
+\begin{table}[H]
 
 \centering
-\begin{tabular}{|c|c|c|c|}
+\begin{tabular}{|c|c|c|c|c|c|c|}
 \hline
-$\bm{T_c \, [K]}$ & $\bm{p_c \, [bar]}$ & $\bm{p_{out} \, [bar]}$ & $\bm{t_{p} \, [ms]}$ \\
+$\bm{T_c \, [K]}$ & $\bm{p_c \, [bar]}$ & $\bm{p_{out} \, [bar]}$ & $\bm{t_{p} \, [ms]}$ & $\bm{O/F}$ & $\bm{\dot{m}_{fuel} \, [kg/s]}$ & $\bm{\dot{m}_{ox} \, [kg/s]}$ \\
 \hline
-$1062$ & $67.57$ & $65.15$ & $5$ \\
-\hline
-\end{tabular}
-\begin{tabular}{|c|c|c|}
-\hline
-$\bm{O/F}$ & $\bm{\dot{m}_{fuel} \, [kg/s]}$ & $\bm{\dot{m}_{ox} \, [kg/s]}$ \\
-\hline
-$0.416$ & $53.52$ & $22.23$ \\
+$1062$ & $67.57$ & $65.15$ & $5$ & $0.416$ & $53.52$ & $22.23$ \\
 \hline
 \end{tabular}
 
@@ -307,16 +308,45 @@ $0.416$ & $53.52$ & $22.23$ \\
 
 \end{table}
 
-Una stima quantitativa per il volume totale necessario alla camera di combustione per garantire le richieste della stessa è basato su un tempo di permanenza ricavato nel caso dei GG per ogni coppia di propellente. Nel caso dell' F1 si ha:
-\vspace*{5mm}
-\begin{empheq}{gather*}
-	V_{cc} = t_{p}\frac{\dot{m_{gg}}}{\rho_{gc}} = 5\cdot 10^{-3} \left( \frac{53.52 + 22.23}{18.3406} \right) = 
-\\
-= 0.02065 m^{3} \\	
+Una stima quantitativa per il volume totale necessario alla camera di combustione per garantire le richieste della stessa è basato su un tempo di permanenza ricavato nel caso dei GG per ogni coppia di propellente. Nel caso dell'F-1 si ha:
+
+\begin{empheq}{equation*}
+V_{cc} = t_{p}\frac{\dot{m_{gg}}}{\rho_{gc}} = 5\cdot 10^{-3} \left( \frac{53.52 + 22.23}{18.3406} \right) = 0.02065 m^{3}
 \end{empheq}
 
-
 \end{itemize}
+
+
+%-----------------------------------------------------------------------------
+
+
+\section{Turbopompa}
+
+\label{sec:turbopompa}
+
+
+%-----------------------------------------------------------------------------
+
+
+\section{Piatto d'iniezione}
+
+\label{sec:piatto iniezione}
+
+
+%-----------------------------------------------------------------------------
+
+
+\section{Camera di spinta}
+
+\label{sec:camera di spinta}
+
+
+%-----------------------------------------------------------------------------
+
+
+\section{Ugello gasdinamico}
+
+\label{sec:ugello}
 
 
 %-----------------------------------------------------------------------------

@@ -52,9 +52,6 @@
 \setlist[itemize,3]{label=$-$}
 \setlist{nosep}
 
-% Set separation of columns 
-\setlength{\columnsep}{40pt}
-
 % Create command for background pic
 \newcommand\BackgroundPic{% Adding background picture
 	\put(230,358){
@@ -68,6 +65,9 @@
 
 % Set indentation
 \setlength\parindent{0pt}
+
+% Set abstract
+\renewenvironment{abstract}{\section*{\abstractname}}{}
 
 % Custom title commands
 \titleformat{\section}
