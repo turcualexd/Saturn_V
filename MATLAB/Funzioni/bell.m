@@ -68,7 +68,7 @@ plot(Qx, Qy, 'o');
 %% Plot 3D
 figure
 [X, Y, Z] = cylinder(y, 100);
-surf(X, Y, Z)
+surf(X, Y, Z, 'EdgeColor', 'none')
 
 %%
 N = length(x) - 1;
@@ -88,7 +88,7 @@ for i = 1:length(theta)
 end
 
 figure
-surf(X,Y,Z);
+surf(X,Y,Z,'EdgeColor','none');
 xlabel('x');
 ylabel('y');
 zlabel('z');
