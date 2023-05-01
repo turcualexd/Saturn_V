@@ -43,10 +43,21 @@
 \usepackage{algorithmic}
 
 % PACKAGES FOR REFERENCES & BIBLIOGRAPHY
-\usepackage[colorlinks=true,linkcolor=black,anchorcolor=black,citecolor=black,filecolor=black,menucolor=black,runcolor=black,urlcolor=black]{hyperref} % Adds clickable links at references
+\usepackage{hyperref} % Adds clickable links at references
+\hypersetup{
+	colorlinks=true,
+	linkcolor=bluePoli,
+	anchorcolor=black,
+	citecolor=bluePoli,
+	filecolor=black,
+	menucolor=black,
+	runcolor=black,
+	urlcolor=black,
+}
 \usepackage{cleveref}
 \usepackage[square, numbers, sort&compress]{natbib} % Square brackets, citing references with numbers, citations sorted by appearance in the text and compressed
 \bibliographystyle{plain} % You may use a different style adapted to your field
+\usepackage{tocbibind}
 
 % PACKAGES FOR THE APPENDIX
 \usepackage{appendix}
@@ -155,6 +166,7 @@
 \newcommand{\YEAR}{2022-2023}
 
 \begin{document}
+\pagenumbering{Roman}
 
 %-----------------------------------------------------------------------------
 % TITLE PAGE
@@ -166,12 +178,23 @@
 
 \vspace{15mm}
 \begin{abstract}
+\addcontentsline{toc}{section}{Sommario}
 	\vspace*{5mm}
 La presente relazione di prova finale intende dare una descrizione dell'endoreattore F-1 prodotto da Rocketdyne. Cinque di questi motori vennero installati sul primo stadio S-IC del vettore Saturn V che portò il primo uomo sulla luna. L'obiettivo di questo stadio era quello di portare il razzo ad una quota di 61 km, fornendo un $\Delta v \simeq $ 2300 m/s.\\
 Di seguito verranno analizzati i principali sistemi per un singolo motore, partendo dal sistema di alimentazione, passando per il sistema di generazione della potenza ed arrivando infine al sistema di espansione gasdinamico e al suo raffreddamento. Si provvederà inoltre a dare una descrizione quali/quantitativa delle scelte progettuali applicate ai tempi. Infine, verrà studiata una alternativa ai propellenti utilizzati, rimarcando le conseguenze sull'intero sistema propulsivo che tale variazione implica.
 \end{abstract}
 
 \clearpage
+
+{\hypersetup{linkcolor=black}
+\tableofcontents
+}
+
+\clearpage
+
+\setcounter{page}{1}
+\pagenumbering{arabic}
+
 
 %-----------------------------------------------------------------------------
 
@@ -188,7 +211,7 @@ Di seguito verranno analizzati i principali sistemi per un singolo motore, parte
 
 \label{sec:analisi missione}
 
-La missione prevede una durata totale di funzionamento dello stadio di 161 s, durante il quale l’obiettivo principale è quello di portare il vettore di lancio ad una altitudine approssimativa di 61 km e ad una velocità di circa 2388 m/s. La sequenza di accensione prevede l’avvio del motore centrale per primo, seguito in sequenza dalle due coppie di motori simmetrici, questi accesi con un ritardo di 300 ms allo scopo di ridurre al minimo le vibrazioni sulla struttura principale; il computer di bordo attende quindi il raggiungimento del valore di spinta massimo per inviare il comando di sgancio del razzo dalla rampa di lancio. Il vettore, una volta sganciato, non può più essere fermato. Ad un’altitudine fissata di 1300 metri, il Saturn V comincia una manovra di rollio attorno al suo asse al fine di raggiungere la traiettoria corretta per il prosieguo della missione. La totalità delle informazioni riguardanti le istruzioni per l’assetto e i venti dominanti nel periodo di lancio sono pre-registrate nel programma di lancio. È inoltre necessario lo spegnimento del motore centrale a t = 135 s, prefissato da programma, per non superare i limiti strutturali di carico massimo sopportabile. La spinta, infatti, non è un fattore controllabile nei motori F-1 e, per ovviare a questo problema, si provvede quindi ad interrompere direttamente il flusso di propellente al motore.
+La missione prevede una durata totale di funzionamento dello stadio di 161 s, durante il quale l’obiettivo principale è quello di portare il vettore di lancio ad una altitudine approssimativa di 61 km e ad una velocità di circa 2388 m/s. La sequenza di accensione prevede l’avvio del motore centrale per primo, seguito in sequenza dalle due coppie di motori simmetrici, questi accesi con un ritardo di 300 ms allo scopo di ridurre al minimo le vibrazioni sulla struttura principale; il computer di bordo attende quindi il raggiungimento del valore di spinta massimo per inviare il comando di sgancio del razzo dalla rampa di lancio. Il vettore, una volta sganciato, non può più essere fermato. Ad un’altitudine fissata di 1300 metri, il Saturn V comincia una manovra di rollio attorno al suo asse al fine di raggiungere la traiettoria corretta per il prosieguo della missione. La totalità delle informazioni riguardanti le istruzioni per l’assetto e i venti dominanti nel periodo di lancio sono pre-registrate nel programma di lancio. È inoltre necessario lo spegnimento del motore centrale a t = 135 s, prefissato da programma, per non superare i limiti strutturali di carico massimo sopportabile. La spinta, infatti, non è un fattore controllabile nei motori F-1 e, per ovviare a questo problema, si provvede quindi ad interrompere direttamente il flusso di propellente al motore. \cite{article}
 
 Di seguito sono riportate le formule e i risultati di una simulazione della missione del primo stadio del Saturn V, il cui scopo è di analizzare le variazioni dei vari parametri di interesse del razzo durante tutto il tempo di volo. Tale simulazione è stata realizzata con l'ausilio del software MATLAB, con il quale è stato risolto il sistema di equazioni differenziali descritto più avanti. L'algoritmo numerico risolutivo scelto è il metodo di Eulero in avanti.
 
@@ -238,7 +261,7 @@ Di seguito sono riportati i grafici di alcune grandezze in funzione del tempo di
 
 \twofig{01_quota_t}{Quota in funzione del tempo}{quota_t}{02_velocita_t}{Velocità in funzione del tempo}{velocita_t}
 
-\cfig{04_spinta_t}{Spinta in funzione del tempo}{spinta_t}{0.48}
+\twofig{04_spinta_t}{Spinta in funzione del tempo}{spinta_t}{07_traiettoria}{Traiettoria del vettore}{traiettoria}
 
 Le evidenze sperimentali ci permettono quindi di assumere il modello implementato come effettivamente rappresentativo del lancio del Saturn V avvenuto nella realtà.
 
@@ -275,7 +298,7 @@ Le evidenze sperimentali ci permettono quindi di assumere il modello implementat
 \label{sec:gas generator}
 
 Le difficoltà progettuali incontrate per il design del GG furono molte: vennero sviluppate molte geometrie diverse negli anni precedenti. Per ovviare a problemi futuri, tutte le scelte effettuate dai progettisti della NASA vennero raccolte in un manuale tecnico basato su un approccio sperimentale piuttosto che teorico, in cui vengono giustificate le scelte progettuali effettuate per il sistema GG di un LRE (*).
-Il gas generator del motore F-1 è il sistema adibito alla produzione di gas caldi per alimentare la turbopompa. Tale sistema è composto idealmente da una camera di combustione progettata ad hoc per questo tipo di sottosistema. Vengono utilizzati gli stessi propellenti che producono il getto principale ma con proporzione O/F diversa dalla camera principale, il valore corrsipondente si trova nella tabella \ref{table:gas generator}. La necessità di avere un O/F lontano dal valore stechiometrico è dettata dal contenere le temperature del flusso che impatterà sulla turbina: questo si ottiene con miscele ricche in ossidante o ricche in combustibile. In questo caso si è preferita una miscela ricca in combustibile per diversi motivi: evitare ossidazioni di componenti che sarebbero convenute con una miscela ad alta percentuale in LOX, diminuire eventuali guasti causati da flussi surriscaldati più probabili nel caso di OR, infine, consumo specifico minore per la turbina con FR perché il peso molecolare dei gas è minore in questo caso (appendice). La scelta di optare per una miscela FR ha anche alcuni aspetti negativi come la cinetica del processo chimico molto complessa data dalla produzione di idrocarburi, che solitamente creano dei depositi solidi (appendice analisi CEA). Solitamente però in un GG, anche con questi valori bassi di O/F,  la combustione viene completata i camera (quindi è molto rapida); al contrario i processi di evaporazione e mixing sono molto lenti. Questo problema si presenta soprattutto nei design di GG ,ma non in quello delle camere di spinta di LRE dove tali processi sono più veloci. Per avere buona evaporazione dei propellenti servirebbero delle zone di combustione molto larghe (più iniettori con portate minori) e per avere un buon mixaggio serve una lunga camera in direzione del flusso, che permetta tale processo: questi due problemi vengono ovviati tramite delle scelte di design specifiche che vedremo in seguito. 
+Il gas generator del motore F-1 è il sistema adibito alla produzione di gas caldi per alimentare la turbopompa. Tale sistema è composto idealmente da una camera di combustione progettata ad hoc per questo tipo di sottosistema. Vengono utilizzati gli stessi propellenti che producono il getto principale ma con proporzione O/F diversa dalla camera principale, il valore corrispondente si trova in \autoref{table:gas generator}. La necessità di avere un O/F lontano dal valore stechiometrico è dettata dal contenere le temperature del flusso che impatterà sulla turbina: questo si ottiene con miscele ricche in ossidante o ricche in combustibile. In questo caso si è preferita una miscela ricca in combustibile per diversi motivi: evitare ossidazioni di componenti che sarebbero convenute con una miscela ad alta percentuale in LOX, diminuire eventuali guasti causati da flussi surriscaldati più probabili nel caso di OR, infine, consumo specifico minore per la turbina con FR perché il peso molecolare dei gas è minore in questo caso (appendice). La scelta di optare per una miscela FR ha anche alcuni aspetti negativi come la cinetica del processo chimico molto complessa data dalla produzione di idrocarburi, che solitamente creano dei depositi solidi (appendice analisi CEA). Solitamente però in un GG, anche con questi valori bassi di O/F,  la combustione viene completata i camera (quindi è molto rapida); al contrario i processi di evaporazione e mixing sono molto lenti. Questo problema si presenta soprattutto nei design di GG ,ma non in quello delle camere di spinta di LRE dove tali processi sono più veloci. Per avere buona evaporazione dei propellenti servirebbero delle zone di combustione molto larghe (più iniettori con portate minori) e per avere un buon mixaggio serve una lunga camera in direzione del flusso, che permetta tale processo: questi due problemi vengono ovviati tramite delle scelte di design specifiche che vedremo in seguito. 
 Nella creazione di un elemento GG, in particolare la sua camera di combustione, si devono considerare dei prerequisiti fondamentali per il suo corretto funzionamento:
 
 \begin{itemize}[wide,itemsep=3pt,topsep=3pt]
@@ -343,6 +366,7 @@ V_{cc} = t_{p}\frac{\dot{m_{gg}}}{\rho_{gc}} = 5\cdot 10^{-3} \left( \frac{53.52
 \section{Turbopompa}
 
 \label{sec:turbopompa}
+\clearpage
 
 
 %-----------------------------------------------------------------------------
@@ -398,6 +422,11 @@ La configurazione dei deflettori utilizzata per il propulsore è stata ottenuta 
 
 \label{sec:appendice}
 
+
+%-----------------------------------------------------------------------------
+
+
+\bibliography{bibliography}
 
 
 \end{document}
