@@ -7,8 +7,7 @@ eps = 16;
 Rt = 0.4625;
 
 bell_percentage = 0.8;
-theta_n_deg = 33;
-theta_e_deg = 7;
+[theta_n_deg, theta_e_deg] = bellvalues(bell_percentage, eps);
 
 [x, y, Ln_cone, Ln, Nx, Ny, Qx, Qy, Ex, Ey] = bell_nozzle(eps, Rt, bell_percentage, theta_n_deg, theta_e_deg);
 
@@ -23,30 +22,17 @@ plot(Qx, Qy, '.k');
 plot(Ex, Ey, 'o');
 legend('Bell Nozzle 2D', 'Inflection point', 'Cross point', 'Exit point');
 
-%% Plot 3D
-figure
-[X, Y, Z] = cylinder(y, 100);
-surf(X, Y, Z)
-
-%%
-N = length(x) - 1;
-
-theta = linspace(0, 2*pi, 50);
-
-X = zeros(length(theta), N+1);
-Y = zeros(length(theta), N+1);
-Z = zeros(length(theta), N+1);
-
-for i = 1:length(theta)
-    for j = 1:N+1
-        X(i,j) = x(j);
-        Y(i,j) = y(j)*cos(theta(i));
-        Z(i,j) = y(j)*sin(theta(i));
-    end
-end
+%% 3D Plot
+n = length(x);
+theta_3d = linspace(0, 2*pi, n);
+X = repmat(x, [1,n]);
+Y = y.*cos(theta_3d);
+Z = y.*sin(theta_3d);
 
 figure
-surf(X,Y,Z);
+surf(X, Y, Z);
+axis equal
+box on
 xlabel('X');
 ylabel('Y');
 zlabel('Z');
