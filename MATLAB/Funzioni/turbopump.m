@@ -44,12 +44,11 @@ P = m_dot * (g*H_m)/eta_p;
 % beta2 = atan((omega.*R2)./(vr2) .* (1 - (P)./(m_dot.*(omega.*R2).^2)));
 
 % psi Head coefficient
-psi = eta_p .* (1 - (vr2./(omega.*R2)).*tan(beta2));
+% psi = eta_p .* (1 - (vr2./(omega.*R2)).*tan(beta2));
+psi = H_m / ((omega*R2).^2 / g);
 
 % % phi2 Flow coefficient
 % phi2 = Q ./ (2*pi.*(R2./b2).*(omega.*R2));
-
-% H_controllo = psi * (omega*R2).^2 / g;
 
 % Parametri adimensionali
 % ds specific diameter
