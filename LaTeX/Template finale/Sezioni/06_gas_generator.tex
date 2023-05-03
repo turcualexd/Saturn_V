@@ -1,0 +1,83 @@
+\section{Gas generator}
+\label{sec:gas generator}
+
+% Le difficoltà progettuali incontrate per il design del gas generator furono molte: vennero sviluppate molte geometrie diverse negli anni precedenti. Per ovviare a problemi futuri, tutte le scelte effettuate dai progettisti della NASA vennero raccolte in un manuale tecnico basato su un approccio sperimentale piuttosto che teorico, in cui vengono giustificate le scelte progettuali effettuate per il sistema GG di un LRE \cite{gg_manual}.
+Il gas generator del motore F-1 è il sistema adibito alla produzione di gas caldi per alimentare la turbopompa. Tale sistema è composto da una camera di combustione progettata ad hoc per questo tipo di sottosistema. Vengono utilizzati gli stessi propellenti utilizzati nella camera principale ma con diverso rapporto O/F (valore in \autoref{table:gas generator}). La necessità di avere un O/F lontano dal valore stechiometrico è dettata dal contenere le temperature del flusso che impatterà sulla turbina: questo lo si ottiene con miscele ricche in ossidante o ricche in combustibile. In questo caso è stata scelta una miscela ricca in combustibile per molteplici motivi: evitare ossidazioni di componenti che sarebbero convenute con una miscela ad alta percentuale in LOX, diminuire la possibilità di eventuali guasti causati da flussi surriscaldati (più probabili nel caso Oxider Rich) e contenere il consumo specifico della turbina, poiché il peso molecolare dei gas risulta minore nel caso Fuel Rich (\autoref{appendix:confronto peso molecolare}).
+
+La scelta di optare per una miscela FR ha anche alcuni aspetti negativi, tra cui la complessità della cinetica del processo chimico dovuta alla produzione di idrocarburi, che solitamente creano depositi solidi (\autoref{appendix:prodotti gas generator}). Anche con questi valori bassi di O/F, la combustione nel GG viene completata in camera (quindi è molto rapida); al contrario, i processi di evaporazione e di mixing sono molto lenti. Tale problema si riscontra in maniera tangibile nei GG, mentre è meno evidente nelle camere di spinta dei LRE, dove tali processi sono più veloci. Per avere una buona evaporazione dei propellenti è necessaria una zona di combustione molto larga (più iniettori con portate minori), mentre per avere un buon mixaggio è necessaria una camera allungata in direzione del flusso: questi due problemi vengono ovviati tramite scelte di design specifiche trattate di seguito.
+
+Nella creazione di un elemento GG, in particolare la sua camera di combustione, si devono considerare dei prerequisiti fondamentali per il suo corretto funzionamento:
+
+\begin{itemize}[wide,itemsep=3pt,topsep=3pt]
+
+\item
+dato che l'atomizzazione degli iniettori spesso non è sufficiente, essa viene relegata anche ad effetti aerodinamici ottenuti tramite la geometria della camera, in modo il flusso del gas venga differenziato in zone di alta e bassa velocità che favoriscono la vaporizzazione;
+
+\item
+deve essere forzato il mixing tra prodotti di combustione e eccesso di combustibile per fornire una temperatura uniforme in uscita, in modo da evitare un guasto in turbina causato da zone calde, che solitamente sono localizzate al centro del flusso;
+
+\item
+forma e dimensione devono essere adattate all'ingombro del resto del motore, per avere un sistema il più compatto possibile;
+
+\item
+le perdite di pressione prodotte nella camera non devono essere troppo elevate.
+
+\end{itemize}
+
+Di seguito troviamo raffigurato il GG di nostro interesse (più particolari in \autoref{appendix:gg_schematics}):
+
+\twofig{GG_schema}{Schema del gas generator}{gg_schema}{GG_esploso}{Esploso del gas generator}{gg_esploso}
+
+%-----------------------------------------------------------------------------
+
+In base alle considerazioni sopra citate si spiegano alcune scelte progettuali per questo componente:
+
+\begin{itemize}[wide,itemsep=3pt,topsep=3pt]
+
+\item
+la forma del GG, per cui lo scarico dei gas avviene in maniera inclinata rispetto alla direzione del piatto di iniezione, è dettata da requisiti di spazio e disposizione rispetto alle altre componenti;
+
+\item
+la scelta di camera sferica e non assiale permette di aumentare il livello di mixing di gas combusti e combustibile vaporizzato in eccesso;
+
+\item
+il fondo della camera è incurvato e reso planare per non accumulare i prodotti di scarico;
+
+\item
+la zona di ingresso dei gas in turbina è composta da una sezione ad area costante, in modo da rendere il flusso il più uniforme possibile prima dell'ingresso in turbina;
+
+\item
+il corpo della camera di combustione è convergente in maniera da differenziare la velocità e ottenere migliore atomizzazione;
+
+\item
+il piatto di iniezione scelto per l’F-1 è un semi-UMR (Uniform Mixture Ratio). Le zone esterne infatti sono più ricche in combustibile per ottenere film cooling, mentre la maggior parte dell’iniezione avviene a O/F predefinito. Altri iniettori, come HCI, hanno una stratificazione dei gas e delle temperature. Questo non è consigliabile per gas che devono impattare sulle palettature. Inoltre un iniettore HCI non è compatibile con la forma arrotondata del corpo dato che provocherebbe un surriscaldamento del fondo della camera. L’iniettore deve avere diametri più ristretti possibile per migliorare atomizzazione, compatibilmente con quelli fabbricabili. Il design dell’urto dei due flussi richiede un bilancio di quantità di moto.
+
+\item
+Il TR (Turbulence Ring), posto poco dopo il piatto di iniezione, viene posizionato per rimediare i problemi di basso ratio di mixing. Per cui si crea un reverse flow che permette un alto livello di mescolamento tra specie presenti per uniformare la temperatura ed evitare stratificazioni del flusso che causano il fenomeno di “momentum separation”, un flusso chiaramente non sostenibile dalla turbina . Questo reverse flow è reso più efficace grazie alla porzione circolare della camera che accoglie questo moto vorticoso. La posizione del TR è scelta per evitare surriscaldamento dello stesso, dato che in questa posizione a monte i gas vaporizzati devono ancora essere igniti e quindi hanno temperature relativamente basse. Il TR deve essere in grado di non provocare alte cadute di pressione, questo è ottenuto rendendo il TR conico (più visibile in appendice)
+
+\item
+L’ignitore deve essere posizionato poco dopo il piatto di iniezione (una best practice è tra 2.5 e 3.8 cm al di sotto del piatto). Viene inoltre posizionato in zone molto vicine ai punti di ristagno del flusso, in cui la combustione viene resa efficace.
+
+\end{itemize}
+
+\begin{table}[H]
+
+\centering
+\begin{tabular}{|c|c|c|c|c|c|c|}
+\hline
+$\bm{T_c \, [K]}$ & $\bm{p_c \, [bar]}$ & $\bm{p_{out} \, [bar]}$ & $\bm{t_{p} \, [ms]}$ & $\bm{O/F}$ & $\bm{\dot{m}_{fuel} \, [kg/s]}$ & $\bm{\dot{m}_{ox} \, [kg/s]}$ \\
+\hline
+$1062$ & $67.57$ & $65.15$ & $5$ & $0.416$ & $53.52$ & $22.23$ \\
+\hline
+\end{tabular}
+
+\caption{Dati reali del gas generator}
+\label{table:gas generator}
+
+\end{table}
+
+Una stima quantitativa per il volume totale necessario alla camera di combustione per garantire le richieste della stessa è basato su un tempo di permanenza ricavato nel caso dei GG per ogni coppia di propellente. Nel caso dell'F-1 si ha:
+
+\begin{empheq}{equation*}
+V_{cc} = t_{p}\frac{\dot{m_{gg}}}{\rho_{gc}} = 5\cdot 10^{-3} \left( \frac{53.52 + 22.23}{18.3406} \right) = 0.02065 m^{3}
+\end{empheq}
