@@ -24,7 +24,8 @@ per ricavare le forze di resistenza aerodinamica e l'angolo di volo sono state u
 Il modello matematico realizzato per la descrizione del vettore di lancio consta dunque delle seguenti equazioni:
 
 \begin{empheq}{gather*}
-	h = \frac{dv_{v}}{dt}									\qquad
+	h_k = h_{k-1} + v_{v,k}dt					
+\qquad
 	v_{v} = \frac{da_{v}}{dt}								\qquad
 	v_{h} = \frac{da_{h}}{dt}								\qquad
 	v_{tot} = \sqrt{v_{v}^2 + v_{h}^2}						\\
