@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.4.26)  3 MAY 2023 21:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.4.26)  4 MAY 2023 18:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1383,11 +1383,11 @@ Package hyperref Info: Link coloring ON on input line 169.
 
 (Configuration_files/title_page.tex
 Package epstopdf Info: Source file: <Images//logo_polimi_ing_indinf.eps>
-(epstopdf)                    date: 2023-05-02 17:56:10
+(epstopdf)                    date: 2023-05-04 16:18:29
 (epstopdf)                    size: 1016894 bytes
 (epstopdf)             Output file: <Images//logo_polimi_ing_indinf-eps-convert
 ed-to.pdf>
-(epstopdf)                    date: 2023-05-02 17:56:10
+(epstopdf)                    date: 2023-05-04 16:18:29
 (epstopdf)                    size: 81939 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=Images//logo_polimi_
 ing_indinf-eps-converted-to.pdf Images//logo_polimi_ing_indinf.eps>
@@ -1438,11 +1438,11 @@ LaTeX Font Info:    Trying to load font information for U+jkpsyc on input line
 File: ujkpsyc.fd 2006/08/15 v1.0
 ))
 Package epstopdf Info: Source file: <Images//raggiera_polimi.eps>
-(epstopdf)                    date: 2023-05-02 17:56:10
+(epstopdf)                    date: 2023-05-04 16:18:29
 (epstopdf)                    size: 1813066 bytes
 (epstopdf)             Output file: <Images//raggiera_polimi-eps-converted-to.p
 df>
-(epstopdf)                    date: 2023-05-02 17:56:10
+(epstopdf)                    date: 2023-05-04 16:18:29
 (epstopdf)                    size: 40418 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=Images//raggiera_pol
 imi-eps-converted-to.pdf Images//raggiera_polimi.eps>
@@ -1483,10 +1483,10 @@ File: ts1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for TS1/jkp.
 
 ]
 Package epstopdf Info: Source file: <Images//01_quota_t.eps>
-(epstopdf)                    date: 2023-05-02 17:56:10
+(epstopdf)                    date: 2023-05-04 16:18:29
 (epstopdf)                    size: 310855 bytes
 (epstopdf)             Output file: <Images//01_quota_t-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-05-02 17:56:10
+(epstopdf)                    date: 2023-05-04 16:18:29
 (epstopdf)                    size: 102488 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=Images//01_quota_t-e
 ps-converted-to.pdf Images//01_quota_t.eps>
@@ -1503,11 +1503,11 @@ Package pdftex.def Info: Images//01_quota_t-eps-converted-to.pdf  used on input
  line 56.
 (pdftex.def)             Requested size: 232.17242pt x 174.13155pt.
 Package epstopdf Info: Source file: <Images//02_velocita_t.eps>
-(epstopdf)                    date: 2023-05-02 17:56:10
+(epstopdf)                    date: 2023-05-04 16:18:29
 (epstopdf)                    size: 311387 bytes
 (epstopdf)             Output file: <Images//02_velocita_t-eps-converted-to.pdf
 >
-(epstopdf)                    date: 2023-05-02 17:56:10
+(epstopdf)                    date: 2023-05-04 16:18:29
 (epstopdf)                    size: 102980 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=Images//02_velocita_
 t-eps-converted-to.pdf Images//02_velocita_t.eps>
@@ -1524,10 +1524,10 @@ Package pdftex.def Info: Images//02_velocita_t-eps-converted-to.pdf  used on in
 put line 56.
 (pdftex.def)             Requested size: 232.17242pt x 174.13155pt.
 Package epstopdf Info: Source file: <Images//04_spinta_t.eps>
-(epstopdf)                    date: 2023-05-02 17:56:10
+(epstopdf)                    date: 2023-05-04 16:18:29
 (epstopdf)                    size: 306021 bytes
 (epstopdf)             Output file: <Images//04_spinta_t-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-05-02 17:56:10
+(epstopdf)                    date: 2023-05-04 16:18:29
 (epstopdf)                    size: 91721 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=Images//04_spinta_t-
 eps-converted-to.pdf Images//04_spinta_t.eps>
@@ -1544,11 +1544,11 @@ Package pdftex.def Info: Images//04_spinta_t-eps-converted-to.pdf  used on inpu
 t line 58.
 (pdftex.def)             Requested size: 232.17242pt x 174.13155pt.
 Package epstopdf Info: Source file: <Images//07_traiettoria.eps>
-(epstopdf)                    date: 2023-05-02 17:56:10
+(epstopdf)                    date: 2023-05-04 16:18:29
 (epstopdf)                    size: 292851 bytes
 (epstopdf)             Output file: <Images//07_traiettoria-eps-converted-to.pd
 f>
-(epstopdf)                    date: 2023-05-02 17:56:10
+(epstopdf)                    date: 2023-05-04 16:18:29
 (epstopdf)                    size: 92829 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=Images//07_traiettor
 ia-eps-converted-to.pdf Images//07_traiettoria.eps>
@@ -1584,16 +1584,16 @@ Package pdftex.def Info: Images//GG_esploso.jpg  used on input line 29.
 (pdftex.def)             Requested size: 232.17242pt x 290.31563pt.
 [3 <./Images//GG_schema.pdf> <./Images//GG_esploso.jpg>])
 (Sezioni/07_turbopompa.tex) [4] (Sezioni/08_piatto_iniezione.tex
-<Images//iniettore.jpg, id=209, 543.4704pt x 645.612pt>
+<Images//iniettore.jpg, id=210, 543.4704pt x 645.612pt>
 File: Images//iniettore.jpg Graphic file (type jpg)
 <use Images//iniettore.jpg>
 Package pdftex.def Info: Images//iniettore.jpg  used on input line 4.
 (pdftex.def)             Requested size: 193.47578pt x 229.82927pt.
 )
-(Sezioni/09_camera_spinta.tex [5
+(Sezioni/09_camera_spinta.tex) (Sezioni/10_ugello.tex [5
 
- <./Images//iniettore.jpg>])
-(Sezioni/10_ugello.tex) [6] (Sezioni/11_appendice.tex (Sezioni/A_matlab.tex)
+ <./Images//iniettore.jpg>]) [6] (Sezioni/11_appendice.tex (Sezioni/A_matlab.te
+x)
 (Sezioni/B_confronto_peso_molecolare.tex) (Sezioni/C_prodotti_gas_generator.tex
 ) (Sezioni/D_schemi_gg.tex)) [7
 
@@ -1604,13 +1604,13 @@ Package rerunfilecheck Info: File `"Prova finale".out' has not changed.
 (rerunfilecheck)             Checksum: C1BF1C6D528A4DE663302876FCBCC077;2840.
  ) 
 Here is how much of TeX's memory you used:
- 30601 strings out of 476331
- 576968 string characters out of 5788237
+ 30603 strings out of 476331
+ 576994 string characters out of 5788237
  1869660 words of memory out of 5000000
- 50381 multiletter control sequences out of 15000+600000
- 602818 words of font info for 116 fonts, out of 8000000 for 9000
+ 50383 multiletter control sequences out of 15000+600000
+ 612926 words of font info for 118 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 83i,16n,80p,1496b,721s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 83i,16n,80p,1496b,748s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Alex/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbm
 i.pfb><C:/Users/Alex/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/j
 kpbn8a.pfb><C:/Users/Alex/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfo
@@ -1622,9 +1622,9 @@ ype1/public/kpfonts/jkpmit8a.pfb><C:/Users/Alex/AppData/Local/Programs/MiKTeX/f
 onts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/Alex/AppData/Local/Programs/MiK
 TeX/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Users/Alex/AppData/Local/Programs
 /MiKTeX/fonts/type1/public/kpfonts/jkpsy.pfb>
-Output written on "Prova finale.pdf" (10 pages, 1653071 bytes).
+Output written on "Prova finale.pdf" (10 pages, 1653160 bytes).
 PDF statistics:
- 282 PDF objects out of 1000 (max. 8388607)
+ 283 PDF objects out of 1000 (max. 8388607)
  32 named destinations out of 1000 (max. 500000)
  202 words of extra memory for PDF output out of 10000 (max. 10000000)
 
