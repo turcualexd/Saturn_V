@@ -21,7 +21,7 @@ pho = 808.9324;
 rapportoD = 0.81;
 theta = deg2rad(10);
 
-[H_m_RP1, delta_h_RP1, vr2_RP1, psi_RP1, P_RP1, ds_RP1, ns_RP1, prod_RP1, NPSP_RP1, NPSH_RP1, sigma_RP1, phi_t_RP1, Cm_RP1, Ss_RP1, tao_RP1, Zt_RP1] = turbopump(eta_p, P01, P02, pho1, Q, m_dot, Dt2, b2, beta2, omega, P1, Psat, pho, rapportoD, theta);
+[H_m_RP1, delta_h_RP1, psi_RP1, P_RP1, ds_RP1, ns_RP1, prod_RP1, NPSP_RP1, NPSH_RP1, sigma_RP1, phi_t_RP1, Cm_RP1, Ss_RP1, tao_RP1, Zt_RP1] = turbopump(eta_p, P01, P02, pho1, Q, m_dot, Dt2, b2, beta2, omega, P1, Psat, pho, rapportoD, theta);
 
 %%
 U2 = omega*(Dt2/2);
@@ -41,16 +41,16 @@ w2t = w2r*tan(beta2);
 v2t = (U2 + w2t);
 v2r = w2r;
 
-vt1 = (U2*v2t - deltah0) / U1; % ipotesi verificata
+vt1 = (U2*v2t - deltah0) / U1;
 wt1 = U1;
 
 figure
 grid on;
 grid minor;
 hold on;
-quiver(0, 0, U1, 0);
-quiver(U1, 0, v2t, v2r);
-quiver(U1, 0, w2t, w2r);
-quiver(w2t, v2r, U2+U1, w2t+v2r);
+q1 = quiver(0, 0, U1, 0, 1);
+q2 = quiver(U1, 0, v2t, v2r, 1);
+q3 = quiver(U1, 0, w2t, w2r, 1);
+q4 = quiver(w2t+U1, w2r, U2, 0, 1);
 legend('U1', 'v2', 'w2', 'U2');
-
+title('Triangolo di velocità POMPA RP-1');
