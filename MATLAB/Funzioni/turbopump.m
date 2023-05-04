@@ -1,4 +1,4 @@
-function [H_m, delta_h, vr2, psi, P, ds, ns, prod, NPSP, NPSH, sigma, phi_t, Cm, Ss, tao, Zt] = turbopump(eta_p, P01, P02, pho1, Q, m_dot, Dt2, b2, beta2, omega, P1, Psat, pho, rapportoD, theta)
+function [H_m, delta_h, psi, P, ds, ns, prod, NPSP, NPSH, sigma, phi_t, Cm, Ss, tao, Zt] = turbopump(eta_p, P01, P02, pho1, Q, m_dot, Dt2, b2, beta2, omega, P1, Psat, pho, rapportoD, theta)
 
 % g accelereazione di gravità
 g = 9.81;
@@ -34,9 +34,6 @@ H_m = H_feet / 3.281;
 % delta_h altezza di sollevamento
 delta_h = (g .* H_m) ./ eta_p;
 
-% vr2 velocità radiale di uscita del fluido da impeller
-vr2 = Q / (2*pi*R2*b2);
-
 % Power
 P = m_dot * (g*H_m)/eta_p;
 
@@ -44,26 +41,27 @@ P = m_dot * (g*H_m)/eta_p;
 % beta2 = atan((omega.*R2)./(vr2) .* (1 - (P)./(m_dot.*(omega.*R2).^2)));
 
 % psi Head coefficient
-psi = eta_p .* (1 - (vr2./(omega.*R2)).*tan(beta2));
+% psi = eta_p .* (1 - (vr2./(omega.*R2)).*tan(beta2));
+psi = H_m / ((omega*R2).^2 / g);
 
 % % phi2 Flow coefficient
 % phi2 = Q ./ (2*pi.*(R2./b2).*(omega.*R2));
-
-% H_controllo = psi * (omega*R2).^2 / g;
 
 % Parametri adimensionali
 % ds specific diameter
 ds = (Dt2*(g*H_m).^(1/4))/(Q.^(1/2));
 
 % ns specific speed
-ns = (omega*(Q.^(1/2)))/((g*H_m).^(3/4));
+Q_gpm = Q/(6.309*1e-5);
+N     = omega*60/(2*pi);
+ns = N*sqrt(Q_gpm)/(H_feet)^0.75;
 
 prod = ns*ds;
 
 % prod_controllo = 2 / sqrt(psi);
 
 % Cavitazione
-% NPSP net positive suction pressure
+% NPSP net positive suction pressure (cè qualcosa di sbagliato)
 NPSP = P1 - Psat;
 
 % NPSH net positive suction head
@@ -78,4 +76,5 @@ Cm = phi_t * (omega*R1);
 % parametro empirico per cavitazione
 sigma = NPSP / ((1/2)*pho*(Cm).^2);
 % Ss suction specific speed
-Ss = 2.981 / (sigma.^(3/4) .* phi_t);
+%Ss = 2.981 / (sigma.^(3/4) .* phi_t); ???
+Ss  =  N*sqrt(Q_gpm)/(NPSH)^0.75;

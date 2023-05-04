@@ -23,7 +23,7 @@ pho = 1141;
 rapportoD = 0.81;
 theta = deg2rad(10);
 
-[H_m_LOX, delta_h_LOX, vr2_LOX, psi_LOX, P_LOX, ds_LOX, ns_LOX, prod_LOX, NPSP_LOX, NPSH_LOX, sigma_LOX, phi_t_LOX, Cm_LOX, Ss_LOX, tao_LOX, Zt_LOX] = turbopump(eta_p, P01, P02, pho1, Q, m_dot, Dt2, b2, beta2, omega, P1, Psat, pho, rapportoD, theta);
+[H_m_LOX, delta_h_LOX, psi_LOX, P_LOX, ds_LOX, ns_LOX, prod_LOX, NPSP_LOX, NPSH_LOX, sigma_LOX, phi_t_LOX, Cm_LOX, Ss_LOX, tao_LOX, Zt_LOX] = turbopump(eta_p, P01, P02, pho1, Q, m_dot, Dt2, b2, beta2, omega, P1, Psat, pho, rapportoD, theta);
 
 %% RP-1
 
@@ -46,4 +46,6 @@ pho = 810;
 rapportoD = 0.81;
 theta = deg2rad(10);
 
-[H_m_RP1, delta_h_RP1, vr2_RP1, psi_RP1, P_RP1, ds_RP1, ns_RP1, prod_RP1, NPSP_RP1, NPSH_RP1, sigma_RP1, phi_t_RP1, Cm_RP1, Ss_RP1, tao_RP1, Zt_RP1] = turbopump(eta_p, P01, P02, pho1, Q, m_dot, Dt2, b2, beta2, omega, P1, Psat, pho, rapportoD, theta);
+[H_m_RP1, delta_h_RP1, psi_RP1, P_RP1, ds_RP1, ns_RP1, prod_RP1, ...
+    NPSP_RP1, NPSH_RP1, sigma_RP1, phi_t_RP1, Cm_RP1, Ss_RP1, tao_RP1, Zt_RP1] = ...
+    turbopump(eta_p, P01, P02, pho1, Q, m_dot, Dt2, b2, beta2, omega, P1, Psat, pho, rapportoD, theta);
