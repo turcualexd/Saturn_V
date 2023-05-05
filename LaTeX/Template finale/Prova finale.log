@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.12.16)  4 MAY 2023 18:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.12.16)  5 MAY 2023 19:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1485,10 +1485,14 @@ Package pdftex.def Info: Images//07_traiettoria-eps-converted-to.pdf  used on i
 nput line 59.
 (pdftex.def)             Requested size: 232.17242pt x 174.13155pt.
 ) (Sezioni/03_analisi_propellenti.tex) (Sezioni/04_dimensionamento_tank.tex)
-(Sezioni/05_schema_termodinamico.tex) [2 <./Images//01_quota_t-eps-converted-to
-.pdf> <./Images//02_velocita_t-eps-converted-to.pdf> <./Images//04_spinta_t-eps
--converted-to.pdf> <./Images//07_traiettoria-eps-converted-to.pdf>]
-(Sezioni/06_gas_generator.tex [3]
+(Sezioni/05_schema_termodinamico.tex
+
+Package natbib Warning: Citation `engine_manual' on page 2 undefined on input l
+ine 4.
+
+[2 <./Images//01_quota_t-eps-converted-to.pdf> <./Images//02_velocita_t-eps-con
+verted-to.pdf> <./Images//04_spinta_t-eps-converted-to.pdf> <./Images//07_traie
+ttoria-eps-converted-to.pdf>]) (Sezioni/06_gas_generator.tex [3]
 
 pdfTeX warning: pdflatex (file ./Images//GG_schema.pdf): PDF inclusion: found P
 DF version <1.6>, but at most version <1.5> allowed
@@ -1517,12 +1521,13 @@ x)
 (Sezioni/B_confronto_peso_molecolare.tex) (Sezioni/C_prodotti_gas_generator.tex
 ) (Sezioni/D_schemi_gg.tex)) [8
 
-] (Prova finale.bbl) [9
+] (Prova finale.bbl)
+
+Package natbib Warning: There were undefined citations.
+
+[9
 
 ] (Prova finale.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `"Prova finale".out' has not changed.
 (rerunfilecheck)             Checksum: C1BF1C6D528A4DE663302876FCBCC077;2840.
  ) 
@@ -1533,7 +1538,7 @@ Here is how much of TeX's memory you used:
  51263 multiletter control sequences out of 15000+600000
  569898 words of font info for 114 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 83i,16n,80p,1984b,762s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 83i,16n,80p,1945b,762s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Miktex/fonts/enc/dvips/base/8r.enc}{C:/Miktex/fonts/enc/dvips/kpfonts/kpf
 onts-expert.enc}<C:/Miktex/fonts/type1/public/kpfonts/jkpbmi.pfb><C:/Miktex/fon
 ts/type1/public/kpfonts/jkpbn8a.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpbs
@@ -1542,7 +1547,7 @@ public/kpfonts/jkpmi.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpmia.pfb><C:/M
 iktex/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Miktex/fonts/type1/public/kpf
 onts/jkpmn8a.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Miktex/fo
 nts/type1/public/kpfonts/jkpsy.pfb>
-Output written on "Prova finale.pdf" (11 pages, 1657079 bytes).
+Output written on "Prova finale.pdf" (11 pages, 1658182 bytes).
 PDF statistics:
  287 PDF objects out of 1000 (max. 8388607)
  33 named destinations out of 1000 (max. 500000)
