@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.12.16)  5 MAY 2023 19:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.12.16)  6 MAY 2023 15:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1322,7 +1322,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex (file ./Images//logo_polimi_ing_indinf-eps-converted-t
 o.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allow
 ed
-<Images//logo_polimi_ing_indinf-eps-converted-to.pdf, id=75, 493.845pt x 227.85
+<Images//logo_polimi_ing_indinf-eps-converted-to.pdf, id=91, 493.845pt x 227.85
 126pt>
 File: Images//logo_polimi_ing_indinf-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -1375,7 +1375,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./Images//raggiera_polimi-eps-converted-to.pdf):
  PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Images//raggiera_polimi-eps-converted-to.pdf, id=76, 502.87875pt x 502.87875pt
+<Images//raggiera_polimi-eps-converted-to.pdf, id=92, 502.87875pt x 502.87875pt
 >
 File: Images//raggiera_polimi-eps-converted-to.pdf Graphic file (type pdf)
 <use Images//raggiera_polimi-eps-converted-to.pdf>
@@ -1416,7 +1416,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./Images//01_quota_t-eps-converted-to.pdf): PDF 
 inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Images//01_quota_t-eps-converted-to.pdf, id=136, 256.96pt x 192.72pt>
+<Images//01_quota_t-eps-converted-to.pdf, id=156, 256.96pt x 192.72pt>
 File: Images//01_quota_t-eps-converted-to.pdf Graphic file (type pdf)
 <use Images//01_quota_t-eps-converted-to.pdf>
 Package pdftex.def Info: Images//01_quota_t-eps-converted-to.pdf  used on input
@@ -1437,7 +1437,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./Images//02_velocita_t-eps-converted-to.pdf): P
 DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Images//02_velocita_t-eps-converted-to.pdf, id=137, 256.96pt x 192.72pt>
+<Images//02_velocita_t-eps-converted-to.pdf, id=157, 256.96pt x 192.72pt>
 File: Images//02_velocita_t-eps-converted-to.pdf Graphic file (type pdf)
 <use Images//02_velocita_t-eps-converted-to.pdf>
 Package pdftex.def Info: Images//02_velocita_t-eps-converted-to.pdf  used on in
@@ -1457,7 +1457,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./Images//04_spinta_t-eps-converted-to.pdf): PDF
  inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Images//04_spinta_t-eps-converted-to.pdf, id=138, 256.96pt x 192.72pt>
+<Images//04_spinta_t-eps-converted-to.pdf, id=158, 256.96pt x 192.72pt>
 File: Images//04_spinta_t-eps-converted-to.pdf Graphic file (type pdf)
 <use Images//04_spinta_t-eps-converted-to.pdf>
 Package pdftex.def Info: Images//04_spinta_t-eps-converted-to.pdf  used on inpu
@@ -1478,7 +1478,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./Images//07_traiettoria-eps-converted-to.pdf): 
 PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Images//07_traiettoria-eps-converted-to.pdf, id=139, 256.96pt x 192.72pt>
+<Images//07_traiettoria-eps-converted-to.pdf, id=159, 256.96pt x 192.72pt>
 File: Images//07_traiettoria-eps-converted-to.pdf Graphic file (type pdf)
 <use Images//07_traiettoria-eps-converted-to.pdf>
 Package pdftex.def Info: Images//07_traiettoria-eps-converted-to.pdf  used on i
@@ -1496,47 +1496,68 @@ ttoria-eps-converted-to.pdf>]) (Sezioni/06_gas_generator.tex [3]
 
 pdfTeX warning: pdflatex (file ./Images//GG_schema.pdf): PDF inclusion: found P
 DF version <1.6>, but at most version <1.5> allowed
-<Images//GG_schema.pdf, id=187, 482.50523pt x 405.8392pt>
+<Images//GG_schema.pdf, id=207, 482.50523pt x 405.8392pt>
 File: Images//GG_schema.pdf Graphic file (type pdf)
 <use Images//GG_schema.pdf>
 Package pdftex.def Info: Images//GG_schema.pdf  used on input line 29.
 (pdftex.def)             Requested size: 232.17242pt x 195.28362pt.
-<Images//GG_esploso.jpg, id=188, 1818.795pt x 2274.4975pt>
+<Images//GG_esploso.jpg, id=208, 1818.795pt x 2274.4975pt>
 File: Images//GG_esploso.jpg Graphic file (type jpg)
 <use Images//GG_esploso.jpg>
 Package pdftex.def Info: Images//GG_esploso.jpg  used on input line 29.
 (pdftex.def)             Requested size: 232.17242pt x 290.31563pt.
 [4 <./Images//GG_schema.pdf> <./Images//GG_esploso.jpg>])
-(Sezioni/07_turbopompa.tex) [5] (Sezioni/08_piatto_iniezione.tex
-<Images//iniettore.jpg, id=215, 543.4704pt x 645.612pt>
+(Sezioni/07_turbopompa.tex
+<Images//turbina_general.jpg, id=229, 1904.11375pt x 1890.06125pt>
+File: Images//turbina_general.jpg Graphic file (type jpg)
+<use Images//turbina_general.jpg>
+Package pdftex.def Info: Images//turbina_general.jpg  used on input line 8.
+(pdftex.def)             Requested size: 193.47578pt x 192.0454pt.
+ [5 <./Images//turbina_general.jpg>]
+
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on in
+put line 29.
+
+<Images//rendimenti_turbina.jpg, id=237, 184.89075pt x 128.27925pt>
+File: Images//rendimenti_turbina.jpg Graphic file (type jpg)
+<use Images//rendimenti_turbina.jpg>
+Package pdftex.def Info: Images//rendimenti_turbina.jpg  used on input line 29.
+
+(pdftex.def)             Requested size: 182.52592pt x 126.64842pt.
+
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 29
+.
+
+) [6 <./Images//rendimenti_turbina.jpg>] (Sezioni/08_piatto_iniezione.tex
+<Images//iniettore.jpg, id=243, 543.4704pt x 645.612pt>
 File: Images//iniettore.jpg Graphic file (type jpg)
 <use Images//iniettore.jpg>
 Package pdftex.def Info: Images//iniettore.jpg  used on input line 4.
 (pdftex.def)             Requested size: 193.47578pt x 229.82927pt.
 )
-(Sezioni/09_camera_spinta.tex) (Sezioni/10_ugello.tex [6
+(Sezioni/09_camera_spinta.tex) (Sezioni/10_ugello.tex [7
 
- <./Images//iniettore.jpg>]) [7] (Sezioni/11_appendice.tex (Sezioni/A_matlab.te
+ <./Images//iniettore.jpg>]) [8] (Sezioni/11_appendice.tex (Sezioni/A_matlab.te
 x)
 (Sezioni/B_confronto_peso_molecolare.tex) (Sezioni/C_prodotti_gas_generator.tex
-) (Sezioni/D_schemi_gg.tex)) [8
+) (Sezioni/D_schemi_gg.tex)) [9
 
 ] (Prova finale.bbl)
 
 Package natbib Warning: There were undefined citations.
 
-[9
+[10
 
 ] (Prova finale.aux)
 Package rerunfilecheck Info: File `"Prova finale".out' has not changed.
-(rerunfilecheck)             Checksum: C1BF1C6D528A4DE663302876FCBCC077;2840.
+(rerunfilecheck)             Checksum: AC112CEA9F069902D46F3CA2ECC21300;3482.
  ) 
 Here is how much of TeX's memory you used:
- 30543 strings out of 475385
- 561308 string characters out of 2793321
+ 30597 strings out of 475385
+ 562549 string characters out of 2793321
  982014 words of memory out of 3000000
- 51263 multiletter control sequences out of 15000+600000
- 569898 words of font info for 114 fonts, out of 8000000 for 9000
+ 51306 multiletter control sequences out of 15000+600000
+ 581669 words of font info for 120 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  83i,16n,80p,1945b,762s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Miktex/fonts/enc/dvips/base/8r.enc}{C:/Miktex/fonts/enc/dvips/kpfonts/kpf
@@ -1547,9 +1568,9 @@ public/kpfonts/jkpmi.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpmia.pfb><C:/M
 iktex/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Miktex/fonts/type1/public/kpf
 onts/jkpmn8a.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Miktex/fo
 nts/type1/public/kpfonts/jkpsy.pfb>
-Output written on "Prova finale.pdf" (11 pages, 1658182 bytes).
+Output written on "Prova finale.pdf" (12 pages, 2526191 bytes).
 PDF statistics:
- 287 PDF objects out of 1000 (max. 8388607)
- 33 named destinations out of 1000 (max. 500000)
- 202 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 318 PDF objects out of 1000 (max. 8388607)
+ 40 named destinations out of 1000 (max. 500000)
+ 244 words of extra memory for PDF output out of 10000 (max. 10000000)
 
