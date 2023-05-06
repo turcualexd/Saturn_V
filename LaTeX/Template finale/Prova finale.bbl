@@ -11,4 +11,9 @@ Georce C. Marshall Space~Flight Center.
   Apollo 11 Mission}.
 \newblock Technical report, 9 1969.
 
+\bibitem{engine_manual}
+Rocketdyne.
+\newblock {\em {R3986-1 Technical Manual Engine Data, F-1 Rocket Engine}}.
+\newblock National Aeronautics and Space Administration \& Rocketdyne, 2 1967.
+
 \end{thebibliography}
