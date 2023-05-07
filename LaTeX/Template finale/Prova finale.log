@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.4.26)  6 MAY 2023 23:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.4.26)  7 MAY 2023 18:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1425,11 +1425,11 @@ Package hyperref Info: Link coloring ON on input line 170.
 
 (Configuration_files/title_page.tex
 Package epstopdf Info: Source file: <Images//logo_polimi_ing_indinf.eps>
-(epstopdf)                    date: 2023-05-04 18:10:00
+(epstopdf)                    date: 2023-05-07 14:05:34
 (epstopdf)                    size: 1016894 bytes
 (epstopdf)             Output file: <Images//logo_polimi_ing_indinf-eps-convert
 ed-to.pdf>
-(epstopdf)                    date: 2023-05-04 18:10:00
+(epstopdf)                    date: 2023-05-07 14:05:34
 (epstopdf)                    size: 81939 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=Images//logo_polimi_
 ing_indinf-eps-converted-to.pdf Images//logo_polimi_ing_indinf.eps>
@@ -1480,11 +1480,11 @@ LaTeX Font Info:    Trying to load font information for U+jkpsyc on input line
 File: ujkpsyc.fd 2006/08/15 v1.0
 ))
 Package epstopdf Info: Source file: <Images//raggiera_polimi.eps>
-(epstopdf)                    date: 2023-05-04 18:10:00
+(epstopdf)                    date: 2023-05-07 14:05:34
 (epstopdf)                    size: 1813066 bytes
 (epstopdf)             Output file: <Images//raggiera_polimi-eps-converted-to.p
 df>
-(epstopdf)                    date: 2023-05-04 18:10:00
+(epstopdf)                    date: 2023-05-07 14:05:34
 (epstopdf)                    size: 40418 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=Images//raggiera_pol
 imi-eps-converted-to.pdf Images//raggiera_polimi.eps>
@@ -1525,10 +1525,10 @@ File: ts1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for TS1/jkp.
 
 ]
 Package epstopdf Info: Source file: <Images//01_quota_t.eps>
-(epstopdf)                    date: 2023-05-04 18:10:00
+(epstopdf)                    date: 2023-05-07 14:05:33
 (epstopdf)                    size: 310855 bytes
 (epstopdf)             Output file: <Images//01_quota_t-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-05-04 18:10:00
+(epstopdf)                    date: 2023-05-07 14:05:33
 (epstopdf)                    size: 102488 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=Images//01_quota_t-e
 ps-converted-to.pdf Images//01_quota_t.eps>
@@ -1545,11 +1545,11 @@ Package pdftex.def Info: Images//01_quota_t-eps-converted-to.pdf  used on input
  line 49.
 (pdftex.def)             Requested size: 232.17242pt x 174.13155pt.
 Package epstopdf Info: Source file: <Images//02_velocita_t.eps>
-(epstopdf)                    date: 2023-05-04 18:10:00
+(epstopdf)                    date: 2023-05-07 14:05:33
 (epstopdf)                    size: 311387 bytes
 (epstopdf)             Output file: <Images//02_velocita_t-eps-converted-to.pdf
 >
-(epstopdf)                    date: 2023-05-04 18:10:00
+(epstopdf)                    date: 2023-05-07 14:05:33
 (epstopdf)                    size: 102980 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=Images//02_velocita_
 t-eps-converted-to.pdf Images//02_velocita_t.eps>
@@ -1566,10 +1566,10 @@ Package pdftex.def Info: Images//02_velocita_t-eps-converted-to.pdf  used on in
 put line 49.
 (pdftex.def)             Requested size: 232.17242pt x 174.13155pt.
 Package epstopdf Info: Source file: <Images//04_spinta_t.eps>
-(epstopdf)                    date: 2023-05-04 18:10:00
+(epstopdf)                    date: 2023-05-07 14:05:33
 (epstopdf)                    size: 306021 bytes
 (epstopdf)             Output file: <Images//04_spinta_t-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-05-04 18:10:00
+(epstopdf)                    date: 2023-05-07 14:05:33
 (epstopdf)                    size: 91721 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=Images//04_spinta_t-
 eps-converted-to.pdf Images//04_spinta_t.eps>
@@ -1586,11 +1586,11 @@ Package pdftex.def Info: Images//04_spinta_t-eps-converted-to.pdf  used on inpu
 t line 51.
 (pdftex.def)             Requested size: 232.17242pt x 174.13155pt.
 Package epstopdf Info: Source file: <Images//07_traiettoria.eps>
-(epstopdf)                    date: 2023-05-04 18:10:00
+(epstopdf)                    date: 2023-05-07 14:05:33
 (epstopdf)                    size: 292851 bytes
 (epstopdf)             Output file: <Images//07_traiettoria-eps-converted-to.pd
 f>
-(epstopdf)                    date: 2023-05-04 18:10:00
+(epstopdf)                    date: 2023-05-07 14:05:33
 (epstopdf)                    size: 92829 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=Images//07_traiettor
 ia-eps-converted-to.pdf Images//07_traiettoria.eps>
@@ -1674,11 +1674,11 @@ File: ts1jkptt.fd 2007/01/26 Fontinst v1.928 font definitions for TS1/jkptt.
 )
 [11] [12])) (Sezioni/B_grafici_tempo_di_volo.tex
 Package epstopdf Info: Source file: <Images//03_accelerazione_t.eps>
-(epstopdf)                    date: 2023-05-04 18:10:00
+(epstopdf)                    date: 2023-05-07 14:05:33
 (epstopdf)                    size: 309627 bytes
 (epstopdf)             Output file: <Images//03_accelerazione_t-eps-converted-t
 o.pdf>
-(epstopdf)                    date: 2023-05-04 18:10:00
+(epstopdf)                    date: 2023-05-07 14:05:33
 (epstopdf)                    size: 104205 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=Images//03_acceleraz
 ione_t-eps-converted-to.pdf Images//03_accelerazione_t.eps>
@@ -1688,17 +1688,17 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./Images//03_accelerazione_t-eps-converted-to.pd
 f): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Images//03_accelerazione_t-eps-converted-to.pdf, id=489, 256.96pt x 192.72pt>
+<Images//03_accelerazione_t-eps-converted-to.pdf, id=497, 256.96pt x 192.72pt>
 File: Images//03_accelerazione_t-eps-converted-to.pdf Graphic file (type pdf)
 <use Images//03_accelerazione_t-eps-converted-to.pdf>
 Package pdftex.def Info: Images//03_accelerazione_t-eps-converted-to.pdf  used 
 on input line 4.
 (pdftex.def)             Requested size: 232.17242pt x 174.13155pt.
 Package epstopdf Info: Source file: <Images//05_drag_t.eps>
-(epstopdf)                    date: 2023-05-06 19:55:45
-(epstopdf)                    size: 299939 bytes
+(epstopdf)                    date: 2023-05-07 14:05:33
+(epstopdf)                    size: 316144 bytes
 (epstopdf)             Output file: <Images//05_drag_t-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-05-06 19:56:57
+(epstopdf)                    date: 2023-05-07 14:05:33
 (epstopdf)                    size: 101756 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=Images//05_drag_t-ep
 s-converted-to.pdf Images//05_drag_t.eps>
@@ -1708,17 +1708,17 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./Images//05_drag_t-eps-converted-to.pdf): PDF i
 nclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Images//05_drag_t-eps-converted-to.pdf, id=490, 256.96pt x 192.72pt>
+<Images//05_drag_t-eps-converted-to.pdf, id=498, 256.96pt x 192.72pt>
 File: Images//05_drag_t-eps-converted-to.pdf Graphic file (type pdf)
 <use Images//05_drag_t-eps-converted-to.pdf>
 Package pdftex.def Info: Images//05_drag_t-eps-converted-to.pdf  used on input 
 line 4.
 (pdftex.def)             Requested size: 232.17242pt x 174.13155pt.
 Package epstopdf Info: Source file: <Images//06_massa_t.eps>
-(epstopdf)                    date: 2023-05-04 18:10:00
+(epstopdf)                    date: 2023-05-07 14:05:33
 (epstopdf)                    size: 307944 bytes
 (epstopdf)             Output file: <Images//06_massa_t-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-05-04 18:10:00
+(epstopdf)                    date: 2023-05-07 14:05:33
 (epstopdf)                    size: 102312 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=Images//06_massa_t-e
 ps-converted-to.pdf Images//06_massa_t.eps>
@@ -1728,18 +1728,18 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./Images//06_massa_t-eps-converted-to.pdf): PDF 
 inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Images//06_massa_t-eps-converted-to.pdf, id=491, 256.96pt x 192.72pt>
+<Images//06_massa_t-eps-converted-to.pdf, id=499, 256.96pt x 192.72pt>
 File: Images//06_massa_t-eps-converted-to.pdf Graphic file (type pdf)
 <use Images//06_massa_t-eps-converted-to.pdf>
 Package pdftex.def Info: Images//06_massa_t-eps-converted-to.pdf  used on input
  line 6.
 (pdftex.def)             Requested size: 232.17242pt x 174.13155pt.
 Package epstopdf Info: Source file: <Images//08_gravita_t.eps>
-(epstopdf)                    date: 2023-05-06 19:35:46
-(epstopdf)                    size: 293098 bytes
+(epstopdf)                    date: 2023-05-07 14:05:34
+(epstopdf)                    size: 309274 bytes
 (epstopdf)             Output file: <Images//08_gravita_t-eps-converted-to.pdf>
 
-(epstopdf)                    date: 2023-05-06 19:47:41
+(epstopdf)                    date: 2023-05-07 14:06:58
 (epstopdf)                    size: 99250 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=Images//08_gravita_t
 -eps-converted-to.pdf Images//08_gravita_t.eps>
@@ -1749,18 +1749,18 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./Images//08_gravita_t-eps-converted-to.pdf): PD
 F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Images//08_gravita_t-eps-converted-to.pdf, id=492, 256.96pt x 192.72pt>
+<Images//08_gravita_t-eps-converted-to.pdf, id=500, 256.96pt x 192.72pt>
 File: Images//08_gravita_t-eps-converted-to.pdf Graphic file (type pdf)
 <use Images//08_gravita_t-eps-converted-to.pdf>
 Package pdftex.def Info: Images//08_gravita_t-eps-converted-to.pdf  used on inp
 ut line 6.
 (pdftex.def)             Requested size: 232.17242pt x 174.13155pt.
 Package epstopdf Info: Source file: <Images//09_pressione_t.eps>
-(epstopdf)                    date: 2023-05-06 19:41:13
-(epstopdf)                    size: 299505 bytes
+(epstopdf)                    date: 2023-05-07 14:05:34
+(epstopdf)                    size: 315712 bytes
 (epstopdf)             Output file: <Images//09_pressione_t-eps-converted-to.pd
 f>
-(epstopdf)                    date: 2023-05-06 19:47:43
+(epstopdf)                    date: 2023-05-07 14:05:34
 (epstopdf)                    size: 92906 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=Images//09_pressione
 _t-eps-converted-to.pdf Images//09_pressione_t.eps>
@@ -1770,18 +1770,18 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./Images//09_pressione_t-eps-converted-to.pdf): 
 PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Images//09_pressione_t-eps-converted-to.pdf, id=493, 256.96pt x 192.72pt>
+<Images//09_pressione_t-eps-converted-to.pdf, id=501, 256.96pt x 192.72pt>
 File: Images//09_pressione_t-eps-converted-to.pdf Graphic file (type pdf)
 <use Images//09_pressione_t-eps-converted-to.pdf>
 Package pdftex.def Info: Images//09_pressione_t-eps-converted-to.pdf  used on i
 nput line 8.
 (pdftex.def)             Requested size: 232.17242pt x 174.13155pt.
 Package epstopdf Info: Source file: <Images//10_temperatura_t.eps>
-(epstopdf)                    date: 2023-05-06 19:43:17
-(epstopdf)                    size: 296078 bytes
+(epstopdf)                    date: 2023-05-07 14:05:34
+(epstopdf)                    size: 312254 bytes
 (epstopdf)             Output file: <Images//10_temperatura_t-eps-converted-to.
 pdf>
-(epstopdf)                    date: 2023-05-06 19:47:45
+(epstopdf)                    date: 2023-05-07 14:05:34
 (epstopdf)                    size: 97565 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=Images//10_temperatu
 ra_t-eps-converted-to.pdf Images//10_temperatura_t.eps>
@@ -1791,7 +1791,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./Images//10_temperatura_t-eps-converted-to.pdf)
 : PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Images//10_temperatura_t-eps-converted-to.pdf, id=494, 256.96pt x 192.72pt>
+<Images//10_temperatura_t-eps-converted-to.pdf, id=502, 256.96pt x 192.72pt>
 File: Images//10_temperatura_t-eps-converted-to.pdf Graphic file (type pdf)
 <use Images//10_temperatura_t-eps-converted-to.pdf>
 Package pdftex.def Info: Images//10_temperatura_t-eps-converted-to.pdf  used on
@@ -1801,10 +1801,10 @@ Package pdftex.def Info: Images//10_temperatura_t-eps-converted-to.pdf  used on
 s-converted-to.pdf> <./Images//06_massa_t-eps-converted-to.pdf> <./Images//08_g
 ravita_t-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Images//11_mach_t.eps>
-(epstopdf)                    date: 2023-05-06 19:56:27
-(epstopdf)                    size: 298834 bytes
+(epstopdf)                    date: 2023-05-07 14:05:34
+(epstopdf)                    size: 315013 bytes
 (epstopdf)             Output file: <Images//11_mach_t-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-05-06 19:56:59
+(epstopdf)                    date: 2023-05-07 14:05:34
 (epstopdf)                    size: 101949 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=Images//11_mach_t-ep
 s-converted-to.pdf Images//11_mach_t.eps>
@@ -1814,7 +1814,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./Images//11_mach_t-eps-converted-to.pdf): PDF i
 nclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Images//11_mach_t-eps-converted-to.pdf, id=537, 256.96pt x 192.72pt>
+<Images//11_mach_t-eps-converted-to.pdf, id=545, 256.96pt x 192.72pt>
 File: Images//11_mach_t-eps-converted-to.pdf Graphic file (type pdf)
 <use Images//11_mach_t-eps-converted-to.pdf>
 Package pdftex.def Info: Images//11_mach_t-eps-converted-to.pdf  used on input 
@@ -1831,10 +1831,10 @@ Package rerunfilecheck Info: File `"Prova finale".out' has not changed.
 (rerunfilecheck)             Checksum: 83736564F2618B70028E871EB6094FD1;4012.
  ) 
 Here is how much of TeX's memory you used:
- 33207 strings out of 476331
- 618626 string characters out of 5788237
+ 33215 strings out of 476331
+ 618736 string characters out of 5788237
  2214660 words of memory out of 5000000
- 52707 multiletter control sequences out of 15000+600000
+ 52713 multiletter control sequences out of 15000+600000
  627846 words of font info for 134 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  83i,16n,80p,1977b,3429s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1852,9 +1852,9 @@ s/MiKTeX/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Users/Alex/AppData/Local/Pro
 grams/MiKTeX/fonts/type1/public/kpfonts/jkpsy.pfb><C:/Users/Alex/AppData/Local/
 Programs/MiKTeX/fonts/type1/public/kpfonts/jkpttbn8a.pfb><C:/Users/Alex/AppData
 /Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on "Prova finale.pdf" (17 pages, 3287502 bytes).
+Output written on "Prova finale.pdf" (17 pages, 3290790 bytes).
 PDF statistics:
- 685 PDF objects out of 1000 (max. 8388607)
- 257 named destinations out of 1000 (max. 500000)
+ 694 PDF objects out of 1000 (max. 8388607)
+ 259 named destinations out of 1000 (max. 500000)
  295 words of extra memory for PDF output out of 10000 (max. 10000000)
 
