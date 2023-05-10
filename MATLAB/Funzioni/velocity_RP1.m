@@ -30,8 +30,8 @@ U1 = omega*R1;
 
 %%
 g = 32.2;
-% Q 4070 lmb/sec
-Q = 25200;
+% Q 1715 lmb/sec
+Q = 15250;
 
 % H_m_LOX_f
 H = (144.*(P02 - P01) ./ pho1);
@@ -55,7 +55,8 @@ u1 = U1 * 3.281;
 u2 = U2 * 3.281;
 
 cu2 = u2 - (cm2 / tan(beta2));
-cu1 = cu2/0.75;
+%cu1 = cu2/0.75;
+cu1 = (u2*cu2 - H*g) / u1;
 
 c1 = sqrt(cu1.^2 + cm1.^2);
 c2 = sqrt(cu2.^2 + cm2.^2);
@@ -89,6 +90,32 @@ figure
 grid on;
 grid minor;
 hold on;
+
+pos1 = [0, 0, u1_m, 0];
+quiver2(pos1, 'red');
+pos2 = [u1_m, 0, -vu1_m, vm1_m];
+quiver2(pos2, 'blue');
+pos3 = [0, 0, u1_m-vu1_m, cm1_m];
+quiver2(pos3, 'yellow');
+
+pos4 = [u1_m, 0, u2_m, 0];
+quiver2(pos4, 'red');
+pos5 = [u1_m+u2_m, 0, -vu2_m, vm2_m];
+quiver2(pos5, 'blue');
+pos6 = [u1_m, 0, u2_m-vu2_m, cm2_m];
+quiver2(pos6, 'yellow');
+
+xline(u1_m, '--');
+str1 = {'INLET'};
+text(60, -20, str1);
+str2 = {'OUTLET'};
+text(220, -20, str2);
+
+%%
+figure
+grid on;
+grid minor;
+hold on;
 q1 = quiver(0, 0, u1_m, 0, 1);
 q1.MaxHeadSize = 0.08;
 q2 = quiver(u1_m, 0, -vu1_m, vm1_m, 1);
@@ -103,5 +130,11 @@ q5.MaxHeadSize = 0.3;
 q6 = quiver(u1_m, 0, u2_m-vu2_m, cm2_m, 1);
 q6.MaxHeadSize = 0.1;
 
-legend('u1', 'v1', 'c1', 'u2', 'v2', 'c2');
-title('Triangolo di velocità POMPA RP-1');
+xline(u1_m, '--');
+str1 = {'INLET'};
+text(60, -5, str1);
+str2 = {'OUTLET'};
+text(220, -5, str2);
+
+legend('u1', 'v1', 'c1', 'u2', 'v2', 'c2', '');
+title('Triangolo di velocità IMPELLER POMPA RP-1');
