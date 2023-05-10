@@ -42,11 +42,29 @@ Questo valore è utile per capire la scelta progettuale effettuata per il tipo d
 
 Le turbine PC (generano il salto di pressione in tutti gli statori) sono più efficienti ma più pesanti. Per cui si è optato per un sistema VC, che ha buona efficienza a bassi rapporti di velocità e permette un risparmio in peso.
 }
-
+\end{itemize}
 \subsubsection{Analisi quantitativa - dimensionamento}
 
-L'obiettivo ora è quello di cercare di dar un'idea a livello quantitativo dei vari componenti, generando un diagramma di velocità della turbina. 
-Per questa sezione si sono presi in considerazione i requisti del sistema turbina, si sono ipotizzati diversi valori di rendimenti e sono state fatte alcune assunzioni ragionevoli per questo tipo di sistema (AIAA, modern engineering of LRE, Huzel ..). 
+L'obiettivo ora è quello di cercare di dare un'idea a livello quantitativo dei vari componenti, generando un diagramma di velocità della turbina. 
+Per questa sezione si sono presi in considerazione i requisti del sistema turbina, si sono ipotizzati diversi valori di rendimenti e sono state fatte alcune assunzioni ragionevoli per questo tipo di sistema (AIAA, modern engineering of LRE, Huzel ..). Abbiamo assunto i seguenti requisiti di sistema
+
+\begin{table}[H]
+
+\centering
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline
+$\bm{T_in \, [K]}$ & $\bm{p_in \, [bar]}$ & $\bm{\epsilon}$ &  $\bm{O/F}$ & $\bm{\dot{m} \, [kg/s]}$ & $\bm{\omega \, [rad/s]}$  \\
+\hline
+$1062$ & $67.57$ & $16.4$ &  $0.416$ & $75.75$ & $574.4$ \\
+\hline
+\end{tabular}
+
+\caption{Requisiti del sistema turbina}
+\label{table:turbine specs}
+
+\end{table}
+
+Assumendo tali dati, aggiungendo alcune ragionevoli ipotesi tratte dal libro AIAA e risolvendo il sistema di equazioni associato al problema, troviamo il seguente diagramma velocità e i corrispondenti valori di velocità e angoli. Si rimanda all'appendice per tutti i dettagli su ipotesi fatte, impostazione del sistema di equazioni e risoluzione del sistema tramite Matlab. 
 
 
-\end{itemize}
+

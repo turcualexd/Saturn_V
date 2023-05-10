@@ -22,4 +22,5 @@
 \contentsline {section}{\numberline {B}Confronto peso molecolare gas generator tra caso Fuel Rich e Oxidizer Rich}{10}{appendix.1.Alph2}%
 \contentsline {section}{\numberline {C}Prodotti gas generator analizzati con software NASA CEA}{10}{appendix.1.Alph3}%
 \contentsline {section}{\numberline {D}Schemi del gas generator}{10}{appendix.1.Alph4}%
-\contentsline {section}{Bibliografia}{11}{appendix.1.Alph4}%
+\contentsline {section}{\numberline {E}Diagrammi di velocità}{10}{appendix.1.Alph5}%
+\contentsline {section}{Bibliografia}{12}{figure.caption.11}%
