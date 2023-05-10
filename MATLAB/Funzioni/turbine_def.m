@@ -102,41 +102,56 @@ T_e_rot2_re = T_e_rot2_id + q_rot2_re/c_p;
 %% diagrammi
 
 figure;
-q1 = quiver(0,0,C_1_vec(1), C_1_vec(2),1,'r');
-q1.MaxHeadSize = 0.09;
+
+pos1 = [0,0,C_1_vec(1), C_1_vec(2)];
+quiver2(pos1);
+
 hold on;
-q2 = quiver(0,0, V_1_vec(1), V_1_vec(2),1,'r');
-q2.MaxHeadSize = 0.09;
-q3 = quiver(V_1_vec(1), V_1_vec(2), U, 0, 1, 'b');
-q2.MaxHeadSize = 0.08;
+
+pos2 = [0,0, V_1_vec(1), V_1_vec(2)];
+quiver2(pos2);
+
+pos3 = [V_1_vec(1), V_1_vec(2), U, 0];
+quiver2(pos3);
+
 grid on
 grid minor
-plot(linspace(-0.5, 1.5, 100), C_1_vec(2)*ones(100,1), ':r', 'LineWidth',1);
+plot(linspace(-200, 1200, 10000), C_1_vec(2)*ones(10000,1), 'LineStyle', '--', color="#CC00CC");
 
-q4 = quiver(V_1_vec(1), V_1_vec(2), C_2_vec(1), C_2_vec(2), 1, 'r');
-q4.MaxHeadSize = 0.09;
-q5 = quiver(V_1_vec(1), V_1_vec(2), V_2_vec(1), V_2_vec(2), 1, 'r');
-q5.MaxHeadSize = 0.09;
-q6 = quiver(V_1_vec(1) + V_2_vec(1), V_1_vec(2) + V_2_vec(2), U, 0, 1, 'b');
-q6.MaxHeadSize = 0.09;
+pos4 = [V_1_vec(1), V_1_vec(2), C_2_vec(1), C_2_vec(2)];
+quiver2(pos4);
 
-q7 = quiver(V_1_vec(1) + C_2_vec(1), V_1_vec(2) + C_2_vec(2), C_3_vec(1), C_3_vec(2), 1, 'r');
-q7.MaxHeadSize = 0.09;
-q8 = quiver(V_1_vec(1) + C_2_vec(1), V_1_vec(2) + C_2_vec(2), V_3_vec(1), V_3_vec(2), 1, 'r');
-q8.MaxHeadSize = 0.09;
-q9 = quiver(V_1_vec(1) + C_2_vec(1) + V_3_vec(1), V_1_vec(2) + C_2_vec(2) + V_3_vec(2), U, 0, 1, 'b');
-q9.MaxHeadSize = 0.09;
+pos5 = [V_1_vec(1), V_1_vec(2), V_2_vec(1), V_2_vec(2)];
+quiver2(pos5);
 
-q10 = quiver(V_1_vec(1) + C_2_vec(1) + V_3_vec(1), V_1_vec(2) + C_2_vec(2) + V_3_vec(2), C_4_vec(1), C_4_vec(2), 1, 'r');
-q10.MaxHeadSize = 0.09;
-q11 =quiver(V_1_vec(1) + C_2_vec(1) + V_3_vec(1), V_1_vec(2) + C_2_vec(2) + V_3_vec(2), V_4_vec(1), V_4_vec(2), 1, 'r');
-q11.MaxHeadSize = 0.09;
-q12 = quiver(V_1_vec(1) + C_2_vec(1) + V_3_vec(1) + V_4_vec(1), V_1_vec(2) + C_2_vec(2) + V_3_vec(2) + V_4_vec(2), U, 0, 1, 'b');
-q12.MaxHeadSize = 0.09;
+pos6 = [V_1_vec(1) + V_2_vec(1), V_1_vec(2) + V_2_vec(2), U, 0];
+quiver2(pos6);
 
-plot(linspace(-0.5, 1.5, 100),(C_1_vec(2) + C_2_vec(2))*ones(100,1), ':r', 'LineWidth',1);
-plot(linspace(-0.5, 1.5, 100), (C_1_vec(2) + C_2_vec(2) + C_3_vec(2))*ones(100,1), ':r', 'LineWidth',1);
-plot(linspace(-0.5, 1.5, 100), (C_1_vec(2) + C_2_vec(2) + C_3_vec(2) + C_4_vec(2))*ones(100,1), ':r', 'LineWidth',1);
+pos7 = [V_1_vec(1) + C_2_vec(1), V_1_vec(2) + C_2_vec(2), C_3_vec(1), C_3_vec(2)];
+quiver2(pos7);
+
+pos8 = [V_1_vec(1) + C_2_vec(1), V_1_vec(2) + C_2_vec(2), V_3_vec(1), V_3_vec(2)];
+quiver2(pos8);
+
+pos9 = [V_1_vec(1) + C_2_vec(1) + V_3_vec(1), V_1_vec(2) + C_2_vec(2) + V_3_vec(2), U, 0];
+quiver2(pos9);
+
+pos10 = [V_1_vec(1) + C_2_vec(1) + V_3_vec(1), V_1_vec(2) + C_2_vec(2) + V_3_vec(2), C_4_vec(1), C_4_vec(2)];
+quiver2(pos10);
+
+pos11 = [V_1_vec(1) + C_2_vec(1) + V_3_vec(1), V_1_vec(2) + C_2_vec(2) + V_3_vec(2), V_4_vec(1), V_4_vec(2)];
+quiver2(pos11);
+
+pos12 = [V_1_vec(1) + C_2_vec(1) + V_3_vec(1) + V_4_vec(1), V_1_vec(2) + C_2_vec(2) + V_3_vec(2) + V_4_vec(2), U, 0];
+quiver2(pos12);
+
+plot(linspace(-200, 1200, 10000),(C_1_vec(2) + C_2_vec(2))*ones(10000,1),'LineStyle', '--', color="#CC00CC");
+plot(linspace(-200, 1200, 10000), (C_1_vec(2) + C_2_vec(2) + C_3_vec(2))*ones(10000,1), 'LineStyle', '--', color="#CC00CC");
+plot(linspace(-200, 1200, 10000), (C_1_vec(2) + C_2_vec(2) + C_3_vec(2) + C_4_vec(2))*ones(10000,1), 'LineStyle', '--', color="#CC00CC");
 
 
-
+function quiver2(pos)
+    a = annotation('arrow', 'HeadStyle', 'plain', 'HeadLength', 5, 'HeadWidth', 5, 'LineWidth', 1, 'Color', 'r');
+    set(a, 'parent', gca);
+    set(a, 'position', pos);
+end
