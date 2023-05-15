@@ -15,12 +15,13 @@
 \contentsline {subsubsection}{\numberline {7.2.2}Dimensionamento turbina - scelte progettuali}{6}{subsubsection.7.2.2}%
 \contentsline {section}{\numberline {8}Piatto d'iniezione}{7}{section.8}%
 \contentsline {section}{\numberline {9}Camera di spinta}{8}{section.9}%
-\contentsline {section}{\numberline {10}Ugello gasdinamico}{8}{section.10}%
-\contentsline {section}{Appendice}{9}{section.10}%
-\contentsline {section}{\numberline {A}Codici MATLAB usati}{9}{appendix.1.Alph1}%
-\contentsline {subsection}{\numberline {A.1}Simulazione di volo}{9}{subsection.1.Alph1.1}%
-\contentsline {section}{\numberline {B}Grafici di varie grandezze in funzione del tempo di volo}{13}{appendix.1.Alph2}%
-\contentsline {section}{\numberline {C}Confronto peso molecolare gas generator tra caso Fuel Rich e Oxidizer Rich}{14}{appendix.1.Alph3}%
-\contentsline {section}{\numberline {D}Prodotti gas generator analizzati con software NASA CEA}{14}{appendix.1.Alph4}%
-\contentsline {section}{\numberline {E}Schemi del gas generator}{14}{appendix.1.Alph5}%
-\contentsline {section}{Bibliografia}{15}{appendix.1.Alph5}%
+\contentsline {subsection}{\numberline {9.1}Descrizione del sistema}{8}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}Modellazione dell'ugello}{9}{subsection.9.2}%
+\contentsline {section}{Appendice}{10}{subsection.9.2}%
+\contentsline {section}{\numberline {A}Codici MATLAB usati}{10}{appendix.1.Alph1}%
+\contentsline {subsection}{\numberline {A.1}Simulazione di volo}{10}{subsection.1.Alph1.1}%
+\contentsline {section}{\numberline {B}Grafici di varie grandezze in funzione del tempo di volo}{14}{appendix.1.Alph2}%
+\contentsline {section}{\numberline {C}Confronto peso molecolare gas generator tra caso Fuel Rich e Oxidizer Rich}{15}{appendix.1.Alph3}%
+\contentsline {section}{\numberline {D}Prodotti gas generator analizzati con software NASA CEA}{15}{appendix.1.Alph4}%
+\contentsline {section}{\numberline {E}Schemi del gas generator}{15}{appendix.1.Alph5}%
+\contentsline {section}{Bibliografia}{16}{appendix.1.Alph5}%

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.4.26)  10 MAY 2023 09:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.4.26)  14 MAY 2023 11:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -639,7 +639,10 @@ Package: listings 2023/02/27 1.9 (Carsten Heinz)
 \jayDepth@mlpr=\skip68
 \sectionRuleOffset@mlpr=\skip69
 \toks@mlpr=\toks33
-) (C:\Users\Alex\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
+) (C:\Users\Alex\AppData\Local\Programs\MiKTeX\tex/latex/gensymb\gensymb.sty
+Package: gensymb 2022/10/17 v1.0.2 (KJH)
+)
+(C:\Users\Alex\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
 Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
 
 (C:\Users\Alex\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
@@ -852,7 +855,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip79
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 57.
+Package hyperref Info: Option `colorlinks' set `true' on input line 58.
 
 (C:\Users\Alex\AppData\Local\Programs\MiKTeX\tex/latex/cleveref\cleveref.sty
 Package: cleveref 2018/03/27 v0.21.4 Intelligent cross-referencing
@@ -1290,55 +1293,55 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \c@algsubstate=\count368
 )
 LaTeX Font Info:    Trying to load font information for T1+jkp on input line 17
-0.
+1.
 (C:\Users\Alex\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\t1jkp.fd
 File: t1jkp.fd 2007/01/24 Fontinst v1.928 font definitions for T1/jkp.
 )
 (Prova finale.aux)
 \openout1 = `"Prova finale.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/jkp/m/it on input line 170.
+LaTeX Font Info:    Checking defaults for OML/jkp/m/it on input line 171.
 LaTeX Font Info:    Trying to load font information for OML+jkp on input line 1
-70.
+71.
 
 (C:\Users\Alex\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\omljkp.fd
 File: omljkp.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 170.
-LaTeX Font Info:    Checking defaults for OMS/jkp/m/n on input line 170.
+LaTeX Font Info:    ... okay on input line 171.
+LaTeX Font Info:    Checking defaults for OMS/jkp/m/n on input line 171.
 LaTeX Font Info:    Trying to load font information for OMS+jkp on input line 1
-70.
+71.
 
 (C:\Users\Alex\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\omsjkp.fd
 File: omsjkp.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 170.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 170.
-LaTeX Font Info:    ... okay on input line 170.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 170.
-LaTeX Font Info:    ... okay on input line 170.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 170.
-LaTeX Font Info:    ... okay on input line 170.
-LaTeX Font Info:    Checking defaults for OMX/jkp/m/n on input line 170.
+LaTeX Font Info:    ... okay on input line 171.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 171.
+LaTeX Font Info:    ... okay on input line 171.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 171.
+LaTeX Font Info:    ... okay on input line 171.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 171.
+LaTeX Font Info:    ... okay on input line 171.
+LaTeX Font Info:    Checking defaults for OMX/jkp/m/n on input line 171.
 LaTeX Font Info:    Trying to load font information for OMX+jkp on input line 1
-70.
+71.
 
 (C:\Users\Alex\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\omxjkp.fd
 File: omxjkp.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 170.
-LaTeX Font Info:    Checking defaults for U/jkpexa/m/n on input line 170.
+LaTeX Font Info:    ... okay on input line 171.
+LaTeX Font Info:    Checking defaults for U/jkpexa/m/n on input line 171.
 LaTeX Font Info:    Trying to load font information for U+jkpexa on input line 
-170.
+171.
 
 (C:\Users\Alex\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ujkpexa.fd
 File: ujkpexa.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 170.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 170.
-LaTeX Font Info:    ... okay on input line 170.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 170.
-LaTeX Font Info:    ... okay on input line 170.
+LaTeX Font Info:    ... okay on input line 171.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 171.
+LaTeX Font Info:    ... okay on input line 171.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 171.
+LaTeX Font Info:    ... okay on input line 171.
 
 (C:\Users\Alex\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mki
 i
@@ -1365,8 +1368,8 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 g
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-LaTeX Info: Redefining \it@ocap on input line 170.
-LaTeX Info: Redefining \it@ccap on input line 170.
+LaTeX Info: Redefining \it@ocap on input line 171.
+LaTeX Info: Redefining \it@ccap on input line 171.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: float package is loaded.
@@ -1379,10 +1382,21 @@ Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Info: Redefining \[ on input line 170.
-LaTeX Info: Redefining \] on input line 170.
+LaTeX Info: Redefining \[ on input line 171.
+LaTeX Info: Redefining \] on input line 171.
 \c@lstlisting=\count375
-Package hyperref Info: Link coloring ON on input line 170.
+\symgns@font=\mathgroup13
+LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
+(Font)                  TS1/jkp/m/n --> TS1/jkp/b/n on input line 171.
+Package gensymb Info: Math companion symbols declared on input line 171.
+LaTeX Info: Redefining \degree on input line 171.
+LaTeX Info: Redefining \celsius on input line 171.
+Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
+erthousand on input line 171.
+LaTeX Info: Redefining \ohm on input line 171.
+Package gensymb Info: Using \textohm for \ohm on input line 171.
+Package gensymb Info: Using \textmu for \micro on input line 171.
+Package hyperref Info: Link coloring ON on input line 171.
 
 (Prova finale.out) (Prova finale.out)
 \@outlinefile=\write5
@@ -1425,11 +1439,11 @@ Package hyperref Info: Link coloring ON on input line 170.
 
 (Configuration_files/title_page.tex
 Package epstopdf Info: Source file: <Images//logo_polimi_ing_indinf.eps>
-(epstopdf)                    date: 2023-05-07 14:05:34
+(epstopdf)                    date: 2023-05-12 14:25:47
 (epstopdf)                    size: 1016894 bytes
 (epstopdf)             Output file: <Images//logo_polimi_ing_indinf-eps-convert
 ed-to.pdf>
-(epstopdf)                    date: 2023-05-07 14:05:34
+(epstopdf)                    date: 2023-05-12 14:25:47
 (epstopdf)                    size: 81939 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=Images//logo_polimi_
 ing_indinf-eps-converted-to.pdf Images//logo_polimi_ing_indinf.eps>
@@ -1440,8 +1454,8 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex (file ./Images//logo_polimi_ing_indinf-eps-converted-t
 o.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allow
 ed
-<Images//logo_polimi_ing_indinf-eps-converted-to.pdf, id=99, 493.845pt x 227.85
-126pt>
+<Images//logo_polimi_ing_indinf-eps-converted-to.pdf, id=103, 493.845pt x 227.8
+5126pt>
 File: Images//logo_polimi_ing_indinf-eps-converted-to.pdf Graphic file (type pd
 f)
 <use Images//logo_polimi_ing_indinf-eps-converted-to.pdf>
@@ -1478,28 +1492,34 @@ LaTeX Font Info:    Trying to load font information for U+jkpsyc on input line
 
 (C:\Users\Alex\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ujkpsyc.fd
 File: ujkpsyc.fd 2006/08/15 v1.0
+)
+LaTeX Font Info:    Trying to load font information for TS1+jkp on input line 5
+.
+
+(C:\Users\Alex\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ts1jkp.fd
+File: ts1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for TS1/jkp.
 ))
 Package epstopdf Info: Source file: <Images//raggiera_polimi.eps>
-(epstopdf)                    date: 2023-05-07 14:05:34
+(epstopdf)                    date: 2023-05-12 14:25:47
 (epstopdf)                    size: 1813066 bytes
 (epstopdf)             Output file: <Images//raggiera_polimi-eps-converted-to.p
 df>
-(epstopdf)                    date: 2023-05-07 14:05:34
+(epstopdf)                    date: 2023-05-12 14:25:47
 (epstopdf)                    size: 40418 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=Images//raggiera_pol
 imi-eps-converted-to.pdf Images//raggiera_polimi.eps>
-(epstopdf)             \includegraphics on input line 183.
+(epstopdf)             \includegraphics on input line 184.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./Images//raggiera_polimi-eps-converted-to.pdf):
  PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Images//raggiera_polimi-eps-converted-to.pdf, id=100, 502.87875pt x 502.87875p
+<Images//raggiera_polimi-eps-converted-to.pdf, id=104, 502.87875pt x 502.87875p
 t>
 File: Images//raggiera_polimi-eps-converted-to.pdf Graphic file (type pdf)
 <use Images//raggiera_polimi-eps-converted-to.pdf>
 Package pdftex.def Info: Images//raggiera_polimi-eps-converted-to.pdf  used on 
-input line 183.
+input line 184.
 (pdftex.def)             Requested size: 298.75394pt x 298.75233pt.
 [1
 
@@ -1514,21 +1534,14 @@ verted-to.pdf>] (Prova finale.toc)
  [2
 
 ] (Sezioni/01_nomenclatura.tex)
-(Sezioni/02_analisi_missione.tex
-LaTeX Font Info:    Trying to load font information for TS1+jkp on input line 1
-5.
-
-(C:\Users\Alex\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ts1jkp.fd
-File: ts1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for TS1/jkp.
-)
-[1
+(Sezioni/02_analisi_missione.tex [1
 
 ]
 Package epstopdf Info: Source file: <Images//01_quota_t.eps>
-(epstopdf)                    date: 2023-05-07 14:05:33
+(epstopdf)                    date: 2023-05-12 14:25:47
 (epstopdf)                    size: 310855 bytes
 (epstopdf)             Output file: <Images//01_quota_t-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-05-07 14:05:33
+(epstopdf)                    date: 2023-05-12 14:25:47
 (epstopdf)                    size: 102488 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=Images//01_quota_t-e
 ps-converted-to.pdf Images//01_quota_t.eps>
@@ -1538,18 +1551,18 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./Images//01_quota_t-eps-converted-to.pdf): PDF 
 inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Images//01_quota_t-eps-converted-to.pdf, id=168, 256.96pt x 192.72pt>
+<Images//01_quota_t-eps-converted-to.pdf, id=173, 256.96pt x 192.72pt>
 File: Images//01_quota_t-eps-converted-to.pdf Graphic file (type pdf)
 <use Images//01_quota_t-eps-converted-to.pdf>
 Package pdftex.def Info: Images//01_quota_t-eps-converted-to.pdf  used on input
  line 49.
 (pdftex.def)             Requested size: 232.17242pt x 174.13155pt.
 Package epstopdf Info: Source file: <Images//02_velocita_t.eps>
-(epstopdf)                    date: 2023-05-07 14:05:33
+(epstopdf)                    date: 2023-05-12 14:25:47
 (epstopdf)                    size: 311387 bytes
 (epstopdf)             Output file: <Images//02_velocita_t-eps-converted-to.pdf
 >
-(epstopdf)                    date: 2023-05-07 14:05:33
+(epstopdf)                    date: 2023-05-12 14:25:47
 (epstopdf)                    size: 102980 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=Images//02_velocita_
 t-eps-converted-to.pdf Images//02_velocita_t.eps>
@@ -1559,17 +1572,17 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./Images//02_velocita_t-eps-converted-to.pdf): P
 DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Images//02_velocita_t-eps-converted-to.pdf, id=169, 256.96pt x 192.72pt>
+<Images//02_velocita_t-eps-converted-to.pdf, id=174, 256.96pt x 192.72pt>
 File: Images//02_velocita_t-eps-converted-to.pdf Graphic file (type pdf)
 <use Images//02_velocita_t-eps-converted-to.pdf>
 Package pdftex.def Info: Images//02_velocita_t-eps-converted-to.pdf  used on in
 put line 49.
 (pdftex.def)             Requested size: 232.17242pt x 174.13155pt.
 Package epstopdf Info: Source file: <Images//04_spinta_t.eps>
-(epstopdf)                    date: 2023-05-07 14:05:33
+(epstopdf)                    date: 2023-05-12 14:25:47
 (epstopdf)                    size: 306021 bytes
 (epstopdf)             Output file: <Images//04_spinta_t-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-05-07 14:05:33
+(epstopdf)                    date: 2023-05-12 14:25:47
 (epstopdf)                    size: 91721 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=Images//04_spinta_t-
 eps-converted-to.pdf Images//04_spinta_t.eps>
@@ -1579,18 +1592,18 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./Images//04_spinta_t-eps-converted-to.pdf): PDF
  inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Images//04_spinta_t-eps-converted-to.pdf, id=170, 256.96pt x 192.72pt>
+<Images//04_spinta_t-eps-converted-to.pdf, id=175, 256.96pt x 192.72pt>
 File: Images//04_spinta_t-eps-converted-to.pdf Graphic file (type pdf)
 <use Images//04_spinta_t-eps-converted-to.pdf>
 Package pdftex.def Info: Images//04_spinta_t-eps-converted-to.pdf  used on inpu
 t line 51.
 (pdftex.def)             Requested size: 232.17242pt x 174.13155pt.
 Package epstopdf Info: Source file: <Images//07_traiettoria.eps>
-(epstopdf)                    date: 2023-05-07 14:05:33
+(epstopdf)                    date: 2023-05-12 14:25:47
 (epstopdf)                    size: 292851 bytes
 (epstopdf)             Output file: <Images//07_traiettoria-eps-converted-to.pd
 f>
-(epstopdf)                    date: 2023-05-07 14:05:33
+(epstopdf)                    date: 2023-05-12 14:25:47
 (epstopdf)                    size: 92829 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=Images//07_traiettor
 ia-eps-converted-to.pdf Images//07_traiettoria.eps>
@@ -1600,7 +1613,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./Images//07_traiettoria-eps-converted-to.pdf): 
 PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Images//07_traiettoria-eps-converted-to.pdf, id=171, 256.96pt x 192.72pt>
+<Images//07_traiettoria-eps-converted-to.pdf, id=176, 256.96pt x 192.72pt>
 File: Images//07_traiettoria-eps-converted-to.pdf Graphic file (type pdf)
 <use Images//07_traiettoria-eps-converted-to.pdf>
 Package pdftex.def Info: Images//07_traiettoria-eps-converted-to.pdf  used on i
@@ -1614,41 +1627,41 @@ converted-to.pdf> <./Images//07_traiettoria-eps-converted-to.pdf>])
 
 pdfTeX warning: pdflatex (file ./Images//GG_schema.pdf): PDF inclusion: found P
 DF version <1.6>, but at most version <1.5> allowed
-<Images//GG_schema.pdf, id=221, 482.50523pt x 405.8392pt>
+<Images//GG_schema.pdf, id=226, 482.50523pt x 405.8392pt>
 File: Images//GG_schema.pdf Graphic file (type pdf)
 <use Images//GG_schema.pdf>
 Package pdftex.def Info: Images//GG_schema.pdf  used on input line 29.
 (pdftex.def)             Requested size: 232.17242pt x 195.28362pt.
-<Images//GG_esploso.jpg, id=222, 1818.795pt x 2274.4975pt>
+<Images//GG_esploso.jpg, id=227, 1818.795pt x 2274.4975pt>
 File: Images//GG_esploso.jpg Graphic file (type jpg)
 <use Images//GG_esploso.jpg>
 Package pdftex.def Info: Images//GG_esploso.jpg  used on input line 29.
 (pdftex.def)             Requested size: 232.17242pt x 290.31563pt.
 [4 <./Images//GG_schema.pdf> <./Images//GG_esploso.jpg>])
 (Sezioni/07_turbopompa.tex
-<Images//turbina_general.jpg, id=243, 1904.11375pt x 1890.06125pt>
+<Images//turbina_general.jpg, id=248, 1904.11375pt x 1890.06125pt>
 File: Images//turbina_general.jpg Graphic file (type jpg)
 <use Images//turbina_general.jpg>
-Package pdftex.def Info: Images//turbina_general.jpg  used on input line 9.
+Package pdftex.def Info: Images//turbina_general.jpg  used on input line 13.
 (pdftex.def)             Requested size: 217.66211pt x 216.04025pt.
  [5 <./Images//turbina_general.jpg>]
-<Images//rendimenti_turbina.jpg, id=251, 184.89075pt x 128.27925pt>
+<Images//rendimenti_turbina.jpg, id=256, 184.89075pt x 128.27925pt>
 File: Images//rendimenti_turbina.jpg Graphic file (type jpg)
 <use Images//rendimenti_turbina.jpg>
-Package pdftex.def Info: Images//rendimenti_turbina.jpg  used on input line 45.
+Package pdftex.def Info: Images//rendimenti_turbina.jpg  used on input line 49.
 
 (pdftex.def)             Requested size: 182.52592pt x 126.64842pt.
 ) [6 <./Images//rendimenti_turbina.jpg>] (Sezioni/08_piatto_iniezione.tex
-<Images//iniettore.jpg, id=257, 543.4704pt x 645.612pt>
+<Images//iniettore.jpg, id=262, 543.4704pt x 645.612pt>
 File: Images//iniettore.jpg Graphic file (type jpg)
 <use Images//iniettore.jpg>
 Package pdftex.def Info: Images//iniettore.jpg  used on input line 4.
 (pdftex.def)             Requested size: 193.47578pt x 229.82927pt.
  [7
 
- <./Images//iniettore.jpg>]) (Sezioni/09_camera_spinta.tex) (Sezioni/10_ugello.
-tex) [8]
-(Sezioni/11_appendice.tex (Sezioni/A_matlab.tex
+ <./Images//iniettore.jpg>]) (Sezioni/09_camera_spinta.tex [8]) [9] (Sezioni/10
+_appendice.tex
+(Sezioni/A_matlab.tex
 (C:\Users\Alex\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2023/02/27 1.9 listings language file
 )
@@ -1663,22 +1676,22 @@ File: t1jkptt.fd 2007/01/26 Fontinst v1.928 font definitions for T1/jkptt.
 (C:\Users\Alex\AppData\Local\Programs\MiKTeX\tex/latex/base\ansinew.def
 File: ansinew.def 2021/02/14 v1.3d Input encoding file
 )
-(Codici/Simulation.m [9
+(Codici/Simulation.m [10
 
-] [10]
+] [11]
 LaTeX Font Info:    Trying to load font information for TS1+jkptt on input line
  128.
 
 (C:\Users\Alex\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ts1jkptt.fd
 File: ts1jkptt.fd 2007/01/26 Fontinst v1.928 font definitions for TS1/jkptt.
 )
-[11] [12])) (Sezioni/B_grafici_tempo_di_volo.tex
+[12] [13])) (Sezioni/B_grafici_tempo_di_volo.tex
 Package epstopdf Info: Source file: <Images//03_accelerazione_t.eps>
-(epstopdf)                    date: 2023-05-07 14:05:33
+(epstopdf)                    date: 2023-05-12 14:25:47
 (epstopdf)                    size: 309627 bytes
 (epstopdf)             Output file: <Images//03_accelerazione_t-eps-converted-t
 o.pdf>
-(epstopdf)                    date: 2023-05-07 14:05:33
+(epstopdf)                    date: 2023-05-12 14:25:47
 (epstopdf)                    size: 104205 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=Images//03_acceleraz
 ione_t-eps-converted-to.pdf Images//03_accelerazione_t.eps>
@@ -1688,17 +1701,17 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./Images//03_accelerazione_t-eps-converted-to.pd
 f): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Images//03_accelerazione_t-eps-converted-to.pdf, id=497, 256.96pt x 192.72pt>
+<Images//03_accelerazione_t-eps-converted-to.pdf, id=506, 256.96pt x 192.72pt>
 File: Images//03_accelerazione_t-eps-converted-to.pdf Graphic file (type pdf)
 <use Images//03_accelerazione_t-eps-converted-to.pdf>
 Package pdftex.def Info: Images//03_accelerazione_t-eps-converted-to.pdf  used 
 on input line 4.
 (pdftex.def)             Requested size: 232.17242pt x 174.13155pt.
 Package epstopdf Info: Source file: <Images//05_drag_t.eps>
-(epstopdf)                    date: 2023-05-07 14:05:33
+(epstopdf)                    date: 2023-05-12 14:25:47
 (epstopdf)                    size: 316144 bytes
 (epstopdf)             Output file: <Images//05_drag_t-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-05-07 14:05:33
+(epstopdf)                    date: 2023-05-12 14:25:47
 (epstopdf)                    size: 101756 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=Images//05_drag_t-ep
 s-converted-to.pdf Images//05_drag_t.eps>
@@ -1708,17 +1721,17 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./Images//05_drag_t-eps-converted-to.pdf): PDF i
 nclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Images//05_drag_t-eps-converted-to.pdf, id=498, 256.96pt x 192.72pt>
+<Images//05_drag_t-eps-converted-to.pdf, id=507, 256.96pt x 192.72pt>
 File: Images//05_drag_t-eps-converted-to.pdf Graphic file (type pdf)
 <use Images//05_drag_t-eps-converted-to.pdf>
 Package pdftex.def Info: Images//05_drag_t-eps-converted-to.pdf  used on input 
 line 4.
 (pdftex.def)             Requested size: 232.17242pt x 174.13155pt.
 Package epstopdf Info: Source file: <Images//06_massa_t.eps>
-(epstopdf)                    date: 2023-05-07 14:05:33
+(epstopdf)                    date: 2023-05-12 14:25:47
 (epstopdf)                    size: 307944 bytes
 (epstopdf)             Output file: <Images//06_massa_t-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-05-07 14:05:33
+(epstopdf)                    date: 2023-05-12 14:25:47
 (epstopdf)                    size: 102312 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=Images//06_massa_t-e
 ps-converted-to.pdf Images//06_massa_t.eps>
@@ -1728,18 +1741,18 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./Images//06_massa_t-eps-converted-to.pdf): PDF 
 inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Images//06_massa_t-eps-converted-to.pdf, id=499, 256.96pt x 192.72pt>
+<Images//06_massa_t-eps-converted-to.pdf, id=508, 256.96pt x 192.72pt>
 File: Images//06_massa_t-eps-converted-to.pdf Graphic file (type pdf)
 <use Images//06_massa_t-eps-converted-to.pdf>
 Package pdftex.def Info: Images//06_massa_t-eps-converted-to.pdf  used on input
  line 6.
 (pdftex.def)             Requested size: 232.17242pt x 174.13155pt.
 Package epstopdf Info: Source file: <Images//08_gravita_t.eps>
-(epstopdf)                    date: 2023-05-07 14:05:34
+(epstopdf)                    date: 2023-05-12 14:25:47
 (epstopdf)                    size: 309274 bytes
 (epstopdf)             Output file: <Images//08_gravita_t-eps-converted-to.pdf>
 
-(epstopdf)                    date: 2023-05-07 14:06:58
+(epstopdf)                    date: 2023-05-12 14:25:47
 (epstopdf)                    size: 99250 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=Images//08_gravita_t
 -eps-converted-to.pdf Images//08_gravita_t.eps>
@@ -1749,18 +1762,18 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./Images//08_gravita_t-eps-converted-to.pdf): PD
 F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Images//08_gravita_t-eps-converted-to.pdf, id=500, 256.96pt x 192.72pt>
+<Images//08_gravita_t-eps-converted-to.pdf, id=509, 256.96pt x 192.72pt>
 File: Images//08_gravita_t-eps-converted-to.pdf Graphic file (type pdf)
 <use Images//08_gravita_t-eps-converted-to.pdf>
 Package pdftex.def Info: Images//08_gravita_t-eps-converted-to.pdf  used on inp
 ut line 6.
 (pdftex.def)             Requested size: 232.17242pt x 174.13155pt.
 Package epstopdf Info: Source file: <Images//09_pressione_t.eps>
-(epstopdf)                    date: 2023-05-07 14:05:34
+(epstopdf)                    date: 2023-05-12 14:25:47
 (epstopdf)                    size: 315712 bytes
 (epstopdf)             Output file: <Images//09_pressione_t-eps-converted-to.pd
 f>
-(epstopdf)                    date: 2023-05-07 14:05:34
+(epstopdf)                    date: 2023-05-12 14:25:47
 (epstopdf)                    size: 92906 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=Images//09_pressione
 _t-eps-converted-to.pdf Images//09_pressione_t.eps>
@@ -1770,18 +1783,18 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./Images//09_pressione_t-eps-converted-to.pdf): 
 PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Images//09_pressione_t-eps-converted-to.pdf, id=501, 256.96pt x 192.72pt>
+<Images//09_pressione_t-eps-converted-to.pdf, id=510, 256.96pt x 192.72pt>
 File: Images//09_pressione_t-eps-converted-to.pdf Graphic file (type pdf)
 <use Images//09_pressione_t-eps-converted-to.pdf>
 Package pdftex.def Info: Images//09_pressione_t-eps-converted-to.pdf  used on i
 nput line 8.
 (pdftex.def)             Requested size: 232.17242pt x 174.13155pt.
 Package epstopdf Info: Source file: <Images//10_temperatura_t.eps>
-(epstopdf)                    date: 2023-05-07 14:05:34
+(epstopdf)                    date: 2023-05-12 14:25:47
 (epstopdf)                    size: 312254 bytes
 (epstopdf)             Output file: <Images//10_temperatura_t-eps-converted-to.
 pdf>
-(epstopdf)                    date: 2023-05-07 14:05:34
+(epstopdf)                    date: 2023-05-12 14:25:47
 (epstopdf)                    size: 97565 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=Images//10_temperatu
 ra_t-eps-converted-to.pdf Images//10_temperatura_t.eps>
@@ -1791,20 +1804,20 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./Images//10_temperatura_t-eps-converted-to.pdf)
 : PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Images//10_temperatura_t-eps-converted-to.pdf, id=502, 256.96pt x 192.72pt>
+<Images//10_temperatura_t-eps-converted-to.pdf, id=511, 256.96pt x 192.72pt>
 File: Images//10_temperatura_t-eps-converted-to.pdf Graphic file (type pdf)
 <use Images//10_temperatura_t-eps-converted-to.pdf>
 Package pdftex.def Info: Images//10_temperatura_t-eps-converted-to.pdf  used on
  input line 8.
 (pdftex.def)             Requested size: 232.17242pt x 174.13155pt.
-[13 <./Images//03_accelerazione_t-eps-converted-to.pdf> <./Images//05_drag_t-ep
+[14 <./Images//03_accelerazione_t-eps-converted-to.pdf> <./Images//05_drag_t-ep
 s-converted-to.pdf> <./Images//06_massa_t-eps-converted-to.pdf> <./Images//08_g
 ravita_t-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Images//11_mach_t.eps>
-(epstopdf)                    date: 2023-05-07 14:05:34
+(epstopdf)                    date: 2023-05-12 14:25:47
 (epstopdf)                    size: 315013 bytes
 (epstopdf)             Output file: <Images//11_mach_t-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-05-07 14:05:34
+(epstopdf)                    date: 2023-05-12 14:25:47
 (epstopdf)                    size: 101949 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=Images//11_mach_t-ep
 s-converted-to.pdf Images//11_mach_t.eps>
@@ -1814,28 +1827,28 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./Images//11_mach_t-eps-converted-to.pdf): PDF i
 nclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Images//11_mach_t-eps-converted-to.pdf, id=545, 256.96pt x 192.72pt>
+<Images//11_mach_t-eps-converted-to.pdf, id=554, 256.96pt x 192.72pt>
 File: Images//11_mach_t-eps-converted-to.pdf Graphic file (type pdf)
 <use Images//11_mach_t-eps-converted-to.pdf>
 Package pdftex.def Info: Images//11_mach_t-eps-converted-to.pdf  used on input 
 line 10.
 (pdftex.def)             Requested size: 232.17242pt x 174.13155pt.
 ) (Sezioni/C_confronto_peso_molecolare.tex)
-(Sezioni/D_prodotti_gas_generator.tex) (Sezioni/E_schemi_gg.tex)) [14 <./Images
+(Sezioni/D_prodotti_gas_generator.tex) (Sezioni/E_schemi_gg.tex)) [15 <./Images
 //09_pressione_t-eps-converted-to.pdf> <./Images//10_temperatura_t-eps-converte
 d-to.pdf> <./Images//11_mach_t-eps-converted-to.pdf>] (Prova finale.bbl)
-[15
+[16
 
 ] (Prova finale.aux)
 Package rerunfilecheck Info: File `"Prova finale".out' has not changed.
-(rerunfilecheck)             Checksum: 83736564F2618B70028E871EB6094FD1;4012.
+(rerunfilecheck)             Checksum: D83C30CE2F7915A59A271D82F1D80D27;4238.
  ) 
 Here is how much of TeX's memory you used:
- 33215 strings out of 476331
- 618736 string characters out of 5788237
+ 33294 strings out of 476331
+ 620084 string characters out of 5788237
  2214660 words of memory out of 5000000
- 52713 multiletter control sequences out of 15000+600000
- 627846 words of font info for 134 fonts, out of 8000000 for 9000
+ 52788 multiletter control sequences out of 15000+600000
+ 629736 words of font info for 139 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  83i,16n,80p,1977b,3429s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Alex/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbm
@@ -1852,9 +1865,9 @@ s/MiKTeX/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Users/Alex/AppData/Local/Pro
 grams/MiKTeX/fonts/type1/public/kpfonts/jkpsy.pfb><C:/Users/Alex/AppData/Local/
 Programs/MiKTeX/fonts/type1/public/kpfonts/jkpttbn8a.pfb><C:/Users/Alex/AppData
 /Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on "Prova finale.pdf" (17 pages, 3290790 bytes).
+Output written on "Prova finale.pdf" (18 pages, 3296842 bytes).
 PDF statistics:
- 694 PDF objects out of 1000 (max. 8388607)
- 259 named destinations out of 1000 (max. 500000)
- 295 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 703 PDF objects out of 1000 (max. 8388607)
+ 261 named destinations out of 1000 (max. 500000)
+ 303 words of extra memory for PDF output out of 10000 (max. 10000000)
 
