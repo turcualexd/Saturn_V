@@ -18,6 +18,7 @@ x = [];
 y = [];
 
 theta_i = [deg2rad(-135):0.01:deg2rad(-90)];
+
 for i = 1:length(theta_i)
     x_i = 1.5*Rt*cos(theta_i(i));
     y_i = 1.5*Rt*sin(theta_i(i)) + 1.5*Rt + Rt;
@@ -61,14 +62,23 @@ grid on;
 grid minor;
 hold on;
 plot(x, y);
+
+r_10     = y(196);
+r_16     = y(end);
+%cyy      = 
+yy = y(196:end);
+xx = x(196:end);
+
+area = trapz(xx, 2*pi*yy);
+
 plot(Nx, Ny, 'o');
 plot(Ex, Ey, 'o');
 plot(Qx, Qy, 'o');
 
-%% Plot 3D
-figure
-[X, Y, Z] = cylinder(y, 100);
-surf(X, Y, Z, 'EdgeColor', 'none')
+% %% Plot 3D
+% figure
+% [X, Y, Z] = cylinder(y, 100);
+% surf(X, Y, Z, 'EdgeColor', 'none')
 
 %%
 N = length(x) - 1;

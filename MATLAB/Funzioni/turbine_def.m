@@ -150,8 +150,47 @@ plot(linspace(-200, 1200, 10000), (C_1_vec(2) + C_2_vec(2) + C_3_vec(2))*ones(10
 plot(linspace(-200, 1200, 10000), (C_1_vec(2) + C_2_vec(2) + C_3_vec(2) + C_4_vec(2))*ones(10000,1), 'LineStyle', '--', color="#CC00CC");
 
 
+
+%% nozzle dimensioning
+
+A_nozz_throat = mdot/(eps_nt*p_in*1e5*sqrt( (g*(2/(g+1))^((g+1)/(g-1)))/(R*T_gg) ) ); %m^2 di area di gola totale
+H_nozz_throat = 1.55*0.0254; % inch --> to m (dal manuale si ha altezza di 1.55 inch
+b_nozz        = (H_nozz_throat/noz_ar); %larghezza nozzle --> si ipotizza un Aspect Ratio di 9.7
+z_n           = A_nozz_throat/(H_nozz_throat*b_nozz); %stima numero nozzle (totali veri 61, qui calcolati 69 --> diminuire aspect ratio)
+
+%% efficiency 
+
+eta_nb_prac = (U*(norm(C_1_vec)*cos(alfa_1) + norm(C_2_vec)*cos(alfa_2) + ...
+    norm(C_3_vec)*cos(alfa_3) + norm(C_4_vec)*cos(alfa_4))) / dh_tot;
+
+eta_m       = eta_ovrll/eta_nb_prac;
+
+
 function quiver2(pos)
     a = annotation('arrow', 'HeadStyle', 'plain', 'HeadLength', 5, 'HeadWidth', 5, 'LineWidth', 1, 'Color', 'r');
     set(a, 'parent', gca);
     set(a, 'position', pos);
 end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
