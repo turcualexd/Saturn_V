@@ -1,3 +1,16 @@
 \section{Confronto peso molecolare gas generator tra caso Fuel Rich e Oxidizer Rich}
 \label{appendix:confronto peso molecolare}
 
+Per poter apprendere come l'O/F influisca sulla massa molare dei prodotti si è utilizzato il software NASA CEA (CEAM). Si è utilizzato un problema HP, in modo da far raggiungere l'equilibrio chimico senza bloccarlo imponendo una temperatura (il problema HP di NASA CEA, con il GG, tende a sovrastimare la temperatura raggiunta). La temperatura di equilibrio in questo caso è un parametro importante poichè in uscita dal GG abbiamo il vincolo della palettatura di turbina. Si è imposto che la temperatura in uscita dal GG debba essere minore di 1500K sia in FR che OR. Si è fatto variare l'O/F da nel range $0.2 / 18$, si sono plottati i grafici di MM, T, $\gamma$ in funzione dell'O/F.
+
+\twofig{MM_to_OF}{Massa Molare prodotti in funzione di O/F}{MM_to_OF}{temperatura_gg_of}{Temperatura in uscita dal GG in funzione di O/F}{temperatura_gg_of}
+
+Dal primo grafico si nota come ad O/F bassi (fuel rich mixture) si ottenga una massa molare media più bassa rispetto ai fuel rich. La zona compresa tra le due linee tratteggiate nere, nel primo grafico, non deve essere considerata poichè ad essa sono associate temperature troppo elevate per la turbina, come si nota nel grafico immediatamente a destra. 
+Un altro vantaggio dato dalle miscele FR è che il valore di $c_p$ è più alto che nel caso OR. Questo permette di ottenere un lavoro specifico della turbina maggiore con le miscele FR. Infatti:
+
+\begin{empheq}{gather*}
+\Delta h_{id} = c_p \left( 1 -  \epsilon^{\frac{1 - \gamma}{\gamma}} \right)
+\end{empheq}
+\vspace*{2.5mm}
+
+Tale valore è influenzato principalmente dal valore di $c-p$. Esso diminuisce, aumentando il rapporto O/F, per cui si ha una variazione di lavoro specifico rispetto all'O/F, come mostra il seguente grafico.
