@@ -32,7 +32,77 @@ Si procede quindi ad illustrare il metodo ideato da Rao per una progettazione ot
 \begin{empheq}{equation*}
 L_{con} = \frac{\left( \sqrt{\epsilon} - 1 \right) - R_t}{\tan {15\degree}}
 \end{empheq}
+\vspace{5pt}
 
-dove con $R_t$ si indica il raggio di gola dell’ugello e 15° è l’angolo standard di semi-apertura dell’ugello.
+dove $ R_t $ indica il raggio di gola dell’ugello e 15° è l’angolo standard di semi-apertura dell’ugello.
 
-La forma a campana ottimale può essere approssimata da una parabola inclinata grazie a considerazioni geometriche, permettendo anche di abbozzare velocemente una forma dell’ugello che contempla una perdita di prestazioni trascurabile a livello di spinta. Proprio per questo motivo, questa tipologia è anche chiamata ugello TOP (Thrust Optimized Parabolic) ed ha effettivamente trovato applicazione pratica nei vettori di lancio perché ha performance migliori quando sovra-espande a livello del mare (le pareti dell’ugello TOP aiutano a ritardare la separazione del flusso grazie ad un’elevata contropressione) rispetto ad un ugello ottimizzato perfettamente a campana.
+\vspace{5mm}
+
+\rfig{ugello_TOP}{Definizioni geometriche}{ugello_TOP}{0.5}
+
+La forma a campana ottimale può essere approssimata da una parabola inclinata grazie a considerazioni geometriche, permettendo anche di abbozzare velocemente una forma dell’ugello che contempla una perdita di prestazioni trascurabile a livello di spinta. Proprio per questo motivo, questa tipologia è anche chiamata ugello TOP (Thrust Optimized Parabolic) ed ha effettivamente trovato applicazione pratica nei vettori di lancio perché ha performance migliori quando sovra-espande a livello del mare (le pareti dell’ugello TOP aiutano a ritardare la separazione del flusso grazie ad un’elevata contropressione) rispetto ad un ugello ottimizzato perfettamente a campana. Inoltre, la forma dell’ugello varia in modo minimale in base ai propellenti usati e perciò una stessa famiglia di ugelli TOP può essere adattata per qualsiasi combinazione di ossidante e combustibile.
+
+I parametri di partenza sono: il rapporto di espansione $ \epsilon $, il raggio di gola $ R_t $ e la percentuale di campana $ \%_{bell} $ che si vuole ottenere; quest’ultimo valore deve essere compreso tra il valore massimo di 85\%, a cui si raggiunge un livello di efficienza dell’ugello del 99\% e che può essere aumentato solo di un ulteriore 0.2\% con una percentuale di campana 100\%, e il valore minimo del 70\%, a cui si comincia ad ottenere un notevole degrado di prestazioni. Si ricavano quindi a cascata:
+
+\vspace{5pt}
+\begin{empheq}{alignat*=2}
+& R_e = \sqrt{\epsilon} \, R_t		&\qquad		& \text{raggio della sezione d’efflusso}
+\\
+& L_{ugello} = \%_{bell} \frac{\left( \sqrt{\epsilon} - 1 \right) - R_t}{\tan {15\degree}}
+&\qquad		& \text{lunghezza dell’ugello}
+\end{empheq}
+\vspace{5pt}
+
+Si ricavano poi gli angoli $ \theta_n $, riferito al punto di inflessione N, e $ \theta_e $, riferito alla sezione d’uscita, per interpolazione grafica da curve analitiche ottenute sperimentalmente per determinati valori di $ \%_{bell} $ (grafico in \autoref{fig:angoli_bell}).
+
+La prima parte di modellazione vera e propria consiste nella costruzione della gola dell’ugello secondo una geometria ottimale usata da Rao (ai tempi ingegnere alla Rocketdyne) e basata sull’intersezione di due archi di circonferenza definiti come segue:
+
+\begin{empheq}{equation*}
+x = 1.5 \, R_t \cos \theta	\qquad	y = R_t \left( 1.5 \, \sin \theta + 1.5 + 1 \right)
+\end{empheq}
+
+per la sezione di entrata, con $ -135\degree < \theta < -90\degree $ (l’angolo iniziale di -135° è scelto arbitrariamente dal progettatore della camera di combustione ma può anche essere fissato ad un valore differente);
+\vspace{5pt}
+
+\begin{empheq}{equation*}
+x = 0.382 \, R_t \cos \theta	\qquad	y = R_t \left( 0.382 \, \sin \theta + 0.382 + 1 \right)
+\end{empheq}
+
+per la sezione di uscita, con $ -90\degree < \theta < \theta_n - 90\degree $.
+\vspace{5mm}
+
+Per la costruzione della campana è invece necessario definire prima tre punti geometrici:
+
+\begin{itemize}[wide,itemsep=8pt,topsep=8pt]
+
+\item
+punto di inflessione N: $ \quad \text{N} = \begin{bmatrix} N_x \\ N_y \end{bmatrix} = \begin{bmatrix}
+0.382 \, R_t \cos \left( \theta_n - 90\degree \right) \\
+R_t \left[ 0.382 \, \sin \left( \theta_n - 90\degree \right) + 0.382 + 1 \right]
+\end{bmatrix} $
+\item
+punto tangente alla sezione d'efflusso E: $ \quad \text{E} = \begin{bmatrix} E_x \\ E_y \end{bmatrix} = \begin{bmatrix} R_e \\ L_{ugello} \end{bmatrix} $
+\item
+punto Q di intersezione delle rette passanti da N con inclinazione $ \theta_n $ e da E con inclinazione $ \theta_n $:
+
+\begin{empheq}{alignat*=2}
+&\overrightarrow{NQ} = m_1 x + C_1 \; \text{con} \; m_1 = \tan \theta_n \; \text{e} \; C_1 = N_y - m_1 N_x
+&\qquad
+& Q_x = \frac{C_2 - C_1}{m_1 - m_2}
+\\
+&\overrightarrow{QE} = m_2 x + C_2 \; \text{con} \; m_2 = \tan \theta_e \; \text{e} \; C_2 = E_y - m_2 E_x
+&\qquad
+& Q_y = \frac{m_1 C_2 - m_2 C_1}{m_1 - m_2}
+\end{empheq}
+
+\end{itemize}
+\vspace{5pt}
+
+La campana infine risulta essere una curva di Bézier quadratica di equazione:
+
+\begin{empheq}{alignat*=2}
+& x(t) = \left( 1 - t \right)^2 N_x + 2 \left( 1 - t \right) t \, Q_x + t^2 E_x &\qquad
+& 0 \le t \le 1 \\
+& y(t) = \left( 1 - t \right)^2 N_y + 2 \left( 1 - t \right) t \, Q_y + t^2 E_y &\qquad
+& 0 \le t \le 1
+\end{empheq}
