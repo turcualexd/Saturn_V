@@ -18,7 +18,8 @@
 \contentsline {section}{\numberline {9}Camera di spinta}{9}{section.9}%
 \contentsline {subsection}{\numberline {9.1}Descrizione del sistema}{9}{subsection.9.1}%
 \contentsline {subsection}{\numberline {9.2}Modellazione dell'ugello}{10}{subsection.9.2}%
-\contentsline {section}{Appendice}{12}{figure.caption.11}%
+\contentsline {subsection}{\numberline {9.3}Confronto tra ugello 10:1 e 16:1}{11}{subsection.9.3}%
+\contentsline {section}{Appendice}{12}{subsection.9.3}%
 \contentsline {section}{\numberline {A}Immagini e schemi}{12}{appendix.1.Alph1}%
 \contentsline {section}{\numberline {B}Grafici di varie grandezze in funzione del tempo di volo}{12}{appendix.1.Alph2}%
 \contentsline {section}{\numberline {C}Confronto peso molecolare gas generator tra caso Fuel Rich e Oxidizer Rich}{14}{appendix.1.Alph3}%
