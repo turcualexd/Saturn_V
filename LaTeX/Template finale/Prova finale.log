@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.16)  17 MAY 2023 14:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.16)  17 MAY 2023 14:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1706,7 +1706,7 @@ Package epstopdf Info: Source file: <Images//05_drag_t.eps>
 (epstopdf)                    date: 2023-05-17 13:53:51
 (epstopdf)                    size: 316144 bytes
 (epstopdf)             Output file: <Images//05_drag_t-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-05-17 14:35:00
+(epstopdf)                    date: 2023-05-17 14:53:54
 (epstopdf)                    size: 101756 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=Images//05_drag_t-ep
 s-converted-to.pdf Images//05_drag_t.eps>
