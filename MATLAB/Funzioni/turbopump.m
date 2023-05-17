@@ -66,7 +66,7 @@ NPSP = P1 - Psat;
 NPSH = NPSP / (pho*g);
 
 tao = NPSP/((1/2)*pho*(omega*R1).^2);
-Zt = tao/3; %!
+Zt = tao/4; %!
 phi_t = (Zt * (1+cos(theta))) / sin(theta);
 Cm = phi_t * (omega*R1);
 
