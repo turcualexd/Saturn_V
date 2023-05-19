@@ -217,10 +217,10 @@ Dt1_f = rapportoD * Dt2_f;
 R1 = Dt1_f/2;
 
 % Area normal to the radial flow at the impeller inlet
-A1 = pi*(R1.^2)/2;
+A1 = pi*(R1.^2);
 
 % Area normal to the radial flow at the impeller outlet
-A2 = pi*(R2.^2)/2;
+A2 = pi*(R2.^2-R1.^2);
 
 % Radial/Meridional component of the absolute inlet flow velocity
 cm1 = Q / (448.8*A1); % in ft/s
