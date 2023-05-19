@@ -302,4 +302,26 @@ theta0_h_deg = rad2deg(theta0_h);
 phi_ind = cm0_ind / u0_t_ind;
 
 % theoretical inducer suction specific speed
-NSS_ind = 
+NSS_ind = ((8150*(1-2*phi_ind.^2)).^(0.75))/(phi_ind) .* (1-rd.^2).^0.5;
+
+% vane angle 14.30° ipotesi
+theta1 = 14.30;
+
+% vane angle at the inducer outlet tip diameter d_1t
+theta1_t = atan(d1 / d_1t * tan(deg2rad(theta1)));
+theta1_t_deg = rad2deg(theta1_t);
+
+% vane angle at the inducer outlet hub diameter d_1h
+theta1_h = atan(d1 / d_1h * tan(deg2rad(theta1)));
+theta1_h_deg = rad2deg(theta1_h);
+
+% z = 3 vanes
+z = 3;
+% vane pitch at the mean tip diameter dt
+P_i = (pi*d_t) / z;
+
+% Chord length at vane tip
+C_i = L_ind / sin((deg2rad(theta0_t) + theta1_t)/2);
+
+% Inducer solidity
+S_v = C_i / P_i;

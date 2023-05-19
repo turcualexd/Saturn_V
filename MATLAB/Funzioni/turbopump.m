@@ -1,6 +1,7 @@
-function [H_m, delta_h, psi, P, ds, ns, prod, NPSP, NPSH, sigma, phi_t, Cm, Ss, tao, Zt] = turbopump(eta_p, P01, P02, pho1, Q, m_dot, Dt2, b2, beta2, omega, P1, Psat, pho, rapportoD, theta)
+function [H_m, delta_h, psi, P, ds, ns, prod] = turbopump(eta_p, P01, P02, pho1, Q, m_dot, Dt2, omega)
 
-% g accelereazione di gravità
+% [H_m, delta_h, psi, P, ds, ns, prod, NPSP, NPSH, sigma, phi_t, Cm, Ss, tao, Zt] = turbopump(eta_p, P01, P02, pho1, Q, m_dot, Dt2, b2, beta2, omega, P1, Psat, pho, rapportoD, theta)
+
 g = 9.81;
 
 % Design della pompa
@@ -22,8 +23,8 @@ R2 = Dt2 / 2;
 % Psat:    pressione saturazione - pressione di vapore
 % pho:     densità fluido ingresso inlet
 % R1:      raggio inlet
-Dt1 = rapportoD * Dt2;
-R1 = Dt1/2;
+% Dt1 = rapportoD * Dt2;
+% R1 = Dt1/2;
 % theta:   angolo di leading-edge dell'induttore
 
 % Design
@@ -58,20 +59,20 @@ prod = ns*ds;
 
 % prod_controllo = 2 / sqrt(psi);
 
-% Cavitazione
-% NPSP net positive suction pressure
-NPSP = P1 - Psat;
+% % Cavitazione
+% % NPSP net positive suction pressure
+% NPSP = P1 - Psat;
+% 
+% % NPSH net positive suction head
+% NPSH = NPSP / (pho*g);
+% 
+% tao = NPSP/((1/2)*pho*(omega*R1).^2);
+% Zt = tao/4; %!
+% phi_t = (Zt * (1+cos(theta))) / sin(theta);
+% Cm = phi_t * (omega*R1);
 
-% NPSH net positive suction head
-NPSH = NPSP / (pho*g);
-
-tao = NPSP/((1/2)*pho*(omega*R1).^2);
-Zt = tao/4; %!
-phi_t = (Zt * (1+cos(theta))) / sin(theta);
-Cm = phi_t * (omega*R1);
-
-% Thoma parameter sigma
-% parametro empirico per cavitazione
-sigma = NPSP / ((1/2)*pho*(Cm).^2);
-% Ss suction specific speed
-Ss = 2.981 / (sigma.^(3/4) .* phi_t);
+% % Thoma parameter sigma
+% % parametro empirico per cavitazione
+% sigma = NPSP / ((1/2)*pho*(Cm).^2);
+% % Ss suction specific speed
+% Ss = 2.981 / (sigma.^(3/4) .* phi_t);

@@ -21,8 +21,8 @@ pho = 808.9324;
 rapportoD = 0.81;
 theta = deg2rad(10);
 
-[H_m_RP1, delta_h_RP1, psi_RP1, P_RP1, ds_RP1, ns_RP1, prod_RP1, NPSP_RP1, NPSH_RP1, sigma_RP1, phi_t_RP1, Cm_RP1, Ss_RP1, tao_RP1, Zt_RP1] = turbopump(eta_p, P01, P02, pho1, Q, m_dot, Dt2, b2, beta2, omega, P1, Psat, pho, rapportoD, theta);
-
+% [H_m_RP1, delta_h_RP1, psi_RP1, P_RP1, ds_RP1, ns_RP1, prod_RP1, NPSP_RP1, NPSH_RP1, sigma_RP1, phi_t_RP1, Cm_RP1, Ss_RP1, tao_RP1, Zt_RP1] = turbopump(eta_p, P01, P02, pho1, Q, m_dot, Dt2, b2, beta2, omega, P1, Psat, pho, rapportoD, theta);
+[H_m_RP1, delta_h_RP1, psi_RP1, P_RP1, ds_RP1, ns_RP1, prod_RP1] = turbopump(eta_p, P01, P02, pho1, Q, m_dot, Dt2, omega);
 U2 = omega*(Dt2/2);
 Dt1 = rapportoD * Dt2;
 R1 = Dt1/2;
@@ -276,3 +276,52 @@ text(425, -10, str2);
 
 legend('u0', 'v0', 'c0', 'u1', 'v1', 'c1', '');
 title('Triangolo di velocità INDUCER POMPA RP-1');
+
+%%
+% inducer inlet tip speed
+u0_t_ind = (pi*N)/720 * d_0t;
+
+beta0_t = atan(cm0_ind / u0_t_ind);
+beta0_t_deg = rad2deg(beta0_t);
+
+% inducer inlet tip % ipotesi
+theta0_t = 9;
+
+% angle of attack at the inlet tip
+aoa = theta0_t - beta0_t_deg;
+
+% vane angle at the inducer inlet mean effective diameter d_0
+theta0 = atan(d_0t / d0 * tan(deg2rad(theta0_t)));
+theta0_deg = rad2deg(theta0);
+
+% vane angle at the inducer inlet hub diameter d_0h
+theta0_h = atan(d_0t / d_0h * tan(deg2rad(theta0_t)));
+theta0_h_deg = rad2deg(theta0_h);
+
+% inducer inlet flow coefficient
+phi_ind = cm0_ind / u0_t_ind;
+
+% theoretical inducer suction specific speed
+NSS_ind = ((8150*(1-2*phi_ind.^2)).^(0.75))/(phi_ind) .* (1-rd.^2).^0.5;
+
+% vane angle 14.30° ipotesi
+theta1 = 14.30;
+
+% vane angle at the inducer outlet tip diameter d_1t
+theta1_t = atan(d1 / d_1t * tan(deg2rad(theta1)));
+theta1_t_deg = rad2deg(theta1_t);
+
+% vane angle at the inducer outlet hub diameter d_1h
+theta1_h = atan(d1 / d_1h * tan(deg2rad(theta1)));
+theta1_h_deg = rad2deg(theta1_h);
+
+% z = 3 vanes
+z = 3;
+% vane pitch at the mean tip diameter dt
+P_i = (pi*d_t) / z;
+
+% Chord length at vane tip
+C_i = L_ind / sin((deg2rad(theta0_t) + theta1_t)/2);
+
+% Inducer solidity
+S_v = C_i / P_i;
