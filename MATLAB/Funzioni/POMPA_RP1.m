@@ -133,19 +133,22 @@ grid minor;
 hold on;
 axis equal;
 
-pos1 = [0, 0, u0_ind_SI, 0];
-quiver2(pos1, 'red');
-pos2 = [u0_ind_SI, 0, -v0_ind_SI*cos(beta0_ind), v0_ind_SI*sin(beta0_ind)];
-quiver2(pos2, 'blue');
-pos3 = [0, 0, cu0_ind, cm0_ind_SI];
-quiver2(pos3, 'yellow');
+pos1_ind = [0, 0, u0_ind_SI, 0];
+quiver2(pos1_ind, 'red');
+pos2_ind = [u0_ind_SI, 0, -v0_ind_SI*cos(beta0_ind), v0_ind_SI*sin(beta0_ind)];
+quiver2(pos2_ind, 'blue');
+pos3_ind = [0, 0, cu0_ind, cm0_ind_SI];
+quiver2(pos3_ind, '#CC00CC');
 
-pos4 = [u0_ind_SI, 0, u1_ind_SI, 0];
-quiver2(pos4, 'red');
-pos5 = [u0_ind_SI+u1_ind_SI, 0, -v1_ind_SI*cos(beta1_ind), v1_ind_SI*sin(beta1_ind)];
-quiver2(pos5, 'blue');
-pos6 = [u0_ind_SI, 0, cu1_ind_SI, cm1_ind_SI];
-quiver2(pos6, 'yellow');
+pos4_ind = [u0_ind_SI, 0, u1_ind_SI, 0];
+quiver2(pos4_ind, 'red');
+pos5_ind = [u0_ind_SI+u1_ind_SI, 0, -v1_ind_SI*cos(beta1_ind), v1_ind_SI*sin(beta1_ind)];
+quiver2(pos5_ind, 'blue');
+pos6_ind = [u0_ind_SI, 0, cu1_ind_SI, cm1_ind_SI];
+quiver2(pos6_ind, '#CC00CC');
+
+pos7_ind = [u0_ind_SI+u1_ind_SI-v1_ind_SI*cos(beta1_ind), 0, 0, cm1_ind_SI];
+quiver2(pos7_ind, 'k');
 
 xline(u0_ind_SI, '--');
 str1 = {'INLET'};
@@ -295,14 +298,19 @@ quiver2(pos1, 'red');
 pos2 = [u1_SI, 0, -vu1_SI, vm1_SI];
 quiver2(pos2, 'blue');
 pos3 = [0, 0, u1_SI-vu1_SI, cm1_SI];
-quiver2(pos3, 'yellow');
+quiver2(pos3, '#CC00CC');
 
 pos4 = [u1_SI, 0, u2_SI, 0];
 quiver2(pos4, 'red');
 pos5 = [u1_SI+u2_SI, 0, -vu2_SI, vm2_SI];
 quiver2(pos5, 'blue');
 pos6 = [u1_SI, 0, u2_SI-vu2_SI, cm2_SI];
-quiver2(pos6, 'yellow');
+quiver2(pos6, '#CC00CC');
+
+pos7 = [u1_SI-vu1_SI, 0, 0, cm1_SI];
+quiver2(pos7, 'k');
+pos8 = [u1_SI+u2_SI-vu2_SI, 0, 0, cm2_SI];
+quiver2(pos8, 'k');
 
 xline(u1_SI, '--');
 str1 = {'INLET'};
