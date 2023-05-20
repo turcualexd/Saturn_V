@@ -4,22 +4,22 @@ clc
 
 %% DATI POMPA
 % Inducer
-P1 = 310264;
-Psat = 137895;
-pho = 808.9324;
+P1 = 310264;          % Pa
+Psat = 137895;        % Pa
+pho = 808.9324;       % kg/m^3
 rapportoD = 0.81;
 
 % Impeller
 eta_p = 0.760;
-P01 = 45;
-P02 = 1860;
-pho1 = 50.5;
-Q = 0.9617;
-m_dot = 796.5082;
-Dt2 = 0.59436;
-b2 = 0.04318;
+P01 = 45;             % psia
+P02 = 1860;           % psia
+pho1 = 50.5;          % lbm/ft^3
+Q = 0.9617;           % m^3/s
+m_dot = 796.5082;     % kg/s
+Dt2 = 0.59436;        % m
+b2 = 0.04318;         % m
 beta2 = deg2rad(25);
-omega = 574.020;
+omega = 574.020;      % rad/s
 
 U2 = omega*(Dt2/2);
 Dt1 = rapportoD * Dt2;
@@ -33,8 +33,8 @@ U1 = omega*R1;
 g = 32.2;           % ft/s
 N = 5488;           % rpm
 Q = 15250;          % gpm
-NPSH_c_RP1 = 55; 
-H = (144.*(P02 - P01) ./ pho1);
+NPSH_c_RP1 = 55;    % ft
+H = (144.*(P02 - P01) ./ pho1); % ft
 
 NS = (N*sqrt(Q)) ./ (H^0.75);
 
@@ -57,25 +57,25 @@ psi_ind = 0.06;
 u_tip_mean = sqrt((H_inducer_ft*32.2)/psi_ind);
 
 % Inducer mean tip diameter
-d_t = (720/(pi*N)) .* u_tip_mean;
+d_t = (720/(pi*N)) .* u_tip_mean; % in
 
 L_ind = d_t * 0.4;
 % tip diameter at the inducer inlet
-d_0t = d_t + 2*L_ind/2 * tan(deg2rad(7));
+d_0t = d_t + 2*L_ind/2 * tan(deg2rad(7)); % in
 % tip diameter at the inducer outlet
-d_1t = d_t - 2*L_ind/2 * tan(deg2rad(7)); 
+d_1t = d_t - 2*L_ind/2 * tan(deg2rad(7)); % in
 
 % Ipotesi
 rd = 0.3;
 
 % Mean hub diameter
-d_h = d_t * rd;
+d_h = d_t * rd; % in
 % Hub diameter at the inducer inlet
-d_0h = d_h - 2*L_ind/2 * tan(deg2rad(14));
+d_0h = d_h - 2*L_ind/2 * tan(deg2rad(14)); % in
 % Hub diameter at the inducer outlet
-d_1h = d_h + 2*L_ind/2 * tan(deg2rad(14));
+d_1h = d_h + 2*L_ind/2 * tan(deg2rad(14)); % in
 
-Q_inducer = Q * (1 + 0.032 + 0.0175);
+Q_inducer = Q * (1 + 0.032 + 0.0175); % gpm
 
 cm0_ind = Q_inducer/ (3.12 * (pi/4) * (d_0t.^2 - d_0h.^2)); % in ft/s
 cm0_ind_SI = cm0_ind / 3.281; % in m/s
@@ -85,14 +85,14 @@ cm1_ind = Q_inducer/ (3.12 * (pi/4) * (d_1t.^2 - d_1h.^2)); % in ft/s
 cm1_ind_SI = cm1_ind / 3.281; % in m/s
 
 % Inducer mean effective diameter inlet
-d0 = sqrt((d_0t.^2 + d_0h.^2) / 2);
+d0 = sqrt((d_0t.^2 + d_0h.^2) / 2); % in
 
 % Inducer peripheral velocity at d0
 u0_ind = pi*(7000/720)*d0; % in ft/sec
 u0_ind_SI = u0_ind / 3.281; % in m/s
 
 % Inducer mean effective diameter outlet
-d1 = sqrt((d_1t.^2 + d_1h.^2) / 2);
+d1 = sqrt((d_1t.^2 + d_1h.^2) / 2); % in
 
 % Inducer peripheral velocity at d1
 u1_ind = pi*(7000/720)*d1; % in ft/sec
@@ -198,10 +198,10 @@ theta1_h_deg = rad2deg(theta1_h);
 % z = 3 vanes
 z = 3;
 % vane pitch at the mean tip diameter dt
-P_i = (pi*d_t) / z;
+P_i = (pi*d_t) / z; % in
 
 % Chord length at vane tip
-C_i = L_ind / sin((deg2rad(theta0_t) + theta1_t)/2);
+C_i = L_ind / sin((deg2rad(theta0_t) + theta1_t)/2); % in
 
 % Inducer solidity
 S_v = C_i / P_i;
@@ -211,23 +211,26 @@ S_v = C_i / P_i;
 H_e = 0.30*H;
 H_imp = H - H_e;
 
-Dt2_f = Dt2/0.3048;
+Dt2_f = Dt2/0.3048; % in ft
+Dt2_inches = Dt2 * 39.3701;
 R2 = Dt2_f/2;
-Dt1_f = rapportoD * Dt2_f;
+Dt1_f = rapportoD * Dt2_f; % in ft
 R1 = Dt1_f/2;
 
 % Area normal to the radial flow at the impeller inlet
-A1 = pi*(R1.^2);
+A1 = pi*(R1.^2); % ft^2
 
 % Area normal to the radial flow at the impeller outlet
-A2 = pi*(R2.^2-R1.^2);
+A2 = pi*(R2.^2-R1.^2); % ft^2
 
 % Radial/Meridional component of the absolute inlet flow velocity
 cm1 = Q / (448.8*A1); % in ft/s
 cm1_SI = cm1 / 3.281; % in m/s
 
 % Radial/Meridional component of the absolute inlet flow velocity
-cm2 = Q / (448.8*A2); % in ft/s
+% cm2 = Q / (448.8*A2); % in ft/s attenzione al valore di A2
+% ipotesi
+cm2 = 1.5*cm1; % in ft/s
 cm2_SI = cm2 / 3.281; % in m/s
 
 % Impeller peripheral velocity at inlet
@@ -318,3 +321,66 @@ text(60, -20, str1);
 str2 = {'OUTLET'};
 text(210, -20, str2);
 title('Diagramma di velocità IMPELLER POMPA RP-1')
+
+%% 3° tratto: Pump casing
+% Design of a double-volute (spaced 180°) single-discharge-type casing
+% double-volute: configurazione creata per eliminare o ridurre il più
+% possibile la spinta radiale dovuto al flusso: si divide il flusso in 2
+% correnti uguali usando due linguette distanziate di 180°
+
+% Ipotesi
+Kv = 0.337; % design factor
+
+% Average flow velocity in the volute
+c3 = Kv * sqrt(2*g*H); % in ft/s
+c3_SI = c3 / 3.281; % in m/s
+
+% area of a volute section at a given angular location \theta_volute from the tongue
+a_thetav_const = Q / (3.12 * 360 * c3);
+
+a_volute_45 = a_thetav_const * 45; % in^2
+a_volute_90 = a_thetav_const * 90; % in^2
+a_volute_135 = a_thetav_const * 135; % in^2
+a_volute_180 = a_thetav_const * 180; % in^2
+
+thetav = [45:0.01:180];
+a_volute_theta = [];
+for i = 1:length(thetav)
+    a_v = a_thetav_const*thetav(i);
+    a_volute_theta = [a_volute_theta; a_v];
+end
+
+% area of the volute throat section
+a_v = 2*a_volute_180;
+
+% volute angle is similar to alpha_2_deg = 14.7757° for geometrical construction
+alpha_v_deg = 15;
+alpha_v = deg2rad(alpha_v_deg);
+
+% radius at which start the volute tongue
+% ipotesi: si assume un gioco del 5%
+r_t = (Dt2_inches / 2)*1.05; % in
+
+% width at the bottom of the trapezoidal volute section
+b3_SI = 1.75*b2; % in m
+b3 = b3_SI *39.37; % in
+
+% pitch diameter of the diffuser throats
+d3 = Dt2_inches*(c2/c3); % in
+
+% Ipotesi
+% transizione dalla forma del diffusore ad un cerchio: d = 6.25 inches o A = 30.68 in^2
+% taper angle di 10° e lunghezza nozzle di 10 inches
+
+% diameter of the discharge nozzle
+d_e = 6.25 + 2*10*tan(deg2rad(5));
+A_e = pi*(d_e^2)/4;
+
+% flow velocity at the nozzle inlet
+% v_nozzle_i = Q / (3.12*30.68); % in ft/s
+v_nozzle_i = c2; % assunzione
+v_nozzle_i_SI = v_nozzle_i / 3.281; % in m/s
+
+% flow velocity at the nozzle exit
+v_nozzle_e = Q / (3.12*A_e); % in ft/s
+v_nozzle_e_SI = v_nozzle_e / 3.281; % in m/s
