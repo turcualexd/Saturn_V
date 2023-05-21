@@ -112,3 +112,40 @@ La campana infine risulta essere una curva di Bézier quadratica di equazione:
 \subsection{Confronto tra ugello 10:1 e 16:1}
 \label{subsec:confronto ugello}
 
+I motori F-1 prodotti dalla Rocketdyne avevano in origine un ugello il cui rapporto di espansione era 10:1; essi infatti non furono inizialmente progettati nello specifico per lo stadio di lancio del Saturn V. Gli ingegneri decisero quindi a posteriori di aggiungere un'espansione dell'ugello iniziale allo scopo di migliorare vari parametri del lanciatore: i più rilevanti sono l'impulso specifico nel vuoto e la quota a cui è raggiungibile l'espansione ottima (adattata alla traiettoria che il lanciatore avrebbe percorso).
+
+Tale espansione non poteva essere raffreddata dal già presente regenerative cooling: si optò dunque per una soluzione che prevedesse l'utilizzo dei gas di scarico della turbina, ricchi di carbonio e quindi con bassa conducibilità termica, per il raffreddamento attraverso film cooling. Tale tipo di raffreddamento è realizzato immettendo i gas di scarico sulle pareti dell'ugello attraverso un collettore che ne abbraccia l'intera circonferenza.
+
+L'estensione dell'ugello è realizzata da due pareti in lega di nickel intervallate da bande circolari in CRES: tale costruzione saldata conferisce ottima resistenza termica alle pareti e una buona resistenza agli sforzi radiali a cui l'ugello è sottoposto.
+
+Di seguito sono confrontati i principali parametri del motore con e senza l'espansione dell'ugello, ricavati tramite il software RPA:
+
+\begin{table}[H]
+
+\centering
+\begin{tabular}{|c|c|c|c|c|c|c|}
+\hline
+& $\bm{p_e \, [bar]}$ & $\bm{T_e \, [K]}$ & $\bm{H \, [kJ/kg]}$ & $\bm{\gamma}$ & $\bm{\rho \, [kg/m^3]}$ & $\bm{v_e \, [m/s]}$ \\
+\hline
+\textbf{10:1} & $0.803$ & $1673.7$ & $-5058.1$ & $1.2439$ & $0.1304$ & $2910.6$ \\
+\hline
+\textbf{16:1} & $0.423$ & $1473.0$ & $-5429.9$ & $1.2521$ & $0.0781$ & $3035.6$ \\
+\hline
+\end{tabular}
+
+\vspace{5pt}
+
+\begin{tabular}{|c|c|c|c|c|c|c|}
+\hline
+& $\bm{I_{vac} \, [s]}$ & $\bm{I_{opt} \, [s]}$ & $\bm{I_{sl} \, [s]}$ & $\bm{T_{vac} \, [kN]}$ & $\bm{T_{opt} \, [kN]}$ & $\bm{T_{sl} \, [kN]}$ \\
+\hline
+\textbf{10:1} & $297.36$ & $276.44$ & $270.95$ & $7816.3$ & $7266.3$ & $7122.2$ \\
+\hline
+\textbf{16:1} & $306.25$ & $288.59$ & $263.99$ & $8050.0$ & $7585.9$ & $6939.3$ \\
+\hline
+\end{tabular}
+
+\caption{Confronto tra ugello 10:1 e 16:1}
+\label{table:confronto_ugello}
+
+\end{table}
