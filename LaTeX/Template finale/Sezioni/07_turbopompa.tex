@@ -1,8 +1,53 @@
 \section{Turbopompa}
 \label{sec:turbopompa}
 
-\subsection{Pompa}
-....
+\subsection{Descrizione generica Mark 10}
+Il gruppo turbopompa Mark 10 è montato parallelamente alla mezzeria longitudinale della camera di spinta ed è sostenuto principalmente da due gruppi stabilizzatori a tre gambe saldati al corpo della camera e dai quattro condotti del propellente ad alta pressione installati tra la turbopompa e la camera di spinta. 
+Il gruppo è composto da due pompe centrifughe montate schiena contro schiena (back-to-back) su un albero comune e azionate direttamente da una turbina a gas ad impulso.
+L'albero principale e i componenti rotanti sono collegati direttamente all'albero e sono bilanciati dinamicamente.
+L'albero è supportato da due gruppi di cuscinetti a sfere riscaldati elettricamente e raffreddati a carburante nell'area della pompa del LOX (per mantere l'ossigeno in fase liquid)e da un gruppo di cuscinetti a rulli raffreddati a carburante nell'area della turbina, mentre per isolare i propellenti, il fluido di raffreddamento e i gas caldi sono presenti un insieme di guarnizioni in carbonio, plastica (Kel-F, Teflon) e gomma sintetica (Buna-N, Viton-A).
+\subsubsection{Pompe LOX e RP1}
+Entrambe le pompe del sistema Mark 10 sono di tipo centrifugo. Questo tipologia di pompa permette di avere un salto di pressione $\Delta P$ maggiore per singolo stadio rispetto alle pompe assiali, a discapito di un calo di efficienza. Questo trade-off permette di risparmiare in termini di peso e ingombro, a patto di contenere il decremento di efficienza con opportune scelte progettuali. Per pompe con fluido di lavoro a densità simile, come RP-1 e LOX, e simili pressione di scarico, si può mantenere la velocità angolare costante. 
+
+%Un primo obiettivo nella progettazione della pompa è quello di %massimizzare la velocità operativa. In questo modo vengono %ridotte le dimensioni della stessa e di conseguenza il peso. Il %limite massimo giri al minuto non deve superare un limite %massimo per evitare cavitazione e sforzi centrifughi. 
+\subsubsection{Design e progettazione}
+Nei seguenti paragrafi verrà considerato il funzionamento a regime, per poter semplificare il processo di design preliminare.
+
+Il criterio principale da richiedere alla pompa è quello di avere una certa prevalenza, ovvero fornire un certo salto di pressione che viene calcolato in base ai requisiti di pressione  in camera e sommando le perdite lungo i collegamenti. Tale grandezza viene definita in termini di lunghezza o head-rise $H$ definito in questo modo
+%\begin{empheq}{equation*}
+%H = \frac{\Delta h_s}{g} = \int_{P_1}^{P_2} \frac{dp}{\rho g}
+%\end{empheq}
+%Dove $\Delta h_s$ è il salto entalpico del fluido che attraversa la pompa. La pompa deve anche fornire una certa portata richiesta, principalmente viene dettata dai requisiti in camera di combustione e gas generator, più eventuali perdite stimate. 
+%A questi due requisiti sono solitamente associate due grandezze specifiche molto importanti in fase di progetto che sono $\psi$ ovvero l'head coefficient e $\phi$ il flow coefficient. Definiti in questo modo
+%\begin{empheq}{gather}
+%\phi = \frac{c_{m2}}{u_2}  \qquad \psi = \frac{\Delta H %g}{u_2 ^2 }
+%\end{empheq}
+%Dove $u_2$ è la velocità a diametro medio e velocità angolare di design, della paletta dell'impeller. Mentre $c_{m2}$ è la velocità merdionale, ovvero la componente della velocità assoluta che appartiene a piano radiale e assiale. 
+%Un'altra grandezza specifica importante in fase di progetto è la velocità specifica $N_s$, definita in condizioni di design ovvero al numero di giri al minuto $N$ prestabiliti in condizioni stazionarie 
+%\begin{empheq}{equation*}
+%N_s = \frac{N\sqrt{Q}}{\Delta H^{0.75}}
+%\end{empheq}
+%Tale parametro permette di capire la tipologia di pompa su cui ci si deve concentrare per poter progettarla al meglio. Esso dipende da pochi fattori e come primo calcolo ci permette di capire quale impeller scegliere. Solitamente sono conosciuti i valori di portata e salto di pressioni richiesti, viene ipotizzato un numero di giri al minuto. 
+%Durante il processo di design della pompa si deve considerare l'effetto della cavitazione presente all'inlet. Esso viene provocato per via di una depressione che si crea in ingresso alla pompa e deve essere agevolmente gestito per evitare danni catastrofici.  Per caratterizzare la condizione di cavitazione bisogna introdurre una nuova grandezza, detta NPSH (Net Positive Suction Head). In particolare:
+%\begin{empheq}{equation*}
+%\left(NPSH\right)_a = \frac{Pt - \Delta P}{\rho} - %P_{vap}
+%\end{empheq}
+%Tale grandezza indica la pressione in ingresso alla pompa. In fase di progettazione si utilizza il parametro $\left( NPSH \right)_c$ come pressione critica all'ingresso per non avere cavitazione. Si deve verificare che $\left( NPSH \right)_a > \left( NPSH \right)_c $.
+%Per comparare le caratteristiche di aspirazione tra vari design di pompa centrifuga si utilizza un parametro simile alla velocità specifica, chiamato suction specific velocity $N_{ss}$ definito in questo modo.
+%\begin{empheq}{equation*}
+%N_{ss} = \frac{N\sqrt{Q}}{\left( NPSH \right)_c^{0.75}}
+%\end{empheq}
+%Alti valore di $N_{ss}$ (oltre i 50000) indicano la presenza di un inducer, a monte dell'impeller. Migliorando di fatto la prestazione della pompa. Si preferiscono valori alti di tale parametro perchè in tal modo si può aumentare il range di velocita rotazionali ammissibili dalla pompa senza incorrere in cavitazione, inoltre maggiorè è la velocità, minore sarà il peso totale della pompa. 
+
+\paragraph{Impeller}
+
+Il primo componente preso in considerazione è la girante, o impeller, che essenzialmente è costituita da un disco rotante e da un numero predefinito di palette con un certo angolo di ingresso e uscita. In particolare, il flusso entra quasi assialmente e viene indotta una componente rotazionale e un certo angolo di uscita dettato dalla paletta. Il fluido viene messo in rotazione e uscendo dalla girante, viene sottoposto a forze centrifughe di intensità crescente. Tale processo aumenta la velocità e la pressione statica (aumenta quindi la pressione totale del fluido). Per  questo tipo di componente risultano di interesse i diagrammi di velocità, in particolare i valori di velocità risultano utili nel calcolo della head-rise sviluppato da tale componente. Gli angoli relativi $\beta_i$ invece sono direttamente correlati alla geometria della palettatura. Con i dati ricavati da vari manuali, si sono ricavati i triangoli di velocità di entrambe le pompe all'inlet e outlet. 
+
+%qui metterei i triangoli di velocità ricavati e farei una verifica sul HEAD richiesto e l'head che risulta dai nostri grafici
+
+\paragraph{Inducer}
+
+
 \subsection{Turbina}
 \subsubsection{Descrizione turbina}
 \rfig{turbina_general}{Turbina ad impulso VC dell'F-1}{turbina_general}{0.45}
