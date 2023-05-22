@@ -19,6 +19,36 @@ Sono inoltre presenti due alloggiamenti per gli ignitori del combustibile in cia
 
 Come detto precedentemente, è fondamentale ottenere una combustione stabile per non incorrere in danni alla camera di combustione: la stabilità è raggiunta principalmente mediante l’uso dei deflettori (baffles), oltre che variando l’angolo di impingement e il diametro degli orifizi in funzione della posizione sul piatto d’iniezione.
 
-I deflettori in particolare alterano le caratteristiche acustiche di risonanza della camera di combustione, smorzando così le onde d’urto generate dalla combustione. I 12 deflettori radiali in rame sono alimentati dal deflettore circolare esterno. La configurazione dei deflettori utilizzata per il propulsore è stata ottenuta a seguito di vari test, nel quale si è ricercata la maggior stabilità di combustione possibile. Nella configurazione finale, i deflettori misurano circa 8 cm ciascuno e sono tutti dump-cooled, ovvero il raffreddamento è realizzato attraverso la circolazione di carburante all’interno del deflettore che viene successivamente scaricato nella camera di combustione.
+I deflettori in particolare alterano le caratteristiche acustiche di risonanza della camera di combustione, smorzando così le onde d’urto generate dalla combustione. I 12 deflettori radiali in rame sono alimentati dal deflettore circolare esterno. La configurazione dei deflettori utilizzata per il propulsore è stata ottenuta a seguito di vari test, nel quale si è ricercata la maggior stabilità di combustione possibile. Nella configurazione finale, i deflettori misurano circa 8 cm ciascuno e sono tutti dump-cooled, ovvero il raffreddamento è realizzato attraverso la circolazione di carburante all’interno del deflettore che viene successivamente scaricato nella camera di combustione. \cite{f-1_manual} \cite{JPP}
 
-% DA FARE LA PARTE DELLE FORMULE!!!
+\begin{table}[H]
+
+\centering
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline
+& $\bm{\dot{m} \, [kg/s]}$ & $\bm{A \, [m^2]}$ & $\bm{\Delta p \, [bar]}$ & $\bm{\rho \, [kg/m^3]}$ & $\bm{v \, [m/s]}$ \\
+\hline
+$\bm{fuel}$ & $742.09$ & $0.05484$ & $641$ & $810$ & $17.07$ \\
+\hline
+$\bm{oxidizer}$ & $1788.97$ & $0.03968$ & $2100$ & $1141$ & $40.54$ \\
+\hline
+\end{tabular}
+
+\caption{Dati reali del piatto d'iniezione \cite{f-1_manual} \cite{JPP}}
+\label{table:piatto iniezione}
+
+\end{table}
+
+A partire dai dati in \autoref{table:piatto iniezione}, è possibile inoltre stimare la velocità media teorica dei due propellenti all'uscita dai rispettivi iniettori:
+
+\begin{empheq}{gather*}
+	C_{D,f} = \frac{\dot{m}_{f}}{A_{f} \sqrt{2 \, \Delta p_{f} \, \rho_{f}}} = 13.28
+	\qquad
+	C_{D,ox} = \frac{\dot{m}_{ox}}{A_{ox} \sqrt{2 \, \Delta p_{ox} \, \rho_{ox}}} = 20.59
+	\\
+	v_{f} = C_{D,f} \sqrt{\frac{2 \, \Delta p_{f}}{\rho_{f}}} = 16.71 \, \text{m/s}
+	\qquad
+	v_{ox} = C_{D,ox} \sqrt{\frac{2 \, \Delta p_{ox}}{\rho_{ox}}} = 39.51 \, \text{m/s}
+\end{empheq}
+
+Tali risultati sono paragonabili alle velocità reali: la $v_{f}$ si discosta del 2.11\% dal valore reale, mentre la $v_{ox}$ si discosta del 2.54\%.

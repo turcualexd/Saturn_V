@@ -18,7 +18,6 @@ x = [];
 y = [];
 
 theta_i = [deg2rad(-135):0.01:deg2rad(-90)];
-
 for i = 1:length(theta_i)
     x_i = 1.5*Rt*cos(theta_i(i));
     y_i = 1.5*Rt*sin(theta_i(i)) + 1.5*Rt + Rt;

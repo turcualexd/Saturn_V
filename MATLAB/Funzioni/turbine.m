@@ -79,7 +79,6 @@ grid minor
 plot(linspace(-0.5, 1.5, 100), C_1_vec(2)*ones(100,1), ':r', 'LineWidth',1);
 
 
-
 % V_2 = eta_vel * V_1;
 % V_3 = eta_vel * V_2;
 % V_4 = eta_vel * V_3;

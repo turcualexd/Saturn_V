@@ -32,6 +32,8 @@
 \usepackage{amsthm}
 \usepackage{bm}
 \usepackage[overload]{empheq}  % For braced-style systems of equations
+\usepackage{matlab-prettifier}
+\usepackage{gensymb}
 
 % PACKAGES FOR TABLES
 \usepackage{tabularx}
@@ -123,6 +125,7 @@
 
 \newcommand{\rfig}[4]{
 \begin{wrapfigure}{r}{#4\linewidth}
+	\centering
 	\includegraphics[width=\linewidth]{#1}
 	\caption{#2}
 	\label{fig:#3}
@@ -131,6 +134,7 @@
 
 \newcommand{\lfig}[4]{
 \begin{wrapfigure}{l}{#4\linewidth}
+	\centering
 	\includegraphics[width=\linewidth]{#1}
 	\caption{#2}
 	\label{fig:#3}
@@ -200,27 +204,28 @@
 
 %-----------------------------------------------------------------------------
 
-\input{Sezioni/03_analisi_propellenti}
+\input{Sezioni/03_propellenti}
 
 %-----------------------------------------------------------------------------
 
 \input{Sezioni/04_dimensionamento_tank}
-\clearpage
+
 %-----------------------------------------------------------------------------
 
 \input{Sezioni/05_schema_termodinamico}
-\clearpage
+
 %-----------------------------------------------------------------------------
 
 \input{Sezioni/06_gas_generator}
 
 %-----------------------------------------------------------------------------
 
-\input{Sezioni/07_turbopompa}
 \clearpage
+\input{Sezioni/07_turbopompa}
 
 %-----------------------------------------------------------------------------
 
+\clearpage
 \input{Sezioni/08_piatto_iniezione}
 
 %-----------------------------------------------------------------------------
@@ -228,15 +233,11 @@
 \input{Sezioni/09_camera_spinta}
 
 %-----------------------------------------------------------------------------
-
-\input{Sezioni/10_ugello}
-
-%-----------------------------------------------------------------------------
 % APPENDICE
 %-----------------------------------------------------------------------------
 
 \clearpage
-\input{Sezioni/11_appendice}
+\input{Sezioni/10_appendice}
 
 %-----------------------------------------------------------------------------
 % BIBLIOGRAFIA
