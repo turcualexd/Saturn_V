@@ -134,18 +134,18 @@ hold on;
 axis equal;
 
 pos1_ind = [0, 0, u0_ind_SI, 0];
-quiver2(pos1_ind, 'red');
+quiver2(pos1_ind, 'blue');
 pos2_ind = [u0_ind_SI, 0, -v0_ind_SI*cos(beta0_ind), v0_ind_SI*sin(beta0_ind)];
 quiver2(pos2_ind, 'blue');
 pos3_ind = [0, 0, cu0_ind, cm0_ind_SI];
-quiver2(pos3_ind, '#CC00CC');
+quiver2(pos3_ind, '#00FFFF');
 
 pos4_ind = [u0_ind_SI, 0, u1_ind_SI, 0];
-quiver2(pos4_ind, 'red');
+quiver2(pos4_ind, 'blue');
 pos5_ind = [u0_ind_SI+u1_ind_SI, 0, -v1_ind_SI*cos(beta1_ind), v1_ind_SI*sin(beta1_ind)];
 quiver2(pos5_ind, 'blue');
 pos6_ind = [u0_ind_SI, 0, cu1_ind_SI, cm1_ind_SI];
-quiver2(pos6_ind, '#CC00CC');
+quiver2(pos6_ind, '#00FFFF');
 
 pos7_ind = [u0_ind_SI+u1_ind_SI-v1_ind_SI*cos(beta1_ind), 0, 0, cm1_ind_SI];
 quiver2(pos7_ind, 'k');
@@ -297,18 +297,18 @@ hold on;
 axis equal;
 
 pos1 = [0, 0, u1_SI, 0];
-quiver2(pos1, 'red');
+quiver2(pos1, 'blue');
 pos2 = [u1_SI, 0, -vu1_SI, vm1_SI];
 quiver2(pos2, 'blue');
 pos3 = [0, 0, u1_SI-vu1_SI, cm1_SI];
-quiver2(pos3, '#CC00CC');
+quiver2(pos3, '#00FFFF');
 
 pos4 = [u1_SI, 0, u2_SI, 0];
-quiver2(pos4, 'red');
+quiver2(pos4, 'blue');
 pos5 = [u1_SI+u2_SI, 0, -vu2_SI, vm2_SI];
 quiver2(pos5, 'blue');
 pos6 = [u1_SI, 0, u2_SI-vu2_SI, cm2_SI];
-quiver2(pos6, '#CC00CC');
+quiver2(pos6, '#00FFFF');
 
 pos7 = [u1_SI-vu1_SI, 0, 0, cm1_SI];
 quiver2(pos7, 'k');
@@ -369,11 +369,15 @@ b3 = b3_SI *39.37; % in
 d3 = Dt2_inches*(c2/c3); % in
 
 % Ipotesi
-% transizione dalla forma del diffusore ad un cerchio: d = 6.25 inches o A = 30.68 in^2
+% transizione dalla forma del diffusore ad un cerchio: d_transition
 % taper angle di 10° e lunghezza nozzle di 10 inches
 
+% da costruzione grafica
+a_transition = a_v + b3; %in^2 !!!
+d_transition = sqrt((4*a_transition) / pi);
+
 % diameter of the discharge nozzle
-d_e = 6.25 + 2*10*tan(deg2rad(5));
+d_e = d_transition + 2*10*tan(deg2rad(5));
 A_e = pi*(d_e^2)/4;
 
 % flow velocity at the nozzle inlet
