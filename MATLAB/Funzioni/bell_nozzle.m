@@ -27,7 +27,7 @@ for i = 1:length(theta_i)
 end
 
 % Exit section
-theta_exit = [deg2rad(-90):0.01:deg2rad(33-90)];
+theta_exit = [deg2rad(-90):0.01:deg2rad(theta_n-90)];
 for i = 1:length(theta_exit)
     x_i = 0.382*Rt*cos(theta_exit(i));
     y_i = 0.382*Rt*sin(theta_exit(i)) + 0.382*Rt + Rt;
