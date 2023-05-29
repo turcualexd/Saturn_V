@@ -7,7 +7,7 @@
 \contentsline {section}{\numberline {3}Propellenti}{2}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Coppia di propellenti: RP-1 / LOX}{2}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}Propellente ipergolico}{3}{subsection.3.2}%
-\contentsline {section}{\numberline {4}Dimensionamento dei tank}{3}{section.4}%
+\contentsline {section}{\numberline {4}Serbatoi e pressurizzazione}{3}{section.4}%
 \contentsline {section}{\numberline {5}Schema termodinamico}{3}{section.5}%
 \contentsline {section}{\numberline {6}Gas generator}{4}{section.6}%
 \contentsline {section}{\numberline {7}Turbopompa}{7}{section.7}%
