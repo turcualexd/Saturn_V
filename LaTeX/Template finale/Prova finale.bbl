@@ -1,0 +1,34 @@
+\begin{thebibliography}{1}
+
+\bibitem{nozzle_design}
+National Aeronautics and Space Administration.
+\newblock {\em {Liquid Rocket Engine Nozzles}}, 7 1976.
+
+\bibitem{flight_manual}
+Georce C. Marshall Space~Flight Center.
+\newblock {\em {Saturn V Flight Manual SA-507}}.
+\newblock National Aeronautics and Space Administration, 10 1969.
+
+\bibitem{launch_report}
+Georce C. Marshall Space~Flight Center.
+\newblock \textit{Saturn V Launch Vehicle Flight Evaluation Report - AS-506
+  Apollo 11 Mission}.
+\newblock Technical report, 9 1969.
+
+\bibitem{f-1_manual}
+{Configuration accounting, logistics engineering and training}.
+\newblock {\em {R-3896-1 - F-1 Engine Familiarization Training Manual}}.
+\newblock Rocketdyne, 7 1971.
+
+\bibitem{JPP}
+{Joseph C. Oefelein, Vigor Yang}.
+\newblock {Comprehensive Review of Liquid-Propellant Combustion Instabilities
+  in F-l Engines}.
+\newblock {\em Journal of Propulsion and Power}, 9(5):657--677, 10 1993.
+
+\bibitem{engine_manual}
+Rocketdyne.
+\newblock {\em {R-3896-1 - Technical Manual - Engine Data F-1 Rocket Engine}}.
+\newblock National Aeronautics and Space Administration \& Rocketdyne, 3 1967.
+
+\end{thebibliography}

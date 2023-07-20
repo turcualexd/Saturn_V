@@ -1,0 +1,153 @@
+\section{Camera di spinta}
+\label{sec:camera spinta}
+
+\subsection{Descrizione del sistema}
+\label{subsec:descrizione camera spinta}
+
+L’intero gruppo della camera di spinta è costituito dal LOX dome, dal piatto di iniezione e dal corpo della camera di spinta.
+
+In questa sezione verrà analizzato dettagliatamente il corpo della camera di spinta: esso è composto da una camera di combustione per bruciare propellenti seguita da un ugello di espansione a forma di campana, necessario ad espellere a velocità elevata i gas prodotti dai propellenti bruciati e poter così generare la spinta.
+
+La camera di spinta è di circa 3.35 metri di lunghezza e 2.74 metri di diametro all'estremità inferiore dell'ugello. Il suo corpo è formato da tubi fino al piano in cui il rapporto di espansione diventa pari a 10:1; in questi scorre il 70\% del carburante, fornendo un raffreddamento rigenerativo ed evitando che il materiale del tubo si sciolga durante il funzionamento del motore.
+
+I tubi che compongono la camera di spinta sono costruiti in Inconel X-750, una lega a base di nichel resistente alle alte temperature e trattabile termicamente, e sono rinforzati strutturalmente da una serie di fasce attorno all'ugello.
+
+Il corpo sopra il piano corrispondente a rapporto di espansione 3:1 (circa 76.2 cm sotto il piano di gola) è costituito da 178 tubi primari con diametro esterno di 2.78 cm, mentre dal piano con rapporto di espansione 3:1 al piano a 10:1 si biforcano diventando 356 tubi secondari con diametro esterno di 2.54 cm.
+
+Questa biforcazione è dovuta principalmente alla geometria dell'ugello e alle proprietà fisiche del materiale usato. La circonferenza di un ugello è minima in corrispondenza della gola mentre aumenta nella sezione di espansione: l'entità dell'aumento di circonferenza ottenibile con un numero fisso di tubi è quindi limitata da quanto questi ultimi possano essere lavorati per rastremazione. Quando si raggiunge il punto in cui la circonferenza non può essere ulteriormente aumentata con il numero prefissato di tubi si rende quindi necessario un giunto di biforcazione.
+
+L’Inconel X-750 è stato scelto come materiale poiché forniva gli elevati rapporti forza-peso necessari per resistere ai requisiti di spinta del motore; inoltre, l'elevata resistenza di questa lega ha consentito la progettazione di tubi con sezioni di parete più sottili, con conseguente diminuzione del peso. Il design più sottile per i tubi fornisce anche un adeguato raffreddamento della camera di spinta, con circa due terzi del flusso totale di carburante che transita attraverso i tubi. Esso finisce poi in un collettore posizionato all'estremità inferiore della camera, da cui viene poi drenato da 4 porte di drenaggio posizionate a 90 gradi l'una dall'altra.
+
+I gas di scarico della turbina, dopo essere passati attraverso lo scambiatore di calore, vengono convogliati al collettore di scarico della turbina, la cui funzione è quella di raccogliere e distribuire uniformemente il gas di scarico tra le pareti dell’estensione dell'ugello, che altrimenti non sarebbe raffreddato.
+
+Le piastre divisorie all'ingresso e le alette di flusso nell'area di uscita contribuiscono alla distribuzione uniforme dei gas di scarico nell'estensione dell'ugello. Il collettore di scarico è saldato ad uno scudo ignifugo nella parete esterna della camera di spinta.
+
+\subsection{Modellazione dell'ugello}
+\label{subsec:modellazione ugello}
+
+L’obiettivo principale che si persegue nella progettazione dell’ugello di un endoreattore è quello di ottenere una forma che minimizzi le perdite di spinta per un qualsiasi rapporto di espansione richiesto.
+
+Si procede quindi ad illustrare il metodo ideato da Rao per una progettazione ottimale rispetto ad un ugello di forma tronco-conica, con lo stesso rapporto di espansione, preso da riferimento:
+
+\begin{empheq}{equation*}
+L_{con} = \frac{\left( \sqrt{\epsilon} - 1 \right) - R_t}{\tan {15\degree}}
+\end{empheq}
+\vspace{5pt}
+
+dove $ R_t $ indica il raggio di gola dell’ugello e 15° è l’angolo standard di semi-apertura dell’ugello.
+
+\vspace{5mm}
+
+\rfig{ugello_TOP}{Definizioni geometriche}{ugello_TOP}{0.5}
+
+La forma a campana ottimale può essere approssimata da una parabola inclinata grazie a considerazioni geometriche, permettendo anche di abbozzare velocemente una forma dell’ugello che contempla una perdita di prestazioni trascurabile a livello di spinta. Proprio per questo motivo, questa tipologia è anche chiamata ugello TOP (Thrust Optimized Parabolic) ed ha effettivamente trovato applicazione pratica nei vettori di lancio perché ha performance migliori quando sovra-espande a livello del mare (le pareti dell’ugello TOP aiutano a ritardare la separazione del flusso grazie ad un’elevata contropressione) rispetto ad un ugello ottimizzato perfettamente a campana. Inoltre, la forma dell’ugello varia in modo minimale in base ai propellenti usati e perciò una stessa famiglia di ugelli TOP può essere adattata per qualsiasi combinazione di ossidante e combustibile.
+
+I parametri di partenza sono: il rapporto di espansione $ \epsilon $, il raggio di gola $ R_t $ e la percentuale di campana $ \%_{bell} $ che si vuole ottenere; quest’ultimo valore deve essere compreso tra il valore massimo di 85\%, a cui si raggiunge un livello di efficienza dell’ugello del 99\% e che può essere aumentato solo di un ulteriore 0.2\% con una percentuale di campana 100\%, e il valore minimo del 70\%, a cui si comincia ad ottenere un notevole degrado di prestazioni. Si ricavano quindi a cascata:
+
+\vspace{5pt}
+\begin{empheq}{alignat*=2}
+& R_e = \sqrt{\epsilon} \, R_t		&\qquad		& \text{raggio della sezione d’efflusso}
+\\
+& L_{ugello} = \%_{bell} \frac{\left( \sqrt{\epsilon} - 1 \right) - R_t}{\tan {15\degree}}
+&\qquad		& \text{lunghezza dell’ugello}
+\end{empheq}
+\vspace{5pt}
+
+Si ricavano poi gli angoli $ \theta_n $, riferito al punto di inflessione N, e $ \theta_e $, riferito alla sezione d’uscita, per interpolazione grafica da curve analitiche ottenute sperimentalmente per determinati valori di $ \%_{bell} $ (grafico in \autoref{fig:angoli_bell}).
+
+La prima parte di modellazione vera e propria consiste nella costruzione della gola dell’ugello secondo una geometria ottimale usata da Rao (ai tempi ingegnere alla Rocketdyne) e basata sull’intersezione di due archi di circonferenza definiti come segue:
+
+\begin{empheq}{equation*}
+x = 1.5 \, R_t \cos \theta	\qquad	y = R_t \left( 1.5 \, \sin \theta + 1.5 + 1 \right)
+\end{empheq}
+
+per la sezione di entrata, con $ -103\degree < \theta < -90\degree $ (l’angolo iniziale di -103° è scelto dal progettatore della camera di combustione \cite{nozzle_design} ma può anche essere fissato ad un valore differente);
+\vspace{5pt}
+
+\begin{empheq}{equation*}
+x = 0.382 \, R_t \cos \theta	\qquad	y = R_t \left( 0.382 \, \sin \theta + 0.382 + 1 \right)
+\end{empheq}
+
+per la sezione di uscita, con $ -90\degree < \theta < \theta_n - 90\degree $.
+\vspace{5mm}
+
+Per la costruzione della campana è invece necessario definire prima tre punti geometrici:
+
+\begin{itemize}[wide,itemsep=8pt,topsep=8pt]
+
+\item
+punto di inflessione N: $ \quad \text{N} = \begin{bmatrix} N_x \\ N_y \end{bmatrix} = \begin{bmatrix}
+0.382 \, R_t \cos \left( \theta_n - 90\degree \right) \\
+R_t \left[ 0.382 \, \sin \left( \theta_n - 90\degree \right) + 0.382 + 1 \right]
+\end{bmatrix} $
+\item
+punto tangente alla sezione d'efflusso E: $ \quad \text{E} = \begin{bmatrix} E_x \\ E_y \end{bmatrix} = \begin{bmatrix} R_e \\ L_{ugello} \end{bmatrix} $
+\item
+punto Q di intersezione delle rette passanti da N con inclinazione $ \theta_n $ e da E con inclinazione $ \theta_n $:
+
+\begin{empheq}{alignat*=2}
+&\overrightarrow{NQ} = m_1 x + C_1 \; \text{con} \; m_1 = \tan \theta_n \; \text{e} \; C_1 = N_y - m_1 N_x
+&\qquad
+& Q_x = \frac{C_2 - C_1}{m_1 - m_2}
+\\
+&\overrightarrow{QE} = m_2 x + C_2 \; \text{con} \; m_2 = \tan \theta_e \; \text{e} \; C_2 = E_y - m_2 E_x
+&\qquad
+& Q_y = \frac{m_1 C_2 - m_2 C_1}{m_1 - m_2}
+\end{empheq}
+
+\end{itemize}
+\vspace{5pt}
+
+La campana infine risulta essere una curva di Bézier quadratica di equazione:
+
+\begin{empheq}{alignat*=2}
+& x(t) = \left( 1 - t \right)^2 N_x + 2 \left( 1 - t \right) t \, Q_x + t^2 E_x &\qquad
+& 0 \le t \le 1 \\
+& y(t) = \left( 1 - t \right)^2 N_y + 2 \left( 1 - t \right) t \, Q_y + t^2 E_y &\qquad
+& 0 \le t \le 1
+\end{empheq}
+
+\vspace{5pt}
+
+\subsection{Confronto tra ugello 10:1 e 16:1}
+\label{subsec:confronto ugello}
+
+I motori F-1 prodotti dalla Rocketdyne avevano in origine un ugello il cui rapporto di espansione era 10:1; essi infatti non furono inizialmente progettati nello specifico per lo stadio di lancio del Saturn V. Gli ingegneri decisero quindi a posteriori di aggiungere un'espansione dell'ugello iniziale allo scopo di migliorare vari parametri del lanciatore: i più rilevanti sono l'impulso specifico nel vuoto e la quota a cui è raggiungibile l'espansione ottima (adattata alla traiettoria che il lanciatore avrebbe percorso).
+
+Tale espansione non poteva essere raffreddata dal già presente regenerative cooling: si optò dunque per una soluzione che prevedesse l'utilizzo dei gas di scarico della turbina, ricchi di carbonio e quindi con bassa conducibilità termica, per il raffreddamento attraverso film cooling. Tale tipo di raffreddamento è realizzato immettendo i gas di scarico sulle pareti dell'ugello attraverso un collettore che ne abbraccia l'intera circonferenza.
+
+L'estensione dell'ugello è realizzata da due pareti in lega di nickel intervallate da bande circolari in CRES: tale costruzione saldata conferisce ottima resistenza termica alle pareti e una buona resistenza agli sforzi radiali a cui l'ugello è sottoposto.
+
+Di seguito sono confrontati i principali parametri del motore con e senza l'espansione dell'ugello, ricavati tramite il software RPA:
+
+\begin{table}[H]
+
+\centering
+\begin{tabular}{|c|c|c|c|c|c|c|}
+\hline
+& $\bm{p_e \, [bar]}$ & $\bm{T_e \, [K]}$ & $\bm{H \, [kJ/kg]}$ & $\bm{\gamma}$ & $\bm{\rho \, [kg/m^3]}$ & $\bm{v_e \, [m/s]}$ \\
+\hline
+\textbf{10:1} & $0.803$ & $1673.7$ & $-5058.1$ & $1.2439$ & $0.1304$ & $2910.6$ \\
+\hline
+\textbf{16:1} & $0.423$ & $1473.0$ & $-5429.9$ & $1.2521$ & $0.0781$ & $3035.6$ \\
+\hline
+\end{tabular}
+
+\vspace{5pt}
+
+\begin{tabular}{|c|c|c|c|c|c|c|}
+\hline
+& $\bm{I_{vac} \, [s]}$ & $\bm{I_{opt} \, [s]}$ & $\bm{I_{sl} \, [s]}$ & $\bm{T_{vac} \, [kN]}$ & $\bm{T_{opt} \, [kN]}$ & $\bm{T_{sl} \, [kN]}$ \\
+\hline
+\textbf{10:1} & $297.36$ & $276.44$ & $270.95$ & $7816.3$ & $7266.3$ & $7122.2$ \\
+\hline
+\textbf{16:1} & $306.25$ & $288.59$ & $263.99$ & $8050.0$ & $7585.9$ & $6939.3$ \\
+\hline
+\end{tabular}
+
+\caption{Confronto tra ugello 10:1 e 16:1}
+\label{table:confronto_ugello}
+
+\end{table}
+
+Si può notare un miglioramento nella spinta e nell'impulso specifico in corrispondenza dell'espansione ottima e dell'espansione nel vuoto, mentre si ha un calo di prestazione a livello del mare: ciò è dovuto al fatto che l'ugello sovraespande in maniera più marcata a pressione standard, poiché il punto di espansione ottima viene spostato a pressioni inferiori. Ciò non risulta essere un problema in quanto la spinta rimane sufficiente al lancio, mentre i benefici ottenuti alle quote di missione sono rilevanti.
