@@ -1,0 +1,252 @@
+\documentclass[11pt,a4paper]{article}
+
+%------------------------------------------------------------------------------
+%	REQUIRED PACKAGES AND  CONFIGURATIONS
+%------------------------------------------------------------------------------
+
+% PACKAGES FOR TITLES
+\usepackage{titlesec}
+\usepackage{color}
+
+% PACKAGES FOR LANGUAGE AND FONT
+\usepackage[utf8]{inputenc}
+\usepackage[italian]{babel}
+\usepackage[T1]{fontenc} % Font encoding
+\usepackage{kpfonts}
+\tolerance=1
+\emergencystretch=\maxdimen
+\hyphenpenalty=10000
+\hbadness=10000
+
+% PACKAGES FOR IMAGES
+\usepackage{graphicx}
+\graphicspath{{Images/}} % Path for images' folder
+\usepackage{eso-pic} % For the background picture on the title page
+\usepackage{subfig} % Numbered and caption subfigures using \subfloat
+\usepackage{caption} % Coloured captions
+\usepackage{transparent}
+\usepackage{wrapfig}
+
+% STANDARD MATH PACKAGES
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{bm}
+\usepackage[overload]{empheq}  % For braced-style systems of equations
+
+% PACKAGES FOR TABLES
+\usepackage{tabularx}
+\usepackage{longtable} % tables that can span several pages
+\usepackage{colortbl}
+
+% PACKAGES FOR ALGORITHMS (PSEUDO-CODE)
+\usepackage{algorithm}
+\usepackage{algorithmic}
+
+% PACKAGES FOR REFERENCES & BIBLIOGRAPHY
+\usepackage{hyperref} % Adds clickable links at references
+\hypersetup{
+	colorlinks=true,
+	linkcolor=bluePoli,
+	anchorcolor=black,
+	citecolor=bluePoli,
+	filecolor=black,
+	menucolor=black,
+	runcolor=black,
+	urlcolor=black,
+}
+\usepackage{cleveref}
+\usepackage[square, numbers, sort&compress]{natbib} % Square brackets, citing references with numbers, citations sorted by appearance in the text and compressed
+\bibliographystyle{plain} % You may use a different style adapted to your field
+\usepackage{tocbibind}
+
+% PACKAGES FOR THE APPENDIX
+\usepackage[page]{appendix}
+\renewcommand{\appendixpagename}{\Large\color{bluePoli}Appendice}
+
+% PACKAGES FOR ITEMIZE & ENUMERATES 
+\usepackage{enumitem}
+
+% OTHER PACKAGES
+\usepackage{amsthm,thmtools,xcolor} % Coloured "Theorem"
+\usepackage{comment} % Comment part of code
+\usepackage{fancyhdr} % Fancy headers and footers
+\usepackage{lipsum} % Insert dummy text
+\usepackage{tcolorbox} % Create coloured boxes (e.g. the one for the key-words)
+\usepackage{stfloats} % Correct position of the tables
+\usepackage{cuted}
+
+%-------------------------------------------------------------------------
+%	NEW COMMANDS DEFINED
+%-------------------------------------------------------------------------
+
+% EXAMPLES OF NEW COMMANDS -> here you see how to define new commands
+\newcommand{\bea}{\begin{eqnarray}} % Shortcut for equation arrays
+\newcommand{\eea}{\end{eqnarray}}
+\newcommand{\e}[1]{\times 10^{#1}}  % Powers of 10 notation
+\newcommand{\mathbbm}[1]{\text{\usefont{U}{bbm}{m}{n}#1}} % From mathbbm.sty
+\newcommand{\pdev}[2]{\frac{\partial#1}{\partial#2}}
+% NB: you can also override some existing commands with the keyword \renewcommand
+
+%----------------------------------------------------------------------------
+%	ADD YOUR PACKAGES (be careful of package interaction)
+%----------------------------------------------------------------------------
+
+
+%----------------------------------------------------------------------------
+%	ADD YOUR DEFINITIONS AND COMMANDS (be careful of existing commands)
+%----------------------------------------------------------------------------
+\newcommand{\twofig}[6]{
+\begin{figure}[H]
+	\begin{minipage}{0.48\linewidth}
+		\centering
+		\includegraphics[width=\linewidth]{#1}
+		\caption{#2}
+		\label{fig:#3}
+	\end{minipage}\hfill
+	\begin{minipage}{0.48\linewidth}
+		\centering
+		\includegraphics[width=\linewidth]{#4}
+		\caption{#5}
+		\label{fig:#6}
+	\end{minipage}
+\end{figure}
+}
+
+\newcommand{\cfig}[4]{
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=#4\linewidth]{#1}
+	\caption{#2}
+	\label{fig:#3}
+\end{figure}
+}
+
+\newcommand{\rfig}[4]{
+\begin{wrapfigure}{r}{#4\linewidth}
+	\centering
+	\includegraphics[width=\linewidth]{#1}
+	\caption{#2}
+	\label{fig:#3}
+\end{wrapfigure}
+}
+
+\newcommand{\lfig}[4]{
+\begin{wrapfigure}{l}{#4\linewidth}
+	\centering
+	\includegraphics[width=\linewidth]{#1}
+	\caption{#2}
+	\label{fig:#3}
+\end{wrapfigure}
+}
+
+
+% Do not change Configuration_files/config.tex file unless you really know what you are doing. 
+% This file ends the configuration procedures (e.g. customizing commands, definition of new commands)
+\input{Configuration_files/config}
+
+%----------------------------------------------------------------------------
+
+% Insert here the info that will be displayed into your Title page 
+% -> title of your work
+\renewcommand{\title}{Prova Finale di Propulsione Aerospaziale}
+
+% -> author name and surname
+\newcommand{\authors}{Alex Cristian Turcu, Giorgia Pallara, Silvia Pala, Reshal Antonino Fernando Warnakulasuriya,\\\hspace*{10mm} Daniele Paternoster}
+
+% -> MSc course
+\newcommand{\course}{Aerospace Engineering - Ingegneria Aerospaziale}
+
+% -> advisor name and surname
+\newcommand{\professor}{Christian Paravan}
+
+% IF AND ONLY IF you need to modify the co-supervisors you also have to modify the file Configuration_files/title_page.tex (ONLY where it is marked)
+%\newcommand{\firstcoadvisor}{Name Surname} % insert if any otherwise comment
+%\newcommand{\secondcoadvisor}{Name Surname} % insert if any otherwise comment
+
+% -> academic year
+\newcommand{\YEAR}{2022-2023}
+
+\begin{document}
+\pagenumbering{Roman}
+
+%-----------------------------------------------------------------------------
+% TITLE PAGE
+%-----------------------------------------------------------------------------
+
+% Do not change Configuration_files/TitlePage.tex (Modify it IF AND ONLY IF you need to add or delete the Co-advisors)
+% This file creates the Title Page of the document
+\input{Configuration_files/title_page}
+
+\vspace{15mm}
+\input{Sezioni/00_abstract}
+\clearpage
+
+%-----------------------------------------------------------------------------
+% INDICE
+%-----------------------------------------------------------------------------
+
+{\hypersetup{linkcolor=black}\tableofcontents}
+
+\clearpage
+
+\setcounter{page}{1}
+\pagenumbering{arabic}
+
+%-----------------------------------------------------------------------------
+
+\input{Sezioni/01_nomenclatura}
+
+%-----------------------------------------------------------------------------
+
+\input{Sezioni/02_analisi_missione}
+
+%-----------------------------------------------------------------------------
+
+\input{Sezioni/03_analisi_propellenti}
+
+%-----------------------------------------------------------------------------
+
+\input{Sezioni/04_dimensionamento_tank}
+
+%-----------------------------------------------------------------------------
+
+\input{Sezioni/05_schema_termodinamico}
+
+%-----------------------------------------------------------------------------
+
+\input{Sezioni/06_gas_generator}
+
+%-----------------------------------------------------------------------------
+
+\input{Sezioni/07_turbopompa}
+\clearpage
+
+%-----------------------------------------------------------------------------
+
+\input{Sezioni/08_piatto_iniezione}
+
+%-----------------------------------------------------------------------------
+
+\input{Sezioni/09_camera_spinta}
+
+%-----------------------------------------------------------------------------
+
+\input{Sezioni/10_ugello}
+
+%-----------------------------------------------------------------------------
+% APPENDICE
+%-----------------------------------------------------------------------------
+
+\clearpage
+\input{Sezioni/11_appendice}
+
+%-----------------------------------------------------------------------------
+% BIBLIOGRAFIA
+%-----------------------------------------------------------------------------
+
+\clearpage
+\bibliography{bibliography}
+
+%-----------------------------------------------------------------------------
+
+\end{document}

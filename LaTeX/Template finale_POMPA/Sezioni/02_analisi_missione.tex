@@ -1,0 +1,52 @@
+\section{Analisi della missione}
+\label{sec:analisi missione}
+
+La missione prevede una durata totale di funzionamento dello stadio di 161 s, durante il quale l’obiettivo principale è quello di portare il vettore di lancio ad una altitudine approssimativa di 61 km e ad una velocità di circa 2388 m/s. La sequenza di accensione prevede l’avvio del motore centrale per primo, seguito in sequenza dalle due coppie di motori simmetrici, questi accesi con un ritardo di 300 ms allo scopo di ridurre al minimo le vibrazioni sulla struttura principale; il computer di bordo attende quindi il raggiungimento del valore di spinta massimo per inviare il comando di sgancio del razzo dalla rampa di lancio. Il vettore, una volta sganciato, non può più essere fermato. Ad un’altitudine fissata di 1300 metri, il Saturn V comincia una manovra di rollio attorno al suo asse al fine di raggiungere la traiettoria corretta per il prosieguo della missione. La totalità delle informazioni riguardanti le istruzioni per l’assetto e i venti dominanti nel periodo di lancio sono pre-registrate nel programma di lancio. È inoltre necessario lo spegnimento del motore centrale a t = 135 s, prefissato da programma, per non superare i limiti strutturali di carico massimo sopportabile. La spinta, infatti, non è un fattore controllabile nei motori F-1 e, per ovviare a questo problema, si provvede quindi ad interrompere direttamente il flusso di propellente al motore. \cite{flight_manual}
+\cite{launch_report}
+
+Di seguito sono riportate le formule e i risultati di una simulazione della missione del primo stadio del Saturn V, il cui scopo è di analizzare le variazioni dei vari parametri di interesse del razzo durante tutto il tempo di volo. Tale simulazione è stata realizzata con l'ausilio del software MATLAB, con il quale è stato risolto il sistema di equazioni differenziali descritto più avanti. L'algoritmo numerico risolutivo scelto è il metodo di Eulero in avanti (\autoref{appendix:codici}).
+
+Per la simulazione del lancio è stato sviluppato un modello con determinate ipotesi semplificative al fine di descrivere l’intera dinamica del razzo:
+
+\begin{itemize}[wide,itemsep=3pt,topsep=3pt]
+\item
+è stato utilizzato un modello di Terra piatta ed irrotazionale, al fine di adottare un sistema di riferimento inerziale, trascurando dunque effetti di variazione di traiettoria dovuti allo spostamento terrestre e variazioni di quota dovute al cambiamento di latitudine durante il volo;
+\item
+i valori di pressione e temperatura ambientale al variare della quota sono stati ottenuti mediante l'uso del Modello di Atmosfera Standard, ponendo una temperatura di riferimento al suolo di 25°C;
+\item
+il valore di portata massica del propellente ai motori è assunto costante durante tutto il funzionamento dello stadio, con una variazione del suo valore soltanto a seguito dello spegnimento del motore centrale al tempo prefissato;
+\item
+per ricavare le forze di resistenza aerodinamica e l'angolo di volo sono state utilizzate le curve sperimentali presenti nel report della missione dell'Apollo 11.
+\cite{launch_report}
+\end{itemize}
+
+Il modello matematico realizzato per la descrizione del vettore di lancio consta dunque delle seguenti equazioni:
+
+\begin{empheq}{gather*}
+	h = \int v_{v} \, dt										\qquad
+	s = \int v_{h} \, dt										\qquad
+	v_{v} = \int a_{v} \, dt									\qquad
+	v_{h} = \int a_{h} \, dt									\qquad
+	v_{tot} = \sqrt{v_{v}^2 + v_{h}^2}						\\
+	\phi = \arctan \frac{v_{h}}{v_{v}}						\qquad
+	a_{v} = -g + \frac{T \cos \theta - D \cos \phi}{m}		\qquad
+	a_{h} = \frac{T \sin \theta - D \sin \phi}{m}				\\
+	g = \frac{\mu}{\left( R_T + h \right) ^2}					\qquad
+	m = m_i - \dot{m} t										\qquad
+	T = T_{vac} - A_e p_e									\qquad
+	D = \frac{1}{2} \, \rho \, v_{tot}^2 \, S \, C_D
+\end{empheq}
+\vspace*{5mm}
+
+Seppur il modello risulti semplificato rispetto alla complessa realtà fisica di funzionamento, si ottengono andamenti delle principali grandezze fisiche di interesse perfettamente in linea con gli andamenti tabellati forniti nel report del vettore di lancio.
+\cite{launch_report}
+
+I requisiti fondamentali, ovvero il raggiungimento della quota prefissata e della velocità finale prima dello sgancio dello stadio S-IC, risultano soddisfatti e sufficientemente precisi, con valori ottenuti di 59557 m e 2353 m/s.
+
+Di seguito sono riportati i grafici di alcune grandezze in funzione del tempo di volo (ulteriori grafici possono essere consultati in \autoref{appendix:grafici volo}):
+
+\twofig{01_quota_t}{Quota in funzione del tempo}{quota_t}{02_velocita_t}{Velocità in funzione del tempo}{velocita_t}
+
+\twofig{04_spinta_t}{Spinta in funzione del tempo}{spinta_t}{07_traiettoria}{Traiettoria del vettore}{traiettoria}
+
+Le evidenze sperimentali ci permettono quindi di assumere il modello implementato come effettivamente rappresentativo del lancio del Saturn V avvenuto nella realtà.
