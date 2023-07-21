@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.16)  24 MAY 2023 18:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.16)  21 JUL 2023 16:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1288,55 +1288,55 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \c@algsubstate=\count368
 )
 LaTeX Font Info:    Trying to load font information for T1+jkp on input line 17
-1.
+9.
  (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\t1jkp.fd
 File: t1jkp.fd 2007/01/24 Fontinst v1.928 font definitions for T1/jkp.
 )
 (Prova finale.aux)
 \openout1 = `"Prova finale.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/jkp/m/it on input line 171.
+LaTeX Font Info:    Checking defaults for OML/jkp/m/it on input line 179.
 LaTeX Font Info:    Trying to load font information for OML+jkp on input line 1
-71.
+79.
 
 (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\omljkp.fd
 File: omljkp.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 171.
-LaTeX Font Info:    Checking defaults for OMS/jkp/m/n on input line 171.
+LaTeX Font Info:    ... okay on input line 179.
+LaTeX Font Info:    Checking defaults for OMS/jkp/m/n on input line 179.
 LaTeX Font Info:    Trying to load font information for OMS+jkp on input line 1
-71.
+79.
 
 (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\omsjkp.fd
 File: omsjkp.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 171.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 171.
-LaTeX Font Info:    ... okay on input line 171.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 171.
-LaTeX Font Info:    ... okay on input line 171.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 171.
-LaTeX Font Info:    ... okay on input line 171.
-LaTeX Font Info:    Checking defaults for OMX/jkp/m/n on input line 171.
+LaTeX Font Info:    ... okay on input line 179.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 179.
+LaTeX Font Info:    ... okay on input line 179.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 179.
+LaTeX Font Info:    ... okay on input line 179.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 179.
+LaTeX Font Info:    ... okay on input line 179.
+LaTeX Font Info:    Checking defaults for OMX/jkp/m/n on input line 179.
 LaTeX Font Info:    Trying to load font information for OMX+jkp on input line 1
-71.
+79.
 
 (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\omxjkp.fd
 File: omxjkp.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 171.
-LaTeX Font Info:    Checking defaults for U/jkpexa/m/n on input line 171.
+LaTeX Font Info:    ... okay on input line 179.
+LaTeX Font Info:    Checking defaults for U/jkpexa/m/n on input line 179.
 LaTeX Font Info:    Trying to load font information for U+jkpexa on input line 
-171.
+179.
 
 (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ujkpexa.fd
 File: ujkpexa.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 171.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 171.
-LaTeX Font Info:    ... okay on input line 171.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 171.
-LaTeX Font Info:    ... okay on input line 171.
+LaTeX Font Info:    ... okay on input line 179.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 179.
+LaTeX Font Info:    ... okay on input line 179.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 179.
+LaTeX Font Info:    ... okay on input line 179.
 
 (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
@@ -1363,8 +1363,8 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-LaTeX Info: Redefining \it@ocap on input line 171.
-LaTeX Info: Redefining \it@ccap on input line 171.
+LaTeX Info: Redefining \it@ocap on input line 179.
+LaTeX Info: Redefining \it@ccap on input line 179.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: float package is loaded.
@@ -1377,21 +1377,21 @@ Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Info: Redefining \[ on input line 171.
-LaTeX Info: Redefining \] on input line 171.
+LaTeX Info: Redefining \[ on input line 179.
+LaTeX Info: Redefining \] on input line 179.
 \c@lstlisting=\count375
 \symgns@font=\mathgroup13
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/jkp/m/n --> TS1/jkp/b/n on input line 171.
-Package gensymb Info: Math companion symbols declared on input line 171.
-LaTeX Info: Redefining \degree on input line 171.
-LaTeX Info: Redefining \celsius on input line 171.
+(Font)                  TS1/jkp/m/n --> TS1/jkp/b/n on input line 179.
+Package gensymb Info: Math companion symbols declared on input line 179.
+LaTeX Info: Redefining \degree on input line 179.
+LaTeX Info: Redefining \celsius on input line 179.
 Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
-erthousand on input line 171.
-LaTeX Info: Redefining \ohm on input line 171.
-Package gensymb Info: Using \textohm for \ohm on input line 171.
-Package gensymb Info: Using \textmu for \micro on input line 171.
-Package hyperref Info: Link coloring ON on input line 171.
+erthousand on input line 179.
+LaTeX Info: Redefining \ohm on input line 179.
+Package gensymb Info: Using \textohm for \ohm on input line 179.
+Package gensymb Info: Using \textmu for \micro on input line 179.
+Package hyperref Info: Link coloring ON on input line 179.
 
 (Prova finale.out) (Prova finale.out)
 \@outlinefile=\write5
@@ -1434,11 +1434,11 @@ Package hyperref Info: Link coloring ON on input line 171.
 
 (Configuration_files/title_page.tex
 Package epstopdf Info: Source file: <Images//logo_polimi_ing_indinf.eps>
-(epstopdf)                    date: 2023-05-21 15:46:56
+(epstopdf)                    date: 2023-07-20 19:13:36
 (epstopdf)                    size: 1016894 bytes
 (epstopdf)             Output file: <Images//logo_polimi_ing_indinf-eps-convert
 ed-to.pdf>
-(epstopdf)                    date: 2023-05-21 15:46:56
+(epstopdf)                    date: 2023-07-20 19:13:36
 (epstopdf)                    size: 81939 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=Images//logo_polimi_
 ing_indinf-eps-converted-to.pdf Images//logo_polimi_ing_indinf.eps>
@@ -1457,53 +1457,53 @@ f)
 Package pdftex.def Info: Images//logo_polimi_ing_indinf-eps-converted-to.pdf  u
 sed on input line 9.
 (pdftex.def)             Requested size: 290.22107pt x 133.9026pt.
-) (Sezioni/00_abstract.tex
-LaTeX Font Info:    Trying to load font information for OT1+jkp on input line 5
-.
-
+LaTeX Font Info:    Calculating math sizes for size <8.5359> on input line 21.
+LaTeX Font Info:    Trying to load font information for OT1+jkp on input line 2
+1.
 (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ot1jkp.fd
 File: ot1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for OT1/jkp.
 )
 LaTeX Font Info:    Trying to load font information for U+jkpmia on input line 
-5.
+21.
 
 (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ujkpmia.fd
 File: ujkpmia.fd 2006/08/15 v1.0
 )
 LaTeX Font Info:    Trying to load font information for U+jkpsya on input line 
-5.
+21.
 
 (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ujkpsya.fd
 File: ujkpsya.fd 2006/08/15 v1.0
 )
 LaTeX Font Info:    Trying to load font information for U+jkpsyb on input line 
-5.
+21.
 
 (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ujkpsyb.fd
 File: ujkpsyb.fd 2006/08/15 v1.0
 )
 LaTeX Font Info:    Trying to load font information for U+jkpsyc on input line 
-5.
+21.
 
 (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ujkpsyc.fd
 File: ujkpsyc.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    Trying to load font information for TS1+jkp on input line 5
-.
+LaTeX Font Info:    Trying to load font information for TS1+jkp on input line 2
+1.
 
 (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ts1jkp.fd
 File: ts1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for TS1/jkp.
 ))
+(Sezioni/00_abstract.tex)
 Package epstopdf Info: Source file: <Images//raggiera_polimi.eps>
-(epstopdf)                    date: 2023-05-21 15:46:56
+(epstopdf)                    date: 2023-07-20 19:13:36
 (epstopdf)                    size: 1813066 bytes
 (epstopdf)             Output file: <Images//raggiera_polimi-eps-converted-to.p
 df>
-(epstopdf)                    date: 2023-05-21 15:46:56
+(epstopdf)                    date: 2023-07-20 19:13:36
 (epstopdf)                    size: 40418 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=Images//raggiera_pol
 imi-eps-converted-to.pdf Images//raggiera_polimi.eps>
-(epstopdf)             \includegraphics on input line 184.
+(epstopdf)             \includegraphics on input line 192.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -1514,7 +1514,7 @@ t>
 File: Images//raggiera_polimi-eps-converted-to.pdf Graphic file (type pdf)
 <use Images//raggiera_polimi-eps-converted-to.pdf>
 Package pdftex.def Info: Images//raggiera_polimi-eps-converted-to.pdf  used on 
-input line 184.
+input line 192.
 (pdftex.def)             Requested size: 298.75394pt x 298.75233pt.
 [1
 
@@ -1533,10 +1533,10 @@ converted-to.pdf>] (Prova finale.toc)
 
 ]
 Package epstopdf Info: Source file: <Images//01_quota_t.eps>
-(epstopdf)                    date: 2023-05-21 15:46:56
+(epstopdf)                    date: 2023-07-20 19:13:36
 (epstopdf)                    size: 310855 bytes
 (epstopdf)             Output file: <Images//01_quota_t-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-05-21 15:46:56
+(epstopdf)                    date: 2023-07-20 19:13:36
 (epstopdf)                    size: 102488 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=Images//01_quota_t-e
 ps-converted-to.pdf Images//01_quota_t.eps>
@@ -1553,11 +1553,11 @@ Package pdftex.def Info: Images//01_quota_t-eps-converted-to.pdf  used on input
  line 48.
 (pdftex.def)             Requested size: 232.17242pt x 174.13155pt.
 Package epstopdf Info: Source file: <Images//02_velocita_t.eps>
-(epstopdf)                    date: 2023-05-21 15:46:56
+(epstopdf)                    date: 2023-07-20 19:13:36
 (epstopdf)                    size: 311387 bytes
 (epstopdf)             Output file: <Images//02_velocita_t-eps-converted-to.pdf
 >
-(epstopdf)                    date: 2023-05-21 15:46:56
+(epstopdf)                    date: 2023-07-20 19:13:36
 (epstopdf)                    size: 102980 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=Images//02_velocita_
 t-eps-converted-to.pdf Images//02_velocita_t.eps>
@@ -1574,10 +1574,10 @@ Package pdftex.def Info: Images//02_velocita_t-eps-converted-to.pdf  used on in
 put line 48.
 (pdftex.def)             Requested size: 232.17242pt x 174.13155pt.
 Package epstopdf Info: Source file: <Images//04_spinta_t.eps>
-(epstopdf)                    date: 2023-05-21 15:46:56
+(epstopdf)                    date: 2023-07-20 19:13:36
 (epstopdf)                    size: 306021 bytes
 (epstopdf)             Output file: <Images//04_spinta_t-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-05-21 15:46:56
+(epstopdf)                    date: 2023-07-20 19:13:36
 (epstopdf)                    size: 91721 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=Images//04_spinta_t-
 eps-converted-to.pdf Images//04_spinta_t.eps>
@@ -1594,11 +1594,11 @@ Package pdftex.def Info: Images//04_spinta_t-eps-converted-to.pdf  used on inpu
 t line 50.
 (pdftex.def)             Requested size: 232.17242pt x 174.13155pt.
 Package epstopdf Info: Source file: <Images//07_traiettoria.eps>
-(epstopdf)                    date: 2023-05-21 15:46:56
+(epstopdf)                    date: 2023-07-20 19:13:36
 (epstopdf)                    size: 292851 bytes
 (epstopdf)             Output file: <Images//07_traiettoria-eps-converted-to.pd
 f>
-(epstopdf)                    date: 2023-05-21 15:46:56
+(epstopdf)                    date: 2023-07-20 19:13:36
 (epstopdf)                    size: 92829 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=Images//07_traiettor
 ia-eps-converted-to.pdf Images//07_traiettoria.eps>
@@ -1683,11 +1683,11 @@ Package pdftex.def Info: Images//angoli_bell.jpg  used on input line 4.
 (pdftex.def)             Requested size: 386.95897pt x 277.78473pt.
 ) (Sezioni/B_grafici_tempo_di_volo.tex
 Package epstopdf Info: Source file: <Images//03_accelerazione_t.eps>
-(epstopdf)                    date: 2023-05-21 15:46:56
+(epstopdf)                    date: 2023-07-20 19:13:36
 (epstopdf)                    size: 309627 bytes
 (epstopdf)             Output file: <Images//03_accelerazione_t-eps-converted-t
 o.pdf>
-(epstopdf)                    date: 2023-05-21 15:46:56
+(epstopdf)                    date: 2023-07-20 19:13:36
 (epstopdf)                    size: 104205 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=Images//03_acceleraz
 ione_t-eps-converted-to.pdf Images//03_accelerazione_t.eps>
@@ -1704,10 +1704,10 @@ Package pdftex.def Info: Images//03_accelerazione_t-eps-converted-to.pdf  used
 on input line 4.
 (pdftex.def)             Requested size: 232.17242pt x 174.13155pt.
 Package epstopdf Info: Source file: <Images//05_drag_t.eps>
-(epstopdf)                    date: 2023-05-21 15:46:56
+(epstopdf)                    date: 2023-07-20 19:13:36
 (epstopdf)                    size: 316144 bytes
 (epstopdf)             Output file: <Images//05_drag_t-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-05-21 15:46:56
+(epstopdf)                    date: 2023-07-20 19:13:36
 (epstopdf)                    size: 101756 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=Images//05_drag_t-ep
 s-converted-to.pdf Images//05_drag_t.eps>
@@ -1724,10 +1724,10 @@ Package pdftex.def Info: Images//05_drag_t-eps-converted-to.pdf  used on input
 line 4.
 (pdftex.def)             Requested size: 232.17242pt x 174.13155pt.
 Package epstopdf Info: Source file: <Images//06_massa_t.eps>
-(epstopdf)                    date: 2023-05-21 15:46:56
+(epstopdf)                    date: 2023-07-20 19:13:36
 (epstopdf)                    size: 307944 bytes
 (epstopdf)             Output file: <Images//06_massa_t-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-05-21 15:46:56
+(epstopdf)                    date: 2023-07-20 19:13:36
 (epstopdf)                    size: 102312 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=Images//06_massa_t-e
 ps-converted-to.pdf Images//06_massa_t.eps>
@@ -1744,11 +1744,11 @@ Package pdftex.def Info: Images//06_massa_t-eps-converted-to.pdf  used on input
  line 6.
 (pdftex.def)             Requested size: 232.17242pt x 174.13155pt.
 Package epstopdf Info: Source file: <Images//08_gravita_t.eps>
-(epstopdf)                    date: 2023-05-21 15:46:56
+(epstopdf)                    date: 2023-07-20 19:13:36
 (epstopdf)                    size: 309274 bytes
 (epstopdf)             Output file: <Images//08_gravita_t-eps-converted-to.pdf>
 
-(epstopdf)                    date: 2023-05-21 15:46:56
+(epstopdf)                    date: 2023-07-20 19:13:36
 (epstopdf)                    size: 99250 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=Images//08_gravita_t
 -eps-converted-to.pdf Images//08_gravita_t.eps>
@@ -1769,11 +1769,11 @@ ut line 6.
  <./Images//angoli_bell.jpg> <./Images//03_accelerazione_t-eps-converted-to.pdf
 > <./Images//05_drag_t-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Images//09_pressione_t.eps>
-(epstopdf)                    date: 2023-05-21 15:46:56
+(epstopdf)                    date: 2023-07-20 19:13:36
 (epstopdf)                    size: 315712 bytes
 (epstopdf)             Output file: <Images//09_pressione_t-eps-converted-to.pd
 f>
-(epstopdf)                    date: 2023-05-21 15:46:56
+(epstopdf)                    date: 2023-07-20 19:13:36
 (epstopdf)                    size: 92906 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=Images//09_pressione
 _t-eps-converted-to.pdf Images//09_pressione_t.eps>
@@ -1790,11 +1790,11 @@ Package pdftex.def Info: Images//09_pressione_t-eps-converted-to.pdf  used on i
 nput line 8.
 (pdftex.def)             Requested size: 232.17242pt x 174.13155pt.
 Package epstopdf Info: Source file: <Images//10_temperatura_t.eps>
-(epstopdf)                    date: 2023-05-21 15:46:56
+(epstopdf)                    date: 2023-07-20 19:13:36
 (epstopdf)                    size: 312254 bytes
 (epstopdf)             Output file: <Images//10_temperatura_t-eps-converted-to.
 pdf>
-(epstopdf)                    date: 2023-05-21 15:46:56
+(epstopdf)                    date: 2023-07-20 19:13:36
 (epstopdf)                    size: 97565 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=Images//10_temperatu
 ra_t-eps-converted-to.pdf Images//10_temperatura_t.eps>
@@ -1811,10 +1811,10 @@ Package pdftex.def Info: Images//10_temperatura_t-eps-converted-to.pdf  used on
  input line 8.
 (pdftex.def)             Requested size: 232.17242pt x 174.13155pt.
 Package epstopdf Info: Source file: <Images//11_mach_t.eps>
-(epstopdf)                    date: 2023-05-21 15:46:56
+(epstopdf)                    date: 2023-07-20 19:13:36
 (epstopdf)                    size: 315013 bytes
 (epstopdf)             Output file: <Images//11_mach_t-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-05-21 15:46:56
+(epstopdf)                    date: 2023-07-20 19:13:36
 (epstopdf)                    size: 101949 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=Images//11_mach_t-ep
 s-converted-to.pdf Images//11_mach_t.eps>
@@ -1835,10 +1835,10 @@ ted-to.pdf> <./Images//08_gravita_t-eps-converted-to.pdf> <./Images//09_pressio
 ne_t-eps-converted-to.pdf> <./Images//10_temperatura_t-eps-converted-to.pdf> <.
 /Images//11_mach_t-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Images//MM_to_OF.eps>
-(epstopdf)                    date: 2023-05-21 15:46:56
+(epstopdf)                    date: 2023-07-20 19:13:36
 (epstopdf)                    size: 78737 bytes
 (epstopdf)             Output file: <Images//MM_to_OF-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-05-21 15:46:56
+(epstopdf)                    date: 2023-07-20 19:13:36
 (epstopdf)                    size: 19481 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=Images//MM_to_OF-eps
 -converted-to.pdf Images//MM_to_OF.eps>
@@ -1855,11 +1855,11 @@ Package pdftex.def Info: Images//MM_to_OF-eps-converted-to.pdf  used on input l
 ine 6.
 (pdftex.def)             Requested size: 232.17242pt x 174.13155pt.
 Package epstopdf Info: Source file: <Images//temperatura_gg_of.eps>
-(epstopdf)                    date: 2023-05-21 15:46:57
+(epstopdf)                    date: 2023-07-20 19:13:36
 (epstopdf)                    size: 24430 bytes
 (epstopdf)             Output file: <Images//temperatura_gg_of-eps-converted-to
 .pdf>
-(epstopdf)                    date: 2023-05-21 15:47:31
+(epstopdf)                    date: 2023-07-20 19:13:36
 (epstopdf)                    size: 7874 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=Images//temperatura_
 gg_of-eps-converted-to.pdf Images//temperatura_gg_of.eps>
@@ -1916,11 +1916,11 @@ Package rerunfilecheck Info: File `"Prova finale".out' has not changed.
 (rerunfilecheck)             Checksum: 505382C33657BA1AD1626C404F21024B;5322.
  ) 
 Here is how much of TeX's memory you used:
- 33715 strings out of 476361
- 631959 string characters out of 5788046
+ 33758 strings out of 476361
+ 632784 string characters out of 5788046
  2229993 words of memory out of 5000000
- 53152 multiletter control sequences out of 15000+600000
- 629736 words of font info for 139 fonts, out of 8000000 for 9000
+ 53195 multiletter control sequences out of 15000+600000
+ 648330 words of font info for 181 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  83i,22n,80p,1945b,3513s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpb
@@ -1937,7 +1937,7 @@ al/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Users/turcu/AppDat
 a/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpsy.pfb><C:/Users/turcu/Ap
 pData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpttbn8a.pfb><C:/Users/
 turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on "Prova finale.pdf" (25 pages, 4729104 bytes).
+Output written on "Prova finale.pdf" (25 pages, 4730121 bytes).
 PDF statistics:
  887 PDF objects out of 1000 (max. 8388607)
  285 named destinations out of 1000 (max. 500000)
