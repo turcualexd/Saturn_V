@@ -4,17 +4,35 @@
 \contentsline {section}{Indice}{II}{Doc-Start}%
 \contentsline {section}{\numberline {1}Nomenclatura}{1}{section.1}%
 \contentsline {section}{\numberline {2}Analisi della missione}{1}{section.2}%
-\contentsline {section}{\numberline {3}Analisi dei propellenti}{2}{section.3}%
-\contentsline {section}{\numberline {4}Dimensionamento dei tank}{2}{section.4}%
-\contentsline {section}{\numberline {5}Schema termodinamico}{2}{section.5}%
-\contentsline {section}{\numberline {6}Gas generator}{3}{section.6}%
-\contentsline {section}{\numberline {7}Turbopompa}{5}{section.7}%
-\contentsline {section}{\numberline {8}Piatto d'iniezione}{6}{section.8}%
-\contentsline {section}{\numberline {9}Camera di spinta}{7}{section.9}%
-\contentsline {section}{\numberline {10}Ugello gasdinamico}{7}{section.10}%
-\contentsline {section}{Appendice}{8}{section.10}%
-\contentsline {section}{\numberline {A}Codici MATLAB usati}{8}{appendix.1.Alph1}%
-\contentsline {section}{\numberline {B}Confronto peso molecolare gas generator tra caso Fuel Rich e Oxidizer Rich}{8}{appendix.1.Alph2}%
-\contentsline {section}{\numberline {C}Prodotti gas generator analizzati con software NASA CEA}{8}{appendix.1.Alph3}%
-\contentsline {section}{\numberline {D}Schemi del gas generator}{8}{appendix.1.Alph4}%
-\contentsline {section}{Bibliografia}{9}{appendix.1.Alph4}%
+\contentsline {section}{\numberline {3}Propellenti}{2}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Coppia di propellenti: RP-1 / LOX}{2}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Propellente ipergolico}{3}{subsection.3.2}%
+\contentsline {section}{\numberline {4}Dimensionamento dei tank}{3}{section.4}%
+\contentsline {section}{\numberline {5}Schema termodinamico}{3}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Analisi dello schema semplificato del sistema motore}{3}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Analisi sulla scelta del ciclo di alimentazione}{4}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Analisi delle variazioni di performance introdotte dal ciclo a gas}{6}{subsection.5.3}%
+\contentsline {section}{\numberline {6}Gas generator}{8}{section.6}%
+\contentsline {section}{\numberline {7}Turbopompa}{11}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Descrizione generica Mark 10}{11}{subsection.7.1}%
+\contentsline {subsubsection}{\numberline {7.1.1}Pompe LOX e RP1}{11}{subsubsection.7.1.1}%
+\contentsline {subsubsection}{\numberline {7.1.2}Analisi pompa LOX}{11}{subsubsection.7.1.2}%
+\contentsline {subsection}{\numberline {7.2}Turbina}{12}{subsection.7.2}%
+\contentsline {subsubsection}{\numberline {7.2.1}Descrizione turbina}{12}{subsubsection.7.2.1}%
+\contentsline {subsubsection}{\numberline {7.2.2}Turbina - scelte progettuali}{12}{subsubsection.7.2.2}%
+\contentsline {subsubsection}{\numberline {7.2.3}Analisi quantitativa - dimensionamento}{13}{subsubsection.7.2.3}%
+\contentsline {section}{\numberline {8}Piatto d'iniezione}{14}{section.8}%
+\contentsline {section}{\numberline {9}Camera di spinta}{15}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Descrizione del sistema}{15}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}Modellazione dell'ugello}{16}{subsection.9.2}%
+\contentsline {subsection}{\numberline {9.3}Confronto tra ugello 10:1 e 16:1}{17}{subsection.9.3}%
+\contentsline {section}{Appendice}{19}{table.caption.20}%
+\contentsline {section}{\numberline {A}Immagini e schemi}{19}{appendix.1.Alph1}%
+\contentsline {section}{\numberline {B}Grafici di varie grandezze in funzione del tempo di volo}{19}{appendix.1.Alph2}%
+\contentsline {section}{\numberline {C}Confronto peso molecolare gas generator tra caso Fuel Rich e Oxidizer Rich}{21}{appendix.1.Alph3}%
+\contentsline {section}{\numberline {D}Prodotti gas generator analizzati con software NASA CEA}{21}{appendix.1.Alph4}%
+\contentsline {section}{\numberline {E}Schemi del gas generator}{22}{appendix.1.Alph5}%
+\contentsline {section}{\numberline {F}Diagrammi di velocità}{22}{appendix.1.Alph6}%
+\contentsline {section}{\numberline {G}Codici MATLAB usati}{23}{appendix.1.Alph7}%
+\contentsline {subsection}{\numberline {G.1}Simulazione di volo}{23}{subsection.1.Alph7.1}%
+\contentsline {section}{Bibliografia}{28}{lstnumber.-1.203}%

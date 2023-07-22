@@ -11,4 +11,25 @@ Georce C. Marshall Space~Flight Center.
   Apollo 11 Mission}.
 \newblock Technical report, 9 1969.
 
+\bibitem{f-1_manual}
+{Configuration accounting, logistics engineering and training}.
+\newblock {\em {R-3896-1 - F-1 Engine Familiarization Training Manual}}.
+\newblock Rocketdyne, 7 1971.
+
+\bibitem{AIAA_book_1}
+D.H.~Huang D.K.~Huzel.
+\newblock {\em Design of Liquid Propellant Rocket Engines, vol. 2}.
+\newblock Scientifical and Technichal Division NASA, 1967.
+
+\bibitem{JPP}
+{Joseph C. Oefelein, Vigor Yang}.
+\newblock {Comprehensive Review of Liquid-Propellant Combustion Instabilities
+  in F-l Engines}.
+\newblock {\em Journal of Propulsion and Power}, 9(5):657--677, 10 1993.
+
+\bibitem{engine_manual}
+Rocketdyne.
+\newblock {\em {R-3896-1 - Technical Manual - Engine Data F-1 Rocket Engine}}.
+\newblock National Aeronautics and Space Administration \& Rocketdyne, 3 1967.
+
 \end{thebibliography}
