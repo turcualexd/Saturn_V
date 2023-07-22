@@ -12,6 +12,11 @@ bell_percentage_eps_10 = 0.8;
 
 [x_eps_10, y_eps_10, Ln_cone_eps_10, Ln_eps_10, Nx_eps_10, Ny_eps_10, Qx_eps_10, Qy_eps_10, Ex_eps_10, Ey_eps_10] = bell_nozzle(eps_10, Rt_10, bell_percentage_eps_10, theta_n_deg_eps_10, theta_e_deg_eps_10);
 
+si = 0;
+for i=2:125
+    si = si + sqrt((x_eps_10(i)-x_eps_10(i-1)).^2 + (y_eps_10(i)-y_eps_10(i-1)).^2);
+end
+
 %% 2D Plot
 figure
 grid on;
