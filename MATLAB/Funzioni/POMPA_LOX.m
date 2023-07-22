@@ -88,14 +88,14 @@ cm1_ind_SI = cm1_ind / 3.281; % in m/s
 d0 = sqrt((d_0t.^2 + d_0h.^2) / 2); % in
 
 % Inducer peripheral velocity at d0
-u0_ind = pi*(7000/720)*d0; % in ft/sec
+u0_ind = pi*(N/720)*d0; % in ft/sec
 u0_ind_SI = u0_ind / 3.281; % in m/s
 
 % Inducer mean effective diameter outlet
 d1 = sqrt((d_1t.^2 + d_1h.^2) / 2); % in
 
 % Inducer peripheral velocity at d1
-u1_ind = pi*(7000/720)*d1; % in ft/sec
+u1_ind = pi*(N/720)*d1; % in ft/sec
 u1_ind_SI = u1_ind / 3.281; % in m/s
 
 % Inducer design relative inlet flow velocity
@@ -152,9 +152,9 @@ quiver2(pos7_ind, 'k');
 
 xline(u0_ind_SI, '--');
 str1 = {'INLET'};
-text(40, -20, str1);
+text(35, -20, str1);
 str2 = {'OUTLET'};
-text(150, -20, str2);
+text(125, -20, str2);
 title('Diagramma di velocità INDUCER POMPA LOX')
 
 % Inducer inlet tip speed

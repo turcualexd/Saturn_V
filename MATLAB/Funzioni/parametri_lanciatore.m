@@ -13,12 +13,12 @@ clc
 
 % M_0 = M_p + M_s + M_u
 
-M_0 = 0;
-M_u = 0;
-M_s = 0;
-M_p = 0;
-M_m = 0;
-M_tank = 0;
+M_0 = 2898941;
+M_u = 659293;
+M_s = 824511;
+M_p = 2074430;
+M_m = 8391.4588;
+M_tank = 124799.5412;
 
 % eps_u: indice di massa del carico utile
 eps_u = M_u / (M_0 - M_u);
@@ -33,13 +33,11 @@ eps_s = M_s / (M_0 - M_u);
 MR = eps_s * (1 - csi_u) + csi_u;
 
 % csi_p: frazione di propellente
-csi_p = 1 - MR;
 
-csi_p_controllo = M_p / M_0;
+csi_p = M_p / M_0;
 
 % csi_m: rapporto di massa
 csi_m = M_m / M_0;
 
 % rapporto M_tank / M_p
 rapporto = M_tank / M_p;
-
