@@ -759,10 +759,10 @@ INPUT .\Prova finale.toc
 INPUT Prova finale.toc
 INPUT Prova finale.toc
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbn8t.tfm
-OUTPUT Prova finale.toc
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\vf\public\kpfonts\jkpbn8t.vf
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbn8r.tfm
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbne.tfm
+OUTPUT Prova finale.toc
 INPUT .\Sezioni\01_nomenclatura.tex
 INPUT .\Sezioni\01_nomenclatura.tex
 INPUT Sezioni\01_nomenclatura.tex
@@ -1200,6 +1200,8 @@ INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\type1\public\kpfonts\jk
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\type1\public\kpfonts\jkpbn8a.pfb
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\type1\public\kpfonts\jkpbsc8a.pfb
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\type1\public\kpfonts\jkpbsc8a.pfb
+INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\type1\public\kpfonts\jkpbsy.pfb
+INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\type1\public\kpfonts\jkpbsy.pfb
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\type1\public\kpfonts\jkpex.pfb
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\type1\public\kpfonts\jkpex.pfb
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\type1\public\kpfonts\jkpmi.pfb
