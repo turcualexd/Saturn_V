@@ -2,14 +2,17 @@
 \label{sec:turbopompa}
 
 \subsection{Descrizione generica Mark 10}
+\label{subsec:descrizione mark 10}
+
 Il gruppo turbopompa Mark 10 è montato parallelamente alla mezzeria longitudinale della camera di spinta ed è sostenuto principalmente da due gruppi stabilizzatori a tre gambe saldati al corpo della camera e dai quattro condotti del propellente ad alta pressione installati tra la turbopompa e la camera di spinta. 
 Il gruppo è composto da due pompe centrifughe montate schiena contro schiena (back-to-back) su un albero comune e azionate direttamente da una turbina a gas ad impulso.
 L'albero principale e i componenti rotanti sono collegati direttamente all'albero e sono bilanciati dinamicamente.
 L'albero è supportato da due gruppi di cuscinetti a sfere riscaldati elettricamente e raffreddati a carburante nell'area della pompa del LOX (per mantere l'ossigeno in fase liquid)e da un gruppo di cuscinetti a rulli raffreddati a carburante nell'area della turbina, mentre per isolare i propellenti, il fluido di raffreddamento e i gas caldi sono presenti un insieme di guarnizioni in carbonio, plastica (Kel-F, Teflon) e gomma sintetica (Buna-N, Viton-A).
+
 \subsubsection{Pompe LOX e RP1}
 
 L'esigenza di un sistema a turbopompa in uno stadio di lanciatore nasce quando il lanciatore stesso ha degli elevati requisiti di missione quali furono quelli dello stadio SI-C (e come la grande maggioranza dei primi e secondi stadi dei principali lanciatori odierni). Un sistema a serbatoio pressurizzato, per l'alimentazione dei 5 motori, dovrebbe essere progettato a sostenere elevate pressioni e quindi con un elevato spessore delle pareti dei tank. Introducendo il sistema di alimentazione a turbopompa, a patto di dimensionarlo correttamente, permette di diminuire il materiale per costruire i grandi tank di un sistema di queste dimensioni.
-Tuttavia, un sistema cosi complesso introduce ulteriore complessità al progetto. Lo sviluppo moderno di tali sistemi prevede studi prelimiari con delle tecniche assodate da anni, come tabelle di valori specifici per le varie esigenze, con dati raccolti durante tutti gli anni di sviluppo.Al giorno d'oggi si conclude e si implementa la progettazione teorica tramite uno studio a CFD che tuttavia non verrà trattato in queste pagine. 
+Tuttavia, un sistema cosi complesso introduce ulteriore complessità al progetto. Lo sviluppo moderno di tali sistemi prevede studi prelimiari con delle tecniche assodate da anni, come tabelle di valori specifici per le varie esigenze, con dati raccolti durante tutti gli anni di sviluppo. Al giorno d'oggi si conclude e si implementa la progettazione teorica tramite uno studio a CFD che tuttavia non verrà trattato in queste pagine. 
 
 L’F-1 è dotato di due pompe del sitema Mark 10 di tipo centrifugo, una per l’ossidante e il combustibile; questa tipologia permette di ottenere un salto di pressione $\Delta P$ maggiore per singolo stadio (rotore + statore) rispetto alle pompe assiali a discapito di un leggero decremento dell’efficienza. Infatti, si è soliti usare pompe assiali solo laddove sono richiesti più stadi per ottenere un dato incremento di pressione come nel caso di LH2 dove a causa della bassa densità, il $\Delta P$ risulta limitato dalla massima velocità raggiungibile dai rotori.  Per pompe con fluido di lavoro a densità simile, come RP-1 e LOX, e simili pressione di scarico, si può mantenere la velocità angolare costante. 
 Il progetto di una turbopompa ricerca principalmente la massimizzazione della velocità operativa poiché questo permette di ridurre le dimensioni della pompa stessa e di conseguenza il suo peso. Tuttavia, possibili effetti di cavitazione all’ingresso della pompa e sforzi dovuti alla forza centrifuga, vistosi nell’impeller (girante) e nella turbina, impongono un limite massimo alla velocità raggiungibile nelle zone periferiche dei componenti.
@@ -126,7 +129,7 @@ Si procede al calcolo dell'area del tratto divergente della voluta, imponendo pe
 \centering
 \begin{tabular}{|c|c|}
 \hline
-$\bm{v_{voluteIN} \, [m/s]}$ & $\bm{v_{voluteOUT} \, [m/s]]}$  \\
+$\bm{v_{voluteIN} \, [m/s]}$ & $\bm{v_{voluteOUT} \, [m/s]}$  \\
 \hline
 $103.7019$ & $29.1447$   \\
 \hline
@@ -188,8 +191,12 @@ $153.7897$ & $31.7356$   \\
 
 
 \subsection{Turbina}
+\label{subsec:turbina}
+
 \subsubsection{Descrizione turbina}
+
 \rfig{turbina_general}{Turbina ad impulso VC dell'F-1}{turbina_general}{0.45}
+
 La turbina che fornisce la potenza necessaria alle pompe del sistema motore F-1 è definita come turbina a impulso (variazione di pressione statica solamente negli statori), e cosiddetta 2 row - velocity compounded (VC). Ovvero costituita da 2 file di rotori intramezzati da uno statore. Il gas caldo prima di passare in questa zona viene espanso in una schiera di ugelli che aumentano notevolmente la velocità: per le turbina VC, idealmente, tutta l'espansione avviene in questa zona. Successivamente i rotori, venendo impattati da un gas, sottraggono quantità di moto al fluido. Lo statore intermedio ha la funzione di reinidirizzare il flusso all'ingresso dell'ultimo rotore. Oltre a queste zone citate, nella turbina c'è una zona di ingresso, manifold, che convoglia il flusso ai nozzles. I nozzles, che sono generalmente convergenti-divergenti per una turbina VC, espandono il gas e lo incurvano per affrontare il primo rotore. Entrambe le i rotori della turbina sono costituiti da dischi i quali presentano dei 'fir tree' slot lungo la circonferenza, dove vengono inserite e rivettate le palette. Il rotore iniziale è calettato direttamente sull'albero, l'ultimo viene imbullonato sul primo e vengono separati da un distanziale. Le guarnizioni sono di diverso tipo, in questa sede non verranno approfondite, ma hanno il compito di contenere le perdite e quindi migliorare l'efficienza. 
 
 \subsubsection{Turbina - scelte progettuali}
@@ -207,8 +214,9 @@ C_0 = \sqrt{2C_{p,gg}T_{in} \left(1 - \epsilon^\frac{1-\gamma }{\gamma}\right)}
 \end{empheq}
 
 \item
-\textbf{Rapporto isoentropico delle velocità:} è il rapporto tra velocità tangenziale del disco rotorico e la spouting velocity. 
-\begin{empheq}{gather*}
+\textbf{Rapporto isoentropico delle velocità:} è il rapporto tra velocità tangenziale del disco rotorico e la spouting velocity.
+
+\begin{empheq}{equation*}
 \frac{U}{C_0} = 
 \end{empheq}
 
@@ -219,6 +227,7 @@ C_0 = \sqrt{2C_{p,gg}T_{in} \left(1 - \epsilon^\frac{1-\gamma }{\gamma}\right)}
 	\vspace{-\baselineskip}
 	\includegraphics[width=\linewidth]{rendimenti_turbina}
 	\caption{Rendimenti in funzione del rapporto di velocità}
+	\label{fig:rendimenti_turbina}
 \end{wrapfigure}
 
 Questo valore è utile per capire la scelta progettuale effettuata per il tipo di turbina. Infatti, come già detto, nei cicli GG il salto di pressione in turbina è molto alto: questo implica un valore di $C_0$ elevato. Per avere una buona efficienza si possono percorrere più scelte progettuali (basandosi sul grafico x dei rendimenti). Si può scegliere di avere un alto rapporto di velocità con una singola ruota che 'assorba' tutta l'energia del flusso. Questo provocherebbe nel nostro caso una velocità di rotazione troppo elevata (quindi ingombro maggiore, inoltre la velocità di rotazione è fissata dalla pompa). Per usare altre turbine, cercando di avere un'alta efficienza si cerca di diminuire il rapporto di velocità aumentando gli stadi, ovvero la velocità del flusso è assorbita da più dischi che ruotano a velocità minori e sono più piccoli.
@@ -247,7 +256,4 @@ $1062$ & $67.57$ & $16.4$ &  $0.416$ & $75.75$ & $574.4$ \\
 
 \end{table}
 
-Assumendo tali dati, aggiungendo alcune ragionevoli ipotesi tratte dal libro AIAA e risolvendo il sistema di equazioni associato al problema, troviamo il seguente diagramma velocità e i corrispondenti valori di velocità e angoli. Si rimanda all'appendice per tutti i dettagli su ipotesi fatte, impostazione del sistema di equazioni e risoluzione del sistema tramite Matlab. 
-
-
-
+Assumendo tali dati, aggiungendo alcune ragionevoli ipotesi tratte dal libro AIAA e risolvendo il sistema di equazioni associato al problema, troviamo il seguente diagramma velocità e i corrispondenti valori di velocità e angoli. Si rimanda all'appendice per tutti i dettagli su ipotesi fatte, impostazione del sistema di equazioni e risoluzione del sistema tramite MATLAB.
