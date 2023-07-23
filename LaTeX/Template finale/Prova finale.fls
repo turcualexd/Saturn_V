@@ -876,6 +876,10 @@ INPUT .\Images\\schema_termodinamico.jpg
 INPUT .\Images\\schema_termodinamico.jpg
 INPUT .\Images\\schema_termodinamico.jpg
 INPUT .\Images\\schema_termodinamico.jpg
+INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmit8t.tfm
+INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\vf\public\kpfonts\jkpmit8t.vf
+INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmit8r.tfm
+INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmite.tfm
 INPUT .\Images\\staged_comb.eps
 INPUT Images\\staged_comb.eps
 INPUT .\Images\\staged_comb.eps
@@ -898,6 +902,11 @@ INPUT .\Images\\full_cycle-eps-converted-to.pdf
 INPUT .\Images\\full_cycle-eps-converted-to.pdf
 INPUT .\Images\\full_cycle-eps-converted-to.pdf
 INPUT .\Images\\full_cycle-eps-converted-to.pdf
+INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmn8t.tfm
+INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmn8t.tfm
+INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\vf\public\kpfonts\jkpmn7t.vf
+INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmne.tfm
+INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmn8r.tfm
 INPUT .\Images\\I_spec_see.eps
 INPUT Images\\I_spec_see.eps
 INPUT .\Images\\I_spec_see.eps
@@ -926,8 +935,6 @@ INPUT .\Images\\GG_esploso.jpg
 INPUT .\Images\\GG_esploso.jpg
 INPUT .\Images\\GG_esploso.jpg
 INPUT .\Images\\GG_esploso.jpg
-INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmn8t.tfm
-INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmn8t.tfm
 INPUT .\Sezioni\07_turbopompa.tex
 INPUT .\Sezioni\07_turbopompa.tex
 INPUT Sezioni\07_turbopompa.tex
@@ -945,9 +952,6 @@ INPUT .\Images\\turbina_general.jpg
 INPUT .\Images\\turbina_general.jpg
 INPUT .\Images\\turbina_general.jpg
 INPUT .\Images\\turbina_general.jpg
-INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\vf\public\kpfonts\jkpmn7t.vf
-INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmne.tfm
-INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmn8r.tfm
 INPUT .\Images\\rendimenti_turbina.pdf
 INPUT Images\\rendimenti_turbina.pdf
 INPUT .\Images\\rendimenti_turbina.pdf
@@ -1185,10 +1189,6 @@ INPUT .\Prova finale.bbl
 INPUT Prova finale.bbl
 INPUT .\Prova finale.bbl
 INPUT Prova finale.bbl
-INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmit8t.tfm
-INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\vf\public\kpfonts\jkpmit8t.vf
-INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmit8r.tfm
-INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmite.tfm
 INPUT Prova finale.aux
 INPUT .\Prova finale.out
 INPUT .\Prova finale.out
