@@ -1,5 +1,9 @@
 \begin{thebibliography}{1}
 
+\bibitem{nozzle_design}
+National Aeronautics and Space Administration.
+\newblock {\em {Liquid Rocket Engine Nozzles}}, 7 1976.
+
 \bibitem{flight_manual}
 Georce C. Marshall Space~Flight Center.
 \newblock {\em {Saturn V Flight Manual SA-507}}.
@@ -9,7 +13,8 @@ Georce C. Marshall Space~Flight Center.
 Georce C. Marshall Space~Flight Center.
 \newblock \textit{Saturn V Launch Vehicle Flight Evaluation Report - AS-506
   Apollo 11 Mission}.
-\newblock Technical report, 9 1969.
+\newblock Technical report, National Aeronautics and Space Administration, 9
+  1969.
 
 \bibitem{f-1_manual}
 {Configuration accounting, logistics engineering and training}.
