@@ -29,14 +29,17 @@
 \contentsline {subsection}{\numberline {9.1}Descrizione del sistema}{21}{subsection.9.1}%
 \contentsline {subsection}{\numberline {9.2}Camera di combusione}{22}{subsection.9.2}%
 \contentsline {subsection}{\numberline {9.3}Modellazione dell'ugello}{23}{subsection.9.3}%
-\contentsline {subsection}{\numberline {9.4}Confronto tra ugello 10:1 e 16:1}{24}{subsection.9.4}%
-\contentsline {section}{Appendice}{26}{table.caption.23}%
-\contentsline {section}{\numberline {A}Immagini e schemi}{26}{appendix.1.Alph1}%
-\contentsline {section}{\numberline {B}Grafici di varie grandezze in funzione del tempo di volo}{26}{appendix.1.Alph2}%
-\contentsline {section}{\numberline {C}Confronto peso molecolare gas generator tra caso Fuel Rich e Oxidizer Rich}{28}{appendix.1.Alph3}%
-\contentsline {section}{\numberline {D}Prodotti gas generator analizzati con software NASA CEA}{28}{appendix.1.Alph4}%
-\contentsline {section}{\numberline {E}Schemi del gas generator}{29}{appendix.1.Alph5}%
-\contentsline {section}{\numberline {F}Diagrammi di velocità}{29}{appendix.1.Alph6}%
-\contentsline {section}{\numberline {G}Codici MATLAB usati}{30}{appendix.1.Alph7}%
-\contentsline {subsection}{\numberline {G.1}Simulazione di volo}{30}{subsection.1.Alph7.1}%
-\contentsline {section}{Bibliografia}{35}{lstnumber.-1.203}%
+\contentsline {subsection}{\numberline {9.4}Cooling della camera di spinta}{24}{subsection.9.4}%
+\contentsline {subsubsection}{\numberline {9.4.1}Scambio termico convettivo e film cooling}{24}{subsubsection.9.4.1}%
+\contentsline {subsubsection}{\numberline {9.4.2}Regenerative cooling}{27}{subsubsection.9.4.2}%
+\contentsline {subsection}{\numberline {9.5}Confronto tra ugello 10:1 e 16:1}{29}{subsection.9.5}%
+\contentsline {section}{Appendice}{31}{table.caption.23}%
+\contentsline {section}{\numberline {A}Immagini e schemi}{31}{appendix.1.Alph1}%
+\contentsline {section}{\numberline {B}Grafici di varie grandezze in funzione del tempo di volo}{31}{appendix.1.Alph2}%
+\contentsline {section}{\numberline {C}Confronto peso molecolare gas generator tra caso Fuel Rich e Oxidizer Rich}{33}{appendix.1.Alph3}%
+\contentsline {section}{\numberline {D}Prodotti gas generator analizzati con software NASA CEA}{33}{appendix.1.Alph4}%
+\contentsline {section}{\numberline {E}Schemi del gas generator}{34}{appendix.1.Alph5}%
+\contentsline {section}{\numberline {F}Diagrammi di velocità}{34}{appendix.1.Alph6}%
+\contentsline {section}{\numberline {G}Codici MATLAB usati}{35}{appendix.1.Alph7}%
+\contentsline {subsection}{\numberline {G.1}Simulazione di volo}{35}{subsection.1.Alph7.1}%
+\contentsline {section}{Bibliografia}{40}{lstnumber.-1.203}%
