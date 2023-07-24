@@ -15,9 +15,43 @@ I gas caldi in uscita dal GG vengono inoltre sfruttati per scaldare e quindi pre
 Questo viene fatto per creare un film di gas relativamente freddi che hanno il compito di alleviare il carico termico sopportato dalla porzione finale dell'ugello (vedi -----APPENDICE----- per rappresentazioni grafiche dettagliate).
 Il raffreddamento della parte superiore dell’ugello viene effettuato facendo passare il combustibile in diversi tubi esterni posti nella sezione tra gola e divergente 10:1; il combustibile riscaldato viene poi introdotto in camera di combustione.
 
-In -----TABELLA----- e \autoref{fig:schema_termodinamico} si vedono alcuni dati rappresentativi dell'intero sistema. Si è ipotizzato di trattare i gas come perfetti e di assumere come dati alcuni rendimenti e alcune grandezze caratteristiche.
+In \autoref{table:dati_schema_termodinamico} e \autoref{fig:schema_termodinamico} si vedono alcuni dati rappresentativi dell'intero sistema. Si è ipotizzato di trattare i gas come perfetti e di assumere come dati alcuni rendimenti e alcune grandezze caratteristiche.
 
-\cfig{schema_termodinamico}{Schema termodinamico}{schema_termodinamico}{0.45}
+\begin{minipage}{0.4\linewidth}
+    \centering
+    \captionsetup{type=figure}
+    \includegraphics[width=\linewidth]{schema_termodinamico}
+    \caption{Schema termodinamico}
+    \label{fig:schema_termodinamico}
+\end{minipage}\hfill
+\begin{minipage}{0.6\linewidth}
+    \centering
+    \captionsetup{type=table}
+    \scriptsize
+    \renewcommand{\arraystretch}{2}
+    \setlength\extrarowheight{-1pt}
+    \begin{tabular}{|c|c|c|c|c|c|}
+        \hline
+        & $\bm{p_{in} \, [bar]}$ & $\bm{p_{out} \, [bar]}$ & $\bm{\dot{m}_{p} \, [kg/s]}$ & $\bm{T_{in} \, [K]}$ & $\bm{T_{out} \, [K]}$ \\
+        \hline
+        \textbf{RP1 pump} & $3.1026$ & $128.93$ & $849.13$ & $90.15$ & $90.15$ \\
+        \hline
+        \textbf{LOX pump} & $4.4816$ & $110.45$ & $1828.43$ & $298.15$ & $298.15$ \\
+        \hline
+        \textbf{GG} & $68.94$ & $66.63$ & $77.25$ & $1062$ & $1062$ \\
+        \hline
+        \textbf{Turbine} & $64.05$ & $3.93$ & $77.25$ & $1062$ & $888.38$ \\
+        \hline
+        \textbf{HH (He)} & $207.86$ & $-$ & $0.2268$ & $90.15$ & $433.15$ \\
+        \hline
+        \textbf{HH (OX)} & $96.52$ & $93.08$ & $3.1752$ & $95.37$ & $380.37$ \\
+        \hline
+        \textbf{HH (EXH)} & $-$ & $-$ & $77.25$ & $888.38$ & $879.17$ \\
+        \hline
+    \end{tabular}
+    \caption{Dati schema termodinamico}
+    \label{table:dati_schema_termodinamico}
+\end{minipage}
 
 \subsection{Analisi sulla scelta del ciclo di alimentazione}
 \label{subsec:analisi ciclo alimentazione}
