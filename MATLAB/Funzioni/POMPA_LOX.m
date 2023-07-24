@@ -156,6 +156,8 @@ text(35, -20, str1);
 str2 = {'OUTLET'};
 text(125, -20, str2);
 title('Diagramma di velocità INDUCER POMPA LOX')
+xlabel('velocità tangenziale [m/s]')
+ylabel('velocità meridionale [m/s]')
 
 % Inducer inlet tip speed
 u0_t_ind = (pi*N)/720 * d_0t; % in ft/sec
@@ -321,6 +323,8 @@ text(45, -20, str1);
 str2 = {'OUTLET'};
 text(180, -20, str2);
 title('Diagramma di velocità IMPELLER POMPA LOX')
+xlabel('velocità tangenziale [m/s]')
+ylabel('velocità meridionale [m/s]')
 
 %% 3° tratto: Pump casing
 % Design of a double-volute (spaced 180°) single-discharge-type casing
