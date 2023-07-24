@@ -12,6 +12,7 @@ bell_percentage_eps_10 = 0.8;
 
 [x_eps_10, y_eps_10, Ln_cone_eps_10, Ln_eps_10, Nx_eps_10, Ny_eps_10, Qx_eps_10, Qy_eps_10, Ex_eps_10, Ey_eps_10] = bell_nozzle(eps_10, Rt_10, bell_percentage_eps_10, theta_n_deg_eps_10, theta_e_deg_eps_10);
 
+% parabolic arc length
 si = 0;
 for i=2:125
     si = si + sqrt((x_eps_10(i)-x_eps_10(i-1)).^2 + (y_eps_10(i)-y_eps_10(i-1)).^2);
@@ -27,6 +28,8 @@ plot(Nx_eps_10, Ny_eps_10, 'o');
 plot(Qx_eps_10, Qy_eps_10, '.k');
 plot(Ex_eps_10, Ey_eps_10, 'o');
 legend('Bell Nozzle 2D', 'Inflection point', 'Cross point', 'Exit point');
+xlabel('X [m]');
+ylabel('Y [m]');
 
 %% 3D Plot
 n = length(x_eps_10);
@@ -39,9 +42,9 @@ figure
 surf(X_eps_10, Y_eps_10, Z_eps_10);
 axis equal
 box on
-xlabel('X');
-ylabel('Y');
-zlabel('Z');
+xlabel('X [m]');
+ylabel('Y [m]');
+zlabel('Z [m]');
 
 %% Nozzle 1:16 data:
 eps = 16;
@@ -63,6 +66,8 @@ plot(Nx, Ny, 'o');
 plot(Qx, Qy, '.k');
 plot(Ex, Ey, 'o');
 legend('Bell Nozzle 2D', 'Inflection point', 'Cross point', 'Exit point');
+xlabel('X [m]');
+ylabel('Y [m]');
 
 %% 3D Plot
 n = length(x);
@@ -75,6 +80,6 @@ figure
 surf(X, Y, Z);
 axis equal
 box on
-xlabel('X');
-ylabel('Y');
-zlabel('Z');
+xlabel('X [m]');
+ylabel('Y [m]');
+zlabel('Z [m]');
