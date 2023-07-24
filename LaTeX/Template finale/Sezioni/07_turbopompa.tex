@@ -38,12 +38,12 @@ dove con $\eta_P$ si intende il rendimento della pompa.
 La prevalenza della pompa è inoltre direttamente proporzionale alla velocità periferica del disco della girante e da una prima osservazione si nota che il fluido viene introdotto assialmente vicino al mozzo della girante, senza alcun momento angolare, e viene rilasciato con una velocità tangenziale dipendente da $\beta_2$ angolo di back-leaning della palettatura e $v_{r2}$ velocità radiale di uscita del flusso. Quest’ultimo termine è legato alla portata volumetrica Q della pompa, ulteriore requisito di progetto, che essa deve essere in grado di soddisfare e che viene principalmente dettata dalle condizioni presenti in camera di combustione e al gas generator, più eventuali perdite di carico stimate lungo i tubi. 
 Dal bilancio del momento della quantità di moto è possibile ricavare la coppia necessaria a mantenere il moto della girante e risalire perciò alla potenza:
 \begin{empheq}{gather*}
-P = \dot{m}{(\omega R_2 )}^2{(1 - {\frac{v_{r2}}{\omega R_2}} {\tan \beta_2})} = \dot{m}\frac{g H}{\eta_P}
+P = \dot{m}{(\omega R_2 )}^2{(1 - {\frac{v_{m2}}{\omega R_2}} {\tan \beta_2})} = \dot{m}\frac{g H}{\eta_P}
 \end{empheq}
 
 Al valore di potenza è legato il termine $\psi$ coefficiente di prevalenza -head coefficient- della pompa
 \begin{empheq}{gather*}
-\psi = \eta_P {(1 - {\frac{v_{r2}}{\omega R_2}} {\tan \beta_2})} = \frac {g H}{{(\omega R_2 )}^2}
+\psi = \eta_P {(1 - {\frac{v_{m2}}{\omega R_2}} {\tan \beta_2})} = \frac {g H}{{(\omega R_2 )}^2}
 \end{empheq}
 e per un design ottimale di pompa centrifuga deve essere contenuto tra 0.2 e 0.8. Valori maggiori dell’unità sono indicativi di palette realizzate per impartire in avanti il flusso e il $\Delta P$ tenderebbe ad aumentare all’aumentare della portata portando ad una generale instabilità del sistema di pressurizzazione.
 
@@ -91,7 +91,7 @@ $944.7827$ & $1.2424e+04$ & $0.4569$ &  $2.2440e+07$ & $3.8543$ & $0.7677$ & $2.
 
 Il punto di partenza nella progettazione della pompa è la scelta di un valore ottimale di velocità specifica $N_s$, definita in condizioni di design in relazione al numero di giri al minuto $N$ prestabiliti in condizioni stazionarie 
 \begin{empheq}{equation*}
-N_s = \frac{N\sqrt{Q}}{\Delta H^{0.75}}
+N_s = \frac{N\sqrt{Q}}{H^{0.75}}
 \end{empheq}
 questo primo valore permette di effettuare una prima selezione tra le varie tipologia di pompe (in particolare forma e tipologia di impeller) esistenti per concentrare lo studio su quella che meglio si potrebbe adattare ai requisiti del motore. Dal momento che sono noti i valori di portata e salto di pressione richiesto, viene ipotizzato un numero di giri al minuto $N$ per cominciare l'analisi.
  \\
