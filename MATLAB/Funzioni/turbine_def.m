@@ -171,26 +171,3 @@ function quiver2(pos)
     set(a, 'parent', gca);
     set(a, 'position', pos);
 end
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
