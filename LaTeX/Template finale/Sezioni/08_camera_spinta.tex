@@ -85,8 +85,9 @@ La camera di combustione funge da involucro che deve mantiene i propellenti per 
 
 Un parametro utile relativo al volume della camera e il tempo di residenza è la "lunghezza caratteristica", L*, ossia il volume della camera diviso per l’area di gola:
 
-FORMULEEEEE
-
+\begin{empheq}{gather*}
+            L^* = \frac{V_{cc}}{A_{t}}                                                                       
+\end{empheq}
 
 Il concetto di L* è molto più facile da visualizzare rispetto al più elusivo "tempo di residenza", espresso in piccole frazioni di secondo, infatti si tratta di un sostituto per determinare il tempo di permanenza nella camera dei propellenti.
 
@@ -96,23 +97,67 @@ Il metodo abituale per stabilire la L* di un nuovo progetto della camera di spin
 Nel caso della coppia di LOX/RP-1 la L* è compresa tra i valori 1÷1.30 metri, e per motivi progettuali descritti in precedenza è stata fissata la misura di L* a 1 m.
 Partendo da questo dato e dalla dimensione dell’area di gola del motore è possibile modellare la camera di combustione.
 
-Invertendo la formula della L* è possibile ottenere il volume della camera di combustione Vc che comprende, oltre alla parte cilindrica, anche la parte convergente.
+Invertendo la formula della L* è possibile ottenere il volume della camera di combustione $V_{cc}$ che comprende, oltre alla parte cilindrica, anche la parte convergente.
 
-FORMULAAAAAA
+\begin{empheq}{gather*}
+          V_{cc} = {L^* A_{t}}                                                                       
+\end{empheq}
 
 È possibile anche calcolare la velocità caratteristica c* e il tempo di residenza attraverso le seguenti due formule:
 
-FORMULEEEEEE
+
+\begin{empheq}{gather*}
+             c^* =  \frac {p_{cc}  A_{t}} {\Gamma\ { \frac {p_{cc}}{\sqrt{{\frac {R}{MM}} T_{cc}}}  A_{t} }}          \\ 
+          \Gamma\ = \sqrt{\gamma\ (\frac{2}{\gamma\ +1})^{\frac {\gamma\ +1}{\gamma\ -1}}}                 \\
+            t_{r} = \frac {L^*}{c^*}
+\end{empheq}
+
 
 Per calcolare le dimensioni reali di entrambe le parti della camera di combustione, ovvero la parte cilindrica e quella del convergente, è necessario fissare due parametri al fine dello sviluppo del modello.
 Si tratta del rateo di contrazione, ossia il rapporto tra la sezione della camera cilindrica e la sezione di gola, e l’angolo di inclinazione del convergente
 
-FORMULEEEEEEE
+\begin{empheq}{gather*}
+          \epsilon\ = \frac {A_{cil}}{A_{t}} = 1.307     \qquad     %indicare fonte dato  
+           \theta\ = 13^{\circ}                                                             
+\end{empheq}
 
 Sfruttando la trigonometria si ottiene la lunghezza assiale del tratto convergente e considerando quest’ultimo come una figura tronco conica si ottiene il volume da rapportare a quello calcolato in precedenza, così da ottenere il valore percentuale dell’ingombro del convergente, utilizzato nei calcoli seguenti.
-Si ottiene così una camera di combustione con le seguenti misure:
 
-TABELLAAAAAAAA
+\begin{empheq}{gather*}
+         A_{cil} = \epsilon\ A_{t}                       \qquad
+         R_{cil} = \sqrt{\frac{A_{cil}}{\pi}}            \\       
+         a = {R_{cil} - R_{t}}                                  \\
+         L_{conv} = \frac {a}{\tan(\theta\ )}             \\ 
+         V_{conv} = \frac {(A_{cil} + A_{t} + \sqrt{A_{cil} A_{t}}) L_{conv}}{3}    \\
+         \% = \frac {V_{conv}}{V_{cc}}                                                  
+\end{empheq}
+
+Si ottiene così una porzione cilindrica corretta:
+
+\begin{empheq}{gather*}
+         fatt_{corr} = 1 + \%   \\
+         L_{cil_c} = \frac {V_{cil}}{ fatt_{corr} A_{c}} \qquad
+         V_{cil_c} = L_{cil_c} A_{c}  
+\end{empheq}
+
+
+
+\begin{table}[H]
+
+\centering
+\begin{tabular}{|c|c|c|c|c|c|c|c|}
+\hline
+$\bm{A_{t} \, [m^2]}$ & $\bm{A_{cil} \, [m^2]}$ & $\bm{L_{conv} \, [m]}$ &  $\bm{L_{cil} \, [m]}$ & $\bm{V_{conv} \, [m^3]}$ & $\bm{V_{cil} \, [m^3]}$ & $\bm{V_{cc} \, [m^3]}$  & $\bm{A_{tot_{int}} \, [m^2]}$\\
+\hline
+$$ & $$ & $$ &  $$ & $$ & $$ & $$ & $$ \\
+\hline
+\end{tabular}
+
+
+\caption{Tabella riassuntiva camera di combustione}
+\label{table:geometria_cc}
+\end{table}
+
 
 
 \subsection{Modellazione dell'ugello}
