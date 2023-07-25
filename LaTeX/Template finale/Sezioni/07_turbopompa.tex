@@ -38,12 +38,12 @@ dove con $\eta_P$ si intende il rendimento della pompa.
 La prevalenza della pompa è inoltre direttamente proporzionale alla velocità periferica del disco della girante e da una prima osservazione si nota che il fluido viene introdotto assialmente vicino al mozzo della girante, senza alcun momento angolare, e viene rilasciato con una velocità tangenziale dipendente da $\beta_2$ angolo di back-leaning della palettatura e $v_{r2}$ velocità radiale di uscita del flusso. Quest’ultimo termine è legato alla portata volumetrica Q della pompa, ulteriore requisito di progetto, che essa deve essere in grado di soddisfare e che viene principalmente dettata dalle condizioni presenti in camera di combustione e al gas generator, più eventuali perdite di carico stimate lungo i tubi. 
 Dal bilancio del momento della quantità di moto è possibile ricavare la coppia necessaria a mantenere il moto della girante e risalire perciò alla potenza:
 \begin{empheq}{gather*}
-P = \dot{m}{(\omega R_2 )}^2{(1 - {\frac{v_{r2}}{\omega R_2}} {\tan \beta_2})} = \dot{m}\frac{g H}{\eta_P}
+P = \dot{m}{(\omega R_2 )}^2{(1 - {\frac{v_{m2}}{\omega R_2}} {\tan \beta_2})} = \dot{m}\frac{g H}{\eta_P}
 \end{empheq}
 
 Al valore di potenza è legato il termine $\psi$ coefficiente di prevalenza -head coefficient- della pompa
 \begin{empheq}{gather*}
-\psi = \eta_P {(1 - {\frac{v_{r2}}{\omega R_2}} {\tan \beta_2})} = \frac {g H}{{(\omega R_2 )}^2}
+\psi = \eta_P {(1 - {\frac{v_{m2}}{\omega R_2}} {\tan \beta_2})} = \frac {g H}{{(\omega R_2 )}^2}
 \end{empheq}
 e per un design ottimale di pompa centrifuga deve essere contenuto tra 0.2 e 0.8. Valori maggiori dell’unità sono indicativi di palette realizzate per impartire in avanti il flusso e il $\Delta P$ tenderebbe ad aumentare all’aumentare della portata portando ad una generale instabilità del sistema di pressurizzazione.
 
@@ -91,12 +91,12 @@ $944.7827$ & $1.2424e+04$ & $0.4569$ &  $2.2440e+07$ & $3.8543$ & $0.7677$ & $2.
 
 Il punto di partenza nella progettazione della pompa è la scelta di un valore ottimale di velocità specifica $N_s$, definita in condizioni di design in relazione al numero di giri al minuto $N$ prestabiliti in condizioni stazionarie 
 \begin{empheq}{equation*}
-N_s = \frac{N\sqrt{Q}}{\Delta H^{0.75}}
+N_s = \frac{N\sqrt{Q}}{H^{0.75}}
 \end{empheq}
 questo primo valore permette di effettuare una prima selezione tra le varie tipologia di pompe (in particolare forma e tipologia di impeller) esistenti per concentrare lo studio su quella che meglio si potrebbe adattare ai requisiti del motore. Dal momento che sono noti i valori di portata e salto di pressione richiesto, viene ipotizzato un numero di giri al minuto $N$ per cominciare l'analisi.
  \\
 
-Analisi Inducer\\
+ \textbf{Analisi inducer}\\
 è la prima interfaccia tra il fluido di lavoro e il sistema pompa e deve essere progettata con l’intento di evitare il più possibile eventuali fenomeni di cavitazione che portano ad un grande degrado delle prestazioni generali. Il rischio di cavitazione è alto soprattutto nella zona di ingresso -inlet- della pompa dove il fluido di lavoro alla pressione più bassa che si riscontra in questa parte del ciclo, dovendo ancora cominciare la pressurizzazione, viene compresso grazie ai contributi di aumento di velocità radiale e velocità di rotazione della palettatura. Per caratterizzare la condizione di cavitazione bisogna introdurre una nuova grandezza, detta NPSH (Net Positive Suction Head), è un indice di merito della pressione in ingresso alla pompa. In particolare:
 \begin{empheq}{equation*}
 \left(NPSH\right) = \frac{P_{TOT1} - P_{vap}}{\rho g} 
@@ -113,11 +113,11 @@ valore del coefficiente di prevalenza $\psi_{ind}$, pari a $0.06$, relativo al s
 Con le stesse relazioni sopra descritte, è anche possibile andare a trovare la velocità all'estremo superiore -tip- della paletta per valutare un ulteriore parametro di progetto, la -vane solidity tip-; essa è definita come la sezione anulare normale alla direzione della velocità assiale di effettivo passaggio del fluido di lavoro.
 \\
 
-Analisi Impeller\\
+\textbf{Analisi impeller}\\
 Bisogna anche in questo fare riferimento ad una ragionevole ipotesi sulla perdita di prevalenza $H$ nella sezione anulare di passaggio del fluido a causa di attriti e conseguente dissipazione di energia, dal manuale risulta $H_e = 0.3H$ come termine di perdita. A questo punto è possibile calcolare la prevalenza effettiva fornita della sezione della girante -impeller- e sono noti inoltre il diametro nella sezione 1 -outlet inducer/inlet impeller- e nella sezione 2 -outlet impeller-. Con un ragionamento del tutto analogo a quello relativo all'inducer è possibile costruire il triangolo di velocità dato dalla composizione della velocità assoluta  $\overrightarrow{c}$, della velocità relativa $\overrightarrow{v}$, con i rispettivi angoli di orientazione $\alpha$ e $\beta$ e della velocità periferica media di rotazione $\overrightarrow{u}$. Per i procedimenti di analisi della conservazione della portata e di calcolo effettivo mediante relazioni trigonometriche passo per passo si rimanda al codice matlab $POMPA_{LOX}$ allegato in appendice.
 \\
 
-Analisi casing pompa: vani diffusori\\
+\textbf{Analisi casing pompa: vani diffusori}\\
 Il principale compito del casing è quello di convertire l'elevata energia cinetica del fluido di lavoro in uscita dalla sezione 2 dell'impeller in pressione statica; questo elemento non contribuisce quindi in alcun modo alla generazione di un valore di prevalenza. Il casing può essere formalmente diviso in due sezioni: una frontale nominata -suction nozzle- con il compito di convogliare debitamente il flusso nella sezione di uscita -volute / (voluta in italiano)- che invece si occupa della effettiva conversione energetica. La sezione frontale ha una lughezza ridotta per cercare di limitare al minimo le perdite di pressione per attrito contro le pareti rigide. Con i dati in possesso si procede al dimensionamento di un casing con geometria double-volute ($180\degree$) e singola sezione di efflusso per il flusso.\\
 Per calcolare la velocità media del flusso all'interno della voluta si assume come riferimento un parametro $K_v$ determinato sperimentalemente tramite prove al banco di differenti tipologie di vani diffusori. Per i calcoli $K_v = 0.337$ da manuale.
 \begin{empheq}{equation*}
