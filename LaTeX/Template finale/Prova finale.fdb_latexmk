@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex Prova finale"] 1690294074 "Prova finale.aux" "Prova finale.bbl" "Prova finale" 1690294079 0
+["bibtex Prova finale"] 1690295512 "Prova finale.aux" "Prova finale.bbl" "Prova finale" 1690295517 0
   "./bibliography.bib" 1690141778 7548 6dd8160a591c9c67c1359ea045963a71 ""
   "C:/Users/turcu/AppData/Local/Programs/MiKTeX/bibtex/bst/bibtex/plain.bst" 1291868336 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
-  "Prova finale.aux" 1690294078 31703 f6cec9e4aa762d6c4009d065d0c3622f "pdflatex"
+  "Prova finale.aux" 1690295516 31991 aadcd30575eeeeaaece87a921f8a720a "pdflatex"
   (generated)
   "Prova finale.bbl"
   "Prova finale.blg"
   (rewritten before read)
-["pdflatex"] 1690294074 "c:/Users/turcu/Desktop/Saturn_V/LaTeX/Template finale/Prova finale.tex" "Prova finale.pdf" "Prova finale" 1690294079 0
+["pdflatex"] 1690295512 "c:/Users/turcu/Desktop/Saturn_V/LaTeX/Template finale/Prova finale.tex" "Prova finale.pdf" "Prova finale" 1690295517 0
   "C:/Users/turcu/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1690042068 95607 034e0737ccfe37fc78b0169eb44187f4 ""
   "C:/Users/turcu/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1684236545 23188739 a2fc3e86f82404b52dad9870f4800c11 ""
   "C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458477487 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -57,6 +57,7 @@
   "C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbmi.pfb" 1674492444 30150 4444da69a5beffe59b1fbf4cdfec7227 ""
   "C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbmia.pfb" 1674492444 30406 41faa118093d1dedc2208a6694914719 ""
   "C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbn8a.pfb" 1674492444 32613 e064ce644a24deb273c8f670630798ba ""
+  "C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbne.pfb" 1674492444 18279 7aad9c053b21deb6ce3ea35c2cdb90d0 ""
   "C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbsc8a.pfb" 1674492444 34310 1172e73f913bfccdf21d62f9e36829dd ""
   "C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbsy.pfb" 1674492444 26098 d5b5e3d8655bb92aee7b17ec362d35e0 ""
   "C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpex.pfb" 1674492444 26063 1691ba566b0401a2658e6574f5f241e5 ""
@@ -305,11 +306,11 @@
   "Images//turbina_general.jpg" 1689962454 835806 26d3e05acfbb991808f1209096d23b80 ""
   "Images//ugello_TOP.jpg" 1689962454 168568 4885cd62f4010f5de5e24be727d9fd2d ""
   "Images//velocity_diagram_AIAA.pdf" 1689962454 286384 a0d15bcb5a42b69471303b90cd047748 ""
-  "Prova finale.aux" 1690294078 31703 f6cec9e4aa762d6c4009d065d0c3622f "pdflatex"
-  "Prova finale.bbl" 1690294074 1581 51c42240e5620019eaf1d1f98da06796 "bibtex Prova finale"
-  "Prova finale.out" 1690294078 9150 03b7ec42d67681a091e87e224efb378e "pdflatex"
-  "Prova finale.tex" 1690294037 8099 108e4a875d46a755e5991db7355ff084 ""
-  "Prova finale.toc" 1690294078 4406 090c1b663a591e9f4f6f51d653812cc3 "pdflatex"
+  "Prova finale.aux" 1690295516 31991 aadcd30575eeeeaaece87a921f8a720a "pdflatex"
+  "Prova finale.bbl" 1690295512 1581 51c42240e5620019eaf1d1f98da06796 "bibtex Prova finale"
+  "Prova finale.out" 1690295516 9329 d93d724e3b24c389b23eee1d366901e5 "pdflatex"
+  "Prova finale.tex" 1690295506 8073 93e19bc9c116fab186a5fb85312bebfc ""
+  "Prova finale.toc" 1690295516 4488 b63580a43bf93c8fd0b56dc9103da11c "pdflatex"
   "Sezioni/00_abstract.tex" 1690138122 970 2b52242d1d55a8fcbe7727ba75b8282d ""
   "Sezioni/01_nomenclatura.tex" 1689873216 52 dc91e3db2878d9dbe3ac6b2eb713788e ""
   "Sezioni/02_analisi_missione.tex" 1690294037 5850 706e2820d93a1dd5b7b2578cb93c6a03 ""
@@ -317,9 +318,9 @@
   "Sezioni/04_serbatoi_e_pressurizzazione.tex" 1690293848 12173 f2f5b5a3b5e88ac60d2faea4fdd9d597 ""
   "Sezioni/05_schema_termodinamico.tex" 1690294037 15239 5d483d04c1a29cc68f27c40985939a8a ""
   "Sezioni/06_gas_generator.tex" 1690141778 7503 f6257f0ec459035149dff1a016eec576 ""
-  "Sezioni/07_turbopompa.tex" 1690294037 24887 1508cdae194fe140c793b20e14aa0323 ""
-  "Sezioni/08_piatto_iniezione.tex" 1690141778 5496 c031808992deaec2ff95d531e6f4b0f3 ""
-  "Sezioni/09_camera_spinta.tex" 1690294037 41650 e5df791416cecc63a3fdcb2dbba2f9a0 ""
+  "Sezioni/07_turbopompa.tex" 1690294537 24915 11e833c89e92ed861fa730153c404db5 ""
+  "Sezioni/08_camera_spinta.tex" 1690294974 20081 a07e01f88996ecac690bc0bd4bcf5f85 ""
+  "Sezioni/09_raffreddamento.tex" 1690295048 27127 8ac1e2696685ed94c4adfac72497906d ""
   "Sezioni/10_appendice.tex" 1689962454 353 5e1ab4c5befb4c4d50ea0a1a9bb130fd ""
   "Sezioni/A_immagini_e_schemi.tex" 1689962454 165 86297569bd3f4cc77170c3919b8feabe ""
   "Sezioni/B_grafici_tempo_di_volo.tex" 1689962454 606 1f1831b8429c81a9bfd50f4d33a286ba ""
@@ -328,7 +329,7 @@
   "Sezioni/E_schemi_gg.tex" 1689964144 148 35b2d15703cc3efa34a9baee92a47cd2 ""
   "Sezioni/F_triangoli_velocita.tex" 1689962454 4372 6f5780fd978fa30124678cbaec5592fd ""
   "Sezioni/G_matlab.tex" 1690294068 864 4fa13ebbd28ab6b7222cdf656387b7c5 ""
-  "c:/Users/turcu/Desktop/Saturn_V/LaTeX/Template finale/Prova finale.tex" 1690294037 8099 108e4a875d46a755e5991db7355ff084 ""
+  "c:/Users/turcu/Desktop/Saturn_V/LaTeX/Template finale/Prova finale.tex" 1690295506 8073 93e19bc9c116fab186a5fb85312bebfc ""
   (generated)
   "Prova finale.aux"
   "Prova finale.log"
