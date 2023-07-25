@@ -1,15 +1,14 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.16)  25 JUL 2023 16:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.12.16)  25 JUL 2023 22:43
 entering extended mode
  restricted \write18 enabled.
- file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/turcu/Desktop/Saturn_V/LaTeX/Template finale/Prova finale.tex"
-(c:/Users/turcu/Desktop/Saturn_V/LaTeX/Template finale/Prova finale.tex
-LaTeX2e <2022-11-01> patch level 1
-L3 programming layer <2023-05-11> (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
-Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
-(C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
-File: size10.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
+**"./Prova finale.tex"
+(Prova finale.tex
+LaTeX2e <2022-06-01> patch level 5
+L3 programming layer <2022-09-28> (C:\Miktex\tex/latex/base\article.cls
+Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
+(C:\Miktex\tex/latex/base\size10.clo
+File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count185
 \c@section=\count186
@@ -19,78 +18,96 @@ File: size10.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
 \c@subparagraph=\count190
 \c@figure=\count191
 \c@table=\count192
-\abovecaptionskip=\skip48
-\belowcaptionskip=\skip49
-\bibindent=\dimen140
-) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+(C:\Miktex\tex/latex/titlesec\titlesec.sty
 Package: titlesec 2021/07/05 v2.14 Sectioning titles
 \ttl@box=\box51
-\beforetitleunit=\skip50
-\aftertitleunit=\skip51
-\ttl@plus=\dimen141
-\ttl@minus=\dimen142
+\beforetitleunit=\skip49
+\aftertitleunit=\skip50
+\ttl@plus=\dimen139
+\ttl@minus=\dimen140
 \ttl@toksa=\toks16
-\titlewidth=\dimen143
-\titlewidthlast=\dimen144
-\titlewidthfirst=\dimen145
-) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/graphics\color.sty
+\titlewidth=\dimen141
+\titlewidthlast=\dimen142
+\titlewidthfirst=\dimen143
+)
+(C:\Miktex\tex/latex/graphics\color.sty
 Package: color 2022/01/06 v1.3d Standard LaTeX Color (DPC)
- (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+
+(C:\Miktex\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 149.
- (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+
+(C:\Miktex\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
-) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+\stockwidth=\dimen144
+\stockheight=\dimen145
+)
+(C:\Miktex\tex/latex/graphics\mathcolor.ltx))
+(C:\Miktex\tex/latex/base\inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks17
 \inpenc@posthook=\toks18
-) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
-Package: babel 2023/05/11 v3.89 The Babel package
+) (C:\Miktex\tex/generic/babel\babel.sty
+Package: babel 2022/10/04 3.81 The Babel package
 \babel@savecnt=\count193
 \U@D=\dimen146
 \l@unhyphenated=\language79
- (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+
+(C:\Miktex\tex/generic/babel\txtbabel.def)
 \bbl@readstream=\read2
 \bbl@dirlevel=\count194
 
 *************************************
 * Local config file bblopts.cfg used
 *
-(C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
-File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of babel
-) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/babel-italian\italian.ldf
+(C:\Miktex\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(C:\Miktex\tex/latex/babel-italian\italian.ldf
 Language: italian 2022/03/27 v.1.4.07 Italian support for the babel system
 \it@lettering=\count195
 \it@doublequoteactive=\count196
 \it@ISOcompliance=\count197
-)) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/it\babel-italian.tex
+))
+(C:\Miktex\tex/generic/babel/locale/it\babel-italian.tex
 Package babel Info: Importing font and identification data for italian
 (babel)             from babel-it.ini. Reported on input line 11.
-) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+)
+(C:\Miktex\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count198
-) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+)
+(C:\Miktex\tex/latex/base\fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
-) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\kpfonts.sty
+) (C:\Miktex\tex/latex/kpfonts\kpfonts.sty
 Package: kpfonts  2023/01/18 v3.35
- (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+(C:\Miktex\tex/generic/iftex\iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
-) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+)
+(C:\Miktex\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2022/04/08 v2.17n AMS math features
-\@mathmargin=\skip52
+\@mathmargin=\skip51
 
 For additional information on amsmath, use the `?' option.
-(C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+(C:\Miktex\tex/latex/amsmath\amstext.sty
 Package: amstext 2021/08/26 v2.01 AMS text
- (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+
+(C:\Miktex\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks19
 \ex@=\dimen147
-)) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+))
+(C:\Miktex\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen148
-) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+)
+(C:\Miktex\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
 \inf@bad=\count199
@@ -135,8 +152,8 @@ LaTeX Info: Redefining \Relbar on input line 971.
 \totwidth@=\dimen154
 \lineht@=\dimen155
 \@envbody=\toks22
-\multlinegap=\skip53
-\multlinetaggap=\skip54
+\multlinegap=\skip52
+\multlinetaggap=\skip53
 \mathdisplay@stack=\toks23
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
@@ -400,39 +417,48 @@ LaTeX Font Info:    Overwriting symbol font `largesymbolsA' in version `bold'
 LaTeX Font Info:    Overwriting symbol font `largesymbolsA' in version `rm'
 (Font)                  U/jkpexa/m/n --> U/jkpexa/m/n on input line 640.
 LaTeX Font Info:    Overwriting symbol font `largesymbolsA' in version `boldrm'
+
 (Font)                  U/jkpexa/m/n --> U/jkpexa/bx/n on input line 641.
 LaTeX Font Info:    Overwriting symbol font `largesymbolsA' in version `sf'
 (Font)                  U/jkpexa/m/n --> U/jkpexa/m/n on input line 642.
 LaTeX Font Info:    Overwriting symbol font `largesymbolsA' in version `boldsf'
+
 (Font)                  U/jkpexa/m/n --> U/jkpexa/bx/n on input line 643.
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 963.
 LaTeX Info: Redefining \not on input line 1603.
-) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+)
+(C:\Miktex\tex/latex/graphics\graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
- (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+
+(C:\Miktex\tex/latex/graphics\keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks24
-) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+)
+(C:\Miktex\tex/latex/graphics\graphics.sty
 Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
- (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+
+(C:\Miktex\tex/latex/graphics\trig.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
-) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+)
+(C:\Miktex\tex/latex/graphics-cfg\graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
 )
 \Gin@req@height=\dimen156
 \Gin@req@width=\dimen157
-) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.sty
-Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
+)
+(C:\Miktex\tex/latex/eso-pic\eso-pic.sty
+Package: eso-pic 2023/03/23 v3.0b eso-pic (RN)
 \ESO@tempdima=\dimen158
 \ESO@tempdimb=\dimen159
-) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/subfig\subfig.sty
+)
+(C:\Miktex\tex/latex/subfig\subfig.sty
 Package: subfig 2005/06/28 ver: 1.3 subfig package
- (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
-Package: caption 2023/03/12 v3.6j Customizing captions (AR)
- (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
-Package: caption3 2023/03/12 v2.4 caption3 kernel (AR)
+ (C:\Miktex\tex/latex/caption\caption.sty
+Package: caption 2022/03/01 v3.6b Customizing captions (AR)
+(C:\Miktex\tex/latex/caption\caption3.sty
+Package: caption3 2022/03/17 v2.3b caption3 kernel (AR)
 \caption@tempdima=\dimen160
 \captionmargin=\dimen161
 \caption@leftmargin=\dimen162
@@ -447,71 +473,81 @@ Package caption Info: Standard document class detected.
 \c@continuedfloat=\count282
 )
 \c@KVtest=\count283
-\sf@farskip=\skip55
+\sf@farskip=\skip54
 \sf@captopadj=\dimen168
-\sf@capskip=\skip56
-\sf@nearskip=\skip57
+\sf@capskip=\skip55
+\sf@nearskip=\skip56
 \c@subfigure=\count284
 \c@subfigure@save=\count285
 \c@lofdepth=\count286
 \c@subtable=\count287
 \c@subtable@save=\count288
 \c@lotdepth=\count289
-\sf@top=\skip58
-\sf@bottom=\skip59
-) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/transparent\transparent.sty
+\sf@top=\skip57
+\sf@bottom=\skip58
+)
+(C:\Miktex\tex/latex/transparent\transparent.sty
 Package: transparent 2022-10-27 v1.5 Transparency with color stacks
- (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/transparent\transparent-nometadata.sty
-Package: transparent-nometadata 2022-10-27 v1.5 Transparency via pdfTeX's color stack (HO)
- (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
+
+(C:\Miktex\tex/latex/transparent\transparent-nometadata.sty
+Package: transparent-nometadata 2022-10-27 v1.5 Transparency via pdfTeX's color
+ stack (HO)
+
+(C:\Miktex\tex/latex/auxhook\auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
-))) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/wrapfig\wrapfig.sty
+)))
+(C:\Miktex\tex/latex/wrapfig\wrapfig.sty
 \wrapoverhang=\dimen169
 \WF@size=\dimen170
 \c@WF@wrappedlines=\count290
 \WF@box=\box54
 \WF@everypar=\toks25
 Package: wrapfig 2003/01/31  v 3.6
-) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/amscls\amsthm.sty
+)
+(C:\Miktex\tex/latex/amscls\amsthm.sty
 Package: amsthm 2020/05/29 v2.20.6
 \thm@style=\toks26
 \thm@bodyfont=\toks27
 \thm@headfont=\toks28
 \thm@notefont=\toks29
 \thm@headpunct=\toks30
-\thm@preskip=\skip60
-\thm@postskip=\skip61
-\thm@headsep=\skip62
+\thm@preskip=\skip59
+\thm@postskip=\skip60
+\thm@headsep=\skip61
 \dth@everypar=\toks31
-) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/tools\bm.sty
+) (C:\Miktex\tex/latex/tools\bm.sty
 Package: bm 2022/01/05 v1.2f Bold Symbol Support (DPC/FMi)
 \symboldoperators=\mathgroup9
 \symboldletters=\mathgroup10
 \symboldsymbols=\mathgroup11
 \symboldlargesymbols=\mathgroup12
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
-) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\empheq.sty
+)
+(C:\Miktex\tex/latex/mathtools\empheq.sty
 Package: empheq 2017/03/31 v2.15 Emphasizing equations
- (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mhsetup.sty
+
+(C:\Miktex\tex/latex/mathtools\mhsetup.sty
 Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
-) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mathtools.sty
+)
+(C:\Miktex\tex/latex/mathtools\mathtools.sty
 Package: mathtools 2022/06/29 v1.29 mathematical typesetting tools
- (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
+
+(C:\Miktex\tex/latex/tools\calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count291
 \calc@Bcount=\count292
 \calc@Adimen=\dimen171
 \calc@Bdimen=\dimen172
-\calc@Askip=\skip63
-\calc@Bskip=\skip64
+\calc@Askip=\skip62
+\calc@Bskip=\skip63
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count293
-\calc@Cskip=\skip65
+\calc@Cskip=\skip64
 )
 \g_MT_multlinerow_int=\count294
 \l_MT_multwidth_dim=\dimen173
-\origjot=\skip66
+\origjot=\skip65
 \l_MT_shortvdotswithinadjustabove_dim=\dimen174
 \l_MT_shortvdotswithinadjustbelow_dim=\dimen175
 \l_MT_above_intertext_sep=\dimen176
@@ -537,18 +573,23 @@ LaTeX Info: Redefining \addtolength on input line 81.
 \EQ_mathdisplay_box=\box56
 \EQ_tag_box=\box57
 \g_EQ_temprow_int=\count298
-) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/matlab-prettifier\matlab-prettifier.sty
-Package: matlab-prettifier 2014/06/19 v0.3 A package for prettyprinting Matlab source code
- (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty
+)
+(C:\Miktex\tex/latex/matlab-prettifier\matlab-prettifier.sty
+Package: matlab-prettifier 2014/06/19 v0.3 A package for prettyprinting Matlab 
+source code
+
+(C:\Miktex\tex/latex/base\textcomp.sty
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
-) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+) (C:\Miktex\tex/latex/xcolor\xcolor.sty
 Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
- (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+
+(C:\Miktex\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 227.
 LaTeX Info: Redefining \color on input line 711.
- (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+
+(C:\Miktex\tex/latex/graphics\mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
 Package xcolor Info: Model `RGB' extended on input line 1369.
@@ -558,7 +599,8 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
-) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
+)
+(C:\Miktex\tex/latex/listings\listings.sty
 \lst@mode=\count299
 \lst@gtempboxa=\box58
 \lst@token=\toks32
@@ -571,34 +613,38 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
 \lst@newlines=\count303
 \lst@lineno=\count304
 \lst@maxwidth=\dimen194
- (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
-File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
+
+(C:\Miktex\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
 \c@lstnumber=\count305
 \lst@skipnumbers=\count306
 \lst@framebox=\box59
-) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
-File: listings.cfg 2023/02/27 1.9 listings configuration
+)
+(C:\Miktex\tex/latex/listings\listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
 ))
-Package: listings 2023/02/27 1.9 (Carsten Heinz)
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
 \netBracketCount@mlpr=\count307
 \blkLvl@mlpr=\count308
 \blkLvlAtClassdef@mlpr=\count309
-\emHeight@mlpr=\skip67
-\jayDepth@mlpr=\skip68
-\sectionRuleOffset@mlpr=\skip69
+\emHeight@mlpr=\skip66
+\jayDepth@mlpr=\skip67
+\sectionRuleOffset@mlpr=\skip68
 \toks@mlpr=\toks33
-) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/gensymb\gensymb.sty
+)
+(C:\Miktex\tex/latex/gensymb\gensymb.sty
 Package: gensymb 2022/10/17 v1.0.2 (KJH)
-) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
+)
+(C:\Miktex\tex/latex/tools\tabularx.sty
 Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
- (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
-Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
+ (C:\Miktex\tex/latex/tools\array.sty
+Package: array 2022/03/10 v2.5f Tabular extension package (FMi)
 \col@sep=\dimen195
 \ar@mcellbox=\box60
 \extrarowheight=\dimen196
 \NC@list=\toks34
-\extratabsurround=\skip70
-\backup@length=\skip71
+\extratabsurround=\skip69
+\backup@length=\skip70
 \ar@cellbox=\box61
 )
 \TX@col@width=\dimen197
@@ -608,12 +654,13 @@ Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
 \TX@delta=\dimen257
 \TX@cols=\count310
 \TX@ftn=\toks35
-) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty
+)
+(C:\Miktex\tex/latex/tools\longtable.sty
 Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
-\LTleft=\skip72
-\LTright=\skip73
-\LTpre=\skip74
-\LTpost=\skip75
+\LTleft=\skip71
+\LTright=\skip72
+\LTpre=\skip73
+\LTpost=\skip74
 \LTchunksize=\count311
 \LTcapwidth=\dimen258
 \LT@head=\box62
@@ -626,62 +673,81 @@ Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
 \c@LT@tables=\count314
 \c@LT@chunks=\count315
 \LT@p@ftn=\toks36
-) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/colortbl\colortbl.sty
+)
+(C:\Miktex\tex/latex/colortbl\colortbl.sty
 Package: colortbl 2022/06/20 v1.0f Color table columns (DPC)
 \everycr=\toks37
-\minrowclearance=\skip76
+\minrowclearance=\skip75
 \rownum=\count316
-) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/algorithms\algorithm.sty
-Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating environment
- (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+)
+(C:\Miktex\tex/latex/algorithms\algorithm.sty
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+
+(C:\Miktex\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count317
 \float@exts=\toks38
 \float@box=\box67
 \@float@everytoks=\toks39
 \@floatcapt=\box68
-) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+) (C:\Miktex\tex/latex/base\ifthen.sty
 Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 )
 \@float@every@algorithm=\toks40
 \c@algorithm=\count318
-) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/algorithms\algorithmic.sty
+)
+(C:\Miktex\tex/latex/algorithms\algorithmic.sty
 Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
 \c@ALC@unique=\count319
 \c@ALC@line=\count320
 \c@ALC@rem=\count321
 \c@ALC@depth=\count322
-\ALC@tlm=\skip77
-\algorithmicindent=\skip78
-) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
-Package: hyperref 2023-04-22 v7.00x Hypertext links for LaTeX
- (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+\ALC@tlm=\skip76
+\algorithmicindent=\skip77
+)
+(C:\Miktex\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2022-09-22 v7.00t Hypertext links for LaTeX
+
+(C:\Miktex\tex/generic/ltxcmds\ltxcmds.sty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
-) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
-Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
- (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.sty
+)
+(C:\Miktex\tex/generic/pdftexcmds\pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(C:\Miktex\tex/generic/infwarerr\infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+)
+(C:\Miktex\tex/latex/kvsetkeys\kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
-) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.sty
+)
+(C:\Miktex\tex/generic/kvdefinekeys\kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.sty
+)
+(C:\Miktex\tex/generic/pdfescape\pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
-) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+)
+(C:\Miktex\tex/latex/hycolor\hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
-) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\letltxmacro.sty
+)
+(C:\Miktex\tex/latex/letltxmacro\letltxmacro.sty
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
-) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+)
+(C:\Miktex\tex/latex/hyperref\nameref.sty
 Package: nameref 2022-05-17 v2.50 Cross-referencing by name of section
- (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+
+(C:\Miktex\tex/latex/refcount\refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
-) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
+)
+(C:\Miktex\tex/generic/gettitlestring\gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
- (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+
+(C:\Miktex\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
 \c@section@level=\count323
@@ -689,49 +755,59 @@ Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 \@linkdim=\dimen259
 \Hy@linkcounter=\count324
 \Hy@pagecounter=\count325
- (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
-File: pd1enc.def 2023-04-22 v7.00x Hyperref: PDFDocEncoding definition (HO)
+
+(C:\Miktex\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2022-09-22 v7.00t Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
-) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+)
+(C:\Miktex\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
+(C:\Miktex\tex/generic/etexcmds\etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
 \Hy@SavedSpaceFactor=\count326
- (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
-File: puenc.def 2023-04-22 v7.00x Hyperref: PDF Unicode definition (HO)
+
+(C:\Miktex\tex/latex/hyperref\puenc.def
+File: puenc.def 2022-09-22 v7.00t Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
-Package hyperref Info: Hyper figures OFF on input line 4182.
-Package hyperref Info: Link nesting OFF on input line 4187.
-Package hyperref Info: Hyper index ON on input line 4190.
-Package hyperref Info: Plain pages OFF on input line 4197.
-Package hyperref Info: Backreferencing OFF on input line 4202.
+Package hyperref Info: Hyper figures OFF on input line 4162.
+Package hyperref Info: Link nesting OFF on input line 4167.
+Package hyperref Info: Hyper index ON on input line 4170.
+Package hyperref Info: Plain pages OFF on input line 4177.
+Package hyperref Info: Backreferencing OFF on input line 4182.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4449.
+Package hyperref Info: Bookmarks ON on input line 4410.
 \c@Hy@tempcnt=\count327
- (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+ (C:\Miktex\tex/latex/url\url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 4787.
+LaTeX Info: Redefining \url on input line 4748.
 \XeTeXLinkMargin=\dimen260
- (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+
+(C:\Miktex\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
- (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
-Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
+
+(C:\Miktex\tex/generic/bigintcalc\bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
 ))
 \Fld@menulength=\count328
 \Field@Width=\dimen261
 \Fld@charsize=\dimen262
-Package hyperref Info: Hyper figures OFF on input line 6066.
-Package hyperref Info: Link nesting OFF on input line 6071.
-Package hyperref Info: Hyper index ON on input line 6074.
-Package hyperref Info: backreferencing OFF on input line 6081.
-Package hyperref Info: Link coloring OFF on input line 6086.
-Package hyperref Info: Link coloring with OCG OFF on input line 6091.
-Package hyperref Info: PDF/A mode OFF on input line 6096.
- (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
+Package hyperref Info: Hyper figures OFF on input line 6027.
+Package hyperref Info: Link nesting OFF on input line 6032.
+Package hyperref Info: Hyper index ON on input line 6035.
+Package hyperref Info: backreferencing OFF on input line 6042.
+Package hyperref Info: Link coloring OFF on input line 6047.
+Package hyperref Info: Link coloring with OCG OFF on input line 6052.
+Package hyperref Info: PDF/A mode OFF on input line 6057.
+
+(C:\Miktex\tex/latex/base\atbegshi-ltx.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
@@ -740,25 +816,32 @@ package with kernel methods
 \c@Hfootnote=\count331
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
- (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
-File: hpdftex.def 2023-04-22 v7.00x Hyperref driver for pdfTeX
- (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty
-Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
+
+(C:\Miktex\tex/latex/hyperref\hpdftex.def
+File: hpdftex.def 2022-09-22 v7.00t Hyperref driver for pdfTeX
+
+(C:\Miktex\tex/latex/base\atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
 with kernel methods
 )
 \Fld@listcount=\count332
 \c@bookmark@seq@number=\count333
- (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
+
+(C:\Miktex\tex/latex/rerunfilecheck\rerunfilecheck.sty
 Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
- (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty
+
+(C:\Miktex\tex/generic/uniquecounter\uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
-Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+85.
 )
-\Hy@SectionHShift=\skip79
+\Hy@SectionHShift=\skip78
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 58.
- (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/cleveref\cleveref.sty
+
+(C:\Miktex\tex/latex/cleveref\cleveref.sty
 Package: cleveref 2018/03/27 v0.21.4 Intelligent cross-referencing
 Package cleveref Info: `hyperref' support loaded on input line 2370.
 LaTeX Info: Redefining \cref on input line 2370.
@@ -774,100 +857,133 @@ LaTeX Info: Redefining \labelcpageref on input line 2370.
 Package cleveref Info: `amsthm' support loaded on input line 3026.
 Package cleveref Info: `listings' support loaded on input line 3131.
 Package cleveref Info: `subfig' support loaded on input line 3164.
-) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/natbib\natbib.sty
+)
+(C:\Miktex\tex/latex/natbib\natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip80
-\bibsep=\skip81
+\bibhang=\skip79
+\bibsep=\skip80
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count334
-) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/tocbibind\tocbibind.sty
+)
+(C:\Miktex\tex/latex/tocbibind\tocbibind.sty
 Package: tocbibind 2010/10/13 v1.5k extra ToC listings
 Package tocbibind Info: The document has section divisions on input line 50.
 
 
 Package tocbibind Note: Using section or other style headings.
 
-) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/appendix\appendix.sty
+) (C:\Miktex\tex/latex/appendix\appendix.sty
 Package: appendix 2020/02/08 v1.2c extra appendix facilities
 \c@@pps=\count335
 \c@@ppsavesec=\count336
 \c@@ppsaveapp=\count337
-) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
+)
+(C:\Miktex\tex/latex/enumitem\enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
-\labelindent=\skip82
+\labelindent=\skip81
 \enit@outerparindent=\dimen263
 \enit@toks=\toks41
 \enit@inbox=\box69
 \enit@count@id=\count338
 \enitdp@description=\count339
-) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/thmtools\thmtools.sty
-Package: thmtools 2023/05/04 v0.76
+)
+(C:\Miktex\tex/latex/thmtools\thmtools.sty
+Package: thmtools 2023/02/17 v0.75
 \thmt@toks=\toks42
 \c@thmt@dummyctr=\count340
- (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/thmtools\thm-patch.sty
-Package: thm-patch 2023/05/04 v0.76
- (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/thmtools\parseargs.sty
-Package: parseargs 2023/05/04 v0.76
+
+(C:\Miktex\tex/latex/thmtools\thm-patch.sty
+Package: thm-patch 2023/02/17 v0.75
+
+(C:\Miktex\tex/latex/thmtools\parseargs.sty
+Package: parseargs 2023/02/17 v0.75
 \@parsespec=\toks43
-)) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/thmtools\thm-kv.sty
-Package: thm-kv 2023/05/04 v0.76
+))
+(C:\Miktex\tex/latex/thmtools\thm-kv.sty
+Package: thm-kv 2023/02/17 v0.75
 Package thm-kv Info: Theorem names will be uppercased on input line 42.
 Package thm-kv Info: kvsetkeys patch (v1.16 or later) on input line 158.
-) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/thmtools\thm-autoref.sty
-Package: thm-autoref 2023/05/04 v0.76
- (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/thmtools\aliasctr.sty
-Package: aliasctr 2023/05/04 v0.76
-)) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/thmtools\thm-listof.sty
-Package: thm-listof 2023/05/04 v0.76
-) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/thmtools\thm-restate.sty
-Package: thm-restate 2023/05/04 v0.76
-) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/thmtools\thm-amsthm.sty
-Package: thm-amsthm 2023/05/04 v0.76
+)
+(C:\Miktex\tex/latex/thmtools\thm-autoref.sty
+Package: thm-autoref 2023/02/17 v0.75
+
+(C:\Miktex\tex/latex/thmtools\aliasctr.sty
+Package: aliasctr 2023/02/17 v0.75
+))
+(C:\Miktex\tex/latex/thmtools\thm-listof.sty
+Package: thm-listof 2023/02/17 v0.75
+)
+(C:\Miktex\tex/latex/thmtools\thm-restate.sty
+Package: thm-restate 2023/02/17 v0.75
+)
+(C:\Miktex\tex/latex/thmtools\thm-amsthm.sty
+Package: thm-amsthm 2023/02/17 v0.75
 \thmt@style@headstyle=\toks44
-)) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/comment\comment.sty
+))
+(C:\Miktex\tex/latex/comment\comment.sty
 \CommentStream=\write3
- Excluding comment 'comment') (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
+ Excluding comment 'comment')
+(C:\Miktex\tex/latex/fancyhdr\fancyhdr.sty
 Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
-\f@nch@headwidth=\skip83
-\f@nch@O@elh=\skip84
-\f@nch@O@erh=\skip85
-\f@nch@O@olh=\skip86
-\f@nch@O@orh=\skip87
-\f@nch@O@elf=\skip88
-\f@nch@O@erf=\skip89
-\f@nch@O@olf=\skip90
-\f@nch@O@orf=\skip91
-) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.sty (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3keys2e.sty (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
-Package: expl3 2023-05-11 L3 programming layer (loader) 
- (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
-File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
+
+\f@nch@headwidth=\skip82
+\f@nch@O@elh=\skip83
+\f@nch@O@erh=\skip84
+\f@nch@O@olh=\skip85
+\f@nch@O@orh=\skip86
+\f@nch@O@elf=\skip87
+\f@nch@O@erf=\skip88
+\f@nch@O@olf=\skip89
+\f@nch@O@orf=\skip90
+)
+(C:\Miktex\tex/latex/lipsum\lipsum.sty
+(C:\Miktex\tex/latex/l3packages/l3keys2e\l3keys2e.sty
+(C:\Miktex\tex/latex/l3kernel\expl3.sty
+Package: expl3 2022-09-28 L3 programming layer (loader) 
+
+(C:\Miktex\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2022-09-28 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count341
 \l__pdf_internal_box=\box70
 ))
-Package: l3keys2e 2023-02-02 LaTeX2e option processing using LaTeX3 keys
+Package: l3keys2e 2022-06-22 LaTeX2e option processing using LaTeX3 keys
 )
 Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
 \g__lipsum_par_int=\count342
 \l__lipsum_a_int=\count343
 \l__lipsum_b_int=\count344
- (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.ltd.tex)) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcolorbox.sty
-Package: tcolorbox 2023/03/17 version 6.0.3 text color boxes
- (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.sty (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-common.tex
+
+(C:\Miktex\tex/latex/lipsum\lipsum.ltd.tex))
+(C:\Miktex\tex/latex/tcolorbox\tcolorbox.sty
+Package: tcolorbox 2022/06/24 version 5.1.1 text color boxes
+
+(C:\Miktex\tex/latex/pgf/basiclayer\pgf.sty
+(C:\Miktex\tex/latex/pgf/utilities\pgfrcs.sty
+(C:\Miktex\tex/generic/pgf/utilities\pgfutil-common.tex
 \pgfutil@everybye=\toks45
 \pgfutil@tempdima=\dimen264
 \pgfutil@tempdimb=\dimen265
-) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-latex.def
+
+(C:\Miktex\tex/generic/pgf/utilities\pgfutil-common-lists.tex))
+(C:\Miktex\tex/generic/pgf/utilities\pgfutil-latex.def
 \pgfutil@abb=\box71
-) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.code.tex (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
-Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Miktex\tex/generic/pgf/utilities\pgfrcs.code.tex
+(C:\Miktex\tex/generic/pgf\pgf.revision.tex)
+Package: pgfrcs 2021/05/15 v3.1.9a (3.1.9a)
 ))
-Package: pgf 2023-01-15 v3.1.10 (3.1.10)
- (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.sty (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.sty (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys.code.tex
-Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
- (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex
+Package: pgf 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Miktex\tex/latex/pgf/basiclayer\pgfcore.sty
+(C:\Miktex\tex/latex/pgf/systemlayer\pgfsys.sty
+(C:\Miktex\tex/generic/pgf/systemlayer\pgfsys.code.tex
+Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Miktex\tex/generic/pgf/utilities\pgfkeys.code.tex
 \pgfkeys@pathtoks=\toks46
 \pgfkeys@temptoks=\toks47
- (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeyslibraryfiltered.code.tex
+
+(C:\Miktex\tex/generic/pgf/utilities\pgfkeysfiltered.code.tex
 \pgfkeys@tmptoks=\toks48
 ))
 \pgf@x=\dimen266
@@ -890,33 +1006,55 @@ Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
 \t@pgf@tokb=\toks50
 \t@pgf@tokc=\toks51
 \pgf@sys@id@count=\count349
- (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.cfg
-File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Miktex\tex/generic/pgf/systemlayer\pgf.cfg
+File: pgf.cfg 2021/05/15 v3.1.9a (3.1.9a)
 )
 Driver file for pgf: pgfsys-pdftex.def
- (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-pdftex.def
-File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
- (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-common-pdf.def
-File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
-))) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.tex
-File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Miktex\tex/generic/pgf/systemlayer\pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Miktex\tex/generic/pgf/systemlayer\pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(C:\Miktex\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgfsyssoftpath@smallbuffer@items=\count350
 \pgfsyssoftpath@bigbuffer@items=\count351
-) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsysprotocol.code.tex
-File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore.code.tex
-Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
- (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.code.tex) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparser.code.tex
+)
+(C:\Miktex\tex/generic/pgf/systemlayer\pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))
+(C:\Miktex\tex/generic/pgf/basiclayer\pgfcore.code.tex
+Package: pgfcore 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Miktex\tex/generic/pgf/math\pgfmath.code.tex
+(C:\Miktex\tex/generic/pgf/math\pgfmathcalc.code.tex
+(C:\Miktex\tex/generic/pgf/math\pgfmathutil.code.tex)
+(C:\Miktex\tex/generic/pgf/math\pgfmathparser.code.tex
 \pgfmath@dimen=\dimen276
 \pgfmath@count=\count352
 \pgfmath@box=\box72
 \pgfmath@toks=\toks52
 \pgfmath@stack@operand=\toks53
 \pgfmath@stack@operation=\toks54
-) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.code.tex) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.trigonometric.code.tex) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.random.code.tex) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.comparison.code.tex) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.base.code.tex) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.round.code.tex) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.misc.code.tex) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.integerarithmetics.code.tex) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.code.tex) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat.code.tex
+)
+(C:\Miktex\tex/generic/pgf/math\pgfmathfunctions.code.tex
+(C:\Miktex\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex)
+(C:\Miktex\tex/generic/pgf/math\pgfmathfunctions.trigonometric.code.tex)
+(C:\Miktex\tex/generic/pgf/math\pgfmathfunctions.random.code.tex)
+(C:\Miktex\tex/generic/pgf/math\pgfmathfunctions.comparison.code.tex)
+(C:\Miktex\tex/generic/pgf/math\pgfmathfunctions.base.code.tex)
+(C:\Miktex\tex/generic/pgf/math\pgfmathfunctions.round.code.tex)
+(C:\Miktex\tex/generic/pgf/math\pgfmathfunctions.misc.code.tex)
+(C:\Miktex\tex/generic/pgf/math\pgfmathfunctions.integerarithmetics.code.tex)))
+(C:\Miktex\tex/generic/pgf/math\pgfmathfloat.code.tex
 \c@pgfmathroundto@lastzeros=\count353
-)) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.tex) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex
-File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:\Miktex\tex/generic/pgf/math\pgfint.code.tex)
+(C:\Miktex\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@picminx=\dimen277
 \pgf@picmaxx=\dimen278
 \pgf@picminy=\dimen279
@@ -931,74 +1069,97 @@ File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@yy=\dimen288
 \pgf@zx=\dimen289
 \pgf@zy=\dimen290
-) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathconstruct.code.tex
-File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Miktex\tex/generic/pgf/basiclayer\pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@path@lastx=\dimen291
 \pgf@path@lasty=\dimen292
-) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathusage.code.tex
-File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Miktex\tex/generic/pgf/basiclayer\pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@shorten@end@additional=\dimen293
 \pgf@shorten@start@additional=\dimen294
-) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex
-File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Miktex\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgfpic=\box73
 \pgf@hbox=\box74
 \pgf@layerbox@main=\box75
 \pgf@picture@serial@count=\count354
-) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.tex
-File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Miktex\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgflinewidth=\dimen295
-) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransformations.code.tex
-File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Miktex\tex/generic/pgf/basiclayer\pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@pt@x=\dimen296
 \pgf@pt@y=\dimen297
 \pgf@pt@temp=\dimen298
-) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorequick.code.tex
-File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreobjects.code.tex
-File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathprocessing.code.tex
-File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorearrows.code.tex
-File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Miktex\tex/generic/pgf/basiclayer\pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:\Miktex\tex/generic/pgf/basiclayer\pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:\Miktex\tex/generic/pgf/basiclayer\pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:\Miktex\tex/generic/pgf/basiclayer\pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgfarrowsep=\dimen299
-) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex
-File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Miktex\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@max=\dimen300
 \pgf@sys@shading@range@num=\count355
 \pgf@shadingcount=\count356
-) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex
-File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreexternal.code.tex
-File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Miktex\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Miktex\tex/generic/pgf/basiclayer\pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgfexternal@startupbox=\box76
-) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorelayers.code.tex
-File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransparency.code.tex
-File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepatterns.code.tex
-File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorerdf.code.tex
-File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
-))) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduleshapes.code.tex
-File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:\Miktex\tex/generic/pgf/basiclayer\pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:\Miktex\tex/generic/pgf/basiclayer\pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:\Miktex\tex/generic/pgf/basiclayer\pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:\Miktex\tex/generic/pgf/basiclayer\pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(C:\Miktex\tex/generic/pgf/modules\pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgfnodeparttextbox=\box77
-) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduleplot.code.tex
-File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty
-Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Miktex\tex/generic/pgf/modules\pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:\Miktex\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@nodesepstart=\dimen301
 \pgf@nodesepend=\dimen302
-) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-1-18.sty
-Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
-)) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/tools\verbatim.sty
-Package: verbatim 2022-07-02 v1.5u LaTeX2e package for verbatim enhancements
+)
+(C:\Miktex\tex/latex/pgf/compatibility\pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2021/05/15 v3.1.9a (3.1.9a)
+))
+(C:\Miktex\tex/latex/tools\verbatim.sty
+Package: verbatim 2020-07-07 v1.5u LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks55
 \verbatim@line=\toks56
 \verbatim@in@stream=\read4
-) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/environ\environ.sty
+)
+(C:\Miktex\tex/latex/environ\environ.sty
 Package: environ 2014/05/04 v0.3 A new way to define environments
- (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/trimspaces\trimspaces.sty
+
+(C:\Miktex\tex/latex/trimspaces\trimspaces.sty
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 ))
 \tcb@titlebox=\box78
@@ -1012,11 +1173,14 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 \tcb@temp=\box83
 \tcb@temp=\box84
 \tcb@temp=\box85
-) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/sttools\stfloats.sty
-Package: stfloats 2017/03/27 v3.3 Improve float mechanism and baselineskip settings
+)
+(C:\Miktex\tex/latex/sttools\stfloats.sty
+Package: stfloats 2017/03/27 v3.3 Improve float mechanism and baselineskip sett
+ings
 \@dblbotnum=\count360
 \c@dblbotnumber=\count361
-) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/sttools\cuted.sty
+)
+(C:\Miktex\tex/latex/sttools\cuted.sty
 Package: cuted 2021/10/04 v2.0 Mixing onecolumn and twocolumn modes
 \At@ViperColsBreak=\toks57
 \preCutedStrip=\toks58
@@ -1034,11 +1198,13 @@ Package: cuted 2021/10/04 v2.0 Mixing onecolumn and twocolumn modes
 \ht@hold@viper=\dimen306
 \ht@viper=\dimen307
 \var@@pagediscards@ht=\dimen308
-\stripsep=\skip92
+\stripsep=\skip91
 \viper@penalty=\count362
-) (Configuration_files/config.tex (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+) (Configuration_files/config.tex
+(C:\Miktex\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
- (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+
+(C:\Miktex\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
 \Gm@cnth=\count363
@@ -1053,26 +1219,32 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layouthoffset=\dimen315
 \Gm@layoutvoffset=\dimen316
 \Gm@dimlist=\toks60
- (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
+
+(C:\Miktex\tex/latex/geometry\geometry.cfg))
 \c@theorem=\count366
 \c@proposition=\count367
 \c@algsubstate=\count368
 )
-LaTeX Font Info:    Trying to load font information for T1+jkp on input line 179.
- (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\t1jkp.fd
+LaTeX Font Info:    Trying to load font information for T1+jkp on input line 17
+9.
+
+(C:\Miktex\tex/latex/kpfonts\t1jkp.fd
 File: t1jkp.fd 2007/01/24 Fontinst v1.928 font definitions for T1/jkp.
 ) (Prova finale.aux)
 \openout1 = `"Prova finale.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/jkp/m/it on input line 179.
-LaTeX Font Info:    Trying to load font information for OML+jkp on input line 179.
- (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\omljkp.fd
+LaTeX Font Info:    Trying to load font information for OML+jkp on input line 1
+79.
+
+(C:\Miktex\tex/latex/kpfonts\omljkp.fd
 File: omljkp.fd 2006/08/15 v1.0
 )
 LaTeX Font Info:    ... okay on input line 179.
 LaTeX Font Info:    Checking defaults for OMS/jkp/m/n on input line 179.
-LaTeX Font Info:    Trying to load font information for OMS+jkp on input line 179.
- (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\omsjkp.fd
+LaTeX Font Info:    Trying to load font information for OMS+jkp on input line 1
+79.
+ (C:\Miktex\tex/latex/kpfonts\omsjkp.fd
 File: omsjkp.fd 2006/08/15 v1.0
 )
 LaTeX Font Info:    ... okay on input line 179.
@@ -1083,14 +1255,16 @@ LaTeX Font Info:    ... okay on input line 179.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 179.
 LaTeX Font Info:    ... okay on input line 179.
 LaTeX Font Info:    Checking defaults for OMX/jkp/m/n on input line 179.
-LaTeX Font Info:    Trying to load font information for OMX+jkp on input line 179.
- (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\omxjkp.fd
+LaTeX Font Info:    Trying to load font information for OMX+jkp on input line 1
+79.
+(C:\Miktex\tex/latex/kpfonts\omxjkp.fd
 File: omxjkp.fd 2006/08/15 v1.0
 )
 LaTeX Font Info:    ... okay on input line 179.
 LaTeX Font Info:    Checking defaults for U/jkpexa/m/n on input line 179.
-LaTeX Font Info:    Trying to load font information for U+jkpexa on input line 179.
- (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ujkpexa.fd
+LaTeX Font Info:    Trying to load font information for U+jkpexa on input line 
+179.
+ (C:\Miktex\tex/latex/kpfonts\ujkpexa.fd
 File: ujkpexa.fd 2006/08/15 v1.0
 )
 LaTeX Font Info:    ... okay on input line 179.
@@ -1098,7 +1272,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 179.
 LaTeX Font Info:    ... okay on input line 179.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 179.
 LaTeX Font Info:    ... okay on input line 179.
- (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+ (C:\Miktex\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count369
 \scratchdimen=\dimen317
@@ -1111,10 +1285,12 @@ LaTeX Font Info:    ... okay on input line 179.
 \MPnumerator=\count373
 \makeMPintoPDFobject=\count374
 \everyMPtoPDFconversion=\toks62
-) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+) (C:\Miktex\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
- (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:\Miktex\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 LaTeX Info: Redefining \it@ocap on input line 179.
@@ -1125,7 +1301,8 @@ Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: longtable package is loaded.
- (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.sty
+
+(C:\Miktex\tex/latex/caption\ltcaption.sty
 Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: wrapfig package is loaded.
@@ -1139,12 +1316,14 @@ LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
 Package gensymb Info: Math companion symbols declared on input line 179.
 LaTeX Info: Redefining \degree on input line 179.
 LaTeX Info: Redefining \celsius on input line 179.
-Package gensymb Info: Using text companion symbols for \degree, \celsius and \perthousand on input line 179.
+Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
+erthousand on input line 179.
 LaTeX Info: Redefining \ohm on input line 179.
 Package gensymb Info: Using \textohm for \ohm on input line 179.
 Package gensymb Info: Using \textmu for \micro on input line 179.
 Package hyperref Info: Link coloring ON on input line 179.
- (Prova finale.out) (Prova finale.out)
+ (Prova finale.out)
+(Prova finale.out)
 \@outlinefile=\write5
 \openout5 = `"Prova finale.out"'.
 
@@ -1185,520 +1364,686 @@ Package hyperref Info: Link coloring ON on input line 179.
 
 (Configuration_files/title_page.tex
 Package epstopdf Info: Source file: <Images//logo_polimi_ing_indinf.eps>
-(epstopdf)                    date: 2023-07-20 19:13:36
+(epstopdf)                    date: 2023-05-26 11:45:05
 (epstopdf)                    size: 1016894 bytes
-(epstopdf)             Output file: <Images//logo_polimi_ing_indinf-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-07-20 19:13:36
+(epstopdf)             Output file: <Images//logo_polimi_ing_indinf-eps-convert
+ed-to.pdf>
+(epstopdf)                    date: 2023-05-26 11:45:05
 (epstopdf)                    size: 81939 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=Images//logo_polimi_ing_indinf-eps-converted-to.pdf Images//logo_polimi_ing_indinf.eps>
+(epstopdf)             Command: <miktex-epstopdf --outfile=Images//logo_polimi_
+ing_indinf-eps-converted-to.pdf Images//logo_polimi_ing_indinf.eps>
 (epstopdf)             \includegraphics on input line 9.
 Package epstopdf Info: Output file is already uptodate.
 
 
-pdfTeX warning: pdflatex (file ./Images//logo_polimi_ing_indinf-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Images//logo_polimi_ing_indinf-eps-converted-to.pdf, id=201, 493.845pt x 227.85126pt>
-File: Images//logo_polimi_ing_indinf-eps-converted-to.pdf Graphic file (type pdf)
+pdfTeX warning: pdflatex (file ./Images//logo_polimi_ing_indinf-eps-converted-t
+o.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allow
+ed
+<Images//logo_polimi_ing_indinf-eps-converted-to.pdf, id=221, 493.845pt x 227.8
+5126pt>
+File: Images//logo_polimi_ing_indinf-eps-converted-to.pdf Graphic file (type pd
+f)
 <use Images//logo_polimi_ing_indinf-eps-converted-to.pdf>
-Package pdftex.def Info: Images//logo_polimi_ing_indinf-eps-converted-to.pdf  used on input line 9.
+Package pdftex.def Info: Images//logo_polimi_ing_indinf-eps-converted-to.pdf  u
+sed on input line 9.
 (pdftex.def)             Requested size: 307.2929pt x 141.77739pt.
 LaTeX Font Info:    Calculating math sizes for size <8.5359> on input line 21.
-LaTeX Font Info:    Trying to load font information for OT1+jkp on input line 21.
-(C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ot1jkp.fd
+LaTeX Font Info:    Trying to load font information for OT1+jkp on input line 2
+1.
+(C:\Miktex\tex/latex/kpfonts\ot1jkp.fd
 File: ot1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for OT1/jkp.
 )
-LaTeX Font Info:    Trying to load font information for U+jkpmia on input line 21.
- (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ujkpmia.fd
+LaTeX Font Info:    Trying to load font information for U+jkpmia on input line 
+21.
+ (C:\Miktex\tex/latex/kpfonts\ujkpmia.fd
 File: ujkpmia.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    Trying to load font information for U+jkpsya on input line 21.
- (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ujkpsya.fd
+LaTeX Font Info:    Trying to load font information for U+jkpsya on input line 
+21.
+ (C:\Miktex\tex/latex/kpfonts\ujkpsya.fd
 File: ujkpsya.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    Trying to load font information for U+jkpsyb on input line 21.
- (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ujkpsyb.fd
+LaTeX Font Info:    Trying to load font information for U+jkpsyb on input line 
+21.
+
+(C:\Miktex\tex/latex/kpfonts\ujkpsyb.fd
 File: ujkpsyb.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    Trying to load font information for U+jkpsyc on input line 21.
- (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ujkpsyc.fd
+LaTeX Font Info:    Trying to load font information for U+jkpsyc on input line 
+21.
+
+(C:\Miktex\tex/latex/kpfonts\ujkpsyc.fd
 File: ujkpsyc.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    Trying to load font information for TS1+jkp on input line 21.
- (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ts1jkp.fd
+LaTeX Font Info:    Trying to load font information for TS1+jkp on input line 2
+1.
+ (C:\Miktex\tex/latex/kpfonts\ts1jkp.fd
 File: ts1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for TS1/jkp.
 )) (Sezioni/00_abstract.tex)
 Package epstopdf Info: Source file: <Images//raggiera_polimi.eps>
-(epstopdf)                    date: 2023-07-20 19:13:36
+(epstopdf)                    date: 2023-05-26 11:45:05
 (epstopdf)                    size: 1813066 bytes
-(epstopdf)             Output file: <Images//raggiera_polimi-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-07-20 19:13:36
+(epstopdf)             Output file: <Images//raggiera_polimi-eps-converted-to.p
+df>
+(epstopdf)                    date: 2023-05-26 11:45:05
 (epstopdf)                    size: 40418 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=Images//raggiera_polimi-eps-converted-to.pdf Images//raggiera_polimi.eps>
+(epstopdf)             Command: <miktex-epstopdf --outfile=Images//raggiera_pol
+imi-eps-converted-to.pdf Images//raggiera_polimi.eps>
 (epstopdf)             \includegraphics on input line 192.
 Package epstopdf Info: Output file is already uptodate.
 
 
-pdfTeX warning: pdflatex (file ./Images//raggiera_polimi-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Images//raggiera_polimi-eps-converted-to.pdf, id=202, 502.87875pt x 502.87875pt>
+pdfTeX warning: pdflatex (file ./Images//raggiera_polimi-eps-converted-to.pdf):
+ PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images//raggiera_polimi-eps-converted-to.pdf, id=222, 502.87875pt x 502.87875p
+t>
 File: Images//raggiera_polimi-eps-converted-to.pdf Graphic file (type pdf)
 <use Images//raggiera_polimi-eps-converted-to.pdf>
-Package pdftex.def Info: Images//raggiera_polimi-eps-converted-to.pdf  used on input line 192.
+Package pdftex.def Info: Images//raggiera_polimi-eps-converted-to.pdf  used on 
+input line 192.
 (pdftex.def)             Requested size: 298.75394pt x 298.75233pt.
 [1
 
-{C:/Users/turcu/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}{C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/kpfonts/kpfonts-expert.enc} <./Images//raggiera_polimi-eps-converted-to.pdf> <./Images//logo_polimi_ing_indinf-eps-converted-to.pdf>] (Prova finale.toc [2
+{C:/Users/danie/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./Images//ra
+ggiera_polimi-eps-converted-to.pdf> <./Images//logo_polimi_ing_indinf-eps-conve
+rted-to.pdf>] (Prova finale.toc [2
 
 ])
 \tf@toc=\write6
 \openout6 = `"Prova finale.toc"'.
 
- [3] (Sezioni/01_nomenclatura.tex) (Sezioni/02_analisi_missione.tex
+ [3] (Sezioni/01_nomenclatura.tex)
+(Sezioni/02_analisi_missione.tex
 Package epstopdf Info: Source file: <Images//01_quota_t.eps>
-(epstopdf)                    date: 2023-07-20 19:13:36
+(epstopdf)                    date: 2023-05-26 11:45:04
 (epstopdf)                    size: 310855 bytes
 (epstopdf)             Output file: <Images//01_quota_t-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-07-20 19:13:36
+(epstopdf)                    date: 2023-05-26 11:45:04
 (epstopdf)                    size: 102488 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=Images//01_quota_t-eps-converted-to.pdf Images//01_quota_t.eps>
+(epstopdf)             Command: <miktex-epstopdf --outfile=Images//01_quota_t-e
+ps-converted-to.pdf Images//01_quota_t.eps>
 (epstopdf)             \includegraphics on input line 50.
 Package epstopdf Info: Output file is already uptodate.
 
 
-pdfTeX warning: pdflatex (file ./Images//01_quota_t-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Images//01_quota_t-eps-converted-to.pdf, id=293, 256.96pt x 192.72pt>
+pdfTeX warning: pdflatex (file ./Images//01_quota_t-eps-converted-to.pdf): PDF 
+inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images//01_quota_t-eps-converted-to.pdf, id=318, 256.96pt x 192.72pt>
 File: Images//01_quota_t-eps-converted-to.pdf Graphic file (type pdf)
 <use Images//01_quota_t-eps-converted-to.pdf>
-Package pdftex.def Info: Images//01_quota_t-eps-converted-to.pdf  used on input line 50.
+Package pdftex.def Info: Images//01_quota_t-eps-converted-to.pdf  used on input
+ line 50.
 (pdftex.def)             Requested size: 245.82962pt x 184.3739pt.
 Package epstopdf Info: Source file: <Images//02_velocita_t.eps>
-(epstopdf)                    date: 2023-07-20 19:13:36
+(epstopdf)                    date: 2023-05-26 11:45:04
 (epstopdf)                    size: 311387 bytes
-(epstopdf)             Output file: <Images//02_velocita_t-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-07-20 19:13:36
+(epstopdf)             Output file: <Images//02_velocita_t-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2023-05-26 11:45:04
 (epstopdf)                    size: 102980 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=Images//02_velocita_t-eps-converted-to.pdf Images//02_velocita_t.eps>
+(epstopdf)             Command: <miktex-epstopdf --outfile=Images//02_velocita_
+t-eps-converted-to.pdf Images//02_velocita_t.eps>
 (epstopdf)             \includegraphics on input line 50.
 Package epstopdf Info: Output file is already uptodate.
 
 
-pdfTeX warning: pdflatex (file ./Images//02_velocita_t-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Images//02_velocita_t-eps-converted-to.pdf, id=294, 256.96pt x 192.72pt>
+pdfTeX warning: pdflatex (file ./Images//02_velocita_t-eps-converted-to.pdf): P
+DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images//02_velocita_t-eps-converted-to.pdf, id=319, 256.96pt x 192.72pt>
 File: Images//02_velocita_t-eps-converted-to.pdf Graphic file (type pdf)
 <use Images//02_velocita_t-eps-converted-to.pdf>
-Package pdftex.def Info: Images//02_velocita_t-eps-converted-to.pdf  used on input line 50.
+Package pdftex.def Info: Images//02_velocita_t-eps-converted-to.pdf  used on in
+put line 50.
 (pdftex.def)             Requested size: 245.82962pt x 184.3739pt.
 [1
 
 ]
 Package epstopdf Info: Source file: <Images//04_spinta_t.eps>
-(epstopdf)                    date: 2023-07-20 19:13:36
+(epstopdf)                    date: 2023-05-26 11:45:04
 (epstopdf)                    size: 306021 bytes
 (epstopdf)             Output file: <Images//04_spinta_t-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-07-20 19:13:36
+(epstopdf)                    date: 2023-05-26 11:45:04
 (epstopdf)                    size: 91721 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=Images//04_spinta_t-eps-converted-to.pdf Images//04_spinta_t.eps>
+(epstopdf)             Command: <miktex-epstopdf --outfile=Images//04_spinta_t-
+eps-converted-to.pdf Images//04_spinta_t.eps>
 (epstopdf)             \includegraphics on input line 52.
 Package epstopdf Info: Output file is already uptodate.
 
 
-pdfTeX warning: pdflatex (file ./Images//04_spinta_t-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Images//04_spinta_t-eps-converted-to.pdf, id=302, 256.96pt x 192.72pt>
+pdfTeX warning: pdflatex (file ./Images//04_spinta_t-eps-converted-to.pdf): PDF
+ inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images//04_spinta_t-eps-converted-to.pdf, id=327, 256.96pt x 192.72pt>
 File: Images//04_spinta_t-eps-converted-to.pdf Graphic file (type pdf)
 <use Images//04_spinta_t-eps-converted-to.pdf>
-Package pdftex.def Info: Images//04_spinta_t-eps-converted-to.pdf  used on input line 52.
+Package pdftex.def Info: Images//04_spinta_t-eps-converted-to.pdf  used on inpu
+t line 52.
 (pdftex.def)             Requested size: 245.82962pt x 184.3739pt.
 Package epstopdf Info: Source file: <Images//07_traiettoria.eps>
-(epstopdf)                    date: 2023-07-20 19:13:36
+(epstopdf)                    date: 2023-05-26 11:45:05
 (epstopdf)                    size: 292851 bytes
-(epstopdf)             Output file: <Images//07_traiettoria-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-07-20 19:13:36
+(epstopdf)             Output file: <Images//07_traiettoria-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2023-05-26 11:45:05
 (epstopdf)                    size: 92829 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=Images//07_traiettoria-eps-converted-to.pdf Images//07_traiettoria.eps>
+(epstopdf)             Command: <miktex-epstopdf --outfile=Images//07_traiettor
+ia-eps-converted-to.pdf Images//07_traiettoria.eps>
 (epstopdf)             \includegraphics on input line 52.
 Package epstopdf Info: Output file is already uptodate.
 
 
-pdfTeX warning: pdflatex (file ./Images//07_traiettoria-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Images//07_traiettoria-eps-converted-to.pdf, id=303, 256.96pt x 192.72pt>
+pdfTeX warning: pdflatex (file ./Images//07_traiettoria-eps-converted-to.pdf): 
+PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images//07_traiettoria-eps-converted-to.pdf, id=328, 256.96pt x 192.72pt>
 File: Images//07_traiettoria-eps-converted-to.pdf Graphic file (type pdf)
 <use Images//07_traiettoria-eps-converted-to.pdf>
-Package pdftex.def Info: Images//07_traiettoria-eps-converted-to.pdf  used on input line 52.
+Package pdftex.def Info: Images//07_traiettoria-eps-converted-to.pdf  used on i
+nput line 52.
 (pdftex.def)             Requested size: 245.82962pt x 184.3739pt.
-) (Sezioni/03_propellenti.tex [2 <./Images//01_quota_t-eps-converted-to.pdf> <./Images//02_velocita_t-eps-converted-to.pdf> <./Images//04_spinta_t-eps-converted-to.pdf> <./Images//07_traiettoria-eps-converted-to.pdf>]) (Sezioni/04_serbatoi_e_pressurizzazione.tex
-<Images//tank.jpg, id=345, 289.08pt x 325.57635pt>
+) (Sezioni/03_propellenti.tex [2 <./Images//01_quota_t-eps-converted-to.pdf> <.
+/Images//02_velocita_t-eps-converted-to.pdf> <./Images//04_spinta_t-eps-convert
+ed-to.pdf> <./Images//07_traiettoria-eps-converted-to.pdf>])
+(Sezioni/04_serbatoi_e_pressurizzazione.tex
+<Images//tank.jpg, id=370, 289.08pt x 325.57635pt>
 File: Images//tank.jpg Graphic file (type jpg)
 <use Images//tank.jpg>
 Package pdftex.def Info: Images//tank.jpg  used on input line 7.
 (pdftex.def)             Requested size: 204.85672pt x 230.71867pt.
- [3 <./Images//tank.jpg>] [4] [5]) (Sezioni/05_schema_termodinamico.tex
-<Images//schema_termodinamico.jpg, id=366, 313.17pt x 349.305pt>
+ [3 <./Images//tank.jpg>] [4]
+[5]) (Sezioni/05_schema_termodinamico.tex
+<Images//schema_termodinamico.jpg, id=391, 313.17pt x 349.305pt>
 File: Images//schema_termodinamico.jpg Graphic file (type jpg)
 <use Images//schema_termodinamico.jpg>
-Package pdftex.def Info: Images//schema_termodinamico.jpg  used on input line 23.
+Package pdftex.def Info: Images//schema_termodinamico.jpg  used on input line 2
+3.
 (pdftex.def)             Requested size: 204.85672pt x 228.50063pt.
  [6 <./Images//schema_termodinamico.jpg>]
 Package epstopdf Info: Source file: <Images//staged_comb.eps>
-(epstopdf)                    date: 2023-07-21 20:22:49
+(epstopdf)                    date: 2023-05-26 16:48:29
 (epstopdf)                    size: 26857669 bytes
 (epstopdf)             Output file: <Images//staged_comb-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-07-21 20:22:49
+(epstopdf)                    date: 2023-05-26 16:50:50
 (epstopdf)                    size: 558121 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=Images//staged_comb-eps-converted-to.pdf Images//staged_comb.eps>
+(epstopdf)             Command: <miktex-epstopdf --outfile=Images//staged_comb-
+eps-converted-to.pdf Images//staged_comb.eps>
 (epstopdf)             \includegraphics on input line 79.
 Package epstopdf Info: Output file is already uptodate.
 
 
-pdfTeX warning: pdflatex (file ./Images//staged_comb-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Images//staged_comb-eps-converted-to.pdf, id=377, 481.8pt x 638.385pt>
+pdfTeX warning: pdflatex (file ./Images//staged_comb-eps-converted-to.pdf): PDF
+ inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images//staged_comb-eps-converted-to.pdf, id=402, 481.8pt x 638.385pt>
 File: Images//staged_comb-eps-converted-to.pdf Graphic file (type pdf)
 <use Images//staged_comb-eps-converted-to.pdf>
-Package pdftex.def Info: Images//staged_comb-eps-converted-to.pdf  used on input line 79.
+Package pdftex.def Info: Images//staged_comb-eps-converted-to.pdf  used on inpu
+t line 79.
 (pdftex.def)             Requested size: 245.82962pt x 325.71814pt.
 Package epstopdf Info: Source file: <Images//full_cycle.eps>
-(epstopdf)                    date: 2023-07-21 20:22:49
+(epstopdf)                    date: 2023-05-26 17:01:49
 (epstopdf)                    size: 25926521 bytes
 (epstopdf)             Output file: <Images//full_cycle-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-07-21 20:22:49
+(epstopdf)                    date: 2023-05-26 17:02:48
 (epstopdf)                    size: 466532 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=Images//full_cycle-eps-converted-to.pdf Images//full_cycle.eps>
+(epstopdf)             Command: <miktex-epstopdf --outfile=Images//full_cycle-e
+ps-converted-to.pdf Images//full_cycle.eps>
 (epstopdf)             \includegraphics on input line 79.
 Package epstopdf Info: Output file is already uptodate.
 
 
-pdfTeX warning: pdflatex (file ./Images//full_cycle-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Images//full_cycle-eps-converted-to.pdf, id=378, 2007.5pt x 2549.525pt>
+pdfTeX warning: pdflatex (file ./Images//full_cycle-eps-converted-to.pdf): PDF 
+inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images//full_cycle-eps-converted-to.pdf, id=403, 2007.5pt x 2549.525pt>
 File: Images//full_cycle-eps-converted-to.pdf Graphic file (type pdf)
 <use Images//full_cycle-eps-converted-to.pdf>
-Package pdftex.def Info: Images//full_cycle-eps-converted-to.pdf  used on input line 79.
+Package pdftex.def Info: Images//full_cycle-eps-converted-to.pdf  used on input
+ line 79.
 (pdftex.def)             Requested size: 245.82962pt x 312.19312pt.
-[7] [8 <./Images//staged_comb-eps-converted-to.pdf> <./Images//full_cycle-eps-converted-to.pdf>]
+[7] [8 <./Images//staged_comb-eps-converted-to.pdf> <./Images//full_cycle-eps-c
+onverted-to.pdf>]
 Package epstopdf Info: Source file: <Images//I_spec_see.eps>
-(epstopdf)                    date: 2023-07-21 20:22:49
-(epstopdf)                    size: 73290 bytes
+(epstopdf)                    date: 2023-05-28 13:02:00
+(epstopdf)                    size: 70186 bytes
 (epstopdf)             Output file: <Images//I_spec_see-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-07-21 20:22:49
+(epstopdf)                    date: 2023-05-28 13:02:06
 (epstopdf)                    size: 20702 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=Images//I_spec_see-eps-converted-to.pdf Images//I_spec_see.eps>
+(epstopdf)             Command: <miktex-epstopdf --outfile=Images//I_spec_see-e
+ps-converted-to.pdf Images//I_spec_see.eps>
 (epstopdf)             \includegraphics on input line 128.
 Package epstopdf Info: Output file is already uptodate.
 
 
-pdfTeX warning: pdflatex (file ./Images//I_spec_see-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Images//I_spec_see-eps-converted-to.pdf, id=400, 421.575pt x 316.18124pt>
+pdfTeX warning: pdflatex (file ./Images//I_spec_see-eps-converted-to.pdf): PDF 
+inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images//I_spec_see-eps-converted-to.pdf, id=425, 421.575pt x 316.18124pt>
 File: Images//I_spec_see-eps-converted-to.pdf Graphic file (type pdf)
 <use Images//I_spec_see-eps-converted-to.pdf>
-Package pdftex.def Info: Images//I_spec_see-eps-converted-to.pdf  used on input line 128.
+Package pdftex.def Info: Images//I_spec_see-eps-converted-to.pdf  used on input
+ line 128.
 (pdftex.def)             Requested size: 307.2929pt x 230.47267pt.
 ) (Sezioni/06_gas_generator.tex [9 <./Images//I_spec_see-eps-converted-to.pdf>]
 
-pdfTeX warning: pdflatex (file ./Images//GG_schema.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<Images//GG_schema.pdf, id=415, 482.50523pt x 405.8392pt>
+LaTeX Warning: Reference `appendix:prodotti gas generator' on page 10 undefined
+ on input line 9.
+
+
+
+pdfTeX warning: pdflatex (file ./Images//GG_schema.pdf): PDF inclusion: found P
+DF version <1.6>, but at most version <1.5> allowed
+<Images//GG_schema.pdf, id=439, 482.50523pt x 405.8392pt>
 File: Images//GG_schema.pdf Graphic file (type pdf)
 <use Images//GG_schema.pdf>
 Package pdftex.def Info: Images//GG_schema.pdf  used on input line 33.
 (pdftex.def)             Requested size: 245.82962pt x 206.77089pt.
-<Images//GG_esploso.jpg, id=416, 1818.795pt x 2274.4975pt>
+<Images//GG_esploso.jpg, id=440, 1818.795pt x 2274.4975pt>
 File: Images//GG_esploso.jpg Graphic file (type jpg)
 <use Images//GG_esploso.jpg>
 Package pdftex.def Info: Images//GG_esploso.jpg  used on input line 33.
 (pdftex.def)             Requested size: 245.82962pt x 307.39098pt.
-[10 <./Images//GG_schema.pdf> <./Images//GG_esploso.jpg>]) (Sezioni/07_turbopompa.tex [11]
-<Images//OXIDIZER_PUMP.pdf, id=443, 415.7934pt x 351.83444pt>
+[10 <./Images//GG_schema.pdf> <./Images//GG_esploso.jpg>])
+(Sezioni/07_turbopompa.tex [11]
+<Images//OXIDIZER_PUMP.pdf, id=467, 415.7934pt x 351.83444pt>
 File: Images//OXIDIZER_PUMP.pdf Graphic file (type pdf)
 <use Images//OXIDIZER_PUMP.pdf>
 Package pdftex.def Info: Images//OXIDIZER_PUMP.pdf  used on input line 23.
 (pdftex.def)             Requested size: 256.07481pt x 216.68558pt.
- [12 <./Images//OXIDIZER_PUMP.pdf>] [13] [14]
-<Images//turbina_general.jpg, id=562, 1904.11375pt x 1890.06125pt>
+ [12 <./Images//OXIDIZER_PUMP.pdf>] [13]
+[14]
+<Images//turbina_general.jpg, id=586, 1904.11375pt x 1890.06125pt>
 File: Images//turbina_general.jpg Graphic file (type jpg)
 <use Images//turbina_general.jpg>
 Package pdftex.def Info: Images//turbina_general.jpg  used on input line 198.
 (pdftex.def)             Requested size: 230.46576pt x 228.75868pt.
  [15 <./Images//turbina_general.jpg>]
 
-pdfTeX warning: pdflatex (file ./Images//rendimenti_turbina.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<Images//rendimenti_turbina.pdf, id=572, 243.44952pt x 178.03714pt>
+pdfTeX warning: pdflatex (file ./Images//rendimenti_turbina.pdf): PDF inclusion
+: found PDF version <1.6>, but at most version <1.5> allowed
+<Images//rendimenti_turbina.pdf, id=596, 243.44952pt x 178.03714pt>
 File: Images//rendimenti_turbina.pdf Graphic file (type pdf)
 <use Images//rendimenti_turbina.pdf>
-Package pdftex.def Info: Images//rendimenti_turbina.pdf  used on input line 236.
+Package pdftex.def Info: Images//rendimenti_turbina.pdf  used on input line 236
+.
 (pdftex.def)             Requested size: 194.85686pt x 142.50595pt.
 ) (Sezioni/08_camera_spinta.tex [16 <./Images//rendimenti_turbina.pdf>]
-<Images//iniettore.jpg, id=626, 543.4704pt x 645.612pt>
+<Images//iniettore.jpg, id=650, 543.4704pt x 645.612pt>
 File: Images//iniettore.jpg Graphic file (type jpg)
 <use Images//iniettore.jpg>
 Package pdftex.def Info: Images//iniettore.jpg  used on input line 28.
 (pdftex.def)             Requested size: 204.85672pt x 243.35501pt.
- [17 <./Images//iniettore.jpg>] [18]
-<Images//ugello_TOP.jpg, id=646, 461.5644pt x 273.6624pt>
+
+[17 <./Images//iniettore.jpg>] [18]
+<Images//ugello_TOP.jpg, id=670, 461.5644pt x 273.6624pt>
 File: Images//ugello_TOP.jpg Graphic file (type jpg)
 <use Images//ugello_TOP.jpg>
 Package pdftex.def Info: Images//ugello_TOP.jpg  used on input line 134.
 (pdftex.def)             Requested size: 256.07481pt x 151.82596pt.
- [19 <./Images//ugello_TOP.jpg>]) (Sezioni/09_raffreddamento.tex
-<Images//boundary_layer.jpg, id=656, 2509.375pt x 2388.925pt>
+ [19 <./Images//ugello_TOP.jpg>])
+(Sezioni/09_raffreddamento.tex
+<Images//boundary_layer.jpg, id=680, 2509.375pt x 2388.925pt>
 File: Images//boundary_layer.jpg Graphic file (type jpg)
 <use Images//boundary_layer.jpg>
 Package pdftex.def Info: Images//boundary_layer.jpg  used on input line 11.
-(pdftex.def)             Requested size: 204.85672pt x 195.01826pt.
- [20]
-<Images//t_wg.jpg, id=662, 596.9502pt x 360.1455pt>
-File: Images//t_wg.jpg Graphic file (type jpg)
-<use Images//t_wg.jpg>
-Package pdftex.def Info: Images//t_wg.jpg  used on input line 28.
-(pdftex.def)             Requested size: 204.85672pt x 123.59088pt.
- [21 <./Images//boundary_layer.jpg> <./Images//t_wg.jpg>]
-<Images//sigma.jpg, id=671, 1229.59375pt x 534.99875pt>
+(pdftex.def)             Requested size: 256.07481pt x 243.75461pt.
+ [20] [21 <./Images//boundary_layer.jpg>]
+<Images//sigma.jpg, id=699, 1229.59375pt x 534.99875pt>
 File: Images//sigma.jpg Graphic file (type jpg)
 <use Images//sigma.jpg>
 Package pdftex.def Info: Images//sigma.jpg  used on input line 51.
 (pdftex.def)             Requested size: 204.85672pt x 89.12814pt.
- [22 <./Images//sigma.jpg>]
-<Images//temp_dist.jpg, id=682, 1528.71124pt x 1518.67375pt>
+
+[22 <./Images//sigma.jpg>]
+<Images//temp_dist.jpg, id=711, 1528.71124pt x 1518.67375pt>
 File: Images//temp_dist.jpg Graphic file (type jpg)
 <use Images//temp_dist.jpg>
 Package pdftex.def Info: Images//temp_dist.jpg  used on input line 83.
 (pdftex.def)             Requested size: 204.85672pt x 203.50586pt.
  [23 <./Images//temp_dist.jpg>]
-<Images//satur.jpg, id=688, 1709.38625pt x 1376.14125pt>
-File: Images//satur.jpg Graphic file (type jpg)
-<use Images//satur.jpg>
-Package pdftex.def Info: Images//satur.jpg  used on input line 110.
-(pdftex.def)             Requested size: 204.85672pt x 164.91985pt.
- [24 <./Images//satur.jpg>]
-<Images//nozzle_definitions.jpg, id=694, 206.57175pt x 75.28125pt>
+<Images//nozzle_definitions.jpg, id=719, 206.57175pt x 75.28125pt>
 File: Images//nozzle_definitions.jpg Graphic file (type jpg)
 <use Images//nozzle_definitions.jpg>
-Package pdftex.def Info: Images//nozzle_definitions.jpg  used on input line 121.
+Package pdftex.def Info: Images//nozzle_definitions.jpg  used on input line 116
+.
 (pdftex.def)             Requested size: 256.07481pt x 93.32478pt.
-) [25 <./Images//nozzle_definitions.jpg>] [26] (Sezioni/10_appendice.tex (Sezioni/A_immagini_e_schemi.tex
-<Images//angoli_bell.jpg, id=709, 464.4552pt x 333.4056pt>
+ [24 <./Images//nozzle_definitions.jpg>]) [25] (Sezioni/10_appendice.tex
+(Sezioni/A_immagini_e_schemi.tex
+<Images//angoli_bell.jpg, id=734, 464.4552pt x 333.4056pt>
 File: Images//angoli_bell.jpg Graphic file (type jpg)
 <use Images//angoli_bell.jpg>
 Package pdftex.def Info: Images//angoli_bell.jpg  used on input line 4.
 (pdftex.def)             Requested size: 409.72125pt x 294.1253pt.
 ) (Sezioni/B_grafici_tempo_di_volo.tex
 Package epstopdf Info: Source file: <Images//03_accelerazione_t.eps>
-(epstopdf)                    date: 2023-07-20 19:13:36
+(epstopdf)                    date: 2023-05-26 11:45:04
 (epstopdf)                    size: 309627 bytes
-(epstopdf)             Output file: <Images//03_accelerazione_t-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-07-20 19:13:36
+(epstopdf)             Output file: <Images//03_accelerazione_t-eps-converted-t
+o.pdf>
+(epstopdf)                    date: 2023-05-26 11:45:04
 (epstopdf)                    size: 104205 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=Images//03_accelerazione_t-eps-converted-to.pdf Images//03_accelerazione_t.eps>
+(epstopdf)             Command: <miktex-epstopdf --outfile=Images//03_acceleraz
+ione_t-eps-converted-to.pdf Images//03_accelerazione_t.eps>
 (epstopdf)             \includegraphics on input line 4.
 Package epstopdf Info: Output file is already uptodate.
 
 
-pdfTeX warning: pdflatex (file ./Images//03_accelerazione_t-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Images//03_accelerazione_t-eps-converted-to.pdf, id=710, 256.96pt x 192.72pt>
+pdfTeX warning: pdflatex (file ./Images//03_accelerazione_t-eps-converted-to.pd
+f): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images//03_accelerazione_t-eps-converted-to.pdf, id=735, 256.96pt x 192.72pt>
 File: Images//03_accelerazione_t-eps-converted-to.pdf Graphic file (type pdf)
 <use Images//03_accelerazione_t-eps-converted-to.pdf>
-Package pdftex.def Info: Images//03_accelerazione_t-eps-converted-to.pdf  used on input line 4.
+Package pdftex.def Info: Images//03_accelerazione_t-eps-converted-to.pdf  used 
+on input line 4.
 (pdftex.def)             Requested size: 245.82962pt x 184.3739pt.
 Package epstopdf Info: Source file: <Images//05_drag_t.eps>
-(epstopdf)                    date: 2023-07-21 20:00:54
+(epstopdf)                    date: 2023-05-26 11:45:05
 (epstopdf)                    size: 316144 bytes
 (epstopdf)             Output file: <Images//05_drag_t-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-07-23 21:49:38
+(epstopdf)                    date: 2023-07-23 22:03:31
 (epstopdf)                    size: 101756 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=Images//05_drag_t-eps-converted-to.pdf Images//05_drag_t.eps>
+(epstopdf)             Command: <miktex-epstopdf --outfile=Images//05_drag_t-ep
+s-converted-to.pdf Images//05_drag_t.eps>
 (epstopdf)             \includegraphics on input line 4.
 Package epstopdf Info: Output file is already uptodate.
 
 
-pdfTeX warning: pdflatex (file ./Images//05_drag_t-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Images//05_drag_t-eps-converted-to.pdf, id=711, 256.96pt x 192.72pt>
+pdfTeX warning: pdflatex (file ./Images//05_drag_t-eps-converted-to.pdf): PDF i
+nclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images//05_drag_t-eps-converted-to.pdf, id=736, 256.96pt x 192.72pt>
 File: Images//05_drag_t-eps-converted-to.pdf Graphic file (type pdf)
 <use Images//05_drag_t-eps-converted-to.pdf>
-Package pdftex.def Info: Images//05_drag_t-eps-converted-to.pdf  used on input line 4.
+Package pdftex.def Info: Images//05_drag_t-eps-converted-to.pdf  used on input 
+line 4.
 (pdftex.def)             Requested size: 245.82962pt x 184.3739pt.
 Package epstopdf Info: Source file: <Images//06_massa_t.eps>
-(epstopdf)                    date: 2023-07-20 19:13:36
+(epstopdf)                    date: 2023-05-26 11:45:05
 (epstopdf)                    size: 307944 bytes
 (epstopdf)             Output file: <Images//06_massa_t-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-07-20 19:13:36
+(epstopdf)                    date: 2023-05-26 11:45:05
 (epstopdf)                    size: 102312 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=Images//06_massa_t-eps-converted-to.pdf Images//06_massa_t.eps>
+(epstopdf)             Command: <miktex-epstopdf --outfile=Images//06_massa_t-e
+ps-converted-to.pdf Images//06_massa_t.eps>
 (epstopdf)             \includegraphics on input line 6.
 Package epstopdf Info: Output file is already uptodate.
 
 
-pdfTeX warning: pdflatex (file ./Images//06_massa_t-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Images//06_massa_t-eps-converted-to.pdf, id=712, 256.96pt x 192.72pt>
+pdfTeX warning: pdflatex (file ./Images//06_massa_t-eps-converted-to.pdf): PDF 
+inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images//06_massa_t-eps-converted-to.pdf, id=737, 256.96pt x 192.72pt>
 File: Images//06_massa_t-eps-converted-to.pdf Graphic file (type pdf)
 <use Images//06_massa_t-eps-converted-to.pdf>
-Package pdftex.def Info: Images//06_massa_t-eps-converted-to.pdf  used on input line 6.
+Package pdftex.def Info: Images//06_massa_t-eps-converted-to.pdf  used on input
+ line 6.
 (pdftex.def)             Requested size: 245.82962pt x 184.3739pt.
 Package epstopdf Info: Source file: <Images//08_gravita_t.eps>
-(epstopdf)                    date: 2023-07-21 20:00:54
+(epstopdf)                    date: 2023-05-26 11:45:05
 (epstopdf)                    size: 309274 bytes
 (epstopdf)             Output file: <Images//08_gravita_t-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-07-21 20:00:54
+
+(epstopdf)                    date: 2023-05-26 11:45:05
 (epstopdf)                    size: 99250 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=Images//08_gravita_t-eps-converted-to.pdf Images//08_gravita_t.eps>
+(epstopdf)             Command: <miktex-epstopdf --outfile=Images//08_gravita_t
+-eps-converted-to.pdf Images//08_gravita_t.eps>
 (epstopdf)             \includegraphics on input line 6.
 Package epstopdf Info: Output file is already uptodate.
 
 
-pdfTeX warning: pdflatex (file ./Images//08_gravita_t-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Images//08_gravita_t-eps-converted-to.pdf, id=713, 256.96pt x 192.72pt>
+pdfTeX warning: pdflatex (file ./Images//08_gravita_t-eps-converted-to.pdf): PD
+F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images//08_gravita_t-eps-converted-to.pdf, id=738, 256.96pt x 192.72pt>
 File: Images//08_gravita_t-eps-converted-to.pdf Graphic file (type pdf)
 <use Images//08_gravita_t-eps-converted-to.pdf>
-Package pdftex.def Info: Images//08_gravita_t-eps-converted-to.pdf  used on input line 6.
+Package pdftex.def Info: Images//08_gravita_t-eps-converted-to.pdf  used on inp
+ut line 6.
 (pdftex.def)             Requested size: 245.82962pt x 184.3739pt.
-[27
+[26
 
- <./Images//angoli_bell.jpg> <./Images//03_accelerazione_t-eps-converted-to.pdf> <./Images//05_drag_t-eps-converted-to.pdf>]
+ <./Images//angoli_bell.jpg> <./Images//03_accelerazione_t-eps-converted-to.pdf
+> <./Images//05_drag_t-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Images//09_pressione_t.eps>
-(epstopdf)                    date: 2023-07-21 20:00:54
+(epstopdf)                    date: 2023-05-26 11:45:05
 (epstopdf)                    size: 315712 bytes
-(epstopdf)             Output file: <Images//09_pressione_t-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-07-21 20:00:54
+(epstopdf)             Output file: <Images//09_pressione_t-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2023-05-26 11:45:05
 (epstopdf)                    size: 92906 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=Images//09_pressione_t-eps-converted-to.pdf Images//09_pressione_t.eps>
+(epstopdf)             Command: <miktex-epstopdf --outfile=Images//09_pressione
+_t-eps-converted-to.pdf Images//09_pressione_t.eps>
 (epstopdf)             \includegraphics on input line 8.
 Package epstopdf Info: Output file is already uptodate.
 
 
-pdfTeX warning: pdflatex (file ./Images//09_pressione_t-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Images//09_pressione_t-eps-converted-to.pdf, id=735, 256.96pt x 192.72pt>
+pdfTeX warning: pdflatex (file ./Images//09_pressione_t-eps-converted-to.pdf): 
+PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images//09_pressione_t-eps-converted-to.pdf, id=760, 256.96pt x 192.72pt>
 File: Images//09_pressione_t-eps-converted-to.pdf Graphic file (type pdf)
 <use Images//09_pressione_t-eps-converted-to.pdf>
-Package pdftex.def Info: Images//09_pressione_t-eps-converted-to.pdf  used on input line 8.
+Package pdftex.def Info: Images//09_pressione_t-eps-converted-to.pdf  used on i
+nput line 8.
 (pdftex.def)             Requested size: 245.82962pt x 184.3739pt.
 Package epstopdf Info: Source file: <Images//10_temperatura_t.eps>
-(epstopdf)                    date: 2023-07-21 20:00:54
+(epstopdf)                    date: 2023-05-26 11:45:05
 (epstopdf)                    size: 312254 bytes
-(epstopdf)             Output file: <Images//10_temperatura_t-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-07-21 20:00:54
+(epstopdf)             Output file: <Images//10_temperatura_t-eps-converted-to.
+pdf>
+(epstopdf)                    date: 2023-05-26 11:45:05
 (epstopdf)                    size: 97565 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=Images//10_temperatura_t-eps-converted-to.pdf Images//10_temperatura_t.eps>
+(epstopdf)             Command: <miktex-epstopdf --outfile=Images//10_temperatu
+ra_t-eps-converted-to.pdf Images//10_temperatura_t.eps>
 (epstopdf)             \includegraphics on input line 8.
 Package epstopdf Info: Output file is already uptodate.
 
 
-pdfTeX warning: pdflatex (file ./Images//10_temperatura_t-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Images//10_temperatura_t-eps-converted-to.pdf, id=736, 256.96pt x 192.72pt>
+pdfTeX warning: pdflatex (file ./Images//10_temperatura_t-eps-converted-to.pdf)
+: PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images//10_temperatura_t-eps-converted-to.pdf, id=761, 256.96pt x 192.72pt>
 File: Images//10_temperatura_t-eps-converted-to.pdf Graphic file (type pdf)
 <use Images//10_temperatura_t-eps-converted-to.pdf>
-Package pdftex.def Info: Images//10_temperatura_t-eps-converted-to.pdf  used on input line 8.
+Package pdftex.def Info: Images//10_temperatura_t-eps-converted-to.pdf  used on
+ input line 8.
 (pdftex.def)             Requested size: 245.82962pt x 184.3739pt.
 Package epstopdf Info: Source file: <Images//11_mach_t.eps>
-(epstopdf)                    date: 2023-07-21 20:00:54
+(epstopdf)                    date: 2023-05-26 11:45:05
 (epstopdf)                    size: 315013 bytes
 (epstopdf)             Output file: <Images//11_mach_t-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-07-21 20:00:54
+(epstopdf)                    date: 2023-05-26 11:45:05
 (epstopdf)                    size: 101949 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=Images//11_mach_t-eps-converted-to.pdf Images//11_mach_t.eps>
+(epstopdf)             Command: <miktex-epstopdf --outfile=Images//11_mach_t-ep
+s-converted-to.pdf Images//11_mach_t.eps>
 (epstopdf)             \includegraphics on input line 10.
 Package epstopdf Info: Output file is already uptodate.
 
 
-pdfTeX warning: pdflatex (file ./Images//11_mach_t-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Images//11_mach_t-eps-converted-to.pdf, id=737, 256.96pt x 192.72pt>
+pdfTeX warning: pdflatex (file ./Images//11_mach_t-eps-converted-to.pdf): PDF i
+nclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images//11_mach_t-eps-converted-to.pdf, id=762, 256.96pt x 192.72pt>
 File: Images//11_mach_t-eps-converted-to.pdf Graphic file (type pdf)
 <use Images//11_mach_t-eps-converted-to.pdf>
-Package pdftex.def Info: Images//11_mach_t-eps-converted-to.pdf  used on input line 10.
+Package pdftex.def Info: Images//11_mach_t-eps-converted-to.pdf  used on input 
+line 10.
 (pdftex.def)             Requested size: 245.82962pt x 184.3739pt.
-) (Sezioni/C_confronto_peso_molecolare.tex [28 <./Images//06_massa_t-eps-converted-to.pdf> <./Images//08_gravita_t-eps-converted-to.pdf> <./Images//09_pressione_t-eps-converted-to.pdf> <./Images//10_temperatura_t-eps-converted-to.pdf> <./Images//11_mach_t-eps-converted-to.pdf>]
+) (Sezioni/C_confronto_peso_molecolare.tex [27 <./Images//06_massa_t-eps-conver
+ted-to.pdf> <./Images//08_gravita_t-eps-converted-to.pdf> <./Images//09_pressio
+ne_t-eps-converted-to.pdf> <./Images//10_temperatura_t-eps-converted-to.pdf> <.
+/Images//11_mach_t-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Images//MM_to_OF.eps>
-(epstopdf)                    date: 2023-07-21 20:00:54
+(epstopdf)                    date: 2023-05-26 11:45:05
 (epstopdf)                    size: 78737 bytes
 (epstopdf)             Output file: <Images//MM_to_OF-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-07-21 20:00:54
+(epstopdf)                    date: 2023-05-26 11:45:05
 (epstopdf)                    size: 19481 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=Images//MM_to_OF-eps-converted-to.pdf Images//MM_to_OF.eps>
+(epstopdf)             Command: <miktex-epstopdf --outfile=Images//MM_to_OF-eps
+-converted-to.pdf Images//MM_to_OF.eps>
 (epstopdf)             \includegraphics on input line 6.
 Package epstopdf Info: Output file is already uptodate.
 
 
-pdfTeX warning: pdflatex (file ./Images//MM_to_OF-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Images//MM_to_OF-eps-converted-to.pdf, id=786, 256.96pt x 192.72pt>
+pdfTeX warning: pdflatex (file ./Images//MM_to_OF-eps-converted-to.pdf): PDF in
+clusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images//MM_to_OF-eps-converted-to.pdf, id=810, 256.96pt x 192.72pt>
 File: Images//MM_to_OF-eps-converted-to.pdf Graphic file (type pdf)
 <use Images//MM_to_OF-eps-converted-to.pdf>
-Package pdftex.def Info: Images//MM_to_OF-eps-converted-to.pdf  used on input line 6.
+Package pdftex.def Info: Images//MM_to_OF-eps-converted-to.pdf  used on input l
+ine 6.
 (pdftex.def)             Requested size: 245.82962pt x 184.3739pt.
 Package epstopdf Info: Source file: <Images//temperatura_gg_of.eps>
-(epstopdf)                    date: 2023-07-21 20:00:54
+(epstopdf)                    date: 2023-05-26 11:45:05
 (epstopdf)                    size: 24430 bytes
-(epstopdf)             Output file: <Images//temperatura_gg_of-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-07-21 20:00:54
+(epstopdf)             Output file: <Images//temperatura_gg_of-eps-converted-to
+.pdf>
+(epstopdf)                    date: 2023-05-26 11:45:05
 (epstopdf)                    size: 7874 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=Images//temperatura_gg_of-eps-converted-to.pdf Images//temperatura_gg_of.eps>
+(epstopdf)             Command: <miktex-epstopdf --outfile=Images//temperatura_
+gg_of-eps-converted-to.pdf Images//temperatura_gg_of.eps>
 (epstopdf)             \includegraphics on input line 6.
 Package epstopdf Info: Output file is already uptodate.
 
 
-pdfTeX warning: pdflatex (file ./Images//temperatura_gg_of-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Images//temperatura_gg_of-eps-converted-to.pdf, id=787, 256.96pt x 192.72pt>
+pdfTeX warning: pdflatex (file ./Images//temperatura_gg_of-eps-converted-to.pdf
+): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images//temperatura_gg_of-eps-converted-to.pdf, id=811, 256.96pt x 192.72pt>
 File: Images//temperatura_gg_of-eps-converted-to.pdf Graphic file (type pdf)
 <use Images//temperatura_gg_of-eps-converted-to.pdf>
-Package pdftex.def Info: Images//temperatura_gg_of-eps-converted-to.pdf  used on input line 6.
+Package pdftex.def Info: Images//temperatura_gg_of-eps-converted-to.pdf  used o
+n input line 6.
 (pdftex.def)             Requested size: 245.82962pt x 184.3739pt.
 ) (Sezioni/D_prodotti_gas_generator.tex) (Sezioni/E_schemi_gg.tex
 Package epstopdf Info: Source file: <Images//Injector_gg.eps>
-(epstopdf)                    date: 2023-07-21 20:22:49
+(epstopdf)                    date: 2023-05-26 11:45:05
 (epstopdf)                    size: 26419379 bytes
 (epstopdf)             Output file: <Images//Injector_gg-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-07-21 20:22:49
+(epstopdf)                    date: 2023-05-26 11:45:05
 (epstopdf)                    size: 814952 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=Images//Injector_gg-eps-converted-to.pdf Images//Injector_gg.eps>
+(epstopdf)             Command: <miktex-epstopdf --outfile=Images//Injector_gg-
+eps-converted-to.pdf Images//Injector_gg.eps>
 (epstopdf)             \includegraphics on input line 4.
 Package epstopdf Info: Output file is already uptodate.
 
 
-pdfTeX warning: pdflatex (file ./Images//Injector_gg-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Images//Injector_gg-eps-converted-to.pdf, id=788, 492.84125pt x 606.265pt>
+pdfTeX warning: pdflatex (file ./Images//Injector_gg-eps-converted-to.pdf): PDF
+ inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images//Injector_gg-eps-converted-to.pdf, id=812, 492.84125pt x 606.265pt>
 File: Images//Injector_gg-eps-converted-to.pdf Graphic file (type pdf)
 <use Images//Injector_gg-eps-converted-to.pdf>
-Package pdftex.def Info: Images//Injector_gg-eps-converted-to.pdf  used on input line 4.
+Package pdftex.def Info: Images//Injector_gg-eps-converted-to.pdf  used on inpu
+t line 4.
 (pdftex.def)             Requested size: 230.46576pt x 283.51071pt.
-) [29 <./Images//MM_to_OF-eps-converted-to.pdf> <./Images//temperatura_gg_of-eps-converted-to.pdf>] (Sezioni/F_triangoli_velocita.tex
+) [28 <./Images//MM_to_OF-eps-converted-to.pdf> <./Images//temperatura_gg_of-ep
+s-converted-to.pdf>] (Sezioni/F_triangoli_velocita.tex
 
-pdfTeX warning: pdflatex (file ./Images//velocity_diagram_AIAA.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<Images//velocity_diagram_AIAA.pdf, id=804, 232.10716pt x 192.86021pt>
+pdfTeX warning: pdflatex (file ./Images//velocity_diagram_AIAA.pdf): PDF inclus
+ion: found PDF version <1.6>, but at most version <1.5> allowed
+<Images//velocity_diagram_AIAA.pdf, id=829, 232.10716pt x 192.86021pt>
 File: Images//velocity_diagram_AIAA.pdf Graphic file (type pdf)
 <use Images//velocity_diagram_AIAA.pdf>
-Package pdftex.def Info: Images//velocity_diagram_AIAA.pdf  used on input line 38.
+Package pdftex.def Info: Images//velocity_diagram_AIAA.pdf  used on input line 
+38.
 (pdftex.def)             Requested size: 204.85672pt x 170.22661pt.
-[30 <./Images//Injector_gg-eps-converted-to.pdf> <./Images//velocity_diagram_AIAA.pdf>]) (Sezioni/G_matlab.tex (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
-File: lstlang1.sty 2023/02/27 1.9 listings language file
+[29 <./Images//Injector_gg-eps-converted-to.pdf> <./Images//velocity_diagram_AI
+AA.pdf>]) (Sezioni/G_temperature_cooling.tex
+<Images//t_wg.jpg, id=885, 596.9502pt x 360.1455pt>
+File: Images//t_wg.jpg Graphic file (type jpg)
+<use Images//t_wg.jpg>
+Package pdftex.def Info: Images//t_wg.jpg  used on input line 5.
+(pdftex.def)             Requested size: 204.85672pt x 123.59088pt.
+<Images//r_d_graph.jpg, id=886, 388.45125pt x 358.33875pt>
+File: Images//r_d_graph.jpg Graphic file (type jpg)
+<use Images//r_d_graph.jpg>
+Package pdftex.def Info: Images//r_d_graph.jpg  used on input line 12.
+(pdftex.def)             Requested size: 204.85672pt x 188.97816pt.
+ [30 <./Images//t_wg.jpg>]
+
+LaTeX Warning: Reference `r_d_graph' on page 31 undefined on input line 14.
+
+<Images//exhaust_1.jpg, id=895, 6005.43625pt x 3705.845pt>
+File: Images//exhaust_1.jpg Graphic file (type jpg)
+<use Images//exhaust_1.jpg>
+Package pdftex.def Info: Images//exhaust_1.jpg  used on input line 19.
+(pdftex.def)             Requested size: 204.85672pt x 126.38158pt.
+<Images//exhaust_2.jpg, id=896, 1806.75pt x 1409.265pt>
+File: Images//exhaust_2.jpg Graphic file (type jpg)
+<use Images//exhaust_2.jpg>
+Package pdftex.def Info: Images//exhaust_2.jpg  used on input line 21.
+(pdftex.def)             Requested size: 204.85672pt x 159.77193pt.
+
+Package wrapfig Warning: Collision between wrapping environments on input line 
+26.
+
+<Images//satur.jpg, id=897, 1709.38625pt x 1376.14125pt>
+File: Images//satur.jpg Graphic file (type jpg)
+<use Images//satur.jpg>
+Package pdftex.def Info: Images//satur.jpg  used on input line 26.
+(pdftex.def)             Requested size: 118.91534pt x 95.73077pt.
+
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 28
+.
+
+
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 30
+.
+
+[31 <./Images//r_d_graph.jpg> <./Images//exhaust_1.jpg> <./Images//exhaust_2.jp
+g>]) [32 <./Images//satur.jpg>] (Sezioni/H_matlab.tex
+(C:\Miktex\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 12.
-LaTeX Font Info:    Trying to load font information for T1+jkptt on input line 12.
- (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\t1jkptt.fd
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
+nput line 12.
+LaTeX Font Info:    Trying to load font information for T1+jkptt on input line 
+12.
+
+(C:\Miktex\tex/latex/kpfonts\t1jkptt.fd
 File: t1jkptt.fd 2007/01/26 Fontinst v1.928 font definitions for T1/jkptt.
-) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/base\ansinew.def
+) (C:\Miktex\tex/latex/base\ansinew.def
 File: ansinew.def 2021/02/14 v1.3d Input encoding file
-) (Codici/Simulation.m [31] [32]
-LaTeX Font Info:    Trying to load font information for TS1+jkptt on input line 128.
- (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ts1jkptt.fd
+) (Codici/Simulation.m [33
+
+] [34]
+LaTeX Font Info:    Trying to load font information for TS1+jkptt on input line
+ 128.
+ (C:\Miktex\tex/latex/kpfonts\ts1jkptt.fd
 File: ts1jkptt.fd 2007/01/26 Fontinst v1.928 font definitions for TS1/jkptt.
-) [33]) [34] (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/base\ansinew.def
+)
+[35]) (C:\Miktex\tex/latex/base\ansinew.def
 File: ansinew.def 2021/02/14 v1.3d Input encoding file
-) (Codici/TANK_RP1.m [35]) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/base\ansinew.def
+) (Codici/TANK_RP1.m [36] [37])
+(C:\Miktex\tex/latex/base\ansinew.def
 File: ansinew.def 2021/02/14 v1.3d Input encoding file
-) (Codici/TANK_LOX.m [36] [37]) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/base\ansinew.def
+) (Codici/TANK_LOX.m [38]) [39]
+(C:\Miktex\tex/latex/base\ansinew.def
 File: ansinew.def 2021/02/14 v1.3d Input encoding file
-) (Codici/camera di combustione.m [38]))) [39] (Prova finale.bbl) [40
+) (Codici/camera di combustione.m [40])))
+[41] (Prova finale.bbl) [42
 
 ] (Prova finale.aux)
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `"Prova finale".out' has not changed.
-(rerunfilecheck)             Checksum: D93D724E3B24C389B23EEE1D366901E5;9329.
+(rerunfilecheck)             Checksum: B4827031D2B952903C54583D2FC92B6B;11246.
  ) 
 Here is how much of TeX's memory you used:
- 34590 strings out of 476361
- 648583 string characters out of 5788046
- 2296993 words of memory out of 5000000
- 53670 multiletter control sequences out of 15000+600000
- 668541 words of font info for 208 fonts, out of 8000000 for 9000
+ 34368 strings out of 475385
+ 626265 string characters out of 2793321
+ 1657411 words of memory out of 3000000
+ 54402 multiletter control sequences out of 15000+600000
+ 625513 words of font info for 204 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 83i,22n,80p,1970b,3409s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 83i,22n,80p,1918b,3527s stack positions out of 10000i,1000n,20000p,200000b,80000s
 
-pdfTeX warning (dest): name{lstnumber.-4.66} has been referenced but does not exist, replaced by a fixed one
+pdfTeX warning (dest): name{lstnumber.-4.66} has been referenced but does not e
+xist, replaced by a fixed one
 
-<C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbmi.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbmia.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbne.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbsc8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbsy.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpex.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmi.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmia.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpsy.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpttbn8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on "Prova finale.pdf" (43 pages, 20733146 bytes).
+{C:/Miktex/fonts/enc/dvips/base/8r.enc}{C:/Miktex/fonts/enc/dvips/kpfonts/kpfon
+ts-expert.enc}<C:/Miktex/fonts/type1/public/kpfonts/jkpbmi.pfb><C:/Miktex/fonts
+/type1/public/kpfonts/jkpbmia.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpbn8a
+.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpbne.pfb><C:/Miktex/fonts/type1/pu
+blic/kpfonts/jkpbsc8a.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpbsy.pfb><C:/
+Miktex/fonts/type1/public/kpfonts/jkpex.pfb><C:/Miktex/fonts/type1/public/kpfon
+ts/jkpmi.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpmia.pfb><C:/Miktex/fonts/
+type1/public/kpfonts/jkpmit8a.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpmn8a
+.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Miktex/fonts/type1/pu
+blic/kpfonts/jkpsy.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpttbn8a.pfb><C:/
+Miktex/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
+Output written on "Prova finale.pdf" (45 pages, 21842640 bytes).
 PDF statistics:
- 1571 PDF objects out of 1728 (max. 8388607)
- 619 named destinations out of 1000 (max. 500000)
- 585 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1624 PDF objects out of 1728 (max. 8388607)
+ 632 named destinations out of 1000 (max. 500000)
+ 640 words of extra memory for PDF output out of 10000 (max. 10000000)
 
