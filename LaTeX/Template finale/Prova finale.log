@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.16)  25 JUL 2023 15:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.16)  25 JUL 2023 15:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1431,8 +1431,42 @@ File: Images//ugello_TOP.jpg Graphic file (type jpg)
 <use Images//ugello_TOP.jpg>
 Package pdftex.def Info: Images//ugello_TOP.jpg  used on input line 79.
 (pdftex.def)             Requested size: 256.07481pt x 151.82596pt.
- [20 <./Images//ugello_TOP.jpg>] [21] [22] [23] [24]) [25] (Sezioni/10_appendice.tex (Sezioni/A_immagini_e_schemi.tex
-<Images//angoli_bell.jpg, id=647, 464.4552pt x 333.4056pt>
+ [20 <./Images//ugello_TOP.jpg>]
+<Images//boundary_layer.jpg, id=624, 2509.375pt x 2388.925pt>
+File: Images//boundary_layer.jpg Graphic file (type jpg)
+<use Images//boundary_layer.jpg>
+Package pdftex.def Info: Images//boundary_layer.jpg  used on input line 156.
+(pdftex.def)             Requested size: 204.85672pt x 195.01826pt.
+ [21 <./Images//boundary_layer.jpg>]
+<Images//t_wg.jpg, id=632, 596.9502pt x 360.1455pt>
+File: Images//t_wg.jpg Graphic file (type jpg)
+<use Images//t_wg.jpg>
+Package pdftex.def Info: Images//t_wg.jpg  used on input line 173.
+(pdftex.def)             Requested size: 204.85672pt x 123.59088pt.
+<Images//sigma.jpg, id=635, 1229.59375pt x 534.99875pt>
+File: Images//sigma.jpg Graphic file (type jpg)
+<use Images//sigma.jpg>
+Package pdftex.def Info: Images//sigma.jpg  used on input line 196.
+(pdftex.def)             Requested size: 204.85672pt x 89.12814pt.
+ [22 <./Images//t_wg.jpg>] [23 <./Images//sigma.jpg>]
+<Images//temp_dist.jpg, id=651, 1528.71124pt x 1518.67375pt>
+File: Images//temp_dist.jpg Graphic file (type jpg)
+<use Images//temp_dist.jpg>
+Package pdftex.def Info: Images//temp_dist.jpg  used on input line 228.
+(pdftex.def)             Requested size: 204.85672pt x 203.50586pt.
+<Images//satur.jpg, id=652, 1709.38625pt x 1376.14125pt>
+File: Images//satur.jpg Graphic file (type jpg)
+<use Images//satur.jpg>
+Package pdftex.def Info: Images//satur.jpg  used on input line 255.
+(pdftex.def)             Requested size: 204.85672pt x 164.91985pt.
+ [24 <./Images//temp_dist.jpg>]
+<Images//nozzle_definitions.jpg, id=658, 206.57175pt x 75.28125pt>
+File: Images//nozzle_definitions.jpg Graphic file (type jpg)
+<use Images//nozzle_definitions.jpg>
+Package pdftex.def Info: Images//nozzle_definitions.jpg  used on input line 266.
+(pdftex.def)             Requested size: 256.07481pt x 93.32478pt.
+ [25 <./Images//satur.jpg> <./Images//nozzle_definitions.jpg>] [26]) [27] (Sezioni/10_appendice.tex (Sezioni/A_immagini_e_schemi.tex
+<Images//angoli_bell.jpg, id=679, 464.4552pt x 333.4056pt>
 File: Images//angoli_bell.jpg Graphic file (type jpg)
 <use Images//angoli_bell.jpg>
 Package pdftex.def Info: Images//angoli_bell.jpg  used on input line 4.
@@ -1450,7 +1484,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./Images//03_accelerazione_t-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Images//03_accelerazione_t-eps-converted-to.pdf, id=648, 256.96pt x 192.72pt>
+<Images//03_accelerazione_t-eps-converted-to.pdf, id=680, 256.96pt x 192.72pt>
 File: Images//03_accelerazione_t-eps-converted-to.pdf Graphic file (type pdf)
 <use Images//03_accelerazione_t-eps-converted-to.pdf>
 Package pdftex.def Info: Images//03_accelerazione_t-eps-converted-to.pdf  used on input line 4.
@@ -1467,7 +1501,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./Images//05_drag_t-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Images//05_drag_t-eps-converted-to.pdf, id=649, 256.96pt x 192.72pt>
+<Images//05_drag_t-eps-converted-to.pdf, id=681, 256.96pt x 192.72pt>
 File: Images//05_drag_t-eps-converted-to.pdf Graphic file (type pdf)
 <use Images//05_drag_t-eps-converted-to.pdf>
 Package pdftex.def Info: Images//05_drag_t-eps-converted-to.pdf  used on input line 4.
@@ -1484,7 +1518,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./Images//06_massa_t-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Images//06_massa_t-eps-converted-to.pdf, id=650, 256.96pt x 192.72pt>
+<Images//06_massa_t-eps-converted-to.pdf, id=682, 256.96pt x 192.72pt>
 File: Images//06_massa_t-eps-converted-to.pdf Graphic file (type pdf)
 <use Images//06_massa_t-eps-converted-to.pdf>
 Package pdftex.def Info: Images//06_massa_t-eps-converted-to.pdf  used on input line 6.
@@ -1501,12 +1535,12 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./Images//08_gravita_t-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Images//08_gravita_t-eps-converted-to.pdf, id=651, 256.96pt x 192.72pt>
+<Images//08_gravita_t-eps-converted-to.pdf, id=683, 256.96pt x 192.72pt>
 File: Images//08_gravita_t-eps-converted-to.pdf Graphic file (type pdf)
 <use Images//08_gravita_t-eps-converted-to.pdf>
 Package pdftex.def Info: Images//08_gravita_t-eps-converted-to.pdf  used on input line 6.
 (pdftex.def)             Requested size: 245.82962pt x 184.3739pt.
-[26
+[28
 
  <./Images//angoli_bell.jpg> <./Images//03_accelerazione_t-eps-converted-to.pdf> <./Images//05_drag_t-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Images//09_pressione_t.eps>
@@ -1521,7 +1555,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./Images//09_pressione_t-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Images//09_pressione_t-eps-converted-to.pdf, id=673, 256.96pt x 192.72pt>
+<Images//09_pressione_t-eps-converted-to.pdf, id=706, 256.96pt x 192.72pt>
 File: Images//09_pressione_t-eps-converted-to.pdf Graphic file (type pdf)
 <use Images//09_pressione_t-eps-converted-to.pdf>
 Package pdftex.def Info: Images//09_pressione_t-eps-converted-to.pdf  used on input line 8.
@@ -1538,7 +1572,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./Images//10_temperatura_t-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Images//10_temperatura_t-eps-converted-to.pdf, id=674, 256.96pt x 192.72pt>
+<Images//10_temperatura_t-eps-converted-to.pdf, id=707, 256.96pt x 192.72pt>
 File: Images//10_temperatura_t-eps-converted-to.pdf Graphic file (type pdf)
 <use Images//10_temperatura_t-eps-converted-to.pdf>
 Package pdftex.def Info: Images//10_temperatura_t-eps-converted-to.pdf  used on input line 8.
@@ -1555,12 +1589,12 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./Images//11_mach_t-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Images//11_mach_t-eps-converted-to.pdf, id=675, 256.96pt x 192.72pt>
+<Images//11_mach_t-eps-converted-to.pdf, id=708, 256.96pt x 192.72pt>
 File: Images//11_mach_t-eps-converted-to.pdf Graphic file (type pdf)
 <use Images//11_mach_t-eps-converted-to.pdf>
 Package pdftex.def Info: Images//11_mach_t-eps-converted-to.pdf  used on input line 10.
 (pdftex.def)             Requested size: 245.82962pt x 184.3739pt.
-) (Sezioni/C_confronto_peso_molecolare.tex [27 <./Images//06_massa_t-eps-converted-to.pdf> <./Images//08_gravita_t-eps-converted-to.pdf> <./Images//09_pressione_t-eps-converted-to.pdf> <./Images//10_temperatura_t-eps-converted-to.pdf> <./Images//11_mach_t-eps-converted-to.pdf>]
+) (Sezioni/C_confronto_peso_molecolare.tex [29 <./Images//06_massa_t-eps-converted-to.pdf> <./Images//08_gravita_t-eps-converted-to.pdf> <./Images//09_pressione_t-eps-converted-to.pdf> <./Images//10_temperatura_t-eps-converted-to.pdf> <./Images//11_mach_t-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Images//MM_to_OF.eps>
 (epstopdf)                    date: 2023-07-21 20:00:54
 (epstopdf)                    size: 78737 bytes
@@ -1573,7 +1607,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./Images//MM_to_OF-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Images//MM_to_OF-eps-converted-to.pdf, id=723, 256.96pt x 192.72pt>
+<Images//MM_to_OF-eps-converted-to.pdf, id=756, 256.96pt x 192.72pt>
 File: Images//MM_to_OF-eps-converted-to.pdf Graphic file (type pdf)
 <use Images//MM_to_OF-eps-converted-to.pdf>
 Package pdftex.def Info: Images//MM_to_OF-eps-converted-to.pdf  used on input line 6.
@@ -1590,7 +1624,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./Images//temperatura_gg_of-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Images//temperatura_gg_of-eps-converted-to.pdf, id=724, 256.96pt x 192.72pt>
+<Images//temperatura_gg_of-eps-converted-to.pdf, id=757, 256.96pt x 192.72pt>
 File: Images//temperatura_gg_of-eps-converted-to.pdf Graphic file (type pdf)
 <use Images//temperatura_gg_of-eps-converted-to.pdf>
 Package pdftex.def Info: Images//temperatura_gg_of-eps-converted-to.pdf  used on input line 6.
@@ -1608,20 +1642,20 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./Images//Injector_gg-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Images//Injector_gg-eps-converted-to.pdf, id=725, 492.84125pt x 606.265pt>
+<Images//Injector_gg-eps-converted-to.pdf, id=758, 492.84125pt x 606.265pt>
 File: Images//Injector_gg-eps-converted-to.pdf Graphic file (type pdf)
 <use Images//Injector_gg-eps-converted-to.pdf>
 Package pdftex.def Info: Images//Injector_gg-eps-converted-to.pdf  used on input line 4.
 (pdftex.def)             Requested size: 230.46576pt x 283.51071pt.
-) [28 <./Images//MM_to_OF-eps-converted-to.pdf> <./Images//temperatura_gg_of-eps-converted-to.pdf>] (Sezioni/F_triangoli_velocita.tex
+) [30 <./Images//MM_to_OF-eps-converted-to.pdf> <./Images//temperatura_gg_of-eps-converted-to.pdf>] (Sezioni/F_triangoli_velocita.tex
 
 pdfTeX warning: pdflatex (file ./Images//velocity_diagram_AIAA.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<Images//velocity_diagram_AIAA.pdf, id=742, 232.10716pt x 192.86021pt>
+<Images//velocity_diagram_AIAA.pdf, id=774, 232.10716pt x 192.86021pt>
 File: Images//velocity_diagram_AIAA.pdf Graphic file (type pdf)
 <use Images//velocity_diagram_AIAA.pdf>
 Package pdftex.def Info: Images//velocity_diagram_AIAA.pdf  used on input line 38.
 (pdftex.def)             Requested size: 204.85672pt x 170.22661pt.
-[29 <./Images//Injector_gg-eps-converted-to.pdf> <./Images//velocity_diagram_AIAA.pdf>]) (Sezioni/G_matlab.tex (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+[31 <./Images//Injector_gg-eps-converted-to.pdf> <./Images//velocity_diagram_AIAA.pdf>]) (Sezioni/G_matlab.tex (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2023/02/27 1.9 listings language file
 )
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 12.
@@ -1630,28 +1664,28 @@ LaTeX Font Info:    Trying to load font information for T1+jkptt on input line 1
 File: t1jkptt.fd 2007/01/26 Fontinst v1.928 font definitions for T1/jkptt.
 ) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/base\ansinew.def
 File: ansinew.def 2021/02/14 v1.3d Input encoding file
-) (Codici/Simulation.m [30] [31]
+) (Codici/Simulation.m [32] [33]
 LaTeX Font Info:    Trying to load font information for TS1+jkptt on input line 128.
  (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ts1jkptt.fd
 File: ts1jkptt.fd 2007/01/26 Fontinst v1.928 font definitions for TS1/jkptt.
-) [32]))) [33] (Prova finale.bbl) [34
+) [34]))) [35] (Prova finale.bbl) [36
 
 ] (Prova finale.aux)
 Package rerunfilecheck Info: File `"Prova finale".out' has not changed.
-(rerunfilecheck)             Checksum: D36DC16CBBD5AA2C70A3FC975097CD7C;8358.
+(rerunfilecheck)             Checksum: 039D49360055E075767A6D11D2DA3D2E;8358.
  ) 
 Here is how much of TeX's memory you used:
- 34056 strings out of 476361
- 639583 string characters out of 5788046
+ 34171 strings out of 476361
+ 642017 string characters out of 5788046
  2296993 words of memory out of 5000000
- 53448 multiletter control sequences out of 15000+600000
+ 53548 multiletter control sequences out of 15000+600000
  668541 words of font info for 208 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 83i,22n,80p,1970b,3413s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 83i,22n,80p,1970b,3409s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbmi.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbmia.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbsc8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbsy.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpex.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmi.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmia.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpsy.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpttbn8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on "Prova finale.pdf" (37 pages, 18895878 bytes).
+Output written on "Prova finale.pdf" (39 pages, 19930129 bytes).
 PDF statistics:
- 1154 PDF objects out of 1200 (max. 8388607)
- 322 named destinations out of 1000 (max. 500000)
- 502 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1190 PDF objects out of 1200 (max. 8388607)
+ 337 named destinations out of 1000 (max. 500000)
+ 532 words of extra memory for PDF output out of 10000 (max. 10000000)
 
