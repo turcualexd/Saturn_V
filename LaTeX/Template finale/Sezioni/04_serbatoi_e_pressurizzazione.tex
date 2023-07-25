@@ -4,6 +4,8 @@
 \subsection{Serbatoi: descrizione e dimensionamento}
 \label{subsec:Serbatoi:descrizione_e_dimensionamento}
 
+\rfig{tank}{Raffigurazione serbatoi}{tank}{0.4}
+
 Il primo stadio ha un diametro di circa 10 m e un’altezza di 42 m. La maggior parte del volume interno alla struttura è occupato dai serbatoi, ovvero il serbatoio di LOX, posto più in alto, e quello dell’RP1. 
 
 l serbatoio dell’ossidante ha una forma cilindrica, chiusa alle due estremità da paratie ellissoidali, per un’altezza totale di 19.53 m, mentre il diametro è approssimabile al diametro della struttura interna, ossia 10.06 m e il volume di ossigeno liquido contenuto è 1266220 litri. 
@@ -28,15 +30,24 @@ Come primo passo si calcolano i volumi fondamentali dei serbatoi, ovvero quelli 
 \begin{empheq}{gather*}
             Vol_{e} =  \frac{2 \pi\ a^2 b}{3}                                  \qquad
             Vol_{c} = {\pi\ a^2 lc}                                                 \\
-            Vol_{He} = {xxx}                                                                 \qquad
-            Vol_{t} =  {xxx}                                                                  \\
+            Vol_{He} = {4 Vol_{1b}}                              \qquad
+            Vol_{tubi} =  {5 \pi\ r_{t}^2 l_{t}}                                                                 \\
+\vspace{1pt}                     \\
             V_{totRP-1} = {2 Vol_{e} + Vol_{c} - Vol_{t}}              \qquad
             V_{totLOX} =  {2 Vol_{e} + Vol_{c} - Vol_{He}}
 \end{empheq}
 
+\vspace{5pt}
+
 Noto il volume totale occupato dal propellente liquido si ricavano le dimensioni della parte del serbatoio necessaria alla pressurizzazione, ovvero il volume vuoto, e di conseguneza l'altezza del propellente:
 %formuleeeee
-FORMULE MANCANTI 
+
+\begin{empheq}{gather*}
+            Vol_{u} = {V_{tot} - V_{prop}}                                \\
+            H_{prop} = {lc + 2b - H_{u}}
+\end{empheq}
+
+\vspace{5pt}
 
 La pressione nel serbatoio non è nota, ma va calcolata, mentre quella del volume vuoto è un dato di progetto del motore.
 Con quanto ricavato in precedenza si calcolano le pressioni interne dei serbatoi e le pressioni totali
@@ -49,12 +60,13 @@ Con quanto ricavato in precedenza si calcolano le pressioni interne dei serbatoi
 È ora possibile procedere al calcolo degli spessori introducendo alcuni parametri come il fattore di stress K e il rateo dell’ellisse k, cioè il rapporto tra l'asse maggiore e l'asse minore
 
 \begin{empheq}{gather*}
-            K = {xxx}                                  \qquad
-            k = {xxx}                                                 \\
-            t_{k} = \frac{K P_{tot} a}{\Sigma\_{y}}                                                        \\         
-            t_{cr} =  \frac{P_{tot} R}{2\Sigma\_{y}}                                                                   \\
-            t_{e} = {t_{k} + t_{cr}}                                                        \\
-            t_{c} = \frac{P_{tot} a}{\Sigma\_{y}} 
+            K = {0.8}                                  \qquad
+            k = \frac{a}{b}                                                 \qquad
+            R = {a k}                                                              \\\
+            t_{k} = \frac{K P_{tot} a}{\Sigma_{y}}                                                        \qquad       
+            t_{cr} =  \frac{P_{tot} R}{2\Sigma_{y}}                                                                   \qquad
+            t_{e} = {t_{k} + t_{cr}}                                                        \qquad
+            t_{c} = \frac{P_{tot} a}{\Sigma_{y}} 
 \end{empheq}
 
 
@@ -64,9 +76,9 @@ Con quanto ricavato in precedenza si calcolano le pressioni interne dei serbatoi
 \centering
 \begin{tabular}{|c|c|c|c|c|c|c|c|}
 \hline
-& $\bm{\rho \, [kg/m^3]}$ & $\bm{\sigma_{r} \, [psi]}$ & $\bm{\sigma_{y} \, [psi]}$ & $\bm{E \, [psi]}$ & $\bm{\nu\, [-]}$& $\bm{cs_r \, [-]}$ & $\bm{cs_y, [-]}$ \\
+& $\bm{\rho \, [kg/m^3]}$ & $\bm{\sigma_{r} \, [psi]}$ & $\bm{\sigma_{y} \, [psi]}$ & $\bm{E \, [psi]}$ & $\bm{\nu\, [-]}$& $\bm{\Sigma_{r}\, [-]}$ & $\bm{\Sigma_{y}\, [-]}$ \\
 \hline
-\textbf{Al2219-T87} & $0.103$ & $69000$ & $57000$ & $10.6e6$ & $0.33$ & $1.3$ & $1.25$ \\
+\textbf{Al2219-T87} & $0.103$ & $69000$ & $57000$ & $10.6e6$ & $0.33$ & $\frac{\sigma_{r}}{1.3}$ & $\frac{\sigma_{y}}{1.25}$ \\
 \hline
 \end{tabular}
 
@@ -79,7 +91,7 @@ Con quanto ricavato in precedenza si calcolano le pressioni interne dei serbatoi
 \hline
 & $\bm{a \, [inch]}$ & $\bm{b \, [inch]}$ & $\bm{lc \, [inch]}$ \\
 \hline
-\textbf{RP-1l} & $198$ & $120$ & $276$ \\
+\textbf{RP-1} & $198$ & $120$ & $276$ \\
 \hline
 \textbf{LOX} & $198$ & $120$ & $528$ \\
 \hline
@@ -93,7 +105,7 @@ Con quanto ricavato in precedenza si calcolano le pressioni interne dei serbatoi
 
 \begin{tabular}{|c|c|c|c|c|c|}
 \hline
-& $\bm{pu \, [psi]}$ & $\bm{pi \, [psi]}$ & $\bm{ptot \, [psi]}$ & $\bm{p_cr_e \, [psi]}$ & $\bm{p_cr_c \, [psi]}$\\
+& $\bm{p_{u} \, [psi]}$ & $\bm{p_{i} \, [psi]}$ & $\bm{p_{tot} \, [psi]}$ & $\bm{p_{cre} \, [psi]}$ & $\bm{p_{crc} \, [psi]}$\\
 \hline
 \textbf{RP-1} & $25.2$ & $13.38$ & $38.58$ & $0.368$ & $0.1393$\\
 \hline
@@ -107,9 +119,25 @@ Con quanto ricavato in precedenza si calcolano le pressioni interne dei serbatoi
 
 \vspace{5pt}
 
+\begin{tabular}{|c|c|c|c|c|c|c|}
+\hline
+& $\bm{Vol_{prop} \, [m^3]}$ & $\bm{Vol_{c} \, [m^3]}$ & $\bm{Vol_{e} \, [m^3]}$ & $\bm{Vol_{tubi/He} \, [m^3]}$ & $\bm{Vol_{tot} \, [m^3]}$ & $\bm{Vol_{u} \, [m^3]} $\\
+\hline
+\textbf{RP-1} & $ $ & $ $ & $ $ & $ $ & $ $ & $ $\\
+\hline
+\textbf{LOX} & $ $ & $ $ & $ $ & $ $ & $ $ & $ $\\
+\hline
+\end{tabular}
+
+
+\caption{Tabella riassuntiva volumi}
+\label{table:volumi}
+
+\vspace{5pt}
+
 \begin{tabular}{|c|c|c|c|c|}
 \hline
-& $\bm{tk \, [m]}$ & $\bm{tcr \, [m]}$ & $\bm{te \, [m]}$ & $\bm{tc\, [m]}$\\
+& $\bm{t_{k} \, [m]}$ & $\bm{t_{cr} \, [m]}$ & $\bm{t_{e} \, [m]}$ & $\bm{t_{c}\, [m]}$\\
 \hline
 \textbf{RP-1} & $0.0034$ & $0.0035$ & $0.0035$ & $0.0043$\\
 \hline
@@ -151,8 +179,5 @@ L'elio fornito dalle bombole conservate nel serbatoio LOX viene indirizzato allo
 Per il serbatoio del LOX si ha un sistema di pressurizzazione differente; infatti, il LOX ad alta pressione viene prelevato dal LOX dome, indirizzato allo scambiatore di calore, dove viene espanso in ossigeno gassoso (GOX) e in seguito diretto al serbatoio tramite la linea di distribuzione del GOX.
 
 Le dimensioni esatte dello scambiatore di calore del motore F-1 dipendono dalla versione specifica del motore, poiché il motore F-1 è stato sottoposto a una serie di miglioramenti, tuttavia, in generale, ha una lunghezza di circa 1 metro e mezzo e un diametro che varia da 1 metro all'uscita della turbina a 60 cm al collettore di scarico della turbina. 
-
-INSERIRE FOTOOOOOOOOO!!!!!
-
 
 
