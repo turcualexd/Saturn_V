@@ -56,14 +56,14 @@ La pompa è progettata, come detto precedentemente, per fornire una specifica pr
 
 Si verifica facilmente che il prodotto dei due parametri $n_s d_s = {2}/{\sqrt\psi}$  e poiché le pompe centrifughe, per costruzione, hanno un coefficiente di prevalenza $\psi$ minore dell’unità allora $n_s d_s > 2$. Diagrammi empirici nel piano $n_s, d_s$ permettono di fare considerazioni sulle prestazioni delle pompe e l’individuazione di zone ottimali di funzionamento a regime tenendo anche conto, solo ad un livello semplificato e non perfettamente realistico, di eventuali tolleranze di costruzione e rugosità interne che potranno poi essere modificate dopo prove al banco.
 
-Sono forniti i seguenti requisiti costruttivi della pompa
+Sono forniti i seguenti requisiti costruttivi della pompa \cite{turbopump_manual}
 \begin{table}[H]
 \centering
 \begin{tabular}{|c|c|c|c|c|c|c|}
 \hline
-$\bm{\eta_P \, [-]}$ & $\bm{P_ {TOT1} \, [Pa]}$ & $\bm{P_{TOT2} \, [Pa]}$ & $\bm{\rho [kg/m^3]}$ & $\bm{Q \, [m^3/s]}$ & $\bm{D_2 \, [m]}$ & $\bm{\omega \, [rad/s]}$  \\
+$\bm{\eta_P \, [-]}$ & $\bm{P_ {TOT1} \, [bar]}$ & $\bm{P_{TOT2} \, [bar]}$ & $\bm{\rho [kg/m^3]}$ & $\bm{Q \, [m^3/s]}$ & $\bm{D_2 \, [m]}$ & $\bm{\omega \, [rad/s]}$  \\
 \hline
-$0.746$ & $448159$ & $1.1045e+7$ &  $1141$ & $1.5898$ & $0.4953$ & $575.12$  \\
+$0.746$ & $4.4816$ & $110.4500$ &  $1141$ & $1.5898$ & $0.4953$ & $575.12$  \\
 \hline
 \end{tabular}
 
@@ -108,18 +108,18 @@ N_{ss} = \frac{N\sqrt{Q}}{\left( NPSH \right)_c^{0.75}}
 \end{empheq}
 Alti valore di $N_{ss}$ sono indicativi della presenza di un inducer, a monte dell'impeller. Questo contribuisce attivamente a migliorare la prestazione globale della pompa dal momento che in questo modo si amplia il range di velocita rotazionali ammissibili senza incorrere nella cavitazione, fatto che permette una diretta riduzione del peso della pompa a parita di livello di potenza e prevalenza fornito al fluido.\\
 \'E ora possibile andare a calcolare le velocità in ingresso, sezione 0, e in uscita, sezione 1, dall'inducer della pompa. Si effettua una ragionevole ipotesi sul 
-valore del coefficiente di prevalenza $\psi_{ind}$, pari a $0.06$, relativo al solo tratto iniziale e basato su considerazioni tratte dal manuale NASA Design of LPRE; da questo dato si trovano in cascata la velocita di rotazione riferita al valore medio del raggio della palettatura inducer e i relativi diametri effettivi della palettatura e dell'albero motore sezioni 0 e 1. Dalla conoscenza del valore di portata volumetrica all'ingresso dell'inducer, leggermente maggiore di quello presente nel corpo impeller per tenere conto di eventuali perdite, si sfrutta l'equazione di continuità per ricavare i vettori velocità nel sistema di riferimento assoluto e solidale con il case della pompa. Tali velocità sono indicate con $\overrightarrow{c_0} e \overrightarrow{c_1}$ , rispettivamente per inlet e outlet inducer, e sono costituite da $c_u$ per indicare la componente tangenziale della velocità assoluta e da $c_m$ per riferirsi alla velocità meridionale, ovvero la componente della velocità assoluta che appartiene al piano radiale e assiale. Sono anche noti i valori di $\overrightarrow{u}$, vettore velocità periferica media di rotazione della palettatura nelle sezione di ingresso e uscita, dal momento che si sono ricavati i diametri effettivi e si conosce il numero di giri al minuti effettuati. Usando le relazioni trigonometriche, e la conservzione della componente meridionale della velocità tra la velocità assoluta $\overrightarrow{c}$ e la velocità espressa nel sistema di riferimento relativo e solidale con la palettatura in rotazione $\overrightarrow{v}$, si trova l'ultimo vettore necessario per andare a comporre il triangolo di velocità complessivo e determinare infine gli angoli di orientazione $\beta$ riferito all'inclinazione di  $\overrightarrow{v}$ e $\alpha$ riferito invece all'orientazione di $\overrightarrow{c}$.
+valore del coefficiente di prevalenza $\psi_{ind}$, pari a $0.06$, relativo al solo tratto iniziale \cite{AIAA_book_1}; da questo dato si trovano in cascata la velocita di rotazione riferita al valore medio del raggio della palettatura inducer e i relativi diametri effettivi della palettatura e dell'albero motore sezioni 0 e 1. Dalla conoscenza del valore di portata volumetrica all'ingresso dell'inducer, leggermente maggiore di quello presente nel corpo impeller per tenere conto di eventuali perdite, si sfrutta l'equazione di continuità per ricavare i vettori velocità nel sistema di riferimento assoluto e solidale con il case della pompa. Tali velocità sono indicate con $\overrightarrow{c_0} e \overrightarrow{c_1}$ , rispettivamente per inlet e outlet inducer, e sono costituite da $c_u$ per indicare la componente tangenziale della velocità assoluta e da $c_m$ per riferirsi alla velocità meridionale, ovvero la componente della velocità assoluta che appartiene al piano radiale e assiale. Sono anche noti i valori di $\overrightarrow{u}$, vettore velocità periferica media di rotazione della palettatura nelle sezione di ingresso e uscita, dal momento che si sono ricavati i diametri effettivi e si conosce il numero di giri al minuti effettuati. Usando le relazioni trigonometriche, e la conservzione della componente meridionale della velocità tra la velocità assoluta $\overrightarrow{c}$ e la velocità espressa nel sistema di riferimento relativo e solidale con la palettatura in rotazione $\overrightarrow{v}$, si trova l'ultimo vettore necessario per andare a comporre il triangolo di velocità complessivo e determinare infine gli angoli di orientazione $\beta$ riferito all'inclinazione di  $\overrightarrow{v}$ e $\alpha$ riferito invece all'orientazione di $\overrightarrow{c}$.
 
 Con le stesse relazioni sopra descritte, è anche possibile andare a trovare la velocità all'estremo superiore -tip- della paletta per valutare un ulteriore parametro di progetto, la -vane solidity tip-; essa è definita come la sezione anulare normale alla direzione della velocità assiale di effettivo passaggio del fluido di lavoro.
 \\
 
 \textbf{Analisi impeller}\\
-Bisogna anche in questo fare riferimento ad una ragionevole ipotesi sulla perdita di prevalenza $H$ nella sezione anulare di passaggio del fluido a causa di attriti e conseguente dissipazione di energia, dal manuale risulta $H_e = 0.3H$ come termine di perdita. A questo punto è possibile calcolare la prevalenza effettiva fornita della sezione della girante -impeller- e sono noti inoltre il diametro nella sezione 1 -outlet inducer/inlet impeller- e nella sezione 2 -outlet impeller-. Con un ragionamento del tutto analogo a quello relativo all'inducer è possibile costruire il triangolo di velocità dato dalla composizione della velocità assoluta  $\overrightarrow{c}$, della velocità relativa $\overrightarrow{v}$, con i rispettivi angoli di orientazione $\alpha$ e $\beta$ e della velocità periferica media di rotazione $\overrightarrow{u}$. Per i procedimenti di analisi della conservazione della portata e di calcolo effettivo mediante relazioni trigonometriche passo per passo si rimanda al codice matlab $POMPA_{LOX}$ allegato in appendice.
+Bisogna anche in questo fare riferimento ad una ragionevole ipotesi sulla perdita di prevalenza $H$ nella sezione anulare di passaggio del fluido a causa di attriti e conseguente dissipazione di energia, dal manuale risulta $H_e = 0.3H$ come termine di perdita \cite{AIAA_book_1}. A questo punto è possibile calcolare la prevalenza effettiva fornita della sezione della girante -impeller- e sono noti inoltre il diametro nella sezione 1 -outlet inducer/inlet impeller- e nella sezione 2 -outlet impeller-. Con un ragionamento del tutto analogo a quello relativo all'inducer è possibile costruire il triangolo di velocità dato dalla composizione della velocità assoluta  $\overrightarrow{c}$, della velocità relativa $\overrightarrow{v}$, con i rispettivi angoli di orientazione $\alpha$ e $\beta$ e della velocità periferica media di rotazione $\overrightarrow{u}$. Per i procedimenti di analisi della conservazione della portata e di calcolo effettivo mediante relazioni trigonometriche passo per passo si rimanda al codice matlab $POMPA_{LOX}$ allegato in appendice.
 \\
 
 \textbf{Analisi casing pompa: vani diffusori}\\
 Il principale compito del casing è quello di convertire l'elevata energia cinetica del fluido di lavoro in uscita dalla sezione 2 dell'impeller in pressione statica; questo elemento non contribuisce quindi in alcun modo alla generazione di un valore di prevalenza. Il casing può essere formalmente diviso in due sezioni: una frontale nominata -suction nozzle- con il compito di convogliare debitamente il flusso nella sezione di uscita -volute / (voluta in italiano)- che invece si occupa della effettiva conversione energetica. La sezione frontale ha una lughezza ridotta per cercare di limitare al minimo le perdite di pressione per attrito contro le pareti rigide. Con i dati in possesso si procede al dimensionamento di un casing con geometria double-volute ($180\degree$) e singola sezione di efflusso per il flusso.\\
-Per calcolare la velocità media del flusso all'interno della voluta si assume come riferimento un parametro $K_v$ determinato sperimentalemente tramite prove al banco di differenti tipologie di vani diffusori. Per i calcoli $K_v = 0.337$ da manuale.
+Per calcolare la velocità media del flusso all'interno della voluta si assume come riferimento un parametro $K_v$ determinato sperimentalemente tramite prove al banco di differenti tipologie di vani diffusori. Per i calcoli $K_v = 0.337$ da manuale \cite{AIAA_book_1}.
 \begin{empheq}{equation*}
 c_3 = K_v \sqrt{2 g H}
 \end{empheq}
@@ -147,13 +147,13 @@ Si riportano i principali parametri di interesse calcolati con gli stessi proced
 \centering
 \begin{tabular}{|c|c|c|c|c|c|c|}
 \hline
-$\bm{\eta_P \, [-]}$ & $\bm{P_ {TOT1} \, [Pa]}$ & $\bm{P_{TOT2} \, [Pa]}$ & $\bm{\rho [kg/m^3]}$ & $\bm{Q \, [m^3/s]}$ & $\bm{D_2 \, [m]}$ & $\bm{\omega \, [rad/s]}$  \\
+$\bm{\eta_P \, [-]}$ & $\bm{P_ {TOT1} \, [bar]}$ & $\bm{P_{TOT2} \, [bar]}$ & $\bm{\rho [kg/m^3]}$ & $\bm{Q \, [m^3/s]}$ & $\bm{D_2 \, [m]}$ & $\bm{\omega \, [rad/s]}$  \\
 \hline
-$0.760$ & $310264$ & $1.2824e+7$ &  $808.9324$ & $0.9617$ & $0.59436$ & $574.020$  \\
+$0.760$ & $3.1026$ & $128.2400$ &  $808.9324$ & $0.9617$ & $0.59436$ & $574.020$  \\
 \hline
 \end{tabular}
 
-\caption{Requisiti del sistema pompa RP-1}
+\caption{Requisiti del sistema pompa RP-1 \cite{turbopump_manual}}
 \label{table:RP-1 pump specs}
 
 \end{table}

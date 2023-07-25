@@ -28,6 +28,12 @@ U1 = omega*R1;
 
 [H_m_RP1, delta_h_RP1, psi_RP1, P_RP1, ds_RP1, ns_RP1, prod_RP1] = turbopump(eta_p, P01, P02, pho1, Q, m_dot, Dt2, omega);
 
+% Le ipotesi sottostanti sono basate su considerazioni tratte da:
+% author = {D.K. Huzel, D.H. Huang},
+% title  = {Design of Liquid Propellant Rocket Engines, vol. 2},
+% year   = {1967},
+% publisher = {Scientifical and Technichal Division NASA}
+
 %% 1° tratto: INDUCER
 % gravitational constant
 g = 32.2;           % ft/s
@@ -42,7 +48,7 @@ NS = (N*sqrt(Q)) ./ (H^0.75);
 thoma = NPSH_c_RP1 / H;
 NSS = NS / (thoma)^0.75;
 
-% Ipotesi
+% Ipotesi pg. 224
 NSS_impeller = 11000; 
 
 % NPSH impeller
@@ -51,7 +57,7 @@ NPSH_imp = (N*sqrt(Q) ./ NSS_impeller).^(4/3);
 H_inducer_ft = NPSH_imp - NPSH_c_RP1;
 perc_ind = (H_inducer_ft / H) * 100;
 
-% Ipotesi
+% Ipotesi pg. 224
 psi_ind = 0.06; 
 
 u_tip_mean = sqrt((H_inducer_ft*32.2)/psi_ind);
@@ -65,7 +71,7 @@ d_0t = d_t + 2*L_ind/2 * tan(deg2rad(7)); % in
 % tip diameter at the inducer outlet
 d_1t = d_t - 2*L_ind/2 * tan(deg2rad(7)); % in
 
-% Ipotesi
+% Ipotesi pg. 224
 rd = 0.3;
 
 % Mean hub diameter
@@ -75,11 +81,11 @@ d_0h = d_h - 2*L_ind/2 * tan(deg2rad(14)); % in
 % Hub diameter at the inducer outlet
 d_1h = d_h + 2*L_ind/2 * tan(deg2rad(14)); % in
 
-Q_inducer = Q * (1 + 0.032 + 0.0175); % gpm
+Q_inducer = Q * (1 + 0.032 + 0.0175); % gpm (pg. 225)
 
 cm0_ind = Q_inducer/ (3.12 * (pi/4) * (d_0t.^2 - d_0h.^2)); % in ft/s
 cm0_ind_SI = cm0_ind / 3.281; % in m/s
-% Assunzione
+% Assunzione pg. 226
 cu0_ind = 0; % in m/s
 cm1_ind = Q_inducer/ (3.12 * (pi/4) * (d_1t.^2 - d_1h.^2)); % in ft/s
 cm1_ind_SI = cm1_ind / 3.281; % in m/s
@@ -166,7 +172,7 @@ u0_t_ind_SI = u0_t_ind / 3.281; % in m/s
 beta0_t = atan(cm0_ind / u0_t_ind);
 beta0_t_deg = rad2deg(beta0_t);
 
-% Inducer inlet tip % ipotesi
+% Inducer inlet tip % ipotesi pg. 226
 theta0_t = 9;
 
 % angle of attack at the inlet tip
@@ -186,7 +192,7 @@ phi_ind = cm0_ind / u0_t_ind;
 % theoretical inducer suction specific speed
 NSS_ind = ((8150*(1-2*phi_ind.^2)).^(0.75))/(phi_ind) .* (1-rd.^2).^0.5;
 
-% vane angle 14.30° ipotesi
+% vane angle 14.30° ipotesi pg. 226
 theta1 = 14.30;
 
 % vane angle at the inducer outlet tip diameter d_1t
@@ -197,7 +203,7 @@ theta1_t_deg = rad2deg(theta1_t);
 theta1_h = atan(d1 / d_1h * tan(deg2rad(theta1)));
 theta1_h_deg = rad2deg(theta1_h);
 
-% z = 3 vanes
+% z = 3 vanes pg. 226
 z = 3;
 % vane pitch at the mean tip diameter dt
 P_i = (pi*d_t) / z; % in
@@ -209,7 +215,7 @@ C_i = L_ind / sin((deg2rad(theta0_t) + theta1_t)/2); % in
 S_v = C_i / P_i;
 
 %% 2° tratto: IMPELLER
-% Ipotesi
+% Ipotesi pg. 216
 H_e = 0.30*H;
 H_imp = H - H_e;
 
@@ -230,8 +236,9 @@ cm1 = Q / (448.8*A1); % in ft/s
 cm1_SI = cm1 / 3.281; % in m/s
 
 % Radial/Meridional component of the absolute inlet flow velocity
-% cm2 = Q / (448.8*A2); % in ft/s attenzione al valore di A2
-% ipotesi
+% ipotesi da Sistemi Energetici 
+% DESIGN OF A CENTRIFUGAL PUMP FOR AN EXPANDER CYCLE ROCKET ENGINE, 
+% Prof. Ing. Aldo BONFIGLIOLI
 cm2 = 1.5*cm1; % in ft/s
 cm2_SI = cm2 / 3.281; % in m/s
 
@@ -328,11 +335,10 @@ ylabel('velocità meridionale [m/s]')
 
 %% 3° tratto: Pump casing
 % Design of a double-volute (spaced 180°) single-discharge-type casing
-% double-volute: configurazione creata per eliminare o ridurre il più
-% possibile la spinta radiale dovuto al flusso: si divide il flusso in 2
-% correnti uguali usando due linguette distanziate di 180°
+% double-volute: si divide il flusso in 2 correnti uguali usando due 
+% linguette distanziate di 180°
 
-% Ipotesi
+% Ipotesi pg. 231
 Kv = 0.337; % design factor
 
 % Average flow velocity in the volute
@@ -357,12 +363,13 @@ end
 % area of the volute throat section
 a_v = 2*a_volute_180;
 
-% volute angle is similar to alpha_2_deg = 14.7757° for geometrical construction
+% volute angle is similar to alpha_2_deg = 14.7757° 
+% for geometrical construction pg. 231
 alpha_v_deg = 15;
 alpha_v = deg2rad(alpha_v_deg);
 
 % radius at which start the volute tongue
-% ipotesi: si assume un gioco del 5%
+% ipotesi: si assume un gioco del 5% pg. 231
 r_t = (Dt2_inches / 2)*1.05; % in
 
 % width at the bottom of the trapezoidal volute section
@@ -372,7 +379,7 @@ b3 = b3_SI *39.37; % in
 % pitch diameter of the diffuser throats
 d3 = Dt2_inches*(c2/c3); % in
 
-% Ipotesi
+% Ipotesi pg. 231
 % transizione dalla forma del diffusore ad un cerchio: d_transition
 % taper angle di 10° e lunghezza nozzle di 10 inches
 

@@ -8,7 +8,7 @@ eps_10 = 10;
 Rt_10 = 0.4445;
 
 bell_percentage_eps_10 = 0.8;
-[theta_n_deg_eps_10, theta_e_deg_eps_10] = bellvalues(bell_percentage_eps_10, eps_10);
+[theta_n_deg_eps_10, theta_e_deg_eps_10] = bell_angles(bell_percentage_eps_10, eps_10);
 
 [x_eps_10, y_eps_10, Ln_cone_eps_10, Ln_eps_10, Nx_eps_10, Ny_eps_10, Qx_eps_10, Qy_eps_10, Ex_eps_10, Ey_eps_10] = bell_nozzle(eps_10, Rt_10, bell_percentage_eps_10, theta_n_deg_eps_10, theta_e_deg_eps_10);
 
@@ -52,7 +52,7 @@ eps = 16;
 Rt = 0.4445;
 
 bell_percentage = 0.8;
-[theta_n_deg, theta_e_deg] = bellvalues(bell_percentage, eps);
+[theta_n_deg, theta_e_deg] = bell_angles(bell_percentage, eps);
 
 [x, y, Ln_cone, Ln, Nx, Ny, Qx, Qy, Ex, Ey] = bell_nozzle(eps, Rt, bell_percentage, theta_n_deg, theta_e_deg);
 
