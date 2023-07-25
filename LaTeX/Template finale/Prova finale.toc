@@ -4,6 +4,7 @@
 \contentsline {section}{Indice}{II}{Doc-Start}%
 \contentsline {section}{\numberline {1}Nomenclatura}{1}{section.1}%
 \contentsline {section}{\numberline {2}Analisi della missione}{1}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Parametri lanciatore}{2}{subsection.2.1}%
 \contentsline {section}{\numberline {3}Propellenti}{2}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Coppia di propellenti: RP-1 / LOX}{2}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}Propellente ipergolico}{3}{subsection.3.2}%
@@ -12,34 +13,39 @@
 \contentsline {subsection}{\numberline {4.2}Pressurizzazione e scambiatore di calore}{5}{subsection.4.2}%
 \contentsline {section}{\numberline {5}Schema termodinamico}{6}{section.5}%
 \contentsline {subsection}{\numberline {5.1}Analisi dello schema semplificato del sistema motore}{6}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Analisi sulla scelta del ciclo di alimentazione}{7}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}Analisi delle variazioni di performance introdotte dal ciclo a gas}{9}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.2}Analisi sulla scelta del ciclo di alimentazione}{6}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Analisi delle variazioni di performance introdotte dal ciclo a gas}{8}{subsection.5.3}%
 \contentsline {section}{\numberline {6}Gas generator}{10}{section.6}%
-\contentsline {section}{\numberline {7}Turbopompa}{13}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Descrizione generica Mark 10}{13}{subsection.7.1}%
-\contentsline {subsubsection}{\numberline {7.1.1}Pompe LOX e RP1}{13}{subsubsection.7.1.1}%
-\contentsline {subsubsection}{\numberline {7.1.2}Analisi pompa LOX}{13}{subsubsection.7.1.2}%
-\contentsline {subsubsection}{\numberline {7.1.3}Analisi pompa RP-1}{17}{subsubsection.7.1.3}%
-\contentsline {subsection}{\numberline {7.2}Turbina}{17}{subsection.7.2}%
-\contentsline {subsubsection}{\numberline {7.2.1}Descrizione turbina}{17}{subsubsection.7.2.1}%
-\contentsline {subsubsection}{\numberline {7.2.2}Turbina - scelte progettuali}{18}{subsubsection.7.2.2}%
-\contentsline {subsubsection}{\numberline {7.2.3}Analisi quantitativa - dimensionamento}{19}{subsubsection.7.2.3}%
-\contentsline {section}{\numberline {8}Piatto d'iniezione}{20}{section.8}%
-\contentsline {section}{\numberline {9}Camera di spinta}{21}{section.9}%
-\contentsline {subsection}{\numberline {9.1}Descrizione del sistema}{21}{subsection.9.1}%
-\contentsline {subsection}{\numberline {9.2}Camera di combusione}{22}{subsection.9.2}%
-\contentsline {subsection}{\numberline {9.3}Modellazione dell'ugello}{23}{subsection.9.3}%
-\contentsline {subsection}{\numberline {9.4}Cooling della camera di spinta}{24}{subsection.9.4}%
-\contentsline {subsubsection}{\numberline {9.4.1}Scambio termico convettivo e film cooling}{24}{subsubsection.9.4.1}%
-\contentsline {subsubsection}{\numberline {9.4.2}Regenerative cooling}{27}{subsubsection.9.4.2}%
-\contentsline {subsection}{\numberline {9.5}Confronto tra ugello 10:1 e 16:1}{29}{subsection.9.5}%
-\contentsline {section}{Appendice}{31}{table.caption.23}%
-\contentsline {section}{\numberline {A}Immagini e schemi}{31}{appendix.1.Alph1}%
-\contentsline {section}{\numberline {B}Grafici di varie grandezze in funzione del tempo di volo}{31}{appendix.1.Alph2}%
-\contentsline {section}{\numberline {C}Confronto peso molecolare gas generator tra caso Fuel Rich e Oxidizer Rich}{33}{appendix.1.Alph3}%
-\contentsline {section}{\numberline {D}Prodotti gas generator analizzati con software NASA CEA}{33}{appendix.1.Alph4}%
-\contentsline {section}{\numberline {E}Schemi del gas generator}{34}{appendix.1.Alph5}%
-\contentsline {section}{\numberline {F}Diagrammi di velocità}{34}{appendix.1.Alph6}%
-\contentsline {section}{\numberline {G}Codici MATLAB usati}{35}{appendix.1.Alph7}%
-\contentsline {subsection}{\numberline {G.1}Simulazione di volo}{35}{subsection.1.Alph7.1}%
-\contentsline {section}{Bibliografia}{40}{lstnumber.-1.203}%
+\contentsline {section}{\numberline {7}Turbopompa}{11}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Descrizione generica Mark 10}{11}{subsection.7.1}%
+\contentsline {subsubsection}{\numberline {7.1.1}Pompe LOX e RP1}{11}{subsubsection.7.1.1}%
+\contentsline {subsubsection}{\numberline {7.1.2}Analisi pompa LOX}{12}{subsubsection.7.1.2}%
+\contentsline {subsubsection}{\numberline {7.1.3}Analisi pompa RP-1}{15}{subsubsection.7.1.3}%
+\contentsline {subsection}{\numberline {7.2}Turbina}{15}{subsection.7.2}%
+\contentsline {subsubsection}{\numberline {7.2.1}Descrizione turbina}{15}{subsubsection.7.2.1}%
+\contentsline {subsubsection}{\numberline {7.2.2}Turbina - scelte progettuali}{15}{subsubsection.7.2.2}%
+\contentsline {subsubsection}{\numberline {7.2.3}Analisi quantitativa - dimensionamento}{16}{subsubsection.7.2.3}%
+\contentsline {section}{\numberline {8}Camera di spinta}{16}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Descrizione del sistema}{16}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Piatto d'iniezione}{17}{subsection.8.2}%
+\contentsline {subsection}{\numberline {8.3}Camera di combusione}{18}{subsection.8.3}%
+\contentsline {subsection}{\numberline {8.4}Modellazione dell'ugello}{19}{subsection.8.4}%
+\contentsline {subsection}{\numberline {8.5}Confronto tra ugello 10:1 e 16:1}{20}{subsection.8.5}%
+\contentsline {section}{\numberline {9}Sistemi di raffreddamento}{20}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Cooling della camera di spinta}{20}{subsection.9.1}%
+\contentsline {subsubsection}{\numberline {9.1.1}Scambio termico convettivo e film cooling}{21}{subsubsection.9.1.1}%
+\contentsline {subsubsection}{\numberline {9.1.2}Regenerative cooling}{23}{subsubsection.9.1.2}%
+\contentsline {section}{Appendice}{27}{AMS.47}%
+\contentsline {section}{\numberline {A}Immagini e schemi}{27}{appendix.1.Alph1}%
+\contentsline {section}{\numberline {B}Grafici di varie grandezze in funzione del tempo di volo}{27}{appendix.1.Alph2}%
+\contentsline {section}{\numberline {C}Confronto peso molecolare gas generator tra caso Fuel Rich e Oxidizer Rich}{29}{appendix.1.Alph3}%
+\contentsline {section}{\numberline {D}Prodotti gas generator analizzati con software NASA CEA}{29}{appendix.1.Alph4}%
+\contentsline {section}{\numberline {E}Schemi del gas generator}{30}{appendix.1.Alph5}%
+\contentsline {section}{\numberline {F}Diagrammi di velocità}{30}{appendix.1.Alph6}%
+\contentsline {section}{\numberline {G}Codici MATLAB usati}{31}{appendix.1.Alph7}%
+\contentsline {subsection}{\numberline {G.1}Simulazione di volo}{31}{subsection.1.Alph7.1}%
+\contentsline {subsection}{\numberline {G.2}Codici serbatoi}{35}{subsection.1.Alph7.2}%
+\contentsline {subsubsection}{\numberline {G.2.1}Serbatoio RP-1}{35}{subsubsection.1.Alph7.2.1}%
+\contentsline {subsubsection}{\numberline {G.2.2}Serbatoio LOX}{36}{subsubsection.1.Alph7.2.2}%
+\contentsline {subsection}{\numberline {G.3}Camera di Combustione}{38}{subsection.1.Alph7.3}%
+\contentsline {section}{Bibliografia}{40}{lstnumber.-4.66}%
