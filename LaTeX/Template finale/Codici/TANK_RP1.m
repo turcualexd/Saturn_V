@@ -24,10 +24,10 @@ Vtot = 2*Ve + Vc - V_t;
 Vu = Vtot - Vt_p;
 Vu_1 = Ve - Vu; %prova che l'ullage è minore del volume dell'ellissoide, quindi bu meno di b
 syms b_2
-bu = solve( Vu == (2*pi*a^2*b_2)/3, b_2); % altezza ullage inch  90.9363
+Hu = solve( Vu == (2*pi*a^2*b_2)/3, b_2); % altezza ullage inch  90.9363
 
 %% pressioni
-H_in = lc + 2*b - bu; %inch
+H_in = lc + 2*b - Hu; %inch
 H = H_in/39.37;
  
 pu = 25.2 ; %pressione ullage psia
@@ -65,6 +65,13 @@ tcr = (pt*R)/(2*S_y); %spessore corona
 te = (tk+tcr)/2; %spessore equivalente di un ellissoidale (pt*a*(K+0.5*k))/(2*S_y)
 tc = (pt*a)/(S_y); %spessore cilindro
 
+%%
+
+tk_m = tk/39.37
+tcr_m = tcr/39.37
+te_m = te/39.37 
+tc_m = tc/39.37
+
 %% aree
 
 e = (sqrt(a^2-b^2))/a; % eccentricità
@@ -83,26 +90,10 @@ We = (pi*a^2*te*E1*rho)/(2*k);
 
 Wc = 2*pi*a*lc*tc*rho; 
 
-
-%% pressioni critiche dovute ai carichi esterni
-
-Cb = 0.10; %buckling coefficient da 0.05 a 0.10
-Pcre = (Cb*2*E*te^2)/(R^2); 
-
-if lc < 4.9*a*sqrt(a/tc)
-    Pcrc = 0.807*((E*tc^2)/(lc*a))*((1/(1-v^2))^3*(tc^2/a^2))^(1/4);
-else
-    Pcrc = (E*tc^3)/(4*(1-v^2)*a^3);
-end
+PesoRP1 = 2*We + Wc;
 
 
-%%
 
-
-tk_m = tk/39.37
-tcr_m = tcr/39.37
-te_m = te/39.37 
-tc_m = tc/39.37
 
 
 
