@@ -104,52 +104,64 @@ T_e_rot2_re = T_e_rot2_id + q_rot2_re/c_p;
 figure;
 
 pos1 = [0,0,C_1_vec(1), C_1_vec(2)];
-quiver2(pos1);
+quiver2(pos1,'b');
 
 hold on;
 
 pos2 = [0,0, V_1_vec(1), V_1_vec(2)];
-quiver2(pos2);
+quiver2(pos2,'r');
 
 pos3 = [V_1_vec(1), V_1_vec(2), U, 0];
-quiver2(pos3);
+quiver2(pos3,'#38DB4A');
 
 grid on
-grid minor
-plot(linspace(-200, 1200, 10000), C_1_vec(2)*ones(10000,1), 'LineStyle', '--', color="#CC00CC");
+%grid minor
+plot(linspace(-200, 1200, 10000), C_1_vec(2)*ones(10000,1), 'LineStyle', '--', color="k");
 
 pos4 = [V_1_vec(1), V_1_vec(2), C_2_vec(1), C_2_vec(2)];
-quiver2(pos4);
+quiver2(pos4,'b');
 
 pos5 = [V_1_vec(1), V_1_vec(2), V_2_vec(1), V_2_vec(2)];
-quiver2(pos5);
+quiver2(pos5,'r');
 
 pos6 = [V_1_vec(1) + V_2_vec(1), V_1_vec(2) + V_2_vec(2), U, 0];
-quiver2(pos6);
+quiver2(pos6,'#38DB4A');
 
 pos7 = [V_1_vec(1) + C_2_vec(1), V_1_vec(2) + C_2_vec(2), C_3_vec(1), C_3_vec(2)];
-quiver2(pos7);
+quiver2(pos7,'b');
 
 pos8 = [V_1_vec(1) + C_2_vec(1), V_1_vec(2) + C_2_vec(2), V_3_vec(1), V_3_vec(2)];
-quiver2(pos8);
+quiver2(pos8,'r');
 
 pos9 = [V_1_vec(1) + C_2_vec(1) + V_3_vec(1), V_1_vec(2) + C_2_vec(2) + V_3_vec(2), U, 0];
-quiver2(pos9);
+quiver2(pos9,'#38DB4A');
 
 pos10 = [V_1_vec(1) + C_2_vec(1) + V_3_vec(1), V_1_vec(2) + C_2_vec(2) + V_3_vec(2), C_4_vec(1), C_4_vec(2)];
-quiver2(pos10);
+quiver2(pos10,'b');
 
 pos11 = [V_1_vec(1) + C_2_vec(1) + V_3_vec(1), V_1_vec(2) + C_2_vec(2) + V_3_vec(2), V_4_vec(1), V_4_vec(2)];
-quiver2(pos11);
+quiver2(pos11,'r');
 
 pos12 = [V_1_vec(1) + C_2_vec(1) + V_3_vec(1) + V_4_vec(1), V_1_vec(2) + C_2_vec(2) + V_3_vec(2) + V_4_vec(2), U, 0];
-quiver2(pos12);
+quiver2(pos12,'#38DB4A');
 
-plot(linspace(-200, 1200, 10000),(C_1_vec(2) + C_2_vec(2))*ones(10000,1),'LineStyle', '--', color="#CC00CC");
-plot(linspace(-200, 1200, 10000), (C_1_vec(2) + C_2_vec(2) + C_3_vec(2))*ones(10000,1), 'LineStyle', '--', color="#CC00CC");
-plot(linspace(-200, 1200, 10000), (C_1_vec(2) + C_2_vec(2) + C_3_vec(2) + C_4_vec(2))*ones(10000,1), 'LineStyle', '--', color="#CC00CC");
+plot(linspace(-200, 1200, 10000),(C_1_vec(2) + C_2_vec(2))*ones(10000,1),'LineStyle', '--', color="k");
+plot(linspace(-200, 1200, 10000), (C_1_vec(2) + C_2_vec(2) + C_3_vec(2))*ones(10000,1), 'LineStyle', '--', color="k");
+plot(linspace(-200, 1200, 10000), (C_1_vec(2) + C_2_vec(2) + C_3_vec(2) + C_4_vec(2))*ones(10000,1), 'LineStyle', '--', color="k");
+plot(0,0,'k+')
 
-
+text(650,-150,'C_1','FontSize',18,'FontWeight','bold')
+text(650,-650,'C_2','FontSize',18,'FontWeight','bold')
+text(600,-950,'C_3','FontSize',18,'FontWeight','bold')
+text(550,-1300,'C_4','FontSize',18,'FontWeight','bold')
+text(300,-250,'V_1','FontSize',18,'FontWeight','bold')
+text(300,-550,'V_2','FontSize',18,'FontWeight','bold')
+text(310,-1000,'V_3','FontSize',18,'FontWeight','bold')
+text(230,-1250,'V_4','FontSize',18,'FontWeight','bold')
+text(900,-500,'U_1','FontSize',18,'FontWeight','bold')
+text(130,-900,'U_2','FontSize',18,'FontWeight','bold')
+text(510,-1090,'U_3','FontSize',18,'FontWeight','bold')
+text(380,-1320,'U_4','FontSize',18,'FontWeight','bold')
 
 %% nozzle dimensioning
 
@@ -166,8 +178,8 @@ eta_nb_prac = (U*(norm(C_1_vec)*cos(alfa_1) + norm(C_2_vec)*cos(alfa_2) + ...
 eta_m       = eta_ovrll/eta_nb_prac;
 
 
-function quiver2(pos)
-    a = annotation('arrow', 'HeadStyle', 'plain', 'HeadLength', 5, 'HeadWidth', 5, 'LineWidth', 1, 'Color', 'r');
+function quiver2(pos, col)
+    a = annotation('arrow', 'HeadStyle', 'plain', 'HeadLength', 5, 'HeadWidth', 5, 'LineWidth', 1, 'Color', col);
     set(a, 'parent', gca);
     set(a, 'position', pos);
 end
