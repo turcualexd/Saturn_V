@@ -39,19 +39,19 @@
 \contentsline {section}{\numberline {A}Immagini e schemi}{26}{appendix.1.Alph1}%
 \contentsline {section}{\numberline {B}Grafici di varie grandezze in funzione del tempo di volo}{26}{appendix.1.Alph2}%
 \contentsline {section}{\numberline {C}Confronto peso molecolare gas generator tra caso Fuel Rich e Oxidizer Rich}{28}{appendix.1.Alph3}%
-\contentsline {section}{\numberline {D}Prodotti gas generator analizzati con software NASA CEA}{28}{appendix.1.Alph4}%
-\contentsline {section}{\numberline {E}Schemi del gas generator}{29}{appendix.1.Alph5}%
-\contentsline {section}{\numberline {F}Diagrammi di velocità}{29}{appendix.1.Alph6}%
-\contentsline {section}{\numberline {G}Appendice ausiliaria capitolo 9}{30}{appendix.1.Alph7}%
-\contentsline {subsection}{\numberline {G.1}Definisione temperature usate nel cooling}{30}{subsection.1.Alph7.1}%
-\contentsline {subsection}{\numberline {G.2}Grafico della resistenza termica prodotta dal deposito carbonioso}{31}{subsection.1.Alph7.2}%
-\contentsline {subsection}{\numberline {G.3}Dettagli sul sistema di introduzione dei gas combusti sulla parete interna dell'ugello aggiunto}{31}{subsection.1.Alph7.3}%
-\contentsline {subsection}{\numberline {G.4}Comportamento del fluido RP1 in relazione alla pressione critica}{31}{subsection.1.Alph7.4}%
-\contentsline {section}{\numberline {H}RPA: definizione problema e funzionamento}{33}{appendix.1.Alph8}%
-\contentsline {section}{\numberline {I}Codici MATLAB usati}{33}{appendix.1.Alph9}%
-\contentsline {subsection}{\numberline {I.1}Simulazione di volo}{33}{subsection.1.Alph9.1}%
-\contentsline {subsection}{\numberline {I.2}Codici serbatoi}{36}{subsection.1.Alph9.2}%
-\contentsline {subsubsection}{\numberline {I.2.1}Serbatoio RP-1}{36}{subsubsection.1.Alph9.2.1}%
-\contentsline {subsubsection}{\numberline {I.2.2}Serbatoio LOX}{38}{subsubsection.1.Alph9.2.2}%
-\contentsline {subsection}{\numberline {I.3}Camera di Combustione}{40}{subsection.1.Alph9.3}%
-\contentsline {section}{Bibliografia}{42}{lstnumber.-4.66}%
+\contentsline {section}{\numberline {D}Prodotti gas generator analizzati con software NASA CEA}{29}{appendix.1.Alph4}%
+\contentsline {section}{\numberline {E}Schemi del gas generator}{30}{appendix.1.Alph5}%
+\contentsline {section}{\numberline {F}Diagrammi di velocità}{30}{appendix.1.Alph6}%
+\contentsline {section}{\numberline {G}Appendice ausiliaria capitolo 9}{31}{appendix.1.Alph7}%
+\contentsline {subsection}{\numberline {G.1}Definisione temperature usate nel cooling}{31}{subsection.1.Alph7.1}%
+\contentsline {subsection}{\numberline {G.2}Grafico della resistenza termica prodotta dal deposito carbonioso}{32}{subsection.1.Alph7.2}%
+\contentsline {subsection}{\numberline {G.3}Dettagli sul sistema di introduzione dei gas combusti sulla parete interna dell'ugello aggiunto}{32}{subsection.1.Alph7.3}%
+\contentsline {subsection}{\numberline {G.4}Comportamento del fluido RP1 in relazione alla pressione critica}{33}{subsection.1.Alph7.4}%
+\contentsline {section}{\numberline {H}RPA: definizione problema e funzionamento}{34}{appendix.1.Alph8}%
+\contentsline {section}{\numberline {I}Codici MATLAB usati}{34}{appendix.1.Alph9}%
+\contentsline {subsection}{\numberline {I.1}Simulazione di volo}{34}{subsection.1.Alph9.1}%
+\contentsline {subsection}{\numberline {I.2}Codici serbatoi}{37}{subsection.1.Alph9.2}%
+\contentsline {subsubsection}{\numberline {I.2.1}Serbatoio RP-1}{37}{subsubsection.1.Alph9.2.1}%
+\contentsline {subsubsection}{\numberline {I.2.2}Serbatoio LOX}{39}{subsubsection.1.Alph9.2.2}%
+\contentsline {subsection}{\numberline {I.3}Camera di Combustione}{41}{subsection.1.Alph9.3}%
+\contentsline {section}{Bibliografia}{43}{lstnumber.-4.66}%

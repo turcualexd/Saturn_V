@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{nozzle_design}
 National Aeronautics and Space Administration.
@@ -37,6 +37,12 @@ D.H.~Huang D.K.~Huzel.
 \newblock {Comprehensive Review of Liquid-Propellant Combustion Instabilities
   in F-l Engines}.
 \newblock {\em Journal of Propulsion and Power}, 9(5):657--677, 10 1993.
+
+\bibitem{CEAM_guide}
+Sam Kobilska \&~Chip Kopicz.
+\newblock Chemical equilibrium with applications for matlab: Quick start guide.
+\newblock PowerPoint, 7 2017.
+\newblock An optional note.
 
 \bibitem{site_exhaust}
 Kimble~D. McCutcheon.
