@@ -35,16 +35,49 @@
 
 	\subsection{Propellenti}
 	\begin{tabular}{ccl}
-		$\bm{-}$ & $[-]$ & --- \\
-		$\bm{-}$ & $[-]$ & --- \\
-		$\bm{-}$ & $[-]$ & ---
+		$\bm{RP-1 }$ & $[-]$ & cherosene aeronautico \\
+		$\bm{LOX }$ & $[-]$ & ossigeno liquido \\
+		$\bm{\rho }$ & $[kg/m^3]$ & densità propellenti \\
+	    $\bm{T_{e}}$ & $[K]$ & temperatura di ebollizione \\
+	    $\bm{T_{c}}$ & $[K]$ & temperatura congelamento \\
+		$\bm{MM}$ & $[g/mol]$ & massa molecolare \\
+	    $\bm{I_{sp}}$ & $[s]$ & impulso specifico coppia RP-1/LOX \\
+	    $\bm{O/F_{opt}}$ & $[-]$ & mixture ratio ottimale coppia RP-1/LOX \\
+		$\bm{T_{comb}}$ & $[K]$ & temperatura combustione \\
+	    $\bm{\gamma}$ & $[-]$ & coefficiente di dilatazione adiabatica \\
+	    $\bm{\rho_{prod}}$ & $[kg/m^3]$ & densità prodotti \\
+		$\bm{MM_{prod}}$ & $[g/mol]$ & massa molecolare prodotti \\
+	    $\bm{TEB}$ & $[-]$ & Trietilborano \\
+	    $\bm{TEA}$ & $[-]$ & Trietilalluminio
 	\end{tabular}
 
 	\subsection{Serbatoi e pressurizzazione}
 	\begin{tabular}{ccl}
-		$\bm{-}$ & $[-]$ & --- \\
-		$\bm{-}$ & $[-]$ & --- \\
-		$\bm{-}$ & $[-]$ & ---
+		$\bm{a}$ & $[m]$ & raggio dei serbatoi \\
+		$\bm{b}$ & $[m]$ & altezza cupola ellissoidale \\
+		$\bm{lc}$ & $[m]$ & altezza porzione cilindrica serbatoi \\
+		$\bm{V_{e}}$ & $[m^3-]$ & volume cupola ellissoidale \\
+	    $\bm{V_{c}}$ & $[m^3]$ & volume porzione cilindrica \\
+	    $\bm{V_{He}}$ & $[m^3]$ & volume contenitori di elio \\	
+     	$\bm{V_{tubi}}$ & $[m^3]$ & volume 5 linee di aspirazione \\		
+        $\bm{V_{u}}$ & $[m^3]$ & volume ullage/vuoto \\
+	    $\bm{V_{tot}}$ & $[m^3]$ & volume totale \\
+	    $\bm{H_{prop}}$ & $[m]$ & altezza serbatoio occupata da propellente\\
+		$\bm{H_{u}}$ & $[m]$ & altezza serbatoio ullage/vuoto \\
+	    $\bm{P_{i}}$ & $[bar]$ & pressione idrostatica  \\
+	    $\bm{P_{u}}$ & $[bar]$ & pressione ullage/vuoto \\
+		$\bm{P_{tot}}$ & $[bar]$ & pressione totale \\
+	    $\bm{K }$ & $[-]$ & fattore di stress \\
+	    $\bm{k}$ & $[-]$ & rateo dell'ellisse \\
+	    $\bm{\rho}$ & $[kg/m^3]$ & densità materiale \\
+	    $\bm{\sigma_{r}}$ & $[bar]$ & tensione di rottura \\
+		$\bm{\sigma_{y}}$ & $[bar]$ & tensione di snervamento \\
+	    $\bm{\Sigma_{r}}$ & $[bar]$ & $\sigma_{r}$ con fattore sicurezza\\
+	    $\bm{\Sigma_{y}}$ & $[bar]$ & $\sigma_{y}$ con fattore sicurezza \\
+        $\bm{E}$ & $[bar]$ & modulo di Young \\
+		$\bm{\nu}$ & $[-]$ & coefficiente di Poisson \\
+		$\bm{t_{e}}$ & $[m]$ & spessore cupola ellissoidale \\
+		$\bm{t_{c}}$ & $[m]$ & spessore porzione cilindrica 
 	\end{tabular}
 
 	\subsection{Schema termodinamico}
@@ -70,9 +103,26 @@
 
 	\subsection{Camera di spinta}
 	\begin{tabular}{ccl}
-		$\bm{-}$ & $[-]$ & --- \\
-		$\bm{-}$ & $[-]$ & --- \\
-		$\bm{-}$ & $[-]$ & ---
+		$\bm{V_{cc}  }$ & $[m^3]$ & volume cc (cilindro + convergente) \\
+		$\bm{L^* }$ & $[m]$ & lunghezza caratteristica \\
+		$\bm{c^* }$ & $[m/s]$ & velocità caratteristica \\
+		$\bm{A_{t} }$ & $[m^2]$ & area di gola \\
+	    $\bm{p_{cc} }$ & $[Pa]$ & pressione in camera di combustione \\
+	    $\bm{\Gamma}$ & $[-]$ & funzione di Vandenkerckhove \\
+		$\bm{R}$ & $[kJ/(molK)]$ & costante dei gas \\
+	    $\bm{MM}$ & $[g/mol]$ & massa molecolare \\
+	    $\bm{T_{cc} }$ & $[K]$ & temperature in camera di combustione \\
+		$\bm{\gamma}$ & $[-]$ & coefficiente di dilatazione adiabatica \\
+	    $\bm{t_{r} }$ & $[s]$ & tempo di residenza \\
+	    $\bm{\epsilon\_{cc} }$ & $[-]$ & rateo di contrazione             \\
+		$\bm{A_{cil} }$ & $[m^2]$ & sezione porzione cilindrica della cc \\
+	    $\bm{\theta}$ & $[\circ]$ & angolo del tratto convergente   \\
+	    $\bm{a}$ & $[m]$ & differenza tra i raggi della cc \\
+		$\bm{L_{conv}}$ & $[m]$ & lunghezza assiale del tratto convergente \\
+	    $\bm{V_{conv} }$ & $[m^3]$ & volume tratto convergente  \\
+	    $\bm{L_{cil} }$ & $[m]$ & lunghezza assiale parte cilindrica \\
+		$\bm{V_{cil} }$ & $[m^3]$ & volume parte cilindrica \\
+	    $\bm{A_{tot_{int}}}$ & $[m^2]$ & area pareti interne della cc 
 	\end{tabular}
 
 	\subsection{Sistemi di raffreddamento}
