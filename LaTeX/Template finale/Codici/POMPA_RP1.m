@@ -162,8 +162,8 @@ text(25, -20, str1);
 str2 = {'OUTLET'};
 text(105, -20, str2);
 title('Diagramma di velocità INDUCER POMPA RP-1')
-xlabel('velocità tangenziale [m/s]')
-ylabel('velocità meridionale [m/s]')
+xlabel('velocità tangenziale')
+ylabel('velocità meridionale')
 
 % Inducer inlet tip speed
 u0_t_ind = (pi*N)/720 * d_0t; % in ft/sec
@@ -330,8 +330,8 @@ text(60, -20, str1);
 str2 = {'OUTLET'};
 text(210, -20, str2);
 title('Diagramma di velocità IMPELLER POMPA RP-1')
-xlabel('velocità tangenziale [m/s]')
-ylabel('velocità meridionale [m/s]')
+xlabel('velocità tangenziale')
+ylabel('velocità meridionale')
 
 %% 3° tratto: Pump casing
 % Design of a double-volute (spaced 180°) single-discharge-type casing
