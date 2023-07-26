@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.16)  26 JUL 2023 22:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.16)  26 JUL 2023 22:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1104,37 +1104,14 @@ Package: multicol 2021/11/30 v1.9d multicolumn formatting (FMi)
 \mult@nat@firstbox=\box136
 \colbreak@box=\box137
 \mc@col@check@num=\count372
-) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/blindtext\blindtext.sty
-Package: blindtext 2012/01/06 V2.0 blindtext-Package
- (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/tools\xspace.sty
-Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
-)
-\c@blindtext=\count373
-\c@Blindtext=\count374
-\c@blind@countparstart=\count375
-\blind@countxx=\count376
-\blindtext@numBlindtext=\count377
-\blind@countyy=\count378
-\c@blindlist=\count379
-\c@blindlistlevel=\count380
-\c@blindlist@level=\count381
-\blind@listitem=\count382
-\c@blind@listcount=\count383
-\c@blind@levelcount=\count384
-\blind@mathformula=\count385
-\blind@Mathformula=\count386
-\c@blind@randomcount=\count387
-\c@blind@randommax=\count388
-\c@blind@pangramcount=\count389
-\c@blind@pangrammax=\count390
 ) (Configuration_files/config.tex (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
  (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count391
-\Gm@cntv=\count392
-\c@Gm@tempcnt=\count393
+\Gm@cnth=\count373
+\Gm@cntv=\count374
+\c@Gm@tempcnt=\count375
 \Gm@bindingoffset=\dimen318
 \Gm@wd@mp=\dimen319
 \Gm@odd@mp=\dimen320
@@ -1145,62 +1122,62 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layoutvoffset=\dimen325
 \Gm@dimlist=\toks60
  (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
-\c@theorem=\count394
-\c@proposition=\count395
-\c@algsubstate=\count396
+\c@theorem=\count376
+\c@proposition=\count377
+\c@algsubstate=\count378
 )
-LaTeX Font Info:    Trying to load font information for T1+jkp on input line 181.
+LaTeX Font Info:    Trying to load font information for T1+jkp on input line 180.
  (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\t1jkp.fd
 File: t1jkp.fd 2007/01/24 Fontinst v1.928 font definitions for T1/jkp.
 ) (Prova finale.aux)
 \openout1 = `"Prova finale.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/jkp/m/it on input line 181.
-LaTeX Font Info:    Trying to load font information for OML+jkp on input line 181.
+LaTeX Font Info:    Checking defaults for OML/jkp/m/it on input line 180.
+LaTeX Font Info:    Trying to load font information for OML+jkp on input line 180.
  (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\omljkp.fd
 File: omljkp.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 181.
-LaTeX Font Info:    Checking defaults for OMS/jkp/m/n on input line 181.
-LaTeX Font Info:    Trying to load font information for OMS+jkp on input line 181.
+LaTeX Font Info:    ... okay on input line 180.
+LaTeX Font Info:    Checking defaults for OMS/jkp/m/n on input line 180.
+LaTeX Font Info:    Trying to load font information for OMS+jkp on input line 180.
  (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\omsjkp.fd
 File: omsjkp.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 181.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 181.
-LaTeX Font Info:    ... okay on input line 181.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 181.
-LaTeX Font Info:    ... okay on input line 181.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 181.
-LaTeX Font Info:    ... okay on input line 181.
-LaTeX Font Info:    Checking defaults for OMX/jkp/m/n on input line 181.
-LaTeX Font Info:    Trying to load font information for OMX+jkp on input line 181.
+LaTeX Font Info:    ... okay on input line 180.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 180.
+LaTeX Font Info:    ... okay on input line 180.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 180.
+LaTeX Font Info:    ... okay on input line 180.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 180.
+LaTeX Font Info:    ... okay on input line 180.
+LaTeX Font Info:    Checking defaults for OMX/jkp/m/n on input line 180.
+LaTeX Font Info:    Trying to load font information for OMX+jkp on input line 180.
  (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\omxjkp.fd
 File: omxjkp.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 181.
-LaTeX Font Info:    Checking defaults for U/jkpexa/m/n on input line 181.
-LaTeX Font Info:    Trying to load font information for U+jkpexa on input line 181.
+LaTeX Font Info:    ... okay on input line 180.
+LaTeX Font Info:    Checking defaults for U/jkpexa/m/n on input line 180.
+LaTeX Font Info:    Trying to load font information for U+jkpexa on input line 180.
  (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/kpfonts\ujkpexa.fd
 File: ujkpexa.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 181.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 181.
-LaTeX Font Info:    ... okay on input line 181.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 181.
-LaTeX Font Info:    ... okay on input line 181.
+LaTeX Font Info:    ... okay on input line 180.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 180.
+LaTeX Font Info:    ... okay on input line 180.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 180.
+LaTeX Font Info:    ... okay on input line 180.
  (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count397
+\scratchcounter=\count379
 \scratchdimen=\dimen326
 \scratchbox=\box138
-\nofMPsegments=\count398
-\nofMParguments=\count399
+\nofMPsegments=\count380
+\nofMParguments=\count381
 \everyMPshowfont=\toks61
-\MPscratchCnt=\count400
+\MPscratchCnt=\count382
 \MPscratchDim=\dimen327
-\MPnumerator=\count401
-\makeMPintoPDFobject=\count402
+\MPnumerator=\count383
+\makeMPintoPDFobject=\count384
 \everyMPtoPDFconversion=\toks62
 ) (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -1208,8 +1185,8 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-LaTeX Info: Redefining \it@ocap on input line 181.
-LaTeX Info: Redefining \it@ccap on input line 181.
+LaTeX Info: Redefining \it@ocap on input line 180.
+LaTeX Info: Redefining \it@ccap on input line 180.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: float package is loaded.
@@ -1221,20 +1198,20 @@ Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Info: Redefining \[ on input line 181.
-LaTeX Info: Redefining \] on input line 181.
-\c@lstlisting=\count403
+LaTeX Info: Redefining \[ on input line 180.
+LaTeX Info: Redefining \] on input line 180.
+\c@lstlisting=\count385
 \symgns@font=\mathgroup13
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/jkp/m/n --> TS1/jkp/b/n on input line 181.
-Package gensymb Info: Math companion symbols declared on input line 181.
-LaTeX Info: Redefining \degree on input line 181.
-LaTeX Info: Redefining \celsius on input line 181.
-Package gensymb Info: Using text companion symbols for \degree, \celsius and \perthousand on input line 181.
-LaTeX Info: Redefining \ohm on input line 181.
-Package gensymb Info: Using \textohm for \ohm on input line 181.
-Package gensymb Info: Using \textmu for \micro on input line 181.
-Package hyperref Info: Link coloring ON on input line 181.
+(Font)                  TS1/jkp/m/n --> TS1/jkp/b/n on input line 180.
+Package gensymb Info: Math companion symbols declared on input line 180.
+LaTeX Info: Redefining \degree on input line 180.
+LaTeX Info: Redefining \celsius on input line 180.
+Package gensymb Info: Using text companion symbols for \degree, \celsius and \perthousand on input line 180.
+LaTeX Info: Redefining \ohm on input line 180.
+Package gensymb Info: Using \textohm for \ohm on input line 180.
+Package gensymb Info: Using \textmu for \micro on input line 180.
+Package hyperref Info: Link coloring ON on input line 180.
  (Prova finale.out) (Prova finale.out)
 \@outlinefile=\write5
 \openout5 = `"Prova finale.out"'.
@@ -1324,7 +1301,7 @@ Package epstopdf Info: Source file: <Images//raggiera_polimi.eps>
 (epstopdf)                    date: 2023-07-20 19:13:36
 (epstopdf)                    size: 40418 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=Images//raggiera_polimi-eps-converted-to.pdf Images//raggiera_polimi.eps>
-(epstopdf)             \includegraphics on input line 194.
+(epstopdf)             \includegraphics on input line 193.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -1332,7 +1309,7 @@ pdfTeX warning: pdflatex (file ./Images//raggiera_polimi-eps-converted-to.pdf): 
 <Images//raggiera_polimi-eps-converted-to.pdf, id=234, 502.87875pt x 502.87875pt>
 File: Images//raggiera_polimi-eps-converted-to.pdf Graphic file (type pdf)
 <use Images//raggiera_polimi-eps-converted-to.pdf>
-Package pdftex.def Info: Images//raggiera_polimi-eps-converted-to.pdf  used on input line 194.
+Package pdftex.def Info: Images//raggiera_polimi-eps-converted-to.pdf  used on input line 193.
 (pdftex.def)             Requested size: 298.75394pt x 298.75233pt.
 [1
 
@@ -1774,10 +1751,10 @@ Package rerunfilecheck Info: File `"Prova finale".out' has not changed.
 (rerunfilecheck)             Checksum: FA3AAB573A2430B2FE6D726DA0EF9294;10543.
  ) 
 Here is how much of TeX's memory you used:
- 34980 strings out of 476361
- 655623 string characters out of 5788046
+ 34769 strings out of 476361
+ 651561 string characters out of 5788046
  2296993 words of memory out of 5000000
- 54035 multiletter control sequences out of 15000+600000
+ 53830 multiletter control sequences out of 15000+600000
  678058 words of font info for 232 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  83i,22n,80p,1970b,3409s stack positions out of 10000i,1000n,20000p,200000b,200000s
