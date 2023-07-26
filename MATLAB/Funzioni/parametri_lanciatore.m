@@ -9,7 +9,6 @@ clc
 % M_s: massa della struttura del lanciatore              [kg]
 % M_p: massa del propellente per il primo stadio S-IC    [kg]
 % M_m: massa motore                                      [kg]
-% M_tank: massa tank                                     [kg]
 
 % Dati iniziali ricavati da simulazione lancio e manuale F1 Rocketdyne
 M_0 = 2898941;         
@@ -36,6 +35,3 @@ zeta_p = M_p / M_0;
 
 % csi_m: rapporto di massa motore
 zeta_motore = 5*M_m / M_0;
-
-% rapporto M_tank / M_p
-rapporto_tank = M_tank / M_p;
