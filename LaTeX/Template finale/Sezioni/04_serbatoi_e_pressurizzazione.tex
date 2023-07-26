@@ -28,13 +28,13 @@ Il volume totale all’interno del serbatoio non è composto unicamente dal prop
 Come primo passo si calcolano i volumi fondamentali dei serbatoi, ovvero quelli della parte cilindrica e delle due cupole ellissoidali, conoscendone il raggio e le altezze, per poi calcolare il volume totale interno del serbatoio considerando anche il volume occupato dalle bombole di elio nel serbaotio del LOX e dalle cinque linee di aspirazione passanti attraverso il serbatoio dell'RP-1:
 
 \begin{empheq}{gather*}
-            Vol_{e} =  \frac{2 \pi\ a^2 b}{3}                                  \qquad
-            Vol_{c} = {\pi\ a^2 lc}                                                 \\
-            Vol_{He} = {4 Vol_{1b}}                              \qquad
-            Vol_{tubi} =  {5 \pi\ r_{t}^2 l_{t}}                                                                 \\
+            V_{e} =  \frac{2 \pi\ a^2 b}{3}                                  \qquad
+            V_{c} = {\pi\ a^2 lc}                                                 \\
+            V_{He} = {4 V_{1He}}                              \qquad
+            V_{tubi} =  {5 \pi\ r_{t}^2 l_{t}}                                                                 \\
 \vspace{1pt}                     \\
-            V_{totRP-1} = {2 Vol_{e} + Vol_{c} - Vol_{t}}              \qquad
-            V_{totLOX} =  {2 Vol_{e} + Vol_{c} - Vol_{He}}
+            V_{totRP-1} = {2 V_{e} + V_{c} - V_{tubi}}              \qquad
+            V_{totLOX} =  {2 V_{e} + V_{c} - V_{He}}
 \end{empheq}
 
 \vspace{5pt}
@@ -43,7 +43,7 @@ Noto il volume totale occupato dal propellente liquido si ricavano le dimensioni
 %formuleeeee
 
 \begin{empheq}{gather*}
-            Vol_{u} = {V_{tot} - V_{prop}}                                \\
+            V_{u} = {V_{tot} - V_{prop}}                                \\
             H_{prop} = {lc + 2b - H_{u}}
 \end{empheq}
 
@@ -109,7 +109,7 @@ Con quanto ricavato in precedenza si calcolano le pressioni interne dei serbatoi
 \centering
 \begin{tabular}{|c|c|c|c|c|c|}
 \hline
-& $\bm{p_{u} \, [psi]}$ & $\bm{p_{i} \, [psi]}$ & $\bm{p_{tot} \, [psi]}$ & $\bm{p_{cre} \, [psi]}$ & $\bm{p_{crc} \, [psi]}$\\
+& $\bm{P_{u} \, [psi]}$ & $\bm{P_{i} \, [psi]}$ & $\bm{P_{tot} \, [psi]}$ & $\bm{P_{cre} \, [psi]}$ & $\bm{P_{crc} \, [psi]}$\\
 \hline
 \textbf{RP-1} & $25.2$ & $13.38$ & $38.58$ & $0.368$ & $0.1393$\\
 \hline
@@ -127,7 +127,7 @@ Con quanto ricavato in precedenza si calcolano le pressioni interne dei serbatoi
 \centering
 \begin{tabular}{|c|c|c|c|c|c|c|}
 \hline
-& $\bm{Vol_{prop} \, [m^3]}$ & $\bm{Vol_{c} \, [m^3]}$ & $\bm{Vol_{e} \, [m^3]}$ & $\bm{Vol_{tubi/He} \, [m^3]}$ & $\bm{Vol_{tot} \, [m^3]}$ & $\bm{Vol_{u} \, [m^3]} $\\
+& $\bm{V_{prop} \, [m^3]}$ & $\bm{V_{c} \, [m^3]}$ & $\bm{V_{e} \, [m^3]}$ & $\bm{V_{tubi/He} \, [m^3]}$ & $\bm{V_{tot} \, [m^3]}$ & $\bm{V_{u} \, [m^3]} $\\
 \hline
 \textbf{RP-1} & $ $ & $ $ & $ $ & $ $ & $ $ & $ $\\
 \hline
@@ -168,24 +168,22 @@ I valori ottenuti risultano essere gli spessori minimi; in realtà lo spessore d
 \subsection{Pressurizzazione e scambiatore di calore}
 \label{subsec:pressurizzazione_e_scambiatore_di_calore}
 
-La pressurizzazione del serbatoio di LOX è affidata al GOX, ossia ossigeno in forma gassosa. Una linea di rilevamento fornisce un feedback di pressione a valvole che controllano il flusso del GOX e permettono di mantenere la pressione di riempimento del serbatoio, man mano che l’ossidante defluisce, tra 18 e 20 psia durante le fasi di volo. La pressurizzazione dei serbatoi è un requisito necessario dall’avviamento del motore fino a fine missione per stabilire e mantenere un gradiente di pressione positivo.
+La pressurizzazione del serbatoio di LOX è affidata al GOX, ossia ossigeno in forma gassosa. Una linea di rilevamento fornisce un feedback di pressione a valvole che controllano il flusso del GOX e permettono di mantenere la pressione di riempimento del serbatoio, man mano che l’ossidante defluisce, tra 18 e 22 psia durante le fasi di volo. La pressurizzazione dei serbatoi è un requisito necessario dall’avviamento del motore fino a fine missione per stabilire e mantenere un gradiente di pressione positivo.
 
-Durante il volo la sorgente di pressurizzazione del serbatoio di combustibile è invece l’elio ad alta pressione. Tramite l’utilizzo di valvole viene mantenuta l’alta pressione all’interno del serbatoio mentre la pressione nelle cisterne di elio decresce. 
-I condotti trasportano l’elio verso gli scambiatori di calore dei motori F-1 e dopo essere passato attraverso ad esso, i condotti di ritorno riportano l’elio gassoso riscaldato ed espanso nella parte superiore del serbatoio del carburante.
+Durante il volo la sorgente di pressurizzazione del serbatoio di combustibile è invece l’elio ad alta pressione. Tramite l’utilizzo di valvole viene mantenuta l’alta pressione all’interno del serbatoio mentre la pressione nei contenitori di elio decresce. 
+I condotti trasportano l’elio verso gli scambiatori di calore dei motori F-1 e dopo essere passato attraverso ad essi, i condotti di ritorno riportano l’elio gassoso riscaldato ed espanso nella parte superiore del serbatoio del carburante, ad una pressione di circa 25 psia.
 
 L’elio è stato scelto rispetto ad altre soluzioni, come l’azoto, grazie alla sua bassa densità (0.1785 kg/m3) che permette di risparmiare peso.
-I serbatoi di elio sono posizionati all’interno del serbatoio di LOX perché grazie alla bassa temperatura dell’ambiente interno criogenico aumenta la densità dell’elio ed è possibile utilizzare serbatoi di alluminio più piccoli e leggeri con circa metà dello spessore delle pareti per immagazzinare una quantità maggiore di elio.
-Similarmente i serbatoi di elio non possono essere posizionati all’interno dell’RP-1 poiché la bassa temperatura dell’elio potrebbe congelare il carburante; infatti, viene immagazzinato ad una temperatura criogenica di 90 K.
-Le quattro “bottiglie” di elio sono lunghe circa 6 m, hanno un diametro di 56 cm e hanno un volume di 0.88 m3.
+I serbatoi di elio sono posizionati all’interno del serbatoio di LOX perché la bassa temperatura dell’ambiente interno criogenico aumenta la densità dell’elio ed è possibile utilizzare serbatoi di alluminio più piccoli e leggeri.
+I quattro contenitori di elio sono lunghi circa 6 m, hanno un diametro di 56 cm e un volume di 0.88 $m^3$.
 
 Per permettere la pressurizzazione nei serbatoi è necessario l’utilizzo di uno scambiatore di calore.
 I serbatoi trasferiscono principalmente i propellenti alle turbopompe, per cui è necessaria la pressurizzazione per evitare il fenomeno di cavitazione all'ingresso della turbopompa. 
-Per il motore F-1 si utilizza uno scambiatore di calore a fascio tubiero con 4 bobine e come fonte di calore per permettere lo scambio di calore è utilizzato il gas di scarico della turbina.
+Per il motore F-1 si utilizza uno scambiatore di calore a fascio tubiero con 4 bobine e come fonte di calore per permettere lo scambio è utilizzato il gas di scarico della turbina.
 Tuttavia, è difficile trovare in letteratura metodi di prova appropriati o metodologie di progettazione per tali scambiatori di calore, poiché per la previsione accurata delle prestazioni, l'ottimizzazione del peso del veicolo di lancio e le prestazioni dello scambiatore di calore vengono valutate mediante test di prova. 
 Per collegare lo scambiatore con i serbatoi sono presenti quattro condotti: due linee di andata verso lo scambiatore e due di ritorno verso i serbatoi.
 L'elio fornito dalle bombole conservate nel serbatoio LOX viene indirizzato allo scambiatore di calore, espanso e quindi indirizzato al serbatoio dell’RP-1 tramite una linea di distribuzione situata all'estremità superiore del serbatoio per garantirne la pressurizzazione. 
-
-Per il serbatoio del LOX si ha un sistema di pressurizzazione differente; infatti, il LOX ad alta pressione viene prelevato dal LOX dome, indirizzato allo scambiatore di calore, dove viene espanso in ossigeno gassoso (GOX) e in seguito diretto al serbatoio tramite la linea di distribuzione del GOX.
+Il LOX ad alta pressione viene invece prelevato dal LOX dome, indirizzato allo scambiatore di calore, dove viene espanso in ossigeno gassoso e in seguito diretto al serbatoio tramite la linea di distribuzione del GOX.
 
 Le dimensioni esatte dello scambiatore di calore del motore F-1 dipendono dalla versione specifica del motore, poiché il motore F-1 è stato sottoposto a una serie di miglioramenti, tuttavia, in generale, ha una lunghezza di circa 1 metro e mezzo e un diametro che varia da 1 metro all'uscita della turbina a 60 cm al collettore di scarico della turbina. 
 
