@@ -1,5 +1,4 @@
-clear
-clc
+clear, clc, close all;
 
 %data
 mpunto_f = 742.09;      %kg/s
@@ -26,4 +25,3 @@ cd_ox = mpunto_ox/(A_ox * sqrt(2*deltap_ox*ro_ox));
 %da bernoulli
 v_f = cd_f*sqrt(2*deltap_f/ro_f);       %17.1 m/s
 v_ox = cd_ox*sqrt(2*deltap_ox/ro_ox);   %40.5 m/s
-
