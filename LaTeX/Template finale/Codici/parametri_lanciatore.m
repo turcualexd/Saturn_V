@@ -21,7 +21,7 @@ M_tank = 124799.5412;
 % eps_u: indice di massa del carico utile
 eps_u = M_u / (M_0 - M_u);
 
-% csi_u: rapporto di massa del carico utile
+% zeta_u: rapporto di massa del carico utile
 zeta_u = M_u / M_0;
 
 % eps_s: indice strutturale delle masse inerti
@@ -30,8 +30,8 @@ eps_s = M_s / (M_0 - M_u);
 % MR: mass ratio
 MR = (M_0 - M_p) / M_0 ;
 
-% csi_p: frazione di propellente
+% zeta_p: frazione di propellente
 zeta_p = M_p / M_0;
 
-% csi_m: rapporto di massa motore
+% zeta_motore: rapporto di massa motore
 zeta_motore = 5*M_m / M_0;
