@@ -47,10 +47,11 @@
 \contentsline {subsection}{\numberline {G.2}Grafico della resistenza termica prodotta dal deposito carbonioso}{31}{subsection.1.Alph7.2}%
 \contentsline {subsection}{\numberline {G.3}Dettagli sul sistema di introduzione dei gas combusti sulla parete interna dell'ugello aggiunto}{31}{subsection.1.Alph7.3}%
 \contentsline {subsection}{\numberline {G.4}Comportamento del fluido RP1 in relazione alla pressione critica}{31}{subsection.1.Alph7.4}%
-\contentsline {section}{\numberline {H}Codici MATLAB usati}{33}{appendix.1.Alph8}%
-\contentsline {subsection}{\numberline {H.1}Simulazione di volo}{33}{subsection.1.Alph8.1}%
-\contentsline {subsection}{\numberline {H.2}Codici serbatoi}{36}{subsection.1.Alph8.2}%
-\contentsline {subsubsection}{\numberline {H.2.1}Serbatoio RP-1}{36}{subsubsection.1.Alph8.2.1}%
-\contentsline {subsubsection}{\numberline {H.2.2}Serbatoio LOX}{38}{subsubsection.1.Alph8.2.2}%
-\contentsline {subsection}{\numberline {H.3}Camera di Combustione}{40}{subsection.1.Alph8.3}%
+\contentsline {section}{\numberline {H}RPA: definizione problema e funzionamento}{33}{appendix.1.Alph8}%
+\contentsline {section}{\numberline {I}Codici MATLAB usati}{33}{appendix.1.Alph9}%
+\contentsline {subsection}{\numberline {I.1}Simulazione di volo}{33}{subsection.1.Alph9.1}%
+\contentsline {subsection}{\numberline {I.2}Codici serbatoi}{36}{subsection.1.Alph9.2}%
+\contentsline {subsubsection}{\numberline {I.2.1}Serbatoio RP-1}{36}{subsubsection.1.Alph9.2.1}%
+\contentsline {subsubsection}{\numberline {I.2.2}Serbatoio LOX}{38}{subsubsection.1.Alph9.2.2}%
+\contentsline {subsection}{\numberline {I.3}Camera di Combustione}{40}{subsection.1.Alph9.3}%
 \contentsline {section}{Bibliografia}{42}{lstnumber.-4.66}%
