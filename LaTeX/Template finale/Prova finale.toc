@@ -44,7 +44,7 @@
 \contentsline {section}{\numberline {F}Diagrammi di velocità}{29}{appendix.1.Alph6}%
 \contentsline {section}{\numberline {G}Appendice ausiliaria capitolo 9}{30}{appendix.1.Alph7}%
 \contentsline {subsection}{\numberline {G.1}Definisione temperature usate nel cooling}{30}{subsection.1.Alph7.1}%
-\contentsline {subsection}{\numberline {G.2}Grafico della resistenza termica prodotta dal deposito carbonioso}{30}{subsection.1.Alph7.2}%
+\contentsline {subsection}{\numberline {G.2}Grafico della resistenza termica prodotta dal deposito carbonioso}{31}{subsection.1.Alph7.2}%
 \contentsline {subsection}{\numberline {G.3}Dettagli sul sistema di introduzione dei gas combusti sulla parete interna dell'ugello aggiunto}{31}{subsection.1.Alph7.3}%
 \contentsline {subsection}{\numberline {G.4}Comportamento del fluido RP1 in relazione alla pressione critica}{31}{subsection.1.Alph7.4}%
 \contentsline {section}{\numberline {H}Codici MATLAB usati}{33}{appendix.1.Alph8}%
