@@ -22,29 +22,25 @@ t_r = L_star/c_star; % tempo residenza, s
 
 %% misure della parte cilindrica
 
-eps = 1.307; % A_c/A_t rateo di contrazione
+eps = 1.307; % A_cil/A_t rateo di contrazione
 
 % V_c è il volume con il convergente, assumiamo 
 % il convergente come una % del volume della porzione
 % della camera cilindrica
 
 A_cil = eps*A_t;
-R_c = sqrt(A_cil/pi);
+R_cil = sqrt(A_cil/pi);
 
 % studio parte convergente
-a = (R_c-R_t); 
+a = (R_cil-R_t); 
 theta_deg = 13; % deg
 theta = deg2rad(theta_deg);
 
 L_conv = a/tan(theta);
 V_conv = ((A_cil + A_t + sqrt(A_cil*A_t))*L_conv)/3; %volume parte convergente
 
-pc = V_conv/V_cc; %percentuale del volume della camera occupata dal convergente
-fatt_c = 1 + pc; %fattore correttivo per il volume della parte cilindrica
-
 % ritorniamo al cilindro
-
-L_cil = V_cc/(fatt_c*A_cil);
+L_cil = (V_cc -V_conv)/(A_cil);
 
 V_cil = L_cil*A_cil; % volume corretto della parte cilindrica
 

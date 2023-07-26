@@ -112,38 +112,36 @@ Per calcolare le dimensioni reali di entrambe le parti della camera di combustio
 Si tratta del rateo di contrazione, ossia il rapporto tra la sezione della camera cilindrica e la sezione di gola, e l’angolo di inclinazione del convergente
 
 \begin{empheq}{gather*}
-          \epsilon\ = \frac {A_{cil}}{A_{t}} = 1.307     \qquad     %indicare fonte dato  
+          \epsilon\_{cc} = \frac {A_{cil}}{A_{t}} = 1.307     \qquad     %indicare fonte dato  
            \theta\ = 13^{\circ}                                                             
 \end{empheq}
 %FOTOOOOOOOO
-Sfruttando la trigonometria si ottiene la lunghezza assiale del tratto convergente e considerando quest’ultimo come una figura tronco conica si ottiene il volume da rapportare a quello calcolato in precedenza, così da ottenere il valore percentuale dell’ingombro del convergente, utilizzato nei calcoli seguenti.
+Sfruttando la trigonometria si ottiene la lunghezza assiale del tratto convergente e considerando quest’ultimo come una figura tronco conica si calcola il volume. Partendo da quanto calcolato è possibile ottenere le dimensioni del tratto cilindrico:
 
 \begin{empheq}{gather*}
-         A_{cil} = \epsilon\ A_{t}                       \qquad
+         A_{cil} = \epsilon\_{cc} A_{t}                       \qquad
          R_{cil} = \sqrt{\frac{A_{cil}}{\pi}}            \qquad      
-         a = {R_{cil} - R_{t}}                                  \\
-         L_{conv} = \frac {a}{\tan(\theta\ )}             \qquad
-         V_{conv} = \frac {(A_{cil} + A_{t} + \sqrt{A_{cil} A_{t}}) L_{conv}}{3}    \\
-         \%_{conv} = \frac {V_{conv}}{V_{cc}}            \qquad
-         fatt_{corr} = 1 + \%_{conv}   \qquad                                      
+         a = {R_{cil} - R_{t}}                                  \\                          
 \end{empheq}
-
-Si ottiene così una porzione cilindrica corretta:
 
 \begin{empheq}{gather*}
-         L_{cil} = \frac {V_{cc}}{ fatt_{corr} A_{cil}} \qquad
-         V_{cil} = L_{cil} A_{cil}  
+         L_{conv} = \frac {a}{\tan(\theta\ )}             \qquad
+         V_{conv} = \frac {(A_{cil} + A_{t} + \sqrt{A_{cil} A_{t}}) L_{conv}}{3}    \\                            
 \end{empheq}
 
+\begin{empheq}{gather*}
+         L_{cil} = \frac {V_{cc} - V_{conv}}{A_{cil}} \qquad
+         V_{cil} = L_{cil} A_{cil}                              
+\end{empheq}
 
 \begin{table}[H]
 
 \centering
-\begin{tabular}{|c|c|c|c|c|c|c|}
+\begin{tabular}{|c|c|c|c|c|c|c|c|}
 \hline
-$\bm{A_{t} \, [m^2]}$ & $\bm{A_{cil} \, [m^2]}$ & $\bm{L_{conv} \, [m]}$ &  $\bm{L_{cil} \, [m]}$ & $\bm{V_{conv} \, [m^3]}$ & $\bm{V_{cil} \, [m^3]}$  & $\bm{A_{tot_{int}} \, [m^2]}$\\
+$\bm{A_{t} \, [m^2]}$ & $\bm{A_{cil} \, [m^2]}$ & $\bm{L_{conv} \, [m]}$ &  $\bm{L_{cil} \, [m]}$ & $\bm{V_{conv} \, [m^3]}$ & $\bm{V_{cil} \, [m^3]}$ & $\bm{V_{cc} \, [m^3]}$ & $\bm{A_{tot_{int}} \, [m^2]}$\\
 \hline
-$0.6207$ & $ 0.8113$ & $0.2758$ &  $0.5809$ & $0.1969$ & $0.4712$ & $2.7018$ \\
+$0.6207$ & $ 0.8113$ & $0.2758$ &  $0.5224$ & $0.1969$ & $0.4238$ & $0.6207$ & $2.5152$ \\
 \hline
 \end{tabular}
 
