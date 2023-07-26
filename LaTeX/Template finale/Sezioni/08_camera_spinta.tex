@@ -75,6 +75,10 @@ Tali risultati sono paragonabili alle velocità reali: la $v_{f}$ si discosta de
 \subsection{Camera di combusione}
 \label{subsec:camera_di_combustione}
 
+\lfig{camera_comb}{Camera di combustione}{camera_comb}{0.3}
+
+\vspace{3pt}
+
 Nel motore F-1 è presente una camera di combustione cilindrica con una parte finale convergente che termina con la sezione di gola.
 La camera di combustione funge da involucro che deve mantiene i propellenti per un periodo sufficiente a garantire la completa miscelazione e combustione. Il tempo di permanenza richiesto, o tempo di residenza, è una funzione di molti parametri, ovvero combinazione di propellenti, le condizioni di iniezione e la geometria del combustore (rapporto di contrazione, numero di Mach, livello di turbolenza).
 
@@ -111,12 +115,14 @@ Invertendo la formula della L* è possibile ottenere il volume della camera di c
 Per calcolare le dimensioni reali di entrambe le parti della camera di combustione, ovvero la parte cilindrica e quella del convergente, è necessario fissare due parametri al fine dello sviluppo del modello.
 Si tratta del rateo di contrazione, ossia il rapporto tra la sezione della camera cilindrica e la sezione di gola, e l’angolo di inclinazione del convergente
 
+
 \begin{empheq}{gather*}
           \epsilon\_{cc} = \frac {A_{cil}}{A_{t}} = 1.307     \qquad     %indicare fonte dato  
            \theta\ = 13^{\circ}                                                             
 \end{empheq}
-%FOTOOOOOOOO
+
 Sfruttando la trigonometria si ottiene la lunghezza assiale del tratto convergente e considerando quest’ultimo come una figura tronco conica si calcola il volume. Partendo da quanto calcolato è possibile ottenere le dimensioni del tratto cilindrico:
+
 
 \begin{empheq}{gather*}
          A_{cil} = \epsilon\_{cc} A_{t}                       \qquad
@@ -126,10 +132,7 @@ Sfruttando la trigonometria si ottiene la lunghezza assiale del tratto convergen
 
 \begin{empheq}{gather*}
          L_{conv} = \frac {a}{\tan(\theta\ )}             \qquad
-         V_{conv} = \frac {(A_{cil} + A_{t} + \sqrt{A_{cil} A_{t}}) L_{conv}}{3}    \\                            
-\end{empheq}
-
-\begin{empheq}{gather*}
+         V_{conv} = \frac {(A_{cil} + A_{t} + \sqrt{A_{cil} A_{t}}) L_{conv}}{3}    \qquad                           
          L_{cil} = \frac {V_{cc} - V_{conv}}{A_{cil}} \qquad
          V_{cil} = L_{cil} A_{cil}                              
 \end{empheq}
