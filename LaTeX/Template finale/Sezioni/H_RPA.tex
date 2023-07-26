@@ -3,7 +3,26 @@
 RPA è un software che permette di prevedere le prestazioni per motori a razzo. Il metodo di calcolo si basa su un approccio di minimizzazione dell'energia libera di Gibbs al fine di ottenere la composizione dei prodotti di combustione, l'analisi dell'ugello del flusso con shifting o frozen equilibrium e il calcolo delle prestazioni del motore, per camera di combustione finita o infinita.
 
 RPA utilizza una libreria di specie chimiche espandibile basata sul database termodinamico NASA Glenn, che include dati per numerosi combustibili e ossidanti. È inoltre possibile definire nuovi componenti del propellente o importare componenti da database di specie PROPEP o CEA2.
-Fornendo parametri propri del motore in analisi, come la pressione della camera di combustione, i componenti del propellente utilizzati e i parametri dell'ugello, il programma ottiene la composizione di equilibrio chimico dei prodotti di combustione, determina le sue proprietà termodinamiche e predice le prestazioni teoriche del razzo. 
+Fornendo parametri propri del motore in analisi, come la pressione della camera di combustione, i componenti del propellente utilizzati e i parametri dell'ugello, il programma permette di ottenere la composizione di equilibrio chimico dei prodotti di combustione, determina le sue proprietà termodinamiche e predice le prestazioni teoriche del razzo. 
 
+Il software è organizzato in quattro macroaree: 
 
+• Initial Data
+
+Questa sezione contiene le specifiche necessarie a definire il tipo di motore, il propellente e il modello dell'ugello.
+La caratterizzazione della camera di spinta avviene determinando il valore di pressione (77.556 bar)e fissando uno tra i seguenti parametri: la spinta e la pressione cui è riferita, la portata massica oppure il diametro di gola. Si è scelto di fissare come parametro di ingresso la spinta (6770.19 kN ad 1 bar) perchè rappresenta un requisito da soddisfare.
+Per caratterizzare il propellente è necessario definire il tipo di sistema, in questo caso bipropellente, il rapporto di miscela O/F, pari a 2.27, l'ossidante e il combustibile con le relative temperature di stivaggio. 
+In ultimo è necessario definire il modello dell'ugello, in particolare stabilire le condizioni di ingresso, le condizioni di uscita e la caratterizzazione del flusso in frozen equilibrium. La prima condizione è descritta dalla portata o, come nel caso in analisi, dal rateo di contrazione (1.301). All'interno di questa prima sezione è possibile fissare il design della camera: per l'analisi sono stati fissati i valori di angolo di contrazione b, i rapporti tra i vari raggi di curvatura e l'approssimazione parabolica dell'ugello a campana. La seconda condizione è descritta dal rateo di espansione (16). Infine il flusso viene considerato in frozen equilibrium dalla gola, ossia dal piano con rapporto di espansione 1.
+
+• Performance Analysis
+
+Questa sezione illustra in particolare le prestazioni della camera, in particolare le proprietà termodinamiche, le prestazioni ideali e stimate e le frazioni dei prodotti di combustione. Le prime verranno illustrate nella tabella sottostante INSERIRE TABELLA, mentre le seconde determinano il valore di parametri quali la velocità caratteristica e l'impulso specifico. 
+
+• Engine Design
+
+In questa sezione è possibile trovare 
+ containing items Chamber Geometry, Thermal Analysis, and Propellant
+Feed System 
+
+• and Tools containing the item Thermodynamic Database. 
 
