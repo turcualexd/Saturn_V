@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.16)  26 JUL 2023 22:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.16)  27 JUL 2023 18:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1334,7 +1334,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./Images//01_quota_t-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Images//01_quota_t-eps-converted-to.pdf, id=342, 256.96pt x 192.72pt>
+<Images//01_quota_t-eps-converted-to.pdf, id=343, 256.96pt x 192.72pt>
 File: Images//01_quota_t-eps-converted-to.pdf Graphic file (type pdf)
 <use Images//01_quota_t-eps-converted-to.pdf>
 Package pdftex.def Info: Images//01_quota_t-eps-converted-to.pdf  used on input line 50.
@@ -1351,7 +1351,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./Images//02_velocita_t-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Images//02_velocita_t-eps-converted-to.pdf, id=343, 256.96pt x 192.72pt>
+<Images//02_velocita_t-eps-converted-to.pdf, id=344, 256.96pt x 192.72pt>
 File: Images//02_velocita_t-eps-converted-to.pdf Graphic file (type pdf)
 <use Images//02_velocita_t-eps-converted-to.pdf>
 Package pdftex.def Info: Images//02_velocita_t-eps-converted-to.pdf  used on input line 50.
@@ -1368,7 +1368,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./Images//04_spinta_t-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Images//04_spinta_t-eps-converted-to.pdf, id=344, 256.96pt x 192.72pt>
+<Images//04_spinta_t-eps-converted-to.pdf, id=345, 256.96pt x 192.72pt>
 File: Images//04_spinta_t-eps-converted-to.pdf Graphic file (type pdf)
 <use Images//04_spinta_t-eps-converted-to.pdf>
 Package pdftex.def Info: Images//04_spinta_t-eps-converted-to.pdf  used on input line 52.
@@ -1385,13 +1385,13 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./Images//07_traiettoria-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Images//07_traiettoria-eps-converted-to.pdf, id=345, 256.96pt x 192.72pt>
+<Images//07_traiettoria-eps-converted-to.pdf, id=346, 256.96pt x 192.72pt>
 File: Images//07_traiettoria-eps-converted-to.pdf Graphic file (type pdf)
 <use Images//07_traiettoria-eps-converted-to.pdf>
 Package pdftex.def Info: Images//07_traiettoria-eps-converted-to.pdf  used on input line 52.
 (pdftex.def)             Requested size: 245.82962pt x 184.3739pt.
 [2 <./Images//01_quota_t-eps-converted-to.pdf> <./Images//02_velocita_t-eps-converted-to.pdf>]) (Sezioni/03_propellenti.tex [3 <./Images//04_spinta_t-eps-converted-to.pdf> <./Images//07_traiettoria-eps-converted-to.pdf>]) (Sezioni/04_serbatoi_e_pressurizzazione.tex
-<Images//tank.jpg, id=391, 289.08pt x 325.57635pt>
+<Images//tank.jpg, id=392, 289.08pt x 325.57635pt>
 File: Images//tank.jpg Graphic file (type jpg)
 <use Images//tank.jpg>
 Package pdftex.def Info: Images//tank.jpg  used on input line 7.
@@ -1762,7 +1762,7 @@ Here is how much of TeX's memory you used:
 pdfTeX warning (dest): name{lstnumber.-4.66} has been referenced but does not exist, replaced by a fixed one
 
 <C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbmi.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbmia.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbne.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbsc8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpbsy.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpex.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmi.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmia.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpsy.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpttbn8a.pfb><C:/Users/turcu/AppData/Local/Programs/MiKTeX/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on "Prova finale.pdf" (43 pages, 20742131 bytes).
+Output written on "Prova finale.pdf" (43 pages, 20743179 bytes).
 PDF statistics:
  1617 PDF objects out of 1728 (max. 8388607)
  631 named destinations out of 1000 (max. 500000)
