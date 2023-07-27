@@ -30,7 +30,18 @@
 		$\bm{p_e}$ & $[Pa]$ & pressione all'efflusso \\
 		$\bm{\rho}$ & $[kg/m^3]$ & densità dell'aria \\
 		$\bm{S}$ & $[m^2]$ & superficie esterna del razzo \\
-		$\bm{C_D}$ & $[-]$ & coefficiente di drag aerodinamico
+		$\bm{C_D}$ & $[-]$ & coefficiente di drag aerodinamico \\
+                $\bm{M_0}$ & $[kg]$ & massa iniziale del sistema lanciatore \\
+		$\bm{M_m}$ & $[kg]$ & massa motore \\
+		$\bm{M_p}$ & $[kg]$ & massa del propellente per il primo stadio S-IC \\
+                $\bm{M_s}$ & $[kg]$ & massa della struttura del lanciatore \\
+		$\bm{M_u}$ & $[kg]$ & massa carico utile del lanciatore \\
+                $\bm{MR}$ & $[-]$ & mass ratio \\
+		$\bm{\epsilon_s}$ & $[-]$ & indice strutturale delle masse inerti \\
+                $\bm{\epsilon_u}$ & $[-]$ & indice di massa del carico utile \\
+		$\bm{\zeta_{motore}}$ & $[-]$ & rapporto di massa motore \\
+                $\bm{\zeta_p}$ & $[-]$ & frazione di propellente \\
+		$\bm{\zeta_u}$ & $[-]$ & rapporto di massa del carico utile
 	\end{tabular}
 
 	\subsection{Propellenti}
@@ -63,16 +74,59 @@
 	
 	\subsection{Turbopompa}
 	\begin{tabular}{ccl}
-		$\bm{-}$ & $[-]$ & --- \\
-		$\bm{-}$ & $[-]$ & --- \\
-		$\bm{-}$ & $[-]$ & ---
+		$\bm{\alpha}$ & $[deg]$ & angolo riferito all'orientazione di $\overrightarrow{c}$ \\
+		$\bm{\beta}$ & $[deg]$ & angolo riferito all'orientazione di $\overrightarrow{v}$ \\
+		$\bm{\eta_p}$ & $[-]$ & rendimento pompa \\
+                $\bm{\rho}$ & $[kg/m^3]$ & densità fluido in ingresso alla pompa \\
+                $\bm{\psi}$ & $[-]$ & head coefficient - coefficiente di prevalenza \\
+		$\bm{\psi_{ind}}$ & $[-]$ & head coefficient relativo al solo inducer \\
+		$\bm{\omega}$ & $[rad/s]$ & velocità angolare albero \\
+                $\bm{\overrightarrow{c}}$ & $[m/s]$ & velocità nel sistema di riferimento assoluto \\
+	        $\bm{d_s}$ & $[-]$ & diametro specifico \\
+		$\bm{D_2}$ & $[m]$ & diametro impeller \\
+		$\bm{g}$ & $[m/s^2]$ & accelerazione di gravità \\
+                $\bm{\Delta h_s}$ & $[J/kg]$ & altezza di sollevamento \\
+                $\bm{H}$ & $[m]$ & head rise – prevalenze della pompa \\
+		$\bm{H_e}$ & $[m]$ & termine di perdita di prevalenza \\
+		$\bm{K_v}$ & $[-]$ & design factor vani diffusori \\
+                $\bm{\dot m}$ & $[kg/s]$ & portata massica \\
+                $\bm{n_s}$ & $[-]$ & velocità specifica \\
+		$\bm{N}$ & $[rpm]$ & numero di giri al minuto \\
+		$\bm{N_{SS}}$ & $[-]$ & suction specific velocity \\
+                $\bm{NPSH}$ & $[m]$ & net positive suction head \\
+                $\bm{NPSH_c}$ & $[m]$ & net positive suction head critico \\
+		$\bm{\Delta P}$ & $[bar]$ & salto di pressione a cavallo della pompa \\
+		$\bm{P_{TOT 0}}$ & $[bar]$ & pressione totale all'ingresso della pompa \\
+                $\bm{P_{TOT 2}}$ & $[bar]$ & pressione totale all'uscita dalla pompa \\
+	        $\bm{P_{vap}}$ & $[bar]$ & pressione di vapore \\
+		$\bm{P}$ & $[W]$ & potenza \\
+		$\bm{pedice_0}$ & $[-]$ & ingresso inducer \\
+                $\bm{pedice_1}$ & $[-]$ & uscita inducer – ingresso impeller \\
+                $\bm{pedice_2}$ & $[-]$ & uscita impeller – ingresso vani diffusori \\
+		$\bm{pedice_3}$ & $[-]$ & uscita vani diffusori \\
+		$\bm{pedice_m}$ & $[-]$ & componente meridionale della velocità \\
+                $\bm{pedice_u}$ & $[-]$ & componente tangenziale della velocità \\
+                $\bm{Q}$ & $[m^3/s]$ & portata volumetrica \\
+		$\bm{R_2}$ & $[m]$ & raggio impeller \\
+		$\bm{S_v}$ & $[-]$ & vane solidity tip \\
+                $\bm{\overrightarrow{u}}$ & $[m/s]$ & velocità periferica media di rotazione della palettatura \\
+                $\bm{\overrightarrow{v}}$ & $[m/s]$ & velocità nel sistema di riferimento relativo \\
+		$\bm{{v_{voluteIN}}}$ & $[m/s]$ & velocità ingresso vano diffusori \\
+		$\bm{{v_{voluteOUT}}}$ & $[m/s]$ & velocità uscita vano diffussori
 	\end{tabular}
 
 	\subsection{Camera di spinta}
 	\begin{tabular}{ccl}
-		$\bm{-}$ & $[-]$ & --- \\
-		$\bm{-}$ & $[-]$ & --- \\
-		$\bm{-}$ & $[-]$ & ---
+		$\bm{\epsilon}$ & $[-]$ & rapporto di espansione aree \\
+		$\bm{\theta_e}$ & $[deg]$ & angolo relativo alla sezione di uscita \\
+		$\bm{\theta_n}$ & $[deg]$ & angolo relativo al punto di inflessione \\
+                $\bm{\%_{bell} }$ & $[-]$ & percentuale di bell dell’ugello \\
+		$\bm{E}$ & $[m, m]$ & exit point – punto tangente alla sezione di efflusso  \\
+		$\bm{L_{ugello}}$ & $[m]$ & lunghezza ugello a campana \\
+	        $\bm{L_{conico}}$ & $[m]$ & lunghezza ugello tronco conico \\
+		$\bm{N}$ & $[m, m]$ & inflection point – punto di inflessione \\
+		$\bm{R_e}$ & $[m]$ & raggio della sezione di efflusso \\
+                $\bm{R_t}$ & $[m]$ & raggio di gola
 	\end{tabular}
 
 	\subsection{Sistemi di raffreddamento}
