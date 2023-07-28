@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.7.23)  26 JUL 2023 19:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.7.23)  28 JUL 2023 16:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2048,15 +2048,15 @@ LaTeX Font Info:    Trying to load font information for TS1+jkptt on input line
 
 (C:\Users\giorg\OneDrive\Desktop\miktex\tex/latex/kpfonts\ts1jkptt.fd
 File: ts1jkptt.fd 2007/01/26 Fontinst v1.928 font definitions for TS1/jkptt.
-) [35])
-[36] (C:\Users\giorg\OneDrive\Desktop\miktex\tex/latex/base\ansinew.def
+) [35]
+[36]) (C:\Users\giorg\OneDrive\Desktop\miktex\tex/latex/base\ansinew.def
 File: ansinew.def 2021/02/14 v1.3d Input encoding file
 )
-(Codici/TANK_RP1.m [37])
+(Codici/TANK_RP1.m [37]) [38]
 (C:\Users\giorg\OneDrive\Desktop\miktex\tex/latex/base\ansinew.def
 File: ansinew.def 2021/02/14 v1.3d Input encoding file
 )
-(Codici/TANK_LOX.m [38] [39])
+(Codici/TANK_LOX.m [39])
 (C:\Users\giorg\OneDrive\Desktop\miktex\tex/latex/base\ansinew.def
 File: ansinew.def 2021/02/14 v1.3d Input encoding file
 )
@@ -2073,11 +2073,11 @@ Package rerunfilecheck Info: File `"Prova finale".out' has not changed.
 Here is how much of TeX's memory you used:
  34434 strings out of 476331
  642320 string characters out of 5790579
- 2302660 words of memory out of 5000000
+ 2312660 words of memory out of 5000000
  53525 multiletter control sequences out of 15000+600000
  668541 words of font info for 208 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 83i,22n,81p,1918b,3466s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 83i,22n,80p,1918b,3564s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 pdfTeX warning (dest): name{lstnumber.-4.66} has been referenced but does not e
 xist, replaced by a fixed one
@@ -2097,9 +2097,9 @@ ers/giorg/OneDrive/Desktop/miktex/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Use
 rs/giorg/OneDrive/Desktop/miktex/fonts/type1/public/kpfonts/jkpsy.pfb><C:/Users
 /giorg/OneDrive/Desktop/miktex/fonts/type1/public/kpfonts/jkpttbn8a.pfb><C:/Use
 rs/giorg/OneDrive/Desktop/miktex/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on "Prova finale.pdf" (45 pages, 22352730 bytes).
+Output written on "Prova finale.pdf" (45 pages, 22354038 bytes).
 PDF statistics:
- 1628 PDF objects out of 1728 (max. 8388607)
+ 1629 PDF objects out of 1728 (max. 8388607)
  631 named destinations out of 1000 (max. 500000)
  648 words of extra memory for PDF output out of 10000 (max. 10000000)
 
