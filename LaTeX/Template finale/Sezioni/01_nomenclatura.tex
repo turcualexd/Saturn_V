@@ -59,8 +59,8 @@
 		$\bm{O/F}$ & $[-]$ & mixture ratio \\
 		$\bm{LOX}$ & $[-]$ & liquid oxygen (oxidizer)\\
 		$\bm{RP-1}$ & $[-]$ & kerosene liquido (fuel) \\
-		$\bm{FR}$ & $[-]$ & miscela fuel rich  \\
-		$\bm{OR}$ & $[-]$ & miscela oxidizier rich  \\
+		$\bm{FR}$ & $[-]$ & miscela fuel rich\\
+		$\bm{OR}$ & $[-]$ & miscela oxidizier rich\\
 		$\bm{GG}$ & $[-]$ & gas generator\\
 		$\bm{LRE}$ & $[-]$ & liquid rocket engine\\
 		$\bm{UMR}$ & $[-]$ & uniform mixture ratio\\
@@ -73,13 +73,39 @@
 		$\bm{\dot{m}_{fuel}}$ & $[kg/s]$ & portata fuel\\
 		$\bm{\dot{m}_{ox}}$ & $[kg/s]$ & portata oxidizer\\
 		$\bm{V_{cc}}$ & $[m^3]$ & volume necessario per la combustione\\
+		$\bm{CEAM}$ & $[-]$ & NASA CEA software on Matlab\\
+		$\bm{HP}$ & $[-]$ & problema hp: entalpia-pressione costante\\
+		$\bm{MM}$ & $[kg/kmol]$ & massa molare prodotti di combustione GG\\
+		$\bm{c_p}$ & $[kJ/kgK]$ & calore specifico a pressione costante dei gas combusti GG\\
+		$\bm{\gamma}$ & $[-]$ & coeff. espansione adiabatico dei gas combusti GG\\
+		$\bm{\Delta h_{id}}$ & $[J]$ & salto entalpico ideale turbina
 	\end{tabularx}
 	
 	\subsection{Turbopompa}
 	\begin{tabularx}{\linewidth}{ccX}
-		$\bm{-}$ & $[-]$ & --- \\
-		$\bm{-}$ & $[-]$ & --- \\
-		$\bm{-}$ & $[-]$ & ---
+		$\bm{VC}$ & $[-]$ & velocity compouded\\
+		$\bm{PC}$ & $[-]$ & pressure compouded\\
+		$\bm{C_0}$ & $[m/s]$ & velocità di efflusso ideale\\
+		$\bm{C_{p,gg}}$ & $[kJ/kgK]$ & calore specifico a pressione costante gas combusti del GG\\
+		$\bm{T_{in}}$ & $[K]$ & temperatura ingresso turbina\\
+		$\bm{\epsilon}$ & $[-]$ & rapporto espansione pressione\\
+		$\bm{\gamma_{gc}}$ & $[-]$ & coeff. dilatazione adiabatica gas combusti \\
+		$\bm{R_{gc}}$ & $[-]$ & costante gas combusti GG \\
+		$\bm{p_{in}}$ & $[bar]$ & pressione ingresso turbina \\
+		$\bm{O/F}$ & $[-]$ & rapporto di miscela\\
+		$\bm{\dot{m}}$ & $[kg/s]$ & portata di gas in turbina\\
+		$\bm{\omega_{gc}}$ & $[rad/s]$ & velocità angolare turbina \\
+		$\bm{U/C_0}$ & $[-]$ & rapporto velocita (parametro di progetto) \\
+		$\bm{\eta_{tot}}$ & $[-]$ & rendimento totale turbina \\
+		$\bm{k_n}$ & $[-]$ & parametro perdita di velocità attraverso gli ugelli  \\
+		$\bm{\eta_n}$ & $[-]$ & rendimento ugelli \\
+		$\bm{k_{blade}}$ & $[-]$ & parametro perdita di velocitù attraverso palettatura \\
+		$\bm{u_i}$ & $[m/s]$ & velocità relativa \\
+		$\bm{c_i}$ & $[m/s]$ & velocità assoluta \\
+		$\bm{U}$ & $[m/s]$ & velocità periferica di rotazione (calcolata su un raggio medio) \\
+		$\bm{\alpha_i}$ & $[rad]$ & angolo velocità assoluta \\
+		$\bm{\beta_i}$ & $[rad]$ & angolo velocità relativa \\
+		$\bm{T_{out}}$ & $[K]$ & temperatura all'uscita della turbina
 	\end{tabularx}
 
 	\subsection{Camera di spinta}
