@@ -95,12 +95,12 @@ Si nota come aumentando la pressione in camera, a questo livello di approssimazi
 I_{s,tc} = \frac{T \left( p_c \right)}{\dot{m}_p} = u_e \left( p_c \right) + \frac{A_e \left( p_a - p_e \right)}{\dot{m}_p}
 \end{empheq}
 
-Questo ci permetterebbe di concludere che un aumento di pressione illimitato in camera di combustione aumenta indefinitamente le prestazioni, sia perchè l'ugello può espandere a pressione più alta, sia per il contributo statico.
+Questo ci permetterebbe di concludere che un aumento di pressione illimitato in camera di combustione aumenta indefinitamente le prestazioni, sia perchè l'ugello può espandere da una pressione più alta, sia per il contributo statico.
 Introducendo però un sistema di alimentazione di potenza in parallelo come il GG, si ha in realtà un calo di prestazioni rispetto all'andamento teorico.
 
 Questo fatto può essere compreso a livello qualitativo considerando che, in un tale sistema, aumentare la pressione in camera significa aumentare le prestazioni richieste dalle pompe, richiedendo quindi più potenza dalla turbina.
-A parità di salto di pressione in turbina e prodotti di combustione del GG, l'unico modo che si ha per aumentare la potenza prodotta dalla turbina è aumentare lo spillamento di portata dal flusso che andrà poi in camera.
-Questo flusso, oltre a non conseguire una combustione ottimale (ovvero con rapporto O/F molto diverso da quello della camera), viene espanso a velocità molto più basse e questo implica una perdita di prestazioni che può essere quantificata nel modo seguente \cite{AIAA_book_1}:
+A parità di salto di pressione in turbina (limitato dalla progettazione della stessa) e prodotti di combustione del GG, l'unico modo che si ha per aumentare la potenza prodotta dalla turbina è aumentare lo spillamento di portata dal flusso che andrà poi in camera.
+Questo flusso, oltre a non conseguire una combustione ottimale (ovvero con rapporto O/F molto diverso da quello della camera), viene espanso a velocità molto più basse e questo implica una perdita di prestazioni che può essere quantificata nel modo seguente \cite{AIAA_book_1}\cite{sanchez_slides}:
 
 \begin{empheq}{gather*}
 I_{s,oa} = \left( 1 - \frac{\dot{m}_{gg}}{\dot{m}_p} \right) I_{s,tc} + \frac{\dot{m}_{gg}}{\dot{m}_p} I_{s,gg}
@@ -127,6 +127,6 @@ Sono state implementate tali equazioni in MATLAB, imponendo un range esteso di p
 
 \cfig{I_spec_see}{Confronto tra impulsi specifici a livello mare}{I_spec_see}{0.6}
 
-Si nota come, al valore di pressione associato al motore F-1, ci sia un calo di prestazione rispetto al teorico. Il valore di impulso cala da 291 secondi a circa 285 secondi (a livello mare). Questo modello non considera perdite prestazionali dovute al flusso 3D (con eventuali separazioni asimmetriche e considerazioni sulle onde d'urto): in questa situazione l'ugello è in condizione sovra-espansa. Queste perdite sono successivamente considerate nella modellazione tramite il software RPA.
+Si nota come, al valore di pressione associato al motore F-1, ci sia un calo di prestazione rispetto al teorico. Il valore di impulso cala da 291 secondi a circa 285 secondi (a livello mare). Questo modello non considera perdite prestazionali dovute al flusso 3D (con eventuali separazioni asimmetriche e considerazioni sulle onde d'urto): in questa situazione l'ugello considerato è in condizione sovra-espansa. Queste perdite sono successivamente considerate nella modellazione tramite il software RPA.
 
 Dai grafici precedenti si nota anche come l'ottimo prestazionale per l'impulso specifico del sistema complessivo sia a pressioni in camera molto elevate (attorno ai 30 MPa, ovvero 300 bar). Un valore di pressione così elevato richiede una revisione di tutti i sistemi di alimentazione, a partire dalla turbopompa. Tale valore di pressione si trova tuttora nei motori LRE di nuova generazione come il Raptor, che tra l'altro non possiedono il ciclo a gas.

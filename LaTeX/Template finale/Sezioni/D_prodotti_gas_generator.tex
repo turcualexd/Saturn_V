@@ -33,8 +33,15 @@ $1243$ & $19.48$ & $9.8082$\\
 \end{table}
 La temperatura di combustione ottenuta $T_{comb}$ con l'esecuzione del programma è più alta rispetto a quella tabulata nei manuali del motore \cite{f-1_manual}, che è di 1062 K. Alcune ipotesi che possono in parte giustificare questa differenza sono:
 \begin{itemize}
-\item Idealità dell'ambiente di combustione nel caso dell'analisi CEAM, in quanto la combustione arriva perfettamente all'equilibrio chimiconel problema \textit{hp} senza considerare la vera geometria della camera di combustione del GG.
-\item Temperature non uniformi nel caso reale poichè l'o/f di iniezione non è uniforme, in quanto si hanno zone più ricche di fuel sulle zone esterne del piatto di iniezione (ovvero zone raffreddate). 
+\item Idealità dell'ambiente di combustione nel caso dell'analisi CEAM, in quanto la combustione avviene in ambiente adiabatico. Nella realtà, verosimilmente, ci saranno perdite di calore dovute a pareti diabatiche. 
+\item Temperature non uniformi nel caso reale poichè l'O/F di iniezione non è omogeneo, in quanto si hanno zone più ricche di fuel sulle zone esterne del piatto di iniezione (ovvero zone raffreddate). 
+\item Aumento di temperatura dovuto a reazioni fortemente esotermiche dei prodotti di combustione carboniosi - La fonte \cite{gg_manual} discute di un problema rinvenuto durante la registrazione della temperatura nella camera di combustione GG. Venne registrato un anomalo aumento di temperatura dei gas nel tratto di connessione tra GG e turbina. Venne sospettata una incompleta combustione nella camera. Si fecero esperimenti in cui lo scarico del GG venne allungato con tubi che di lunghezze diverse (tra i 12 e 24m). L'innalzamento di temperatura venne notato anche con questi alti tempi di permanenza. Poichè l'esistenza di ossigeno a queste temperature, lungo tutto lo scarico, è da escludere (e quindi la combustione effettivamente è conclusa molto prima), vennero avanzate diverse ipotesi. Tra cui: 
+\begin{itemize}
+\item Le termocoppie per la misurazione della temperatura venivano raffreddate da masse di combustibile non vaporizzate
+\item Reazioni secondarie fortemente esotermiche delle molecole carboniose (prodotti di combustione)
+\item Gas di scarico veniva riscaldato dall'attrito viscoso a parete sul tubo di scarico
+\end{itemize}
+L'ipotesi più plausibile, dopo diversi altri test, fu quella che reazioni secondarie fortemente esotermiche erano favorite dopo la combustione. Questa ipotesi potrebbe essere avanzata anche nel nostro caso di analisi CEAM. Per cui la simulazione del programma potrebbe considerare alcune reazioni secondarie esotermiche che aumentano la temperatura. 
 \end{itemize}
 
 In seguito viene presentata la percentuale in massa dei prodotti di combustione, ottenuti tramite la stessa esecuzione del problema \textit{hp} del GG eseguita da CEAM:

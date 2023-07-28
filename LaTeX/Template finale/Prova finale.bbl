@@ -32,6 +32,11 @@ D.H.~Huang D.K.~Huzel.
   Engines}.
 \newblock AIAA, 1992.
 
+\bibitem{gg_manual}
+Howard~W. Douglass.
+\newblock {\em {Liquid Propellant Gas Generators}}.
+\newblock National Aeronautics and Space Administration, 3 1972.
+
 \bibitem{JPP}
 {Joseph C. Oefelein, Vigor Yang}.
 \newblock {Comprehensive Review of Liquid-Propellant Combustion Instabilities
@@ -44,13 +49,30 @@ Sam Kobilska \&~Chip Kopicz.
 \newblock PowerPoint, 7 2017.
 \newblock An optional note.
 
+\bibitem{sanchez_slides}
+Manuel Martin-Sanchez.
+\newblock Lecture 25: Basic turbomachine performance.
+\newblock PDF, 2005.
+\newblock Additional PDFs at
+  https://ocw.mit.edu/courses/16-512-rocket-propulsion-fall-2005/.
+
 \bibitem{site_exhaust}
 Kimble~D. McCutcheon.
 \newblock Rocketdyne f-1 engine descripton, 2021.
 
+\bibitem{turbine_design}
+NASA Design~Criteria Office.
+\newblock {\em Liquid Rocket Engine Turbines}, 1 1974.
+
 \bibitem{engine_manual}
 Rocketdyne.
 \newblock {\em {R-3896-1 - Technical Manual - Engine Data F-1 Rocket Engine}}.
+\newblock National Aeronautics and Space Administration \& Rocketdyne, 3 1967.
+
+\bibitem{engine_manual_supplement}
+Rocketdyne.
+\newblock {\em {R-3896-1A - Technical Manual Supplement - Engine Data F-1
+  Rocket Engine}}.
 \newblock National Aeronautics and Space Administration \& Rocketdyne, 3 1967.
 
 \end{thebibliography}
