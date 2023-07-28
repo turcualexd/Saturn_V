@@ -38,7 +38,7 @@
 \contentsline {subsection}{\numberline {8.2}Piatto d'iniezione}{18}{subsection.8.2}%
 \contentsline {subsection}{\numberline {8.3}Camera di combusione}{19}{subsection.8.3}%
 \contentsline {subsection}{\numberline {8.4}Modellazione dell'ugello}{19}{subsection.8.4}%
-\contentsline {subsection}{\numberline {8.5}Confronto tra ugello 10:1 e 16:1}{21}{subsection.8.5}%
+\contentsline {subsection}{\numberline {8.5}Confronto tra ugello 10:1 e 16:1}{20}{subsection.8.5}%
 \contentsline {section}{\numberline {9}Sistemi di raffreddamento}{21}{section.9}%
 \contentsline {subsection}{\numberline {9.1}Cooling della camera di spinta}{21}{subsection.9.1}%
 \contentsline {subsubsection}{\numberline {9.1.1}Scambio termico convettivo e film cooling}{21}{subsubsection.9.1.1}%
