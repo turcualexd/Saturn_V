@@ -16,14 +16,14 @@ All’interno della struttura del serbatoio di LOX, ancorate ai deflettori ad an
 
 Il collegamento tra i due serbatoi è rappresentato dall’intertank, una struttura composta da cinque telai e pannelli ondulati in lega di alluminio 7075-T6 ad altissima resistenza meccanica.
 
-Il serbatoio di combustibile ha geometria analoga al serbatoio di ossidante, con un’altezza di 13.13 m e un volume di 791151 litri. La struttura è anch’essa costituita da una skin di lega di alluminio 2219-T87.
+Il serbatoio di combustibile ha geometria analoga al serbatoio di ossidante, con un’altezza di 13.13 m e un volume di 791151 litri. La struttura è anch’essa costituita da una skin di lega di alluminio 2219-T87. \cite{enginehistory}
 
 Di fondamentale importanza per lo studio dei serbatoi è il dimensionamento dello spessore delle pareti, poiché è necessario ottimizzare il peso senza però mette a rischio il funzionamento della struttura.
 I carichi strutturali ai quali è sottoposta la parete sono diversi, tra cui quelli dovuti alle pressioni interne, carichi assiali di spinta, carichi aerodinamici e termodinamici e quelli prodotti dalla disposizione di montaggio.
 È possibile procedere con il dimensionamento delle pareti sviluppando una serie di calcoli partendo da valori di progetto, come il volume dei propellenti necessari al funzionamento, l’ingombro esterno dei singoli serbatoi e considerando noto il materiale utilizzato. (Tebelle dati geometrici e materiale in \autoref{appendix:serbatoio} )\\
 Il volume totale all’interno del serbatoio non è composto unicamente dal propellente, ma ci sono anche degli altri volumi da considerare come il volume vuoto necessario alla pressurizzazione.
 
-Come primo passo si calcolano i volumi fondamentali dei serbatoi, ovvero quelli della parte cilindrica e delle due cupole ellissoidali, conoscendone il raggio e le altezze, per poi calcolare il volume totale interno del serbatoio considerando anche il volume occupato dalle bombole di elio nel serbaotio del LOX e dalle cinque linee di aspirazione passanti attraverso il serbatoio dell'RP-1:  (\autoref{appendix:codici})
+Come primo passo si calcolano i volumi fondamentali dei serbatoi, ovvero quelli della parte cilindrica e delle due cupole ellissoidali, conoscendone il raggio e le altezze, per poi calcolare il volume totale interno del serbatoio considerando anche il volume occupato dalle bombole di elio nel serbaotio del LOX e dalle cinque linee di aspirazione passanti attraverso il serbatoio dell'RP-1:  (\autoref{appendix:codici}, \cite{AIAA_book_2})
 
 
 \begin{empheq}{gather*}
@@ -47,7 +47,7 @@ Noto il volume totale occupato dal propellente liquido si ricavano le dimensioni
 
 \vspace{5pt}
 
-La pressione nel serbatoio non è nota, ma va calcolata, mentre quella del volume vuoto è un dato di progetto del motore. (\autoref{appendix:serbatoio})
+La pressione nel serbatoio non è nota, ma va calcolata, mentre quella del volume vuoto è un dato di progetto del motore. (\autoref{appendix:serbatoio}, \autoref{fig:tank_appendice_2})
 Con quanto ricavato in precedenza si calcolano le pressioni interne dei serbatoi e le pressioni totali
 
 \begin{empheq}{gather*}
@@ -58,9 +58,9 @@ Con quanto ricavato in precedenza si calcolano le pressioni interne dei serbatoi
 È ora possibile procedere al calcolo degli spessori introducendo alcuni parametri come il fattore di stress K e il rateo dell’ellisse k, cioè il rapporto tra l'asse maggiore e l'asse minore
 
 \begin{empheq}{gather*}
-            K = {0.8}                                                                    \qquad %%%referenza
+            K = {0.8}  \hspace{0.5cm} (\autoref{fig:stress_factor})         \hspace{1cm}                                             \qquad %%%referenza
             k = \frac{a}{b}                                                            \qquad                                                                    \\
-            t_{e} = \frac{P_{tot} a (K + 0.5k)}{2\Sigma_{y}}           \qquad
+            t_{e} = \frac{P_{tot} a (K + 0.5k)}{2\Sigma_{y}}       \hspace{1.6cm}    \qquad
             t_{c} = \frac{P_{tot} a}{\Sigma_{y}} 
 \end{empheq}
 
@@ -136,6 +136,6 @@ Per collegare lo scambiatore con i serbatoi sono presenti quattro condotti: due 
 L'elio fornito dalle bombole conservate nel serbatoio LOX viene indirizzato allo scambiatore di calore, espanso e quindi indirizzato al serbatoio dell’RP-1 tramite una linea di distribuzione situata all'estremità superiore del serbatoio per garantirne la pressurizzazione. 
 Il LOX ad alta pressione viene invece prelevato dal LOX dome, indirizzato allo scambiatore di calore, dove viene espanso in ossigeno gassoso e in seguito diretto al serbatoio tramite la linea di distribuzione del GOX.
 
-Le dimensioni esatte dello scambiatore di calore del motore F-1 dipendono dalla versione specifica del motore, poiché il motore F-1 è stato sottoposto a una serie di miglioramenti, tuttavia, in generale, ha una lunghezza di circa 1 metro e mezzo e un diametro che varia da 1 metro all'uscita della turbina a 60 cm al collettore di scarico della turbina. (Immagine esploso scambiatore in \autoref{appendix:serbatoio}) 
+Le dimensioni esatte dello scambiatore di calore del motore F-1 dipendono dalla versione specifica del motore, poiché il motore F-1 è stato sottoposto a una serie di miglioramenti, tuttavia, in generale, ha una lunghezza di circa 1 metro e mezzo e un diametro che varia da 1 metro all'uscita della turbina a 60 cm al collettore di scarico della turbina. (Immagine esploso scambiatore in \autoref{appendix:serbatoio}) \cite{enginehistory} \cite{heroicrelics}
 
 
