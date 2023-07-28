@@ -806,8 +806,6 @@ INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpb
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbn7c.tfm
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbn7c.tfm
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbn7c.tfm
-INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmn8t.tfm
-INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmn8t.tfm
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\vf\public\kpfonts\jkpbn8t.vf
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbn8r.tfm
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbne.tfm
@@ -821,6 +819,11 @@ INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpm
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\vf\public\kpfonts\jkpbn7t.vf
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbne.tfm
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbn8r.tfm
+INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\vf\public\kpfonts\jkpbn7t.vf
+INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbne.tfm
+INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbn8r.tfm
+INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmn8t.tfm
+INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmn8t.tfm
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmit8t.tfm
 INPUT .\Sezioni\02_analisi_missione.tex
 INPUT .\Sezioni\02_analisi_missione.tex
@@ -828,9 +831,6 @@ INPUT Sezioni\02_analisi_missione.tex
 INPUT .\Sezioni\02_analisi_missione.tex
 INPUT .\Sezioni\02_analisi_missione.tex
 INPUT Sezioni\02_analisi_missione.tex
-INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\vf\public\kpfonts\jkpmit8t.vf
-INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmit8r.tfm
-INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmite.tfm
 INPUT .\Images\\01_quota_t.eps
 INPUT Images\\01_quota_t.eps
 INPUT .\Images\\01_quota_t.eps
@@ -853,6 +853,9 @@ INPUT .\Images\\02_velocita_t-eps-converted-to.pdf
 INPUT .\Images\\02_velocita_t-eps-converted-to.pdf
 INPUT .\Images\\02_velocita_t-eps-converted-to.pdf
 INPUT .\Images\\02_velocita_t-eps-converted-to.pdf
+INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\vf\public\kpfonts\jkpmit8t.vf
+INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmit8r.tfm
+INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmite.tfm
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\vf\public\kpfonts\jkpmn7c.vf
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmnc.tfm
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\vf\public\kpfonts\jkpmn7t.vf
@@ -903,9 +906,6 @@ INPUT .\Images\\tank.jpg
 INPUT .\Images\\tank.jpg
 INPUT .\Images\\tank.jpg
 INPUT .\Images\\tank.jpg
-INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\vf\public\kpfonts\jkpbn7t.vf
-INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbne.tfm
-INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbn8r.tfm
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\vf\public\kpfonts\jkpmn7t.vf
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmne.tfm
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmn8r.tfm
@@ -1115,6 +1115,26 @@ INPUT .\Images\\angoli_bell.jpg
 INPUT .\Images\\angoli_bell.jpg
 INPUT .\Images\\angoli_bell.jpg
 INPUT .\Images\\angoli_bell.jpg
+INPUT .\Images\\2DNozzle_1_10.pdf
+INPUT Images\\2DNozzle_1_10.pdf
+INPUT .\Images\\2DNozzle_1_10.pdf
+INPUT .\Images\\2DNozzle_1_10.pdf
+INPUT .\Images\\2DNozzle_1_10.pdf
+INPUT .\Images\\3DNozzle_1_10.pdf
+INPUT Images\\3DNozzle_1_10.pdf
+INPUT .\Images\\3DNozzle_1_10.pdf
+INPUT .\Images\\3DNozzle_1_10.pdf
+INPUT .\Images\\3DNozzle_1_10.pdf
+INPUT .\Images\\2DNozzle_1_16.pdf
+INPUT Images\\2DNozzle_1_16.pdf
+INPUT .\Images\\2DNozzle_1_16.pdf
+INPUT .\Images\\2DNozzle_1_16.pdf
+INPUT .\Images\\2DNozzle_1_16.pdf
+INPUT .\Images\\3DNozzle_1_16.pdf
+INPUT Images\\3DNozzle_1_16.pdf
+INPUT .\Images\\3DNozzle_1_16.pdf
+INPUT .\Images\\3DNozzle_1_16.pdf
+INPUT .\Images\\3DNozzle_1_16.pdf
 INPUT .\Sezioni\B_grafici_tempo_di_volo.tex
 INPUT .\Sezioni\B_grafici_tempo_di_volo.tex
 INPUT Sezioni\B_grafici_tempo_di_volo.tex
@@ -1279,6 +1299,26 @@ INPUT Sezioni\G_triangoli_velocita.tex
 INPUT .\Sezioni\G_triangoli_velocita.tex
 INPUT .\Sezioni\G_triangoli_velocita.tex
 INPUT Sezioni\G_triangoli_velocita.tex
+INPUT .\Images\\Inducer_LOX.pdf
+INPUT Images\\Inducer_LOX.pdf
+INPUT .\Images\\Inducer_LOX.pdf
+INPUT .\Images\\Inducer_LOX.pdf
+INPUT .\Images\\Inducer_LOX.pdf
+INPUT .\Images\\Impeller_LOX.pdf
+INPUT Images\\Impeller_LOX.pdf
+INPUT .\Images\\Impeller_LOX.pdf
+INPUT .\Images\\Impeller_LOX.pdf
+INPUT .\Images\\Impeller_LOX.pdf
+INPUT .\Images\\Inducer_RP-1.pdf
+INPUT Images\\Inducer_RP-1.pdf
+INPUT .\Images\\Inducer_RP-1.pdf
+INPUT .\Images\\Inducer_RP-1.pdf
+INPUT .\Images\\Inducer_RP-1.pdf
+INPUT .\Images\\Impeller_RP-1.pdf
+INPUT Images\\Impeller_RP-1.pdf
+INPUT .\Images\\Impeller_RP-1.pdf
+INPUT .\Images\\Impeller_RP-1.pdf
+INPUT .\Images\\Impeller_RP-1.pdf
 INPUT .\Images\\velocity_diagram_AIAA.pdf
 INPUT Images\\velocity_diagram_AIAA.pdf
 INPUT .\Images\\velocity_diagram_AIAA.pdf
@@ -1323,6 +1363,16 @@ INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex\latex\kpfonts\ts1jkptt.fd
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpttmn7c.tfm
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\vf\public\kpfonts\jkpttmn7c.vf
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpttmnc.tfm
+INPUT .\Codici\parametri_lanciatore.m
+INPUT Codici\parametri_lanciatore.m
+INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex\latex\base\ansinew.def
+INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex\latex\base\ansinew.def
+INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex\latex\base\ansinew.def
+INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex\latex\base\ansinew.def
+INPUT .\Codici\parametri_lanciatore.m
+INPUT Codici\parametri_lanciatore.m
+INPUT .\Codici\parametri_lanciatore.m
+INPUT Codici\parametri_lanciatore.m
 INPUT .\Codici\TANK_RP1.m
 INPUT Codici\TANK_RP1.m
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex\latex\base\ansinew.def
@@ -1343,16 +1393,46 @@ INPUT .\Codici\TANK_LOX.m
 INPUT Codici\TANK_LOX.m
 INPUT .\Codici\TANK_LOX.m
 INPUT Codici\TANK_LOX.m
-INPUT .\Codici\camera di combustione.m
-INPUT Codici\camera di combustione.m
+INPUT .\Codici\camera_di_combustione.m
+INPUT Codici\camera_di_combustione.m
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex\latex\base\ansinew.def
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex\latex\base\ansinew.def
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex\latex\base\ansinew.def
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex\latex\base\ansinew.def
-INPUT .\Codici\camera di combustione.m
-INPUT Codici\camera di combustione.m
-INPUT .\Codici\camera di combustione.m
-INPUT Codici\camera di combustione.m
+INPUT .\Codici\camera_di_combustione.m
+INPUT Codici\camera_di_combustione.m
+INPUT .\Codici\camera_di_combustione.m
+INPUT Codici\camera_di_combustione.m
+INPUT .\Codici\bell_nozzle.m
+INPUT Codici\bell_nozzle.m
+INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex\latex\base\ansinew.def
+INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex\latex\base\ansinew.def
+INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex\latex\base\ansinew.def
+INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex\latex\base\ansinew.def
+INPUT .\Codici\bell_nozzle.m
+INPUT Codici\bell_nozzle.m
+INPUT .\Codici\bell_nozzle.m
+INPUT Codici\bell_nozzle.m
+INPUT .\Codici\bell_angles.m
+INPUT Codici\bell_angles.m
+INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex\latex\base\ansinew.def
+INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex\latex\base\ansinew.def
+INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex\latex\base\ansinew.def
+INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex\latex\base\ansinew.def
+INPUT .\Codici\bell_angles.m
+INPUT Codici\bell_angles.m
+INPUT .\Codici\bell_angles.m
+INPUT Codici\bell_angles.m
+INPUT .\Codici\test_bell.m
+INPUT Codici\test_bell.m
+INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex\latex\base\ansinew.def
+INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex\latex\base\ansinew.def
+INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex\latex\base\ansinew.def
+INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\tex\latex\base\ansinew.def
+INPUT .\Codici\test_bell.m
+INPUT Codici\test_bell.m
+INPUT .\Codici\test_bell.m
+INPUT Codici\test_bell.m
 INPUT .\Prova finale.bbl
 INPUT Prova finale.bbl
 INPUT .\Prova finale.bbl
