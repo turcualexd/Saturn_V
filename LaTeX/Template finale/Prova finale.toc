@@ -6,60 +6,66 @@
 \contentsline {subsection}{\numberline {1.2}Analisi della missione}{1}{subsection.1.2}%
 \contentsline {subsection}{\numberline {1.3}Propellenti}{1}{subsection.1.3}%
 \contentsline {subsection}{\numberline {1.4}Serbatoi e pressurizzazione}{1}{subsection.1.4}%
-\contentsline {subsection}{\numberline {1.5}Schema termodinamico}{1}{subsection.1.5}%
-\contentsline {subsection}{\numberline {1.6}Gas generator}{1}{subsection.1.6}%
-\contentsline {subsection}{\numberline {1.7}Turbopompa}{2}{subsection.1.7}%
-\contentsline {subsection}{\numberline {1.8}Camera di spinta}{3}{subsection.1.8}%
-\contentsline {subsection}{\numberline {1.9}Sistemi di raffreddamento}{3}{subsection.1.9}%
-\contentsline {section}{\numberline {2}Analisi della missione}{4}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Parametri lanciatore}{5}{subsection.2.1}%
-\contentsline {section}{\numberline {3}Propellenti}{5}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Coppia di propellenti: RP-1 / LOX}{5}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Propellente ipergolico}{6}{subsection.3.2}%
-\contentsline {section}{\numberline {4}Serbatoi e pressurizzazione}{6}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Serbatoi: descrizione e dimensionamento}{6}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Pressurizzazione e scambiatore di calore}{7}{subsection.4.2}%
-\contentsline {section}{\numberline {5}Schema termodinamico}{8}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Analisi dello schema semplificato del sistema motore}{8}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Analisi sulla scelta del ciclo di alimentazione}{9}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}Analisi delle variazioni di performance introdotte dal ciclo a gas}{10}{subsection.5.3}%
-\contentsline {section}{\numberline {6}Gas generator}{12}{section.6}%
-\contentsline {section}{\numberline {7}Turbopompa}{14}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Descrizione generica Mark 10}{14}{subsection.7.1}%
-\contentsline {subsubsection}{\numberline {7.1.1}Pompe LOX e RP1}{14}{subsubsection.7.1.1}%
-\contentsline {subsubsection}{\numberline {7.1.2}Analisi pompa LOX}{14}{subsubsection.7.1.2}%
-\contentsline {subsubsection}{\numberline {7.1.3}Analisi pompa RP-1}{17}{subsubsection.7.1.3}%
-\contentsline {subsection}{\numberline {7.2}Turbina}{17}{subsection.7.2}%
-\contentsline {subsubsection}{\numberline {7.2.1}Descrizione turbina}{17}{subsubsection.7.2.1}%
-\contentsline {subsubsection}{\numberline {7.2.2}Turbina - scelte progettuali}{18}{subsubsection.7.2.2}%
-\contentsline {subsubsection}{\numberline {7.2.3}Analisi quantitativa - dimensionamento}{18}{subsubsection.7.2.3}%
-\contentsline {section}{\numberline {8}Camera di spinta}{19}{section.8}%
-\contentsline {subsection}{\numberline {8.1}Descrizione del sistema}{19}{subsection.8.1}%
-\contentsline {subsection}{\numberline {8.2}Piatto d'iniezione}{19}{subsection.8.2}%
-\contentsline {subsection}{\numberline {8.3}Camera di combusione}{20}{subsection.8.3}%
-\contentsline {subsection}{\numberline {8.4}Modellazione dell'ugello}{21}{subsection.8.4}%
-\contentsline {subsection}{\numberline {8.5}Confronto tra ugello 10:1 e 16:1}{22}{subsection.8.5}%
-\contentsline {section}{\numberline {9}Sistemi di raffreddamento}{23}{section.9}%
-\contentsline {subsection}{\numberline {9.1}Cooling della camera di spinta}{23}{subsection.9.1}%
-\contentsline {subsubsection}{\numberline {9.1.1}Scambio termico convettivo e film cooling}{23}{subsubsection.9.1.1}%
-\contentsline {subsubsection}{\numberline {9.1.2}Regenerative cooling}{25}{subsubsection.9.1.2}%
-\contentsline {section}{Appendice}{29}{AMS.51}%
+\contentsline {subsection}{\numberline {1.5}Schema termodinamico}{2}{subsection.1.5}%
+\contentsline {subsection}{\numberline {1.6}Gas generator}{2}{subsection.1.6}%
+\contentsline {subsection}{\numberline {1.7}Turbopompa}{3}{subsection.1.7}%
+\contentsline {subsection}{\numberline {1.8}Camera di spinta}{4}{subsection.1.8}%
+\contentsline {subsection}{\numberline {1.9}Sistemi di raffreddamento}{4}{subsection.1.9}%
+\contentsline {section}{\numberline {2}Analisi della missione}{5}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Parametri lanciatore}{6}{subsection.2.1}%
+\contentsline {section}{\numberline {3}Propellenti}{6}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Coppia di propellenti: RP-1 / LOX}{6}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Propellente ipergolico}{7}{subsection.3.2}%
+\contentsline {section}{\numberline {4}Serbatoi e pressurizzazione}{7}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Serbatoi: descrizione e dimensionamento}{7}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Pressurizzazione e scambiatore di calore}{8}{subsection.4.2}%
+\contentsline {section}{\numberline {5}Schema termodinamico}{9}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Analisi dello schema semplificato del sistema motore}{9}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Analisi sulla scelta del ciclo di alimentazione}{10}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Analisi delle variazioni di performance introdotte dal ciclo a gas}{11}{subsection.5.3}%
+\contentsline {section}{\numberline {6}Gas generator}{13}{section.6}%
+\contentsline {section}{\numberline {7}Turbopompa}{15}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Descrizione generica Mark 10}{15}{subsection.7.1}%
+\contentsline {subsubsection}{\numberline {7.1.1}Pompe LOX e RP1}{15}{subsubsection.7.1.1}%
+\contentsline {subsubsection}{\numberline {7.1.2}Analisi pompa LOX}{15}{subsubsection.7.1.2}%
+\contentsline {subsubsection}{\numberline {7.1.3}Analisi pompa RP-1}{18}{subsubsection.7.1.3}%
+\contentsline {subsection}{\numberline {7.2}Turbina}{18}{subsection.7.2}%
+\contentsline {subsubsection}{\numberline {7.2.1}Descrizione turbina}{18}{subsubsection.7.2.1}%
+\contentsline {subsubsection}{\numberline {7.2.2}Turbina - scelte progettuali}{19}{subsubsection.7.2.2}%
+\contentsline {subsubsection}{\numberline {7.2.3}Analisi quantitativa - dimensionamento}{19}{subsubsection.7.2.3}%
+\contentsline {section}{\numberline {8}Camera di spinta}{20}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Descrizione del sistema}{20}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Piatto d'iniezione}{20}{subsection.8.2}%
+\contentsline {subsection}{\numberline {8.3}Camera di combusione}{21}{subsection.8.3}%
+\contentsline {subsection}{\numberline {8.4}Modellazione dell'ugello}{22}{subsection.8.4}%
+\contentsline {subsection}{\numberline {8.5}Confronto tra ugello 10:1 e 16:1}{23}{subsection.8.5}%
+\contentsline {section}{\numberline {9}Sistemi di raffreddamento}{24}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Cooling della camera di spinta}{24}{subsection.9.1}%
+\contentsline {subsubsection}{\numberline {9.1.1}Scambio termico convettivo e film cooling}{24}{subsubsection.9.1.1}%
+\contentsline {subsubsection}{\numberline {9.1.2}Regenerative cooling}{26}{subsubsection.9.1.2}%
+\contentsline {section}{Appendice}{29}{AMS.54}%
 \contentsline {section}{\numberline {A}Immagini e schemi}{29}{appendix.1.Alph1}%
 \contentsline {section}{\numberline {B}Grafici di varie grandezze in funzione del tempo di volo}{30}{appendix.1.Alph2}%
 \contentsline {section}{\numberline {C}Tabelle e immagini serbatoi}{31}{appendix.1.Alph3}%
 \contentsline {section}{\numberline {D}Confronto peso molecolare gas generator tra caso Fuel Rich e Oxidizer Rich}{33}{appendix.1.Alph4}%
 \contentsline {section}{\numberline {E}Prodotti gas generator analizzati con software NASA CEA}{34}{appendix.1.Alph5}%
-\contentsline {section}{\numberline {F}Schemi del gas generator}{34}{appendix.1.Alph6}%
-\contentsline {section}{\numberline {G}Diagrammi di velocità}{34}{appendix.1.Alph7}%
-\contentsline {subsection}{\numberline {G.1}Triangoli velocità Pompa LOX}{34}{subsection.1.Alph7.1}%
-\contentsline {subsection}{\numberline {G.2}Triangoli velocità Pompa RP-1}{35}{subsection.1.Alph7.2}%
-\contentsline {subsection}{\numberline {G.3}Triangoli velocità Turbina}{36}{subsection.1.Alph7.3}%
-\contentsline {section}{\numberline {H}Codici MATLAB usati}{37}{appendix.1.Alph8}%
-\contentsline {subsection}{\numberline {H.1}Simulazione di volo}{37}{subsection.1.Alph8.1}%
-\contentsline {subsubsection}{\numberline {H.1.1}Parametri adimensionali lanciatore}{40}{subsubsection.1.Alph8.1.1}%
-\contentsline {subsection}{\numberline {H.2}Codici serbatoi}{41}{subsection.1.Alph8.2}%
-\contentsline {subsubsection}{\numberline {H.2.1}Serbatoio RP-1}{41}{subsubsection.1.Alph8.2.1}%
-\contentsline {subsubsection}{\numberline {H.2.2}Serbatoio LOX}{43}{subsubsection.1.Alph8.2.2}%
-\contentsline {subsection}{\numberline {H.3}Camera di Combustione}{44}{subsection.1.Alph8.3}%
-\contentsline {subsubsection}{\numberline {H.3.1}Modellazione ugello}{45}{subsubsection.1.Alph8.3.1}%
-\contentsline {section}{Bibliografia}{60}{lstnumber.-8.85}%
+\contentsline {section}{\numberline {F}Schemi del gas generator}{36}{appendix.1.Alph6}%
+\contentsline {section}{\numberline {G}Diagrammi di velocità}{36}{appendix.1.Alph7}%
+\contentsline {subsection}{\numberline {G.1}Triangoli velocità Pompa LOX}{36}{subsection.1.Alph7.1}%
+\contentsline {subsection}{\numberline {G.2}Triangoli velocità Pompa RP-1}{37}{subsection.1.Alph7.2}%
+\contentsline {subsection}{\numberline {G.3}Triangoli velocità Turbina}{38}{subsection.1.Alph7.3}%
+\contentsline {section}{\numberline {H}Appendice ausiliaria capitolo 9}{39}{appendix.1.Alph8}%
+\contentsline {subsection}{\numberline {H.1}Definizione temperature usate nel cooling}{39}{subsection.1.Alph8.1}%
+\contentsline {subsection}{\numberline {H.2}Grafico della resistenza termica prodotta dal deposito carbonioso}{39}{subsection.1.Alph8.2}%
+\contentsline {subsection}{\numberline {H.3}Dettagli sul sistema di introduzione dei gas combusti sulla parete interna dell'ugello aggiunto}{40}{subsection.1.Alph8.3}%
+\contentsline {subsection}{\numberline {H.4}Comportamento del fluido RP1 in relazione alla pressione critica}{40}{subsection.1.Alph8.4}%
+\contentsline {section}{\numberline {I}RPA: definizione problema e funzionamento}{41}{appendix.1.Alph9}%
+\contentsline {section}{\numberline {J}Codici MATLAB usati}{41}{appendix.1.Alph10}%
+\contentsline {subsection}{\numberline {J.1}Simulazione di volo}{41}{subsection.1.Alph10.1}%
+\contentsline {subsubsection}{\numberline {J.1.1}Parametri adimensionali lanciatore}{44}{subsubsection.1.Alph10.1.1}%
+\contentsline {subsection}{\numberline {J.2}Codici serbatoi}{45}{subsection.1.Alph10.2}%
+\contentsline {subsubsection}{\numberline {J.2.1}Serbatoio RP-1}{45}{subsubsection.1.Alph10.2.1}%
+\contentsline {subsubsection}{\numberline {J.2.2}Serbatoio LOX}{46}{subsubsection.1.Alph10.2.2}%
+\contentsline {subsection}{\numberline {J.3}Camera di Combustione}{48}{subsection.1.Alph10.3}%
+\contentsline {subsubsection}{\numberline {J.3.1}Modellazione ugello}{49}{subsubsection.1.Alph10.3.1}%
+\contentsline {section}{Bibliografia}{63}{lstnumber.-8.85}%
