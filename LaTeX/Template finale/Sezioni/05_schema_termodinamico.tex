@@ -32,7 +32,7 @@ In \autoref{table:dati_schema_termodinamico} e \autoref{fig:schema_termodinamico
     \setlength\extrarowheight{-1pt}
     \begin{tabular}{|c|c|c|c|c|c|}
         \hline
-        & $\bm{p_{in} \, [bar]}$ & $\bm{p_{out} \, [bar]}$ & $\bm{\dot{m}_{p} \, [kg/s]}$ & $\bm{T_{in} \, [K]}$ & $\bm{T_{out} \, [K]}$ \\
+        & $\bm{p_{in} \, [bar]}$ & $\bm{p_{out} \, [bar]}$ & $\bm{\dot{m} \, [kg/s]}$ & $\bm{T_{in} \, [K]}$ & $\bm{T_{out} \, [K]}$ \\
         \hline
         \textbf{RP1 pump} & $3.1026$ & $128.93$ & $849.13$ & $90.15$ & $90.15$ \\
         \hline
@@ -85,14 +85,14 @@ In questa sezione verrà analizzato come l'introduzione del ciclo a gas ha delle
 
 Per poter trattare teoricamente le limitazioni, si parte dal presupposto che a parità di altri fattori (come quota, mixture ratio, rapporto di espansione, ecc.) un aumento di pressione in camera di combustione aumenta le prestazioni del sistema. Infatti, analizzando la spinta si vede che:
 \begin{empheq}{equation*}
-T = \dot{m}_p u_e + A_e \left( p_a - p_e \right)
+\mathcal{T} = \dot{m}_{p,tc} u_e + A_e \left( p_a - p_e \right)
 \qquad \text{dove} \qquad
-u_e = u_e \left( p_c \right) = \sqrt{\frac{2 \gamma R T}{\gamma - 1} \left[ 1 - \left( \frac{p_e}{p_c} \right) ^ {\frac{\gamma - 1}{\gamma}} \right]}
+u_{e,tc} = u_{e,tc} \left( p_c \right) = \sqrt{\frac{2 \gamma R T_c}{\gamma - 1} \left[ 1 - \left( \frac{p_e}{p_c} \right) ^ {\frac{\gamma - 1}{\gamma}} \right]}
 \end{empheq}
 
 Si nota come aumentando la pressione in camera, a questo livello di approssimazione, la spinta aumenta indefinitamente, per cui anche l'impulso specifico $I_{s,tc}$ aumenterà poichè esso è definito da:
 \begin{empheq}{equation*}
-I_{s,tc} = \frac{T \left( p_c \right)}{\dot{m}_p} = u_e \left( p_c \right) + \frac{A_e \left( p_a - p_e \right)}{\dot{m}_p}
+I_{s,tc} = \frac{\mathcal{T} \left( p_{c,tc} \right)}{\dot{m}_{p,tc}} = u_{e,tc} \left( p_{c,tc} \right) + \frac{A_e \left( p_a - p_{e,tc} \right)}{\dot{m}_{p,tc}}
 \end{empheq}
 
 Questo ci permetterebbe di concludere che un aumento di pressione illimitato in camera di combustione aumenta indefinitamente le prestazioni, sia perchè l'ugello può espandere da una pressione più alta, sia per il contributo statico.
@@ -103,23 +103,23 @@ A parità di salto di pressione in turbina (limitato dalla progettazione della s
 Questo flusso, oltre a non conseguire una combustione ottimale (ovvero con rapporto O/F molto diverso da quello della camera), viene espanso a velocità molto più basse e questo implica una perdita di prestazioni che può essere quantificata nel modo seguente \cite{AIAA_book_1}\cite{sanchez_slides}:
 
 \begin{empheq}{gather*}
-I_{s,oa} = \left( 1 - \frac{\dot{m}_{gg}}{\dot{m}_p} \right) I_{s,tc} + \frac{\dot{m}_{gg}}{\dot{m}_p} I_{s,gg}
+I_{s,oa} = \left( 1 - \frac{\dot{m}_{p,gg}}{\dot{m}_p} \right) I_{s,tc} + \frac{\dot{m}_{p,gg}}{\dot{m}_p} I_{s,gg}
 \\
-I_{s,gg} = I_{s,gg} \left( u_{e,gg}, \, p_{c,gg}, \, \dot{m}_{gg} \right)
+I_{s,gg} = I_{s,gg} \left( u_{e,gg}, \, p_{c,gg}, \, \dot{m}_{p,gg} \right)
 \\
-u_{e,gg} = u_{e,gg} \left( p_{c,gg} \right) = \sqrt{\frac{2 \gamma_{gg} R_{gg} T_{gg}}{\gamma_{gg} - 1} \left[ 1 - \left( \frac{p_{e,gg}}{p_{c,gg}} \right) ^ {\frac{\gamma_{gg} - 1}{\gamma_{gg}}} \right]}
+u_{e,gg} = u_{e,gg} \left( p_{c,gg} \right) = \sqrt{\frac{2 \gamma_{gg} R_{gg} T_{c,gg}}{\gamma_{gg} - 1} \left[ 1 - \left( \frac{p_{e,gg}}{p_{c,gg}} \right) ^ {\frac{\gamma_{gg} - 1}{\gamma_{gg}}} \right]}
 \\
 p_{c,gg} = 0.85 \cdot p_{c,tc}
 \\
-\dot{m}_{gg} = \dot{m}_{gg} \left( \text{pwr}, \, \eta_t, \, \epsilon, \, T_{in}, \, c_{p,gg} \right) = \frac{\text{pwr}}{\eta_t \, c_{p,gg} \, T_{in} \, \epsilon}
+\dot{m}_{p,gg} = \dot{m}_{p,gg} \left( \mathcal{P}, \, \eta_t, \, \epsilon, \, T_{in}, \, c_{p,gg} \right) = \frac{\mathcal{P}}{\eta_t \, c_{p,gg} \, T_{in} \, \epsilon}
 \\
-\text{pwr} = \text{pwr}_{LOX} + \text{pwr}_{RP1} = \frac{\Delta p_{LOX} \, \dot{m}_{LOX}}{\eta_{p,LOX} \, \rho_{LOX}} + \frac{\Delta p_{RP1} \, \dot{m}_{RP1}}{\eta_{p,RP1} \, \rho_{RP1}}
+\mathcal{P} = \mathcal{P}_{LOX} + \mathcal{P}_{RP1} = \frac{\Delta p_{LOX} \, \dot{m}_{LOX}}{\eta_{p,LOX} \, \rho_{LOX}} + \frac{\Delta p_{RP1} \, \dot{m}_{RP1}}{\eta_{p,RP1} \, \rho_{RP1}}
 \\
-I_{s,tc} = I_{s,tc} \left( u_{e,tc}, \, p_{c,tc}, \, \dot{m}_{tc} \right)
+I_{s,tc} = I_{s,tc} \left( u_{e,tc}, \, p_{c,tc}, \, \dot{m}_{p,tc} \right)
 \\
-u_{e,tc} = u_{e,tc} \left( p_{c,tc} \right) = \sqrt{\frac{2 \gamma_{tc} R_{tc} T_{tc}}{\gamma_{tc} - 1} \left[ 1 - \left( \frac{p_{e,tc}}{p_{c,tc}} \right) ^ {\frac{\gamma_{tc} - 1}{\gamma_{tc}}} \right]}
+u_{e,tc} = u_{e,tc} \left( p_{c,tc} \right) = \sqrt{\frac{2 \gamma_{tc} R_{tc} T_{c,tc}}{\gamma_{tc} - 1} \left[ 1 - \left( \frac{p_{e,tc}}{p_{c,tc}} \right) ^ {\frac{\gamma_{tc} - 1}{\gamma_{tc}}} \right]}
 \\
-\dot{m}_{tc} = \dot{m}_p - \dot{m}_{gg}
+\dot{m}_{p,tc} = \dot{m}_p - \dot{m}_{p,gg}
 \end{empheq}
 
 Si è ipotizzato, come best practice, che la pressione in camera del GG sia l'85\% della pressione nella camera principale. Si ipotizza inoltre, in prima approssimazione, che il salto di pressione attraverso le pompe sia proporzionale alla pressione in camera, con costante di proporzionalità ottenuta dalla divisione delle due quantità note: prevalenza della pompa (sia LOX che RP-1) e pressione in camera nominale dell'F-1 \cite{AIAA_book_1}.

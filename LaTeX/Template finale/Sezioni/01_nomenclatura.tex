@@ -49,9 +49,47 @@
 
 	\subsection{Schema termodinamico}
 	\begin{tabularx}{\linewidth}{ccX}
-		$\bm{-}$ & $[-]$ & --- \\
-		$\bm{-}$ & $[-]$ & --- \\
-		$\bm{-}$ & $[-]$ & ---
+		$\bm{LOX}$ & $[-]$ & ossigeno liquido \\
+		$\bm{RP-1}$ & $[-]$ & kerosene liquido \\
+		$\bm{GG}$ & $[-]$ & gas generator \\
+		$\bm{FR}$ & $[-]$ & fuel rich \\
+		$\bm{OR}$ & $[-]$ & oxidizer rich \\
+		$\bm{p_{in}}$ & $[bar]$ & pressione ingresso schema \autoref{fig:schema_termodinamico}\\
+		$\bm{p_{out}}$ & $[bar]$ & pressione uscita schema \autoref{fig:schema_termodinamico}\\
+		$\bm{T_{in}}$ & $[K]$ & temperatura ingresso schema \autoref{fig:schema_termodinamico}\\
+		$\bm{T_{out}}$ & $[K]$ & temperatura uscita schema \autoref{fig:schema_termodinamico}\\
+		$\bm{\dot{m}}$ & $[kg/s]$ & portata fluido di interesse schema \autoref{fig:schema_termodinamico}\\
+		$\bm{I_{s,oa}}$ & $[s]$ & impulso specifico del sistema motore\\
+		$\bm{I_{s,tc}}$ & $[s]$ & impulso specifico del sistema camera di spinta e ugello \\
+		$\bm{I_{s,gg}}$ & $[s]$ & impulso specifico del GG\\
+		$\bm{\dot{m}_{p}}$ & $[kg/s]$ & portata di propellente totale \\
+		$\bm{\dot{m}_{p,tc}}$ & $[kg/s]$ & portata di propellente in camera di spinta \\
+		$\bm{\dot{m}_{p,gg}}$ & $[kg/s]$ & portata di propellente nel GG \\
+		$\bm{\dot{m}_{LOX}}$ & $[kg/s]$ & portata di LOX pompa \\
+		$\bm{\dot{m}_{RP1}}$ & $[kg/s]$ & portata di RP1 pompa\\
+		$\bm{\rho_{LOX}}$ & $[kg/m^3]$ & densità LOX \\
+		$\bm{\rho_{RP1}}$ & $[kg/m^3]$ & densità RP1 \\
+		$\bm{u_{e,tc}}$ & $[m/s]$ & velocità dei gas all'efflusso camera di spinta \\
+		$\bm{u_{e,gg}}$ & $[m/s]$ & velocità dei gas all'efflusso del GG \\
+		$\bm{p_a}$ & $[Pa]$ & pressione ambiente \\
+		$\bm{p_{e,tc}}$ & $[Pa]$ & pressione dei gas all'efflusso camera di spinta \\
+		$\bm{p_{e,gg}}$ & $[Pa]$ & pressione dei gas all'efflusso GG\\
+		$\bm{p_{c,tc}}$ & $[Pa]$ & pressione in camera di spinta\\
+		$\bm{p_{c,gg}}$ & $[Pa]$ & pressione in camera di combustione GG\\
+		$\bm{T_{c,tc}}$ & $[K]$ & temperatura in camera di spinta\\
+		$\bm{T_{c,gg}}$ & $[K]$ & temperatura in camera di combustione GG\\
+		$\bm{\gamma}$ & $[-]$ & coeff. di espansione adiabatico gas combusti camera di spinta\\
+		$\bm{\gamma_{gg}}$ & $[-]$ & coeff. di espansione adiabatico gas combusti camera di combustione GG\\
+		$\bm{R}$ & $[J/kgK]$ & costante dei gas combusti camera di spinta\\
+		$\bm{R_{gg}}$ & $[J/kgK]$ & costante dei gas combusti camera di combustione GG\\
+		$\bm{c_{p,gg}}$ & $[J/kgK]$ & calore specifico a press. costante gas combusti gg\\
+		$\bm{\mathcal{T}}$ & $[N]$ & spinta singolo motore\\
+		$\bm{\eta_t}$ & $[-]$ & rendimento turbina\\
+		$\bm{\eta_p}$ & $[-]$ & rendimento pompa\\
+		$\bm{\epsilon}$ & $[-]$ & rapporto espansione turbina\\
+		$\bm{T_{in}}$ & $[K]$ & temperatura ingresso turbina\\
+		$\bm{\mathcal{P}}$ & $[W]$ & potenza\\
+		$\bm{\Delta p}$ & $[Pa]$ & prevalenza pompa\\
 	\end{tabularx}
 
 	\subsection{Gas generator}
