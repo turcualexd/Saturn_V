@@ -1,12 +1,19 @@
 \section{Nomenclatura}
 \label{sec:nomenclatura}
 \setcounter{subsection}{1}
+\newsavebox\ltmcbox
+\renewcommand{\arraystretch}{1.2}
+\renewcommand\tabularxcolumn[1]{m{#1}}
 
 \begin{multicols}{2}
+	\raggedcolumns
 
 	\subsection{Analisi della missione}
+	\vspace{-10pt}
 	\small
-	\begin{tabularx}{\linewidth}{cc>{\raggedright\arraybackslash}X}
+	\setbox\ltmcbox\vbox{
+	\makeatletter\col@number\@ne
+	\begin{xltabular}{\linewidth}{cc>{\raggedright\arraybackslash}X}
 		$\bm{t}$ & $[s]$ & tempo di volo \\
 		$\bm{h}$ & $[m]$ & quota del razzo \\
 		$\bm{s}$ & $[m]$ & spostamento orizzontale del razzo \\
@@ -34,18 +41,25 @@
         $\bm{M_0}$ & $[kg]$ & massa iniziale del sistema lanciatore \\
 		$\bm{M_m}$ & $[kg]$ & massa motore \\
 		$\bm{M_p}$ & $[kg]$ & massa del propellente per il primo stadio S-IC \\
-                $\bm{M_s}$ & $[kg]$ & massa della struttura del lanciatore \\
+        $\bm{M_s}$ & $[kg]$ & massa della struttura del lanciatore \\
 		$\bm{M_u}$ & $[kg]$ & massa carico utile del lanciatore \\
-                $\bm{MR}$ & $[-]$ & mass ratio \\
+        $\bm{MR}$ & $[-]$ & mass ratio \\
 		$\bm{\epsilon_s}$ & $[-]$ & indice strutturale delle masse inerti \\
-                $\bm{\epsilon_u}$ & $[-]$ & indice di massa del carico utile \\
+        $\bm{\epsilon_u}$ & $[-]$ & indice di massa del carico utile \\
 		$\bm{\zeta_{motore}}$ & $[-]$ & rapporto di massa motore \\
-                $\bm{\zeta_p}$ & $[-]$ & frazione di propellente \\
+        $\bm{\zeta_p}$ & $[-]$ & frazione di propellente \\
 		$\bm{\zeta_u}$ & $[-]$ & rapporto di massa del carico utile
-	\end{tabularx}
+	\end{xltabular}
+	\unskip
+	\unpenalty
+	\unpenalty}
+	\unvbox\ltmcbox
 
 	\subsection{Propellenti}
-	\begin{tabularx}{\linewidth}{cc>{\raggedright\arraybackslash}X}
+	\vspace{-10pt}
+	\setbox\ltmcbox\vbox{
+	\makeatletter\col@number\@ne
+	\begin{xltabular}{\linewidth}{cc>{\raggedright\arraybackslash}X}
 		$\bm{RP-1 }$ & $[-]$ & cherosene aeronautico \\
 		$\bm{LOX }$ & $[-]$ & ossigeno liquido \\
 		$\bm{\rho }$ & $[kg/m^3]$ & densità propellenti \\
@@ -60,17 +74,26 @@
 		$\bm{MM_{prod}}$ & $[g/mol]$ & massa molecolare prodotti \\
 	    $\bm{TEB}$ & $[-]$ & Trietilborano \\
 	    $\bm{TEA}$ & $[-]$ & Trietilalluminio
-	\end{tabularx}
+	\end{xltabular}
+	\unskip
+	\unpenalty
+	\unpenalty}
+	\unvbox\ltmcbox
+
+	\columnbreak
 
 	\subsection{Serbatoi e pressurizzazione}
-	\begin{tabularx}{\linewidth}{cc>{\raggedright\arraybackslash}X}
+	\vspace{-10pt}
+	\setbox\ltmcbox\vbox{
+	\makeatletter\col@number\@ne
+	\begin{xltabular}{\linewidth}{cc>{\raggedright\arraybackslash}X}
 		$\bm{a}$ & $[m]$ & raggio dei serbatoi \\
 		$\bm{b}$ & $[m]$ & altezza cupola ellissoidale \\
 		$\bm{lc}$ & $[m]$ & altezza porzione cilindrica serbatoi \\
 		$\bm{V_{e}}$ & $[m^3]$ & volume cupola ellissoidale \\
 	    $\bm{V_{c}}$ & $[m^3]$ & volume porzione cilindrica \\
-	    $\bm{V_{He}}$ & $[m^3]$ & volume contenitori di elio \\	
-     	$\bm{V_{tubi}}$ & $[m^3]$ & volume 5 linee di aspirazione \\		
+	    $\bm{V_{He}}$ & $[m^3]$ & volume contenitori di elio \\
+     	$\bm{V_{tubi}}$ & $[m^3]$ & volume 5 linee di aspirazione \\
         $\bm{V_{u}}$ & $[m^3]$ & volume ullage/vuoto \\
 	    $\bm{V_{tot}}$ & $[m^3]$ & volume totale \\
 	    $\bm{H_{prop}}$ & $[m]$ & altezza serbatoio occupata da propellente\\
@@ -89,10 +112,17 @@
 		$\bm{\nu}$ & $[-]$ & coefficiente di Poisson \\
 		$\bm{t_{e}}$ & $[m]$ & spessore cupola ellissoidale \\
 		$\bm{t_{c}}$ & $[m]$ & spessore porzione cilindrica 
-	\end{tabularx}
+	\end{xltabular}
+	\unskip
+	\unpenalty
+	\unpenalty}
+	\unvbox\ltmcbox
 
 	\subsection{Schema termodinamico}
-	\begin{tabularx}{\linewidth}{cc>{\raggedright\arraybackslash}X}
+	\vspace{-10pt}
+	\setbox\ltmcbox\vbox{
+	\makeatletter\col@number\@ne
+	\begin{xltabular}{\linewidth}{cc>{\raggedright\arraybackslash}X}
 		$\bm{LOX}$ & $[-]$ & ossigeno liquido \\
 		$\bm{RP-1}$ & $[-]$ & kerosene liquido \\
 		$\bm{GG}$ & $[-]$ & gas generator \\
@@ -134,10 +164,17 @@
 		$\bm{T_{in}}$ & $[K]$ & temperatura ingresso turbina\\
 		$\bm{\mathcal{P}}$ & $[W]$ & potenza\\
 		$\bm{\Delta p}$ & $[Pa]$ & prevalenza pompa
-	\end{tabularx}
+	\end{xltabular}
+	\unskip
+	\unpenalty
+	\unpenalty}
+	\unvbox\ltmcbox
 
 	\subsection{Gas generator}
-	\begin{tabularx}{\linewidth}{cc>{\raggedright\arraybackslash}X}
+	\vspace{-10pt}
+	\setbox\ltmcbox\vbox{
+	\makeatletter\col@number\@ne
+	\begin{xltabular}{\linewidth}{cc>{\raggedright\arraybackslash}X}
 		$\bm{O/F}$ & $[-]$ & mixture ratio \\
 		$\bm{LOX}$ & $[-]$ & liquid oxygen (oxidizer)\\
 		$\bm{RP-1}$ & $[-]$ & kerosene liquido (fuel) \\
@@ -161,10 +198,17 @@
 		$\bm{c_p}$ & $[kJ/kgK]$ & calore specifico a pressione costante dei gas combusti GG\\
 		$\bm{\gamma}$ & $[-]$ & coeff. espansione adiabatico dei gas combusti GG\\
 		$\bm{\Delta h_{id}}$ & $[J]$ & salto entalpico ideale turbina
-	\end{tabularx}
+	\end{xltabular}
+	\unskip
+	\unpenalty
+	\unpenalty}
+	\unvbox\ltmcbox
 	
 	\subsection{Turbopompa}
-	\begin{tabularx}{\linewidth}{cc>{\raggedright\arraybackslash}X}
+	\vspace{-10pt}
+	\setbox\ltmcbox\vbox{
+	\makeatletter\col@number\@ne
+	\begin{xltabular}{\linewidth}{cc>{\raggedright\arraybackslash}X}
 		$\bm{\alpha}$ & $[deg]$ & angolo riferito all'orientazione di $\overrightarrow{c}$ \\
 		$\bm{\beta}$ & $[deg]$ & angolo riferito all'orientazione di $\overrightarrow{v}$ \\
         $\bm{\beta_{blp}}$ & $[deg]$ & angolo di back-leaning della palettatura \\
@@ -228,10 +272,17 @@
 		$\bm{\alpha_i}$ & $[rad]$ & angolo velocità assoluta \\
 		$\bm{\beta_i}$ & $[rad]$ & angolo velocità relativa \\
 		$\bm{T_{out}}$ & $[K]$ & temperatura all'uscita della turbina
-	\end{tabularx}
+	\end{xltabular}
+	\unskip
+	\unpenalty
+	\unpenalty}
+	\unvbox\ltmcbox
 
 	\subsection{Camera di spinta}
-	\begin{tabularx}{\linewidth}{cc>{\raggedright\arraybackslash}X}
+	\vspace{-10pt}
+	\setbox\ltmcbox\vbox{
+	\makeatletter\col@number\@ne
+	\begin{xltabular}{\linewidth}{cc>{\raggedright\arraybackslash}X}
 		$\bm{m_f}$ & $[kg/s]$ & portata massica di RP-1 al piatto \\
 		$\bm{m_{ox}}$ & $[kg/s]$ & portata massica di LOX al piatto \\
 		$\bm{A_f}$ & $[m^2]$ & area totale orifizi di RP-1 sul piatto \\
@@ -286,14 +337,27 @@
 		$\bm{N}$ & $[m, m]$ & inflection point – punto di inflessione \\
 		$\bm{R_e}$ & $[m]$ & raggio della sezione di efflusso \\
         $\bm{R_t}$ & $[m]$ & raggio di gola
-	\end{tabularx}
+	\end{xltabular}
+	\unskip
+	\unpenalty
+	\unpenalty}
+	\unvbox\ltmcbox
+
+	\columnbreak
 
 	\subsection{Sistemi di raffreddamento}
-	\begin{tabularx}{\linewidth}{cc>{\raggedright\arraybackslash}X}
+	\vspace{-10pt}
+	\setbox\ltmcbox\vbox{
+	\makeatletter\col@number\@ne
+	\begin{xltabular}{\linewidth}{cc>{\raggedright\arraybackslash}X}
 		$\bm{-}$ & $[-]$ & --- \\
 		$\bm{-}$ & $[-]$ & --- \\
 		$\bm{-}$ & $[-]$ & ---
-	\end{tabularx}
+	\end{xltabular}
+	\unskip
+	\unpenalty
+	\unpenalty}
+	\unvbox\ltmcbox
 
 \end{multicols}
 
