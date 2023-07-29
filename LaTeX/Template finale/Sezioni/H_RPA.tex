@@ -16,7 +16,7 @@ In ultimo è necessario definire il modello dell'ugello, in particolare stabilir
 
 • \textbf{Performance Analysis}
 
-Questa sezione illustra le prestazioni della camera, in particolare le proprietà termodinamiche, le prestazioni ideali e stimate e le frazioni dei prodotti di combustione. Le prime sono riportate nella tabella sottostante INSERIRE TABELLA, mentre le seconde determinano il valore di parametri quali la velocità caratteristica e l'impulso specifico. 
+Questa sezione illustra le prestazioni della camera, in particolare le proprietà termodinamiche, le prestazioni ideali e stimate e le frazioni dei prodotti di combustione. Le prime sono riportate nella tabella sottostante (\autoref{table:valori RPA sezione performance analysis}) mentre le seconde determinano il valore di parametri quali la velocità caratteristica e l'impulso specifico. 
 
 • \textbf{Engine Design}
 
@@ -28,4 +28,47 @@ Dall'ultima sezione, \textit{Propellant feed system} è possibile ottenere il va
 • \textbf{Tools}
 
 Questa sezione contiene il database termodinamico, che descrive lo stato dei vari aggregati e la descrizione delle componenti di ogni aggregato.
+
+\begin{table}[H]
+\centering
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline
+& \textbf{Injector} & \textbf{Nozzle inlet} & \textbf{Nozzle throat} & \textbf{Nozzle exit} & \textbf{Unit} \\
+\hline
+\textbf{p} & $7.7566$ & $5.9496$ & $3.9690$ & $0.0427$ & \text{MPa} \\
+\hline
+\textbf{T} & $3569.9063$ & $3498.7671$ & $3344.5972$ & $1473.2666$ & \text{K} \\
+\hline
+$\bm{c_p}$ & $4.7323$ & $4.7034$ & $0.3706$ & $0.3678$ & \text{kJ/kgK} \\
+\hline
+$\bm{\gamma}$ & $1.1777$ & $1.1756$ & $1.1716$ & $1.2521$ & \text{-} \\
+\hline
+\textbf{MM} & $22.2095$ & $22.2541$ & $22.4347$ & $22.6040$ & \text{lb/mol} \\
+\hline
+\textbf{M} & $0$ & $0.5137$ & $1$ & $3.6856$ & \text{-} \\
+\hline
+\end{tabular}
+\caption{Proprietà termodinamiche in output da RPA - sezione performance analysis }
+\label{table:valori RPA sezione performance analysis}
+\end{table}
+
+\vspace{10pt}
+
+\begin{table}[H]
+
+\centering
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+& $\bm{\dot{m} \, [kg/s]}$ & $\bm{p_{in} \, [MPa]}$ & $\bm{p_{out} \, [MPa]}$ \\
+\hline
+\textbf{Inlet} & $1769.26$ & $0.448$ & $0.375$ \\
+\hline
+\textbf{Pump} & $1769.26$ & $0.375$ & $8.627$ \\
+\hline
+\textbf{Injector} & $1756.218$ & $8.257$ & $7.757$ \\
+\hline
+\end{tabular}
+\caption{Sistema di alimentazione del propellente (output RPA) - Sezione Engine Design }
+\label{table:Sistema di alimentazione del propellente RPA - sezione engine design}
+\end{table}
 

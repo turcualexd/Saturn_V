@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.7.23)  29 JUL 2023 15:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.7.23)  29 JUL 2023 17:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2158,7 +2158,9 @@ File: Images//satur.jpg Graphic file (type jpg)
 Package pdftex.def Info: Images//satur.jpg  used on input line 32.
 (pdftex.def)             Requested size: 204.85672pt x 164.91985pt.
 [32 <./Images//r_d_graph.jpg> <./Images//exhaust_1.jpg> <./Images//exhaust_2.jp
-g> <./Images//satur.jpg>]) [33] (Sezioni/H_RPA.tex) (Sezioni/I_matlab.tex
+g> <./Images//satur.jpg>]) [33] (Sezioni/H_RPA.tex [34
+
+]) (Sezioni/I_matlab.tex
 (C:\Users\giorg\OneDrive\Desktop\miktex\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2023/02/27 1.9 listings language file
 )
@@ -2173,31 +2175,29 @@ File: t1jkptt.fd 2007/01/26 Fontinst v1.928 font definitions for T1/jkptt.
 (C:\Users\giorg\OneDrive\Desktop\miktex\tex/latex/base\ansinew.def
 File: ansinew.def 2021/02/14 v1.3d Input encoding file
 )
-(Codici/Simulation.m [34
-
-] [35]
+(Codici/Simulation.m [35] [36]
 LaTeX Font Info:    Trying to load font information for TS1+jkptt on input line
  128.
 
 (C:\Users\giorg\OneDrive\Desktop\miktex\tex/latex/kpfonts\ts1jkptt.fd
 File: ts1jkptt.fd 2007/01/26 Fontinst v1.928 font definitions for TS1/jkptt.
-) [36]
-[37]) (C:\Users\giorg\OneDrive\Desktop\miktex\tex/latex/base\ansinew.def
-File: ansinew.def 2021/02/14 v1.3d Input encoding file
-)
-(Codici/TANK_RP1.m [38]) [39]
+) [37])
 (C:\Users\giorg\OneDrive\Desktop\miktex\tex/latex/base\ansinew.def
 File: ansinew.def 2021/02/14 v1.3d Input encoding file
 )
-(Codici/TANK_LOX.m [40])
+(Codici/TANK_RP1.m [38] [39])
 (C:\Users\giorg\OneDrive\Desktop\miktex\tex/latex/base\ansinew.def
 File: ansinew.def 2021/02/14 v1.3d Input encoding file
 )
-(Codici/camera di combustione.m [41]))) [42] (Prova finale.bbl)
+(Codici/TANK_LOX.m [40] [41])
+(C:\Users\giorg\OneDrive\Desktop\miktex\tex/latex/base\ansinew.def
+File: ansinew.def 2021/02/14 v1.3d Input encoding file
+)
+(Codici/camera di combustione.m [42]))) [43] (Prova finale.bbl)
 
 Package natbib Warning: There were undefined citations.
 
-[43
+[44
 
 ] (Prova finale.aux)
 
@@ -2207,13 +2207,13 @@ Package rerunfilecheck Info: File `"Prova finale".out' has not changed.
 (rerunfilecheck)             Checksum: 8BA8DEA9E8D454B6A3D303366348CE87;12728.
  ) 
 Here is how much of TeX's memory you used:
- 34610 strings out of 476331
- 645220 string characters out of 5790579
- 2317660 words of memory out of 5000000
- 53685 multiletter control sequences out of 15000+600000
+ 34618 strings out of 476331
+ 645531 string characters out of 5790579
+ 2324660 words of memory out of 5000000
+ 53690 multiletter control sequences out of 15000+600000
  678058 words of font info for 232 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 83i,22n,80p,1918b,3570s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 83i,22n,80p,1918b,3528s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 pdfTeX warning (dest): name{lstnumber.-4.66} has been referenced but does not e
 xist, replaced by a fixed one
@@ -2233,9 +2233,9 @@ ers/giorg/OneDrive/Desktop/miktex/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Use
 rs/giorg/OneDrive/Desktop/miktex/fonts/type1/public/kpfonts/jkpsy.pfb><C:/Users
 /giorg/OneDrive/Desktop/miktex/fonts/type1/public/kpfonts/jkpttbn8a.pfb><C:/Use
 rs/giorg/OneDrive/Desktop/miktex/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on "Prova finale.pdf" (46 pages, 22366261 bytes).
+Output written on "Prova finale.pdf" (47 pages, 22369679 bytes).
 PDF statistics:
- 1674 PDF objects out of 1728 (max. 8388607)
- 640 named destinations out of 1000 (max. 500000)
+ 1682 PDF objects out of 1728 (max. 8388607)
+ 643 named destinations out of 1000 (max. 500000)
  712 words of extra memory for PDF output out of 10000 (max. 10000000)
 
