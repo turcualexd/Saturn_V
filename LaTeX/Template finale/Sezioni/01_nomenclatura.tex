@@ -1,12 +1,19 @@
 \section{Nomenclatura}
 \label{sec:nomenclatura}
 \setcounter{subsection}{1}
+\newsavebox\ltmcbox
+\renewcommand{\arraystretch}{1.2}
+\renewcommand\tabularxcolumn[1]{m{#1}}
 
 \begin{multicols}{2}
+	\raggedcolumns
 
 	\subsection{Analisi della missione}
+	\vspace{-10pt}
 	\small
-	\begin{tabular}{ccl}
+	\setbox\ltmcbox\vbox{
+	\makeatletter\col@number\@ne
+	\begin{xltabular}{\linewidth}{cc>{\raggedright\arraybackslash}X}
 		$\bm{t}$ & $[s]$ & tempo di volo \\
 		$\bm{h}$ & $[m]$ & quota del razzo \\
 		$\bm{s}$ & $[m]$ & spostamento orizzontale del razzo \\
@@ -30,53 +37,319 @@
 		$\bm{p_e}$ & $[Pa]$ & pressione all'efflusso \\
 		$\bm{\rho}$ & $[kg/m^3]$ & densità dell'aria \\
 		$\bm{S}$ & $[m^2]$ & superficie esterna del razzo \\
-		$\bm{C_D}$ & $[-]$ & coefficiente di drag aerodinamico
-	\end{tabular}
+		$\bm{C_D}$ & $[-]$ & coefficiente di drag aerodinamico \\
+        $\bm{M_0}$ & $[kg]$ & massa iniziale del sistema lanciatore \\
+		$\bm{M_m}$ & $[kg]$ & massa motore \\
+		$\bm{M_p}$ & $[kg]$ & massa del propellente per il primo stadio S-IC \\
+        $\bm{M_s}$ & $[kg]$ & massa della struttura del lanciatore \\
+		$\bm{M_u}$ & $[kg]$ & massa carico utile del lanciatore \\
+        $\bm{MR}$ & $[-]$ & mass ratio \\
+		$\bm{\epsilon_s}$ & $[-]$ & indice strutturale delle masse inerti \\
+        $\bm{\epsilon_u}$ & $[-]$ & indice di massa del carico utile \\
+		$\bm{\zeta_{motore}}$ & $[-]$ & rapporto di massa motore \\
+        $\bm{\zeta_p}$ & $[-]$ & frazione di propellente \\
+		$\bm{\zeta_u}$ & $[-]$ & rapporto di massa del carico utile
+	\end{xltabular}
+	\unskip
+	\unpenalty
+	\unpenalty}
+	\unvbox\ltmcbox
 
 	\subsection{Propellenti}
-	\begin{tabular}{ccl}
-		$\bm{-}$ & $[-]$ & --- \\
-		$\bm{-}$ & $[-]$ & --- \\
-		$\bm{-}$ & $[-]$ & ---
-	\end{tabular}
+	\vspace{-10pt}
+	\setbox\ltmcbox\vbox{
+	\makeatletter\col@number\@ne
+	\begin{xltabular}{\linewidth}{cc>{\raggedright\arraybackslash}X}
+		$\bm{RP-1 }$ & $[-]$ & cherosene aeronautico \\
+		$\bm{LOX }$ & $[-]$ & ossigeno liquido \\
+		$\bm{\rho }$ & $[kg/m^3]$ & densità propellenti \\
+	    $\bm{T_{e}}$ & $[K]$ & temperatura di ebollizione \\
+	    $\bm{T_{c}}$ & $[K]$ & temperatura congelamento \\
+		$\bm{MM}$ & $[g/mol]$ & massa molecolare \\
+	    $\bm{I_{sp}}$ & $[s]$ & impulso specifico coppia RP-1/LOX \\
+	    $\bm{O/F_{opt}}$ & $[-]$ & mixture ratio ottimale coppia RP-1/LOX \\
+		$\bm{T_{comb}}$ & $[K]$ & temperatura combustione \\
+	    $\bm{\gamma}$ & $[-]$ & coefficiente di dilatazione adiabatica \\
+	    $\bm{\rho_{prod}}$ & $[kg/m^3]$ & densità prodotti \\
+		$\bm{MM_{prod}}$ & $[g/mol]$ & massa molecolare prodotti \\
+	    $\bm{TEB}$ & $[-]$ & Trietilborano \\
+	    $\bm{TEA}$ & $[-]$ & Trietilalluminio
+	\end{xltabular}
+	\unskip
+	\unpenalty
+	\unpenalty}
+	\unvbox\ltmcbox
+
+	\columnbreak
 
 	\subsection{Serbatoi e pressurizzazione}
-	\begin{tabular}{ccl}
-		$\bm{-}$ & $[-]$ & --- \\
-		$\bm{-}$ & $[-]$ & --- \\
-		$\bm{-}$ & $[-]$ & ---
-	\end{tabular}
+	\vspace{-10pt}
+	\setbox\ltmcbox\vbox{
+	\makeatletter\col@number\@ne
+	\begin{xltabular}{\linewidth}{cc>{\raggedright\arraybackslash}X}
+		$\bm{a}$ & $[m]$ & raggio dei serbatoi \\
+		$\bm{b}$ & $[m]$ & altezza cupola ellissoidale \\
+		$\bm{lc}$ & $[m]$ & altezza porzione cilindrica serbatoi \\
+		$\bm{V_{e}}$ & $[m^3]$ & volume cupola ellissoidale \\
+	    $\bm{V_{c}}$ & $[m^3]$ & volume porzione cilindrica \\
+	    $\bm{V_{He}}$ & $[m^3]$ & volume contenitori di elio \\
+     	$\bm{V_{tubi}}$ & $[m^3]$ & volume 5 linee di aspirazione \\
+        $\bm{V_{u}}$ & $[m^3]$ & volume ullage/vuoto \\
+	    $\bm{V_{tot}}$ & $[m^3]$ & volume totale \\
+	    $\bm{H_{prop}}$ & $[m]$ & altezza serbatoio occupata da propellente\\
+		$\bm{H_{u}}$ & $[m]$ & altezza serbatoio ullage/vuoto \\
+	    $\bm{P_{i}}$ & $[bar]$ & pressione idrostatica  \\
+	    $\bm{P_{u}}$ & $[bar]$ & pressione ullage/vuoto \\
+		$\bm{P_{tot}}$ & $[bar]$ & pressione totale \\
+	    $\bm{K }$ & $[-]$ & fattore di stress \\
+	    $\bm{k}$ & $[-]$ & rateo dell'ellisse \\
+	    $\bm{\rho}$ & $[kg/m^3]$ & densità materiale \\
+	    $\bm{\sigma_{r}}$ & $[bar]$ & tensione di rottura \\
+		$\bm{\sigma_{y}}$ & $[bar]$ & tensione di snervamento \\
+	    $\bm{\Sigma_{r}}$ & $[bar]$ & $\sigma_{r}$ con fattore sicurezza\\
+	    $\bm{\Sigma_{y}}$ & $[bar]$ & $\sigma_{y}$ con fattore sicurezza \\
+        $\bm{E}$ & $[bar]$ & modulo di Young \\
+		$\bm{\nu}$ & $[-]$ & coefficiente di Poisson \\
+		$\bm{t_{e}}$ & $[m]$ & spessore cupola ellissoidale \\
+		$\bm{t_{c}}$ & $[m]$ & spessore porzione cilindrica 
+	\end{xltabular}
+	\unskip
+	\unpenalty
+	\unpenalty}
+	\unvbox\ltmcbox
 
 	\subsection{Schema termodinamico}
-	\begin{tabular}{ccl}
-		$\bm{-}$ & $[-]$ & --- \\
-		$\bm{-}$ & $[-]$ & --- \\
-		$\bm{-}$ & $[-]$ & ---
-	\end{tabular}
+	\vspace{-10pt}
+	\setbox\ltmcbox\vbox{
+	\makeatletter\col@number\@ne
+	\begin{xltabular}{\linewidth}{cc>{\raggedright\arraybackslash}X}
+		$\bm{LOX}$ & $[-]$ & ossigeno liquido \\
+		$\bm{RP-1}$ & $[-]$ & kerosene liquido \\
+		$\bm{GG}$ & $[-]$ & gas generator \\
+		$\bm{FR}$ & $[-]$ & fuel rich \\
+		$\bm{OR}$ & $[-]$ & oxidizer rich \\
+		$\bm{p_{in}}$ & $[bar]$ & pressione ingresso schema \autoref{fig:schema_termodinamico}\\
+		$\bm{p_{out}}$ & $[bar]$ & pressione uscita schema \autoref{fig:schema_termodinamico}\\
+		$\bm{T_{in}}$ & $[K]$ & temperatura ingresso schema \autoref{fig:schema_termodinamico}\\
+		$\bm{T_{out}}$ & $[K]$ & temperatura uscita schema \autoref{fig:schema_termodinamico}\\
+		$\bm{\dot{m}}$ & $[kg/s]$ & portata fluido di interesse schema \autoref{fig:schema_termodinamico}\\
+		$\bm{I_{s,oa}}$ & $[s]$ & impulso specifico del sistema motore\\
+		$\bm{I_{s,tc}}$ & $[s]$ & impulso specifico del sistema camera di spinta e ugello \\
+		$\bm{I_{s,gg}}$ & $[s]$ & impulso specifico del GG\\
+		$\bm{\dot{m}_{p}}$ & $[kg/s]$ & portata di propellente totale \\
+		$\bm{\dot{m}_{p,tc}}$ & $[kg/s]$ & portata di propellente in camera di spinta \\
+		$\bm{\dot{m}_{p,gg}}$ & $[kg/s]$ & portata di propellente nel GG \\
+		$\bm{\dot{m}_{LOX}}$ & $[kg/s]$ & portata di LOX pompa \\
+		$\bm{\dot{m}_{RP1}}$ & $[kg/s]$ & portata di RP1 pompa\\
+		$\bm{\rho_{LOX}}$ & $[kg/m^3]$ & densità LOX \\
+		$\bm{\rho_{RP1}}$ & $[kg/m^3]$ & densità RP1 \\
+		$\bm{u_{e,tc}}$ & $[m/s]$ & velocità dei gas all'efflusso camera di spinta \\
+		$\bm{u_{e,gg}}$ & $[m/s]$ & velocità dei gas all'efflusso del GG \\
+		$\bm{p_a}$ & $[Pa]$ & pressione ambiente \\
+		$\bm{p_{e,tc}}$ & $[Pa]$ & pressione dei gas all'efflusso camera di spinta \\
+		$\bm{p_{e,gg}}$ & $[Pa]$ & pressione dei gas all'efflusso GG\\
+		$\bm{p_{c,tc}}$ & $[Pa]$ & pressione in camera di spinta\\
+		$\bm{p_{c,gg}}$ & $[Pa]$ & pressione in camera di combustione GG\\
+		$\bm{T_{c,tc}}$ & $[K]$ & temperatura in camera di spinta\\
+		$\bm{T_{c,gg}}$ & $[K]$ & temperatura in camera di combustione GG\\
+		$\bm{\gamma}$ & $[-]$ & coeff. di espansione adiabatico gas combusti camera di spinta\\
+		$\bm{\gamma_{gg}}$ & $[-]$ & coeff. di espansione adiabatico gas combusti camera di combustione GG\\
+		$\bm{R}$ & $[J/kgK]$ & costante dei gas combusti camera di spinta\\
+		$\bm{R_{gg}}$ & $[J/kgK]$ & costante dei gas combusti camera di combustione GG\\
+		$\bm{c_{p,gg}}$ & $[J/kgK]$ & calore specifico a press. costante gas combusti gg\\
+		$\bm{\mathcal{T}}$ & $[N]$ & spinta singolo motore\\
+		$\bm{\eta_t}$ & $[-]$ & rendimento turbina\\
+		$\bm{\eta_p}$ & $[-]$ & rendimento pompa\\
+		$\bm{\epsilon}$ & $[-]$ & rapporto espansione turbina\\
+		$\bm{T_{in}}$ & $[K]$ & temperatura ingresso turbina\\
+		$\bm{\mathcal{P}}$ & $[W]$ & potenza\\
+		$\bm{\Delta p}$ & $[Pa]$ & prevalenza pompa
+	\end{xltabular}
+	\unskip
+	\unpenalty
+	\unpenalty}
+	\unvbox\ltmcbox
 
 	\subsection{Gas generator}
-	\begin{tabular}{ccl}
-		$\bm{-}$ & $[-]$ & --- \\
-		$\bm{-}$ & $[-]$ & --- \\
-		$\bm{-}$ & $[-]$ & ---
-	\end{tabular}
+	\vspace{-10pt}
+	\setbox\ltmcbox\vbox{
+	\makeatletter\col@number\@ne
+	\begin{xltabular}{\linewidth}{cc>{\raggedright\arraybackslash}X}
+		$\bm{O/F}$ & $[-]$ & mixture ratio \\
+		$\bm{LOX}$ & $[-]$ & liquid oxygen (oxidizer)\\
+		$\bm{RP-1}$ & $[-]$ & kerosene liquido (fuel) \\
+		$\bm{FR}$ & $[-]$ & miscela fuel rich\\
+		$\bm{OR}$ & $[-]$ & miscela oxidizier rich\\
+		$\bm{GG}$ & $[-]$ & gas generator\\
+		$\bm{LRE}$ & $[-]$ & liquid rocket engine\\
+		$\bm{UMR}$ & $[-]$ & uniform mixture ratio\\
+		$\bm{HCI}$ & $[-]$ & hot core injector\\
+		$\bm{TR}$ & $[-]$ & turbulence ting\\
+		$\bm{T_c}$ & $[K]$ & temperatura di combustione GG\\
+		$\bm{p_c}$ & $[bar]$ & pressione in camera di combustione GG\\
+		$\bm{p_{out}}$ & $[bar]$ & pressione uscita camera di combustione GG\\
+		$\bm{t_p}$ & $[ms]$ & tempo di permanenza in camera di combustione GG\\
+		$\bm{\dot{m}_{fuel}}$ & $[kg/s]$ & portata fuel\\
+		$\bm{\dot{m}_{ox}}$ & $[kg/s]$ & portata oxidizer\\
+		$\bm{V_{cc}}$ & $[m^3]$ & volume necessario per la combustione\\
+		$\bm{CEAM}$ & $[-]$ & NASA CEA software on Matlab\\
+		$\bm{HP}$ & $[-]$ & problema hp: entalpia-pressione costante\\
+		$\bm{MM}$ & $[kg/kmol]$ & massa molare prodotti di combustione GG\\
+		$\bm{c_p}$ & $[kJ/kgK]$ & calore specifico a pressione costante dei gas combusti GG\\
+		$\bm{\gamma}$ & $[-]$ & coeff. espansione adiabatico dei gas combusti GG\\
+		$\bm{\Delta h_{id}}$ & $[J]$ & salto entalpico ideale turbina
+	\end{xltabular}
+	\unskip
+	\unpenalty
+	\unpenalty}
+	\unvbox\ltmcbox
 	
 	\subsection{Turbopompa}
-	\begin{tabular}{ccl}
-		$\bm{-}$ & $[-]$ & --- \\
-		$\bm{-}$ & $[-]$ & --- \\
-		$\bm{-}$ & $[-]$ & ---
-	\end{tabular}
+	\vspace{-10pt}
+	\setbox\ltmcbox\vbox{
+	\makeatletter\col@number\@ne
+	\begin{xltabular}{\linewidth}{cc>{\raggedright\arraybackslash}X}
+		$\bm{\alpha}$ & $[deg]$ & angolo riferito all'orientazione di $\overrightarrow{c}$ \\
+		$\bm{\beta}$ & $[deg]$ & angolo riferito all'orientazione di $\overrightarrow{v}$ \\
+        $\bm{\beta_{blp}}$ & $[deg]$ & angolo di back-leaning della palettatura \\
+		$\bm{\eta_p}$ & $[-]$ & rendimento pompa \\
+        $\bm{\rho}$ & $[kg/m^3]$ & densità fluido in ingresso alla pompa \\
+        $\bm{\psi}$ & $[-]$ & head coefficient - coefficiente di prevalenza \\
+		$\bm{\psi_{ind}}$ & $[-]$ & head coefficient relativo al solo inducer \\
+		$\bm{\omega}$ & $[rad/s]$ & velocità angolare albero \\
+        $\bm{\overrightarrow{c}}$ & $[m/s]$ & velocità nel sistema di riferimento assoluto \\
+	    $\bm{d_s}$ & $[-]$ & diametro specifico \\
+		$\bm{D_2}$ & $[m]$ & diametro impeller \\
+		$\bm{g}$ & $[m/s^2]$ & accelerazione di gravità \\
+        $\bm{\Delta h_s}$ & $[J/kg]$ & altezza di sollevamento \\
+        $\bm{H}$ & $[m]$ & head rise – prevalenza della pompa \\
+		$\bm{H_e}$ & $[m]$ & termine di perdita di prevalenza \\
+		$\bm{K_v}$ & $[-]$ & design factor vani diffusori \\
+        $\bm{\dot m}$ & $[kg/s]$ & portata massica \\
+        $\bm{n_s}$ & $[-]$ & velocità specifica \\
+		$\bm{N}$ & $[rpm]$ & numero di giri al minuto \\
+		$\bm{N_{SS}}$ & $[-]$ & suction specific velocity \\
+    	$\bm{NPSH}$ & $[m], [ft]$ & net positive suction head \\
+        $\bm{NPSH_c}$ & $[m], [ft]$ & net positive suction head critico \\
+		$\bm{\Delta P}$ & $[Pa]$ & salto di pressione a cavallo della pompa \\
+		$\bm{P_{TOT 0}}$ & $[Pa]$ & pressione totale all'ingresso della pompa \\
+        $\bm{P_{TOT 2}}$ & $[Pa]$ & pressione totale all'uscita dalla pompa \\
+	    $\bm{P_{vap}}$ & $[Pa]$ & pressione di vapore \\
+		$\bm{P}$ & $[W]$ & potenza \\
+		$\bm{pedice_0}$ & $[-]$ & ingresso inducer \\
+        $\bm{pedice_1}$ & $[-]$ & uscita inducer – ingresso impeller \\
+        $\bm{pedice_2}$ & $[-]$ & uscita impeller – ingresso vani diffusori \\
+		$\bm{pedice_3}$ & $[-]$ & uscita vani diffusori \\
+		$\bm{pedice_m}$ & $[-]$ & componente meridionale della velocità \\
+        $\bm{pedice_u}$ & $[-]$ & componente tangenziale della velocità \\
+        $\bm{Q}$ & $[m^3/s], [gpm]$ & portata volumetrica \\
+		$\bm{R_2}$ & $[m]$ & raggio impeller \\
+		$\bm{S_v}$ & $[-]$ & vane solidity tip \\
+        $\bm{\overrightarrow{u}}$ & $[m/s]$ & velocità periferica media di rotazione della palettatura \\
+        $\bm{\overrightarrow{v}}$ & $[m/s]$ & velocità nel sistema di riferimento relativo \\
+		$\bm{{v_{voluteIN}}}$ & $[m/s]$ & velocità ingresso vano diffusori \\
+		$\bm{{v_{voluteOUT}}}$ & $[m/s]$ & velocità uscita vano diffusori \\
+		$\bm{VC}$ & $[-]$ & velocity compouded\\
+		$\bm{PC}$ & $[-]$ & pressure compouded\\
+		$\bm{C_0}$ & $[m/s]$ & velocità di efflusso ideale\\
+		$\bm{C_{p,gg}}$ & $[kJ/kgK]$ & calore specifico a pressione costante gas combusti del GG\\
+		$\bm{T_{in}}$ & $[K]$ & temperatura ingresso turbina\\
+		$\bm{\epsilon}$ & $[-]$ & rapporto espansione pressione\\
+		$\bm{\gamma_{gc}}$ & $[-]$ & coeff. dilatazione adiabatica gas combusti \\
+		$\bm{R_{gc}}$ & $[-]$ & costante gas combusti GG \\
+		$\bm{p_{in}}$ & $[bar]$ & pressione ingresso turbina \\
+		$\bm{O/F}$ & $[-]$ & rapporto di miscela\\
+		$\bm{\dot{m}}$ & $[kg/s]$ & portata di gas in turbina\\
+		$\bm{\omega_{gc}}$ & $[rad/s]$ & velocità angolare turbina \\
+		$\bm{U/C_0}$ & $[-]$ & rapporto velocita (parametro di progetto) \\
+		$\bm{\eta_{tot}}$ & $[-]$ & rendimento totale turbina \\
+		$\bm{k_n}$ & $[-]$ & parametro perdita di velocità attraverso gli ugelli  \\
+		$\bm{\eta_n}$ & $[-]$ & rendimento ugelli \\
+		$\bm{k_{blade}}$ & $[-]$ & parametro perdita di velocitù attraverso palettatura \\
+		$\bm{u_i}$ & $[m/s]$ & velocità relativa \\
+		$\bm{c_i}$ & $[m/s]$ & velocità assoluta \\
+		$\bm{U}$ & $[m/s]$ & velocità periferica di rotazione (calcolata su un raggio medio) \\
+		$\bm{\alpha_i}$ & $[rad]$ & angolo velocità assoluta \\
+		$\bm{\beta_i}$ & $[rad]$ & angolo velocità relativa \\
+		$\bm{T_{out}}$ & $[K]$ & temperatura all'uscita della turbina
+	\end{xltabular}
+	\unskip
+	\unpenalty
+	\unpenalty}
+	\unvbox\ltmcbox
 
 	\subsection{Camera di spinta}
-	\begin{tabular}{ccl}
-		$\bm{-}$ & $[-]$ & --- \\
-		$\bm{-}$ & $[-]$ & --- \\
-		$\bm{-}$ & $[-]$ & ---
-	\end{tabular}
-	
+	\vspace{-10pt}
+	\setbox\ltmcbox\vbox{
+	\makeatletter\col@number\@ne
+	\begin{xltabular}{\linewidth}{cc>{\raggedright\arraybackslash}X}
+		$\bm{m_f}$ & $[kg/s]$ & portata massica di RP-1 al piatto \\
+		$\bm{m_{ox}}$ & $[kg/s]$ & portata massica di LOX al piatto \\
+		$\bm{A_f}$ & $[m^2]$ & area totale orifizi di RP-1 sul piatto \\
+		$\bm{A_{ox}}$ & $[m^2]$ & area totale orifizi di LOX sul piatto \\
+		$\bm{\Delta p_f}$ & $[Pa]$ & perdita di pressione RP-1 \\
+		$\bm{\Delta p_{ox}}$ & $[Pa]$ & perdita di pressione LOX \\
+		$\bm{\Delta \rho_f}$ & $[kg/m^3]$ & densità di RP-1 \\
+		$\bm{\Delta \rho_{ox}}$ & $[kg/m^3]$ & densità di LOX \\
+		$\bm{\Delta v_f}$ & $[m/s]$ & velocità media RP-1 in uscita da piatto \\
+		$\bm{\Delta v_{ox}}$ & $[m/s]$ & velocità media LOX in uscita da piatto \\
+		$\bm{\Delta C_{D,f}}$ & $[-]$ & coefficiente d'efflusso RP-1 \\
+		$\bm{\Delta C_{D,ox}}$ & $[-]$ & coefficiente d'efflusso LOX \\
+		$\bm{p_e}$ & $[bar]$ & pressione gas all'efflusso dell'ugello \\
+		$\bm{T_e}$ & $[K]$ & temperatura gas all'efflusso dell'ugello \\
+		$\bm{H}$ & $[kJ/kg]$ & entalpia gas all'efflusso dell'ugello \\
+		$\bm{\gamma}$ & $[-]$ & coefficiente di dilatazione adiabatica gas all'efflusso dell'ugello \\
+		$\bm{\rho}$ & $[kg/m^3]$ & densità gas all'efflusso dell'ugello \\
+		$\bm{v_e}$ & $[m/s]$ & velocità gas all'efflusso dell'ugello \\
+		$\bm{I{vac}}$ & $[s]$ & impulso specifico nel vuoto \\
+		$\bm{I{opt}}$ & $[s]$ & impulso specifico a espansione ottima \\
+		$\bm{I{sl}}$ & $[s]$ & impulso specifico a livello del mare \\
+		$\bm{T{vac}}$ & $[kN]$ & spinta nel vuoto \\
+		$\bm{T{opt}}$ & $[kN]$ & spinta a espansione ottima \\
+		$\bm{T{sl}}$ & $[kN]$ & spinta a livello del mare \\
+		$\bm{V_{cc}  }$ & $[m^3]$ & volume cc (cilindro + convergente) \\
+		$\bm{L^* }$ & $[m]$ & lunghezza caratteristica \\
+		$\bm{c^* }$ & $[m/s]$ & velocità caratteristica \\
+		$\bm{A_{t} }$ & $[m^2]$ & area di gola \\
+	    $\bm{p_{cc} }$ & $[Pa]$ & pressione in camera di combustione \\
+	    $\bm{\Gamma}$ & $[-]$ & funzione di Vandenkerckhove \\
+		$\bm{R}$ & $[kJ/(molK)]$ & costante dei gas \\
+	    $\bm{MM}$ & $[g/mol]$ & massa molecolare \\
+	    $\bm{T_{cc} }$ & $[K]$ & temperature in camera di combustione \\
+		$\bm{\gamma}$ & $[-]$ & coefficiente di dilatazione adiabatica \\
+	    $\bm{t_{r} }$ & $[s]$ & tempo di residenza \\
+	    $\bm{\epsilon\_{cc} }$ & $[-]$ & rateo di contrazione             \\
+		$\bm{A_{cil} }$ & $[m^2]$ & sezione porzione cilindrica della cc \\
+	    $\bm{\theta}$ & $[\circ]$ & angolo del tratto convergente   \\
+	    $\bm{a}$ & $[m]$ & differenza tra i raggi della cc \\
+		$\bm{L_{conv}}$ & $[m]$ & lunghezza assiale del tratto convergente \\
+	    $\bm{V_{conv} }$ & $[m^3]$ & volume tratto convergente  \\
+	    $\bm{L_{cil} }$ & $[m]$ & lunghezza assiale parte cilindrica \\
+		$\bm{V_{cil} }$ & $[m^3]$ & volume parte cilindrica \\
+	    $\bm{A_{tot_{int}}}$ & $[m^2]$ & area pareti interne della cc \\
+		$\bm{\epsilon}$ & $[-]$ & rapporto di espansione aree \\
+		$\bm{\theta_e}$ & $[deg]$ & angolo relativo alla sezione di uscita \\
+		$\bm{\theta_n}$ & $[deg]$ & angolo relativo al punto di inflessione \\
+        $\bm{\%_{bell} }$ & $[-]$ & percentuale di bell dell’ugello \\
+		$\bm{E}$ & $[m, m]$ & exit point – punto tangente alla sezione di efflusso  \\
+		$\bm{L_{ugello}}$ & $[m]$ & lunghezza ugello a campana \\
+	    $\bm{L_{conico}}$ & $[m]$ & lunghezza ugello tronco conico \\
+		$\bm{N}$ & $[m, m]$ & inflection point – punto di inflessione \\
+		$\bm{R_e}$ & $[m]$ & raggio della sezione di efflusso \\
+        $\bm{R_t}$ & $[m]$ & raggio di gola
+	\end{xltabular}
+	\unskip
+	\unpenalty
+	\unpenalty}
+	\unvbox\ltmcbox
+
+	\columnbreak
+
 	\subsection{Sistemi di raffreddamento}
-	\begin{tabularx}{\linewidth}{ccX}
+	\vspace{-10pt}
+	\setbox\ltmcbox\vbox{
+	\makeatletter\col@number\@ne
+	\begin{xltabular}{\linewidth}{cc>{\raggedright\arraybackslash}X}
 		$\bm{C_1}$ & $[-]$ & costante propria dell'RP-1 \\
 		$\bm{c_p}$ & $[btu/lb*F]$ & calore specifico a pressione costante \\
 		$\bm{c_{star}}$ & $[ft/s]$ &  parametro di merito c star \\
@@ -94,7 +367,7 @@
 		$\bm{mu}$ & $[lb/in*s]$ & viscosità del refrigerante a $T_{co}$\\
 		$\bm{mu_{gg}}$ & $[lb/in*s]$ & viscosità dei gas combusti\\
 		$\bm{mu_w}$ & $[lb/in*s]$ & viscosità del refrigerante alla temperatura (locale) della parete \\
-		$\bm{N}$ & $[/]$ & numero di tubi \\
+		$\bm{N}$ & $[-]$ & numero di tubi \\
 		$\bm{Pr}$ & $[-]$ & numero di Prandtl \\
 		$\bm{p_c}$ & $[psia]$ & pressione in camera di combustione \\
 		$\bm{q}$ & $[btu/in^2*s]$ & flusso di calore \\
@@ -111,9 +384,14 @@
 		$\bm{T_{co}}$ & $[R]$ & bulk temperature RP-1 in gola \\
 		$\bm{T_{wc}}$ & $[R]$ & temperatura della parete lato refrigerante\\
 		$\bm{T_{wg}}$ & $[R]$ & temperatura della parete lato gas \\
-		$\bm{v}$ & $[/]$ & coefficiente di Poisson \\
-		$\bm{w_f}$ & $[lb/s]$ & portata in massa \\
-	\end{tabularx}
+		$\bm{v}$ & $[-]$ & coefficiente di Poisson \\
+		$\bm{w_f}$ & $[lb/s]$ & portata in massa
+	\end{xltabular}
+	\unskip
+	\unpenalty
+	\unpenalty}
+	\unvbox\ltmcbox
+
 \end{multicols}
 
 \textit{Nota: le unità di misura delle grandezze riportate in tabella sono coerenti con le formule nelle quali esse vengono applicate.}
