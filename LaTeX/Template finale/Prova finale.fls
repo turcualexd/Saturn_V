@@ -839,6 +839,11 @@ INPUT Sezioni\02_analisi_missione.tex
 INPUT .\Sezioni\02_analisi_missione.tex
 INPUT .\Sezioni\02_analisi_missione.tex
 INPUT Sezioni\02_analisi_missione.tex
+INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\vf\public\kpfonts\jkpmit8t.vf
+INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmit8r.tfm
+INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmite.tfm
+INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\vf\public\kpfonts\jkpmn7c.vf
+INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmnc.tfm
 INPUT .\Images\\01_quota_t.eps
 INPUT Images\\01_quota_t.eps
 INPUT .\Images\\01_quota_t.eps
@@ -861,12 +866,6 @@ INPUT .\Images\\02_velocita_t-eps-converted-to.pdf
 INPUT .\Images\\02_velocita_t-eps-converted-to.pdf
 INPUT .\Images\\02_velocita_t-eps-converted-to.pdf
 INPUT .\Images\\02_velocita_t-eps-converted-to.pdf
-INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\vf\public\kpfonts\jkpmit8t.vf
-INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmit8r.tfm
-INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmite.tfm
-INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\vf\public\kpfonts\jkpmn7c.vf
-INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmnc.tfm
-INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\vf\public\kpfonts\jkpmn7t.vf
 INPUT .\Images\\04_spinta_t.eps
 INPUT Images\\04_spinta_t.eps
 INPUT .\Images\\04_spinta_t.eps
@@ -889,6 +888,7 @@ INPUT .\Images\\07_traiettoria-eps-converted-to.pdf
 INPUT .\Images\\07_traiettoria-eps-converted-to.pdf
 INPUT .\Images\\07_traiettoria-eps-converted-to.pdf
 INPUT .\Images\\07_traiettoria-eps-converted-to.pdf
+INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\vf\public\kpfonts\jkpmn7t.vf
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbmia.tfm
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbsya.tfm
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbsyb.tfm
@@ -901,7 +901,6 @@ INPUT Sezioni\03_propellenti.tex
 INPUT .\Sezioni\03_propellenti.tex
 INPUT .\Sezioni\03_propellenti.tex
 INPUT Sezioni\03_propellenti.tex
-INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\vf\public\kpfonts\jkpbn7t.vf
 INPUT .\Sezioni\04_serbatoi_e_pressurizzazione.tex
 INPUT .\Sezioni\04_serbatoi_e_pressurizzazione.tex
 INPUT Sezioni\04_serbatoi_e_pressurizzazione.tex
@@ -914,6 +913,7 @@ INPUT .\Images\\tank.jpg
 INPUT .\Images\\tank.jpg
 INPUT .\Images\\tank.jpg
 INPUT .\Images\\tank.jpg
+INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\vf\public\kpfonts\jkpbn7t.vf
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\vf\public\kpfonts\jkpmn7t.vf
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmne.tfm
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmn8r.tfm
