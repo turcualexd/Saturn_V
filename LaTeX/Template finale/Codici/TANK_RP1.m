@@ -85,11 +85,3 @@ W_e = (pi*a^2*t_e*E1*rho)/(2*k);
 W_c = 2*pi*a*lc*t_c*rho; 
 
 PesoRP1 = 2*W_e + W_c; %lb
-
-
-
-
-
-
-
-

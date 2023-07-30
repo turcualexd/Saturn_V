@@ -53,7 +53,3 @@ A_tot = 2*L_cil*sqrt(pi*eps*A_t) + csc(theta)*(eps-1)*A_t; % area totale della c
 % A_conv = pi*(R_c +R_t)*apo;
 % A_cil = 2*pi*R_c*L_c;
 % A_tot2 = A_conv + A_cil;
-
-
-
-

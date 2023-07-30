@@ -1,0 +1,75 @@
+\section{RPA: definizione problema e funzionamento}
+\label{appendix:rpa}
+
+RPA è un software che permette di prevedere le prestazioni per motori a razzo. Il metodo di calcolo si basa su un approccio di minimizzazione dell'energia libera di Gibbs al fine di ottenere la composizione dei prodotti di combustione, l'analisi del flusso dell'ugello con shifting o frozen equilibrium e il calcolo delle prestazioni del motore, per camera di combustione finita o infinita.
+
+RPA utilizza una libreria di specie chimiche espandibile basata sul database termodinamico NASA Glenn, che include dati per numerosi combustibili e ossidanti. È inoltre possibile definire nuovi componenti del propellente o importare componenti da database di specie PROPEP o CEA2.
+Fornendo parametri propri del motore in analisi, come la pressione della camera di combustione, i componenti del propellente utilizzati e i parametri dell'ugello, il programma permette di ottenere la composizione di equilibrio chimico dei prodotti di combustione, determina le sue proprietà termodinamiche e predice le prestazioni teoriche del razzo. 
+
+Il software è organizzato in quattro macroaree: 
+
+• \textbf{Initial Data}
+
+Questa sezione contiene le specifiche necessarie a definire il tipo di motore, il propellente e il modello dell'ugello.
+La caratterizzazione della camera di spinta avviene determinando il valore di pressione (77.556 bar) e fissando uno tra i seguenti parametri: la spinta e la pressione cui è riferita, la portata massica oppure il diametro di gola. Si è scelto di fissare come parametro di ingresso la spinta (6770.19 kN ad 1 bar) poichè rappresenta un requisito da soddisfare.
+Per caratterizzare il propellente è necessario definire il tipo di sistema, in questo caso bipropellente, il rapporto di miscela O/F, pari a 2.27, l'ossidante e il combustibile con le relative temperature di stivaggio. 
+In ultimo è necessario definire il modello dell'ugello, in particolare stabilire le condizioni di ingresso, le condizioni di uscita e la caratterizzazione del flusso in frozen equilibrium. La prima condizione è descritta dalla portata o, come nel caso in analisi, dal rateo di contrazione (1.301). La seconda condizione è descritta dal rateo di espansione (16). Infine il flusso viene considerato in frozen equilibrium dalla gola, ossia dal piano con rapporto di espansione 1.
+
+• \textbf{Performance Analysis}
+
+Questa sezione illustra le prestazioni della camera, in particolare le proprietà termodinamiche, le prestazioni ideali e stimate e le frazioni dei prodotti di combustione. Le prime sono riportate nella tabella sottostante (\autoref{table:valori RPA sezione performance analysis}) mentre le seconde determinano il valore di parametri quali la velocità caratteristica e l'impulso specifico. 
+
+• \textbf{Engine Design}
+
+Questa macro-area è divisa in tre sezioni: \textit{Chamber geometry}, \textit{Thermal analysis} e \textit{Propellant feed system}.
+All'interno della prima sezione è possibile fissare il design della camera: per l'analisi sono stati fissati i valori di angolo di contrazione b, i rapporti tra i vari raggi di curvatura e l'approssimazione parabolica dell'ugello a campana. Inoltre è possibile visualizzare le grandezze di spinta, impulso e portata e i valori che riguardano la geometria della camera.
+All'interno della sezione \textit{Thermal analysis} è possibile studiare lo scambio termico convettivo, l'irraggiamento e il cooling. Questa sezione non è stata utilizzata, prediligendo uno studio del sistema di raffreddamento numerico (\autoref{sec:raffreddamento}).
+Dall'ultima sezione, \textit{Propellant feed system} è possibile ottenere il valore dei parametri di funzionamento dei vari sistemi di alimentazione, quali portata, temperatura, pressione in ingresso e in uscita. Nel caso in esame si è scelto di studiare il sistema di alimentazione di ossidante, combustibile e del gas generator. (TABELLA DI VALORI). Per ottenere gli output sopra citati è necessario inserire varie informazioni sul gas generator e sulle turbopompe. Per quanto riguarda il gas generator, è stato specificato che il ciclo in esame è Fuel Rich, e vanno indicati i valori di temperatura e di pressione di combustione, rispettivamente 1062.59 K e 67.5686 bar, oltre al coefficiente di perdita di pressione, pari a 0.966. La turbopompa è invece caratterizzata dal rapporto di pressione della turbina e dall'efficienza, rispettivamente 16.293 e 0.605. 
+
+• \textbf{Tools}
+
+Questa sezione contiene il database termodinamico, che descrive lo stato dei vari aggregati e la descrizione delle componenti di ogni aggregato.
+
+\begin{table}[H]
+\centering
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline
+& \textbf{Injector} & \textbf{Nozzle inlet} & \textbf{Nozzle throat} & \textbf{Nozzle exit} & \textbf{Unit} \\
+\hline
+\textbf{p} & $7.7566$ & $5.9496$ & $3.9690$ & $0.0427$ & \text{MPa} \\
+\hline
+\textbf{T} & $3569.9063$ & $3498.7671$ & $3344.5972$ & $1473.2666$ & \text{K} \\
+\hline
+$\bm{c_p}$ & $4.7323$ & $4.7034$ & $0.3706$ & $0.3678$ & \text{kJ/kgK} \\
+\hline
+$\bm{\gamma}$ & $1.1777$ & $1.1756$ & $1.1716$ & $1.2521$ & \text{-} \\
+\hline
+\textbf{MM} & $22.2095$ & $22.2541$ & $22.4347$ & $22.6040$ & \text{lb/mol} \\
+\hline
+\textbf{M} & $0$ & $0.5137$ & $1$ & $3.6856$ & \text{-} \\
+\hline
+\end{tabular}
+\caption{Proprietà termodinamiche in output da RPA - sezione performance analysis }
+\label{table:valori RPA sezione performance analysis}
+\end{table}
+
+\vspace{10pt}
+
+\begin{table}[H]
+
+\centering
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+& $\bm{\dot{m} \, [kg/s]}$ & $\bm{p_{in} \, [MPa]}$ & $\bm{p_{out} \, [MPa]}$ \\
+\hline
+\textbf{Inlet} & $1769.26$ & $0.448$ & $0.375$ \\
+\hline
+\textbf{Pump} & $1769.26$ & $0.375$ & $8.627$ \\
+\hline
+\textbf{Injector} & $1756.218$ & $8.257$ & $7.757$ \\
+\hline
+\end{tabular}
+\caption{Sistema di alimentazione del propellente (output RPA) - Sezione Engine Design }
+\label{table:Sistema di alimentazione del propellente RPA - sezione engine design}
+\end{table}
+
