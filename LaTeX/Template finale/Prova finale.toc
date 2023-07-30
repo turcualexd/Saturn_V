@@ -35,15 +35,15 @@
 \contentsline {subsubsection}{\numberline {7.2.3}Analisi quantitativa - dimensionamento}{19}{subsubsection.7.2.3}%
 \contentsline {section}{\numberline {8}Camera di spinta}{19}{section.8}%
 \contentsline {subsection}{\numberline {8.1}Descrizione del sistema}{19}{subsection.8.1}%
-\contentsline {subsection}{\numberline {8.2}Piatto d'iniezione}{19}{subsection.8.2}%
+\contentsline {subsection}{\numberline {8.2}Piatto d'iniezione}{20}{subsection.8.2}%
 \contentsline {subsection}{\numberline {8.3}Camera di combusione}{20}{subsection.8.3}%
-\contentsline {subsection}{\numberline {8.4}Modellazione dell'ugello}{21}{subsection.8.4}%
-\contentsline {subsection}{\numberline {8.5}Confronto tra ugello 10:1 e 16:1}{22}{subsection.8.5}%
+\contentsline {subsection}{\numberline {8.4}Modellazione dell'ugello}{22}{subsection.8.4}%
+\contentsline {subsection}{\numberline {8.5}Confronto tra ugello 10:1 e 16:1}{23}{subsection.8.5}%
 \contentsline {section}{\numberline {9}Sistemi di raffreddamento}{23}{section.9}%
 \contentsline {subsection}{\numberline {9.1}Cooling della camera di spinta}{23}{subsection.9.1}%
 \contentsline {subsubsection}{\numberline {9.1.1}Scambio termico convettivo e film cooling}{23}{subsubsection.9.1.1}%
-\contentsline {subsubsection}{\numberline {9.1.2}Regenerative cooling}{25}{subsubsection.9.1.2}%
-\contentsline {section}{Appendice}{29}{AMS.54}%
+\contentsline {subsubsection}{\numberline {9.1.2}Regenerative cooling}{26}{subsubsection.9.1.2}%
+\contentsline {section}{Appendice}{29}{AMS.56}%
 \contentsline {section}{\numberline {A}Immagini e schemi}{29}{appendix.1.Alph1}%
 \contentsline {section}{\numberline {B}Grafici di varie grandezze in funzione del tempo di volo}{30}{appendix.1.Alph2}%
 \contentsline {section}{\numberline {C}Tabelle e immagini serbatoi}{31}{appendix.1.Alph3}%
@@ -63,9 +63,11 @@
 \contentsline {section}{\numberline {J}Codici MATLAB usati}{42}{appendix.1.Alph10}%
 \contentsline {subsection}{\numberline {J.1}Simulazione di volo}{42}{subsection.1.Alph10.1}%
 \contentsline {subsubsection}{\numberline {J.1.1}Parametri adimensionali lanciatore}{45}{subsubsection.1.Alph10.1.1}%
-\contentsline {subsection}{\numberline {J.2}Codici serbatoi}{46}{subsection.1.Alph10.2}%
+\contentsline {subsection}{\numberline {J.2}Serbatoi}{46}{subsection.1.Alph10.2}%
 \contentsline {subsubsection}{\numberline {J.2.1}Serbatoio RP-1}{46}{subsubsection.1.Alph10.2.1}%
 \contentsline {subsubsection}{\numberline {J.2.2}Serbatoio LOX}{48}{subsubsection.1.Alph10.2.2}%
-\contentsline {subsection}{\numberline {J.3}Camera di Combustione}{49}{subsection.1.Alph10.3}%
-\contentsline {subsubsection}{\numberline {J.3.1}Modellazione ugello}{50}{subsubsection.1.Alph10.3.1}%
-\contentsline {section}{Bibliografia}{65}{lstnumber.-8.85}%
+\contentsline {subsection}{\numberline {J.3}Triangoli di velocità turbina}{49}{subsection.1.Alph10.3}%
+\contentsline {subsection}{\numberline {J.4}Camera di spinta}{52}{subsection.1.Alph10.4}%
+\contentsline {subsubsection}{\numberline {J.4.1}Camera di combustione}{52}{subsubsection.1.Alph10.4.1}%
+\contentsline {subsubsection}{\numberline {J.4.2}Modellazione ugello}{53}{subsubsection.1.Alph10.4.2}%
+\contentsline {section}{Bibliografia}{68}{lstnumber.-9.85}%
