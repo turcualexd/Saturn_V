@@ -10,174 +10,129 @@ Il primo stadio ha un diametro di circa 10 m e un’altezza di 42 m. La maggior 
 
 l serbatoio dell’ossidante ha una forma cilindrica, chiusa alle due estremità da paratie ellissoidali, per un’altezza totale di 19.53 m, mentre il diametro è approssimabile al diametro della struttura interna, ossia 10.06 m e il volume di ossigeno liquido contenuto è 1266220 litri. 
 La struttura si compone di una skin in lega 2219-T87, una lega di alluminio con rame come legante principale che si presta all’utilizzo grazie alle alte proprietà meccaniche in un ampio range di temperatura, dai -270°C ai 300°C circa, nel quale ricade la temperatura di stoccaggio del LOX; è inoltre un materiale con buona saldabilità, elevata tenacità a frattura e alta resistenza a cricche da corrosione e da sforzo. 
-Dal serbatoio di ossidante partono 5 linee di aspirazione isolate di diametro 43,18 cm passanti attraverso il serbatoio di combustibile fino ai motori. All’estremità delle linee di aspirazione sono collocate valvole di emergenza e soffietti flessibili in grado di attenuare le vibrazioni e adattarsi a espansioni e contrazioni legate alla variazione di temperatura. 
+Dal serbatoio di ossidante partono 5 linee di aspirazione isolate di diametro 43,18 cm passanti attraverso il serbatoio di combustibile fino ai motori. 
 Il serbatoio termina con un dispositivo centrale e paratie cruciformi che hanno lo scopo di evitare la formazione di vortici man mano che l’ossidante defluisce.
-All’interno della struttura del serbatoio di LOX, ancorate ai deflettori ad anello, vi sono quattro bombole di elio ad alta pressione dal volume di 0.88 m3 ciascuna, necessarie alla pressurizzazione.
+All’interno della struttura del serbatoio di LOX, ancorate ai deflettori ad anello, vi sono quattro bombole di elio ad alta pressione dal volume di 0.88 $m^3$ ciascuna, necessarie alla pressurizzazione.
 
 Il collegamento tra i due serbatoi è rappresentato dall’intertank, una struttura composta da cinque telai e pannelli ondulati in lega di alluminio 7075-T6 ad altissima resistenza meccanica.
 
-Il serbatoio di combustibile ha geometria analoga al serbatoio di ossidante, con un’altezza di 13.13 m e un volume di 791151 litri. La struttura è anch’essa costituita da una skin di lega di alluminio 2219-T87.
+Il serbatoio di combustibile ha geometria analoga al serbatoio di ossidante, con un’altezza di 13.13 m e un volume di 791151 litri. La struttura è anch’essa costituita da una skin di lega di alluminio 2219-T87. \cite{enginehistory}
 
 Di fondamentale importanza per lo studio dei serbatoi è il dimensionamento dello spessore delle pareti, poiché è necessario ottimizzare il peso senza però mette a rischio il funzionamento della struttura.
 I carichi strutturali ai quali è sottoposta la parete sono diversi, tra cui quelli dovuti alle pressioni interne, carichi assiali di spinta, carichi aerodinamici e termodinamici e quelli prodotti dalla disposizione di montaggio.
-È possibile procedere con il dimensionamento delle pareti sviluppando una serie di calcoli partendo da valori di progetto, come il volume dei propellenti necessari al funzionamento, l’ingombro esterno dei singoli serbatoi e considerando noto il materiale utilizzato.
+È possibile procedere con il dimensionamento delle pareti sviluppando una serie di calcoli partendo da valori di progetto, come il volume dei propellenti necessari al funzionamento, l’ingombro esterno dei singoli serbatoi e considerando noto il materiale utilizzato. (Tabelle dati geometrici e materiale in \autoref{appendix:serbatoio} )\\
 Il volume totale all’interno del serbatoio non è composto unicamente dal propellente, ma ci sono anche degli altri volumi da considerare come il volume vuoto necessario alla pressurizzazione.
 
-%calcoli e tabelle con procedimenti e dati e risultati e cazzi e mazzi
+Come primo passo si calcolano i volumi fondamentali dei serbatoi, ovvero quelli della parte cilindrica e delle due cupole ellissoidali, conoscendone il raggio e le altezze, per poi calcolare il volume totale interno del serbatoio considerando anche il volume occupato dalle bombole di elio nel serbaotio del LOX e dalle cinque linee di aspirazione passanti attraverso il serbatoio dell'RP-1:  (\autoref{appendix:codici}, \cite{AIAA_book_2})
 
-Come primo passo si calcolano i volumi fondamentali dei serbatoi, ovvero quelli della parte cilindrica e delle due cupole ellissoidali, conoscendone il raggio e le altezze, per poi calcolare il volume totale interno del serbatoio considerando anche il volume occupato dalle bombole di elio nel serbaotio del LOX e dalle cinque linee di aspirazione passanti attraverso il serbatoio dell'RP-1:
 
 \begin{empheq}{gather*}
-            Vol_{e} =  \frac{2 \pi\ a^2 b}{3}                                  \qquad
-            Vol_{c} = {\pi\ a^2 lc}                                                 \\
-            Vol_{He} = {4 Vol_{1b}}                              \qquad
-            Vol_{tubi} =  {5 \pi\ r_{t}^2 l_{t}}                                                                 \\
+            V_{e} =  \frac{2 \pi\ a^2 b}{3}                                  \qquad
+            V_{c} = {\pi\ a^2 lc}                       \qquad
+            V_{He} = {4 V_{1He}}                              \qquad
+            V_{tubi} =  {5 \pi\ r_{t}^2 l_{t}}                                                                 \\
 \vspace{1pt}                     \\
-            V_{totRP-1} = {2 Vol_{e} + Vol_{c} - Vol_{t}}              \qquad
-            V_{totLOX} =  {2 Vol_{e} + Vol_{c} - Vol_{He}}
+            V_{totRP-1} = {2 V_{e_{RP-1}} + V_{c_{RP-1}} - V_{tubi}}              \qquad
+            V_{totLOX} =  {2 V_{e_{LOX}} + V_{c_{LOX}} - V_{He}}
 \end{empheq}
 
 \vspace{5pt}
 
-Noto il volume totale occupato dal propellente liquido si ricavano le dimensioni della parte del serbatoio necessaria alla pressurizzazione, ovvero il volume vuoto, e di conseguneza l'altezza del propellente:
-%formuleeeee
+Noto il volume totale occupato dal propellente liquido si ricavano le dimensioni della parte del serbatoio necessaria alla pressurizzazione, ovvero il volume vuoto, e di conseguneza l'altezza sia del volume vuoto che del propellente:
 
 \begin{empheq}{gather*}
-            Vol_{u} = {V_{tot} - V_{prop}}                                \\
+            V_{u} = {V_{tot} - V_{prop}}                                \qquad
             H_{prop} = {lc + 2b - H_{u}}
 \end{empheq}
 
 \vspace{5pt}
 
-La pressione nel serbatoio non è nota, ma va calcolata, mentre quella del volume vuoto è un dato di progetto del motore.
+La pressione nel serbatoio non è nota, ma va calcolata, mentre quella del volume vuoto è un dato di progetto del motore. (\autoref{appendix:serbatoio}, \autoref{fig:tank_appendice_2})
 Con quanto ricavato in precedenza si calcolano le pressioni interne dei serbatoi e le pressioni totali
 
 \begin{empheq}{gather*}
-            P_{i} = {\rho\ g H}                             \\
+            P_{i} = {\rho\ g H}                             \qquad
             P_{tot} = { P_{i} + P_{u}}                                              
 \end{empheq}
 
 È ora possibile procedere al calcolo degli spessori introducendo alcuni parametri come il fattore di stress K e il rateo dell’ellisse k, cioè il rapporto tra l'asse maggiore e l'asse minore
 
 \begin{empheq}{gather*}
-            K = {0.8}                                  \qquad
-            k = \frac{a}{b}                                                 \qquad
-            R = {a k}                                                              \\\
-            t_{k} = \frac{K P_{tot} a}{\Sigma_{y}}                                                        \qquad       
-            t_{cr} =  \frac{P_{tot} R}{2\Sigma_{y}}                                                                   \qquad
-            t_{e} = {t_{k} + t_{cr}}                                                        \qquad
+            K = {0.8}  \hspace{0.5cm} (\autoref{fig:stress_factor})         \hspace{1cm}                                             \qquad %%%referenza
+            k = \frac{a}{b}                                                            \qquad                                                                    \\
+            t_{e} = \frac{P_{tot} a (K + 0.5k)}{2\Sigma_{y}}       \hspace{1.6cm}    \qquad
             t_{c} = \frac{P_{tot} a}{\Sigma_{y}} 
 \end{empheq}
 
 
 
 \begin{table}[H]
-
 \centering
-\begin{tabular}{|c|c|c|c|c|c|c|c|}
-\hline
-& $\bm{\rho \, [kg/m^3]}$ & $\bm{\sigma_{r} \, [psi]}$ & $\bm{\sigma_{y} \, [psi]}$ & $\bm{E \, [psi]}$ & $\bm{\nu\, [-]}$& $\bm{\Sigma_{r}\, [-]}$ & $\bm{\Sigma_{y}\, [-]}$ \\
-\hline
-\textbf{Al2219-T87} & $0.103$ & $69000$ & $57000$ & $10.6e6$ & $0.33$ & $\frac{\sigma_{r}}{1.3}$ & $\frac{\sigma_{y}}{1.25}$ \\
-\hline
-\end{tabular}
-
-\caption{Lega Alluminio 2219-T9}
-\label{table:dati_materiale}
-
-\vspace{5pt}
-
-\begin{tabular}{|c|c|c|c|}
-\hline
-& $\bm{a \, [inch]}$ & $\bm{b \, [inch]}$ & $\bm{lc \, [inch]}$ \\
-\hline
-\textbf{RP-1} & $198$ & $120$ & $276$ \\
-\hline
-\textbf{LOX} & $198$ & $120$ & $528$ \\
-\hline
-\end{tabular}
-
-
-\caption{Dati geometrici}
-\label{table:dati_geometrici}
-
-\vspace{5pt}
-
-\begin{tabular}{|c|c|c|c|c|c|}
-\hline
-& $\bm{p_{u} \, [psi]}$ & $\bm{p_{i} \, [psi]}$ & $\bm{p_{tot} \, [psi]}$ & $\bm{p_{cre} \, [psi]}$ & $\bm{p_{crc} \, [psi]}$\\
-\hline
-\textbf{RP-1} & $25.2$ & $13.38$ & $38.58$ & $0.368$ & $0.1393$\\
-\hline
-\textbf{LOX} & $23$ & $27.92$ & $50.92$ & $0.641$ & $0.1457$\\
-\hline
-\end{tabular}
-
-
-\caption{Tabella riassuntiva pressioni}
-\label{table:pressioni}
-
-\vspace{5pt}
-
 \begin{tabular}{|c|c|c|c|c|c|c|}
 \hline
-& $\bm{Vol_{prop} \, [m^3]}$ & $\bm{Vol_{c} \, [m^3]}$ & $\bm{Vol_{e} \, [m^3]}$ & $\bm{Vol_{tubi/He} \, [m^3]}$ & $\bm{Vol_{tot} \, [m^3]}$ & $\bm{Vol_{u} \, [m^3]} $\\
+& $\bm{V_{prop} \, [m^3]}$ & $\bm{V_{c} \, [m^3]}$ & $\bm{V_{e} \, [m^3]}$ & $\bm{V_{tubi/He} \, [m^3]}$ & $\bm{V_{tot} \, [m^3]}$ & $\bm{V_{u} \, [m^3]} $\\
 \hline
-\textbf{RP-1} & $ $ & $ $ & $ $ & $ $ & $ $ & $ $\\
+\textbf{RP-1} & $791.1995 $ & $557.0794 $ & $  161.4723 $ & $ 9.5970$ & $ 870.4271$ & $79.2275 $\\
 \hline
-\textbf{LOX} & $ $ & $ $ & $ $ & $ $ & $ $ & $ $\\
+\textbf{LOX} & $1266.297 $ & $1065.7171 $ & $ 161.4723$ & $3.5115 $ & $ 1385.150$ & $118.8526 $\\
 \hline
 \end{tabular}
-
-
 \caption{Tabella riassuntiva volumi}
 \label{table:volumi}
-
-\vspace{5pt}
-
-\begin{tabular}{|c|c|c|c|c|}
-\hline
-& $\bm{t_{k} \, [m]}$ & $\bm{t_{cr} \, [m]}$ & $\bm{t_{e} \, [m]}$ & $\bm{t_{c}\, [m]}$\\
-\hline
-\textbf{RP-1} & $0.0034$ & $0.0035$ & $0.0035$ & $0.0043$\\
-\hline
-\textbf{LOX} & $0.0045$ & $0.0046$ & $0.0046$ & $0.0056$\\
-\hline
-\end{tabular}
-
-
-\caption{Tabella riassuntiva spessori}
-\label{table:spessori}
-
-
 \end{table}
 
-
+\begin{minipage}{0.5\linewidth}
+    \centering
+    \captionsetup{type=table}
+    \begin{tabular}{|c|c|c|c|}
+        \hline
+        & $\bm{P_{u} \, [bar]}$ & $\bm{P_{i} \, [bar]}$ & $\bm{P_{tot} \, [bar]}$ \\
+        \hline
+        \textbf{RP-1} & $1.7375$ & $0.9225$ & $2.66$ \\
+        \hline
+        \textbf{LOX} & $1.5858$ & $1.9250$ & $3.5108$\\
+        \hline
+    \end{tabular}
+    \caption{Tabella riassuntiva pressioni}
+    \label{table:pressioni}
+\end{minipage}\hfill
+\begin{minipage}{0.5\linewidth}
+    \centering
+    \captionsetup{type=table}
+    \begin{tabular}{|c|c|c|}
+        \hline
+        & $\bm{t_{e} \, [mm]}$ & $\bm{t_{c}\, [mm]}$\\
+        \hline
+        \textbf{RP-1} & $3.4572$ & $4.2550$\\
+        \hline
+        \textbf{LOX} & $4.5630$ & $5.6159$\\
+        \hline
+    \end{tabular}
+    \caption{Tabella riassuntiva spessori}
+    \label{table:spessori}
+\end{minipage}
+\vspace*{5pt}
 
 I valori ottenuti risultano essere gli spessori minimi; in realtà lo spessore dovrebbe essere leggermente maggiore per consentire la saldatura, l'instabilità e la concentrazione delle sollecitazioni. 
 
 \subsection{Pressurizzazione e scambiatore di calore}
 \label{subsec:pressurizzazione_e_scambiatore_di_calore}
 
-La pressurizzazione del serbatoio di LOX è affidata al GOX, ossia ossigeno in forma gassosa. Una linea di rilevamento fornisce un feedback di pressione a valvole che controllano il flusso del GOX e permettono di mantenere la pressione di riempimento del serbatoio, man mano che l’ossidante defluisce, tra 18 e 20 psia durante le fasi di volo. La pressurizzazione dei serbatoi è un requisito necessario dall’avviamento del motore fino a fine missione per stabilire e mantenere un gradiente di pressione positivo.
+La pressurizzazione del serbatoio di LOX è affidata al GOX, ossia ossigeno in forma gassosa. Una linea di rilevamento fornisce un feedback di pressione a valvole che controllano il flusso del GOX e permettono di mantenere la pressione di riempimento del serbatoio, man mano che l’ossidante defluisce, tra 18 e 22 psia durante le fasi di volo. La pressurizzazione dei serbatoi è un requisito necessario dall’avviamento del motore fino a fine missione per stabilire e mantenere un gradiente di pressione positivo.
 
-Durante il volo la sorgente di pressurizzazione del serbatoio di combustibile è invece l’elio ad alta pressione. Tramite l’utilizzo di valvole viene mantenuta l’alta pressione all’interno del serbatoio mentre la pressione nelle cisterne di elio decresce. 
-I condotti trasportano l’elio verso gli scambiatori di calore dei motori F-1 e dopo essere passato attraverso ad esso, i condotti di ritorno riportano l’elio gassoso riscaldato ed espanso nella parte superiore del serbatoio del carburante.
+Durante il volo la sorgente di pressurizzazione del serbatoio di combustibile è invece l’elio ad alta pressione. Tramite l’utilizzo di valvole viene mantenuta l’alta pressione all’interno del serbatoio mentre la pressione nei contenitori di elio decresce. 
+I condotti trasportano l’elio verso gli scambiatori di calore dei motori F-1 e dopo essere passato attraverso ad essi, i condotti di ritorno riportano l’elio gassoso riscaldato ed espanso nella parte superiore del serbatoio del carburante, ad una pressione di circa 25 psia.
 
 L’elio è stato scelto rispetto ad altre soluzioni, come l’azoto, grazie alla sua bassa densità (0.1785 kg/m3) che permette di risparmiare peso.
-I serbatoi di elio sono posizionati all’interno del serbatoio di LOX perché grazie alla bassa temperatura dell’ambiente interno criogenico aumenta la densità dell’elio ed è possibile utilizzare serbatoi di alluminio più piccoli e leggeri con circa metà dello spessore delle pareti per immagazzinare una quantità maggiore di elio.
-Similarmente i serbatoi di elio non possono essere posizionati all’interno dell’RP-1 poiché la bassa temperatura dell’elio potrebbe congelare il carburante; infatti, viene immagazzinato ad una temperatura criogenica di 90 K.
-Le quattro “bottiglie” di elio sono lunghe circa 6 m, hanno un diametro di 56 cm e hanno un volume di 0.88 m3.
+I serbatoi di elio sono posizionati all’interno del serbatoio di LOX perché la bassa temperatura dell’ambiente interno criogenico aumenta la densità dell’elio ed è possibile utilizzare serbatoi di alluminio più piccoli e leggeri.
+I quattro contenitori di elio sono lunghi circa 6 m, hanno un diametro di 56 cm e un volume di 0.88 $m^3$.
 
 Per permettere la pressurizzazione nei serbatoi è necessario l’utilizzo di uno scambiatore di calore.
 I serbatoi trasferiscono principalmente i propellenti alle turbopompe, per cui è necessaria la pressurizzazione per evitare il fenomeno di cavitazione all'ingresso della turbopompa. 
-Per il motore F-1 si utilizza uno scambiatore di calore a fascio tubiero con 4 bobine e come fonte di calore per permettere lo scambio di calore è utilizzato il gas di scarico della turbina.
+Per il motore F-1 si utilizza uno scambiatore di calore a fascio tubiero con 4 bobine e come fonte di calore per permettere lo scambio è utilizzato il gas di scarico della turbina.
 Tuttavia, è difficile trovare in letteratura metodi di prova appropriati o metodologie di progettazione per tali scambiatori di calore, poiché per la previsione accurata delle prestazioni, l'ottimizzazione del peso del veicolo di lancio e le prestazioni dello scambiatore di calore vengono valutate mediante test di prova. 
 Per collegare lo scambiatore con i serbatoi sono presenti quattro condotti: due linee di andata verso lo scambiatore e due di ritorno verso i serbatoi.
 L'elio fornito dalle bombole conservate nel serbatoio LOX viene indirizzato allo scambiatore di calore, espanso e quindi indirizzato al serbatoio dell’RP-1 tramite una linea di distribuzione situata all'estremità superiore del serbatoio per garantirne la pressurizzazione. 
+Il LOX ad alta pressione viene invece prelevato dal LOX dome, indirizzato allo scambiatore di calore, dove viene espanso in ossigeno gassoso e in seguito diretto al serbatoio tramite la linea di distribuzione del GOX.
 
-Per il serbatoio del LOX si ha un sistema di pressurizzazione differente; infatti, il LOX ad alta pressione viene prelevato dal LOX dome, indirizzato allo scambiatore di calore, dove viene espanso in ossigeno gassoso (GOX) e in seguito diretto al serbatoio tramite la linea di distribuzione del GOX.
-
-Le dimensioni esatte dello scambiatore di calore del motore F-1 dipendono dalla versione specifica del motore, poiché il motore F-1 è stato sottoposto a una serie di miglioramenti, tuttavia, in generale, ha una lunghezza di circa 1 metro e mezzo e un diametro che varia da 1 metro all'uscita della turbina a 60 cm al collettore di scarico della turbina. 
-
-
+Le dimensioni esatte dello scambiatore di calore del motore F-1 dipendono dalla versione specifica del motore, poiché il motore F-1 è stato sottoposto a una serie di miglioramenti, tuttavia, in generale, ha una lunghezza di circa 1 metro e mezzo e un diametro che varia da 1 metro all'uscita della turbina a 60 cm al collettore di scarico della turbina. (Immagine esploso scambiatore in \autoref{appendix:serbatoio}) \cite{enginehistory} \cite{heroicrelics}

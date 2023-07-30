@@ -4,9 +4,9 @@
 % Le difficoltà progettuali incontrate per il design del gas generator furono molte: vennero sviluppate molte geometrie diverse negli anni precedenti. Per ovviare a problemi futuri, tutte le scelte effettuate dai progettisti della NASA vennero raccolte in un manuale tecnico basato su un approccio sperimentale piuttosto che teorico, in cui vengono giustificate le scelte progettuali effettuate per il sistema GG di un LRE \cite{gg_manual}.
 Il gas generator del motore F-1 è il sistema adibito alla produzione di gas caldi per alimentare la turbopompa. Tale sistema è composto da una camera di combustione progettata ad hoc per questo tipo di sottosistema.
 Vengono utilizzati gli stessi propellenti utilizzati nella camera principale ma con diverso rapporto O/F (valore in \autoref{table:gas generator}). La necessità di avere un O/F lontano dal valore stechiometrico è dettata dal contenere le temperature del flusso che impatterà sulla turbina: questo lo si ottiene con miscele ricche in ossidante o ricche in combustibile.
-In questo caso è stata scelta una miscela ricca in combustibile per molteplici motivi: evitare ossidazioni di componenti che sarebbero convenute con una miscela ad alta percentuale in LOX, diminuire la possibilità di eventuali guasti causati da flussi surriscaldati (più probabili nel caso Oxider Rich) e contenere il consumo specifico della turbina, poiché il peso molecolare dei gas risulta minore nel caso Fuel Rich (\autoref{appendix:confronto peso molecolare}).
+In questo caso è stata scelta una miscela ricca in combustibile per molteplici motivi: evitare ossidazioni di componenti che sarebbero convenute con una miscela ad alta percentuale in LOX, diminuire la possibilità di eventuali guasti causati da flussi surriscaldati (più probabili nel caso Oxider Rich) e contenere il consumo specifico della turbina, poiché il peso molecolare dei gas risulta minore nel caso Fuel Rich (\autoref{appendix:confronto_peso_molecolare}).
 
-La scelta di optare per una miscela FR ha anche alcuni aspetti negativi, tra cui la complessità della cinetica del processo chimico dovuta alla produzione di idrocarburi, che solitamente creano depositi solidi (\autoref{appendix:prodotti gas generator}).
+La scelta di optare per una miscela FR ha anche alcuni aspetti negativi, tra cui la complessità della cinetica del processo chimico dovuta alla produzione di idrocarburi, che solitamente creano depositi solidi (\autoref{appendix:prodotti_gas_generator}).
 Anche con questi valori bassi di O/F, la combustione nel GG viene completata in camera (quindi è molto rapida); al contrario, i processi di evaporazione e di mixing sono molto lenti. Tale problema si riscontra in maniera tangibile nei GG, mentre è meno evidente nelle camere di spinta dei LRE, dove tali processi sono più veloci.
 Per avere una buona evaporazione dei propellenti è necessaria una zona di combustione molto larga (più iniettori con portate minori), mentre per avere un buon mixaggio è necessaria una camera allungata in direzione del flusso: questi due problemi vengono ovviati tramite scelte di design specifiche trattate di seguito.
 
@@ -61,7 +61,7 @@ Altri iniettori, come HCI, hanno una stratificazione dei gas e delle temperature
 L’iniettore deve avere diametri più ristretti possibile per migliorare atomizzazione, compatibilmente con quelli fabbricabili.
 
 \item
-Il TR (Turbulence Ring) viene posizionato poco dopo il piatto d'iniezione per rimediare ai problemi di basso ratio di mixing attraverso la creazione di un reverse flow.
+Il TR (Turbulence Ring) visibile in \autoref{fig:gg_schema} viene posizionato poco dopo il piatto d'iniezione per rimediare ai problemi di basso ratio di mixing attraverso la creazione di un reverse flow.
 Questo permette un alto livello di mescolamento tra specie presenti per uniformare così la temperatura ed evitare stratificazioni del flusso, le quali causerebbero il fenomeno di “momentum separation”, un flusso chiaramente non sostenibile dalla turbina.
 Questo reverse flow è reso più efficace grazie alla porzione circolare della camera che accoglie questo moto vorticoso.
 La posizione del TR è scelta per evitare il surriscaldamento dello stesso, dato che a monte della camera i gas vaporizzati devono ancora essere igniti e hanno dunque temperature relativamente basse.
@@ -83,7 +83,7 @@ $1062$ & $67.57$ & $65.15$ & $5$ & $0.416$ & $53.52$ & $22.23$ \\
 \hline
 \end{tabular}
 
-\caption{Dati reali del gas generator}
+\caption{Dati reali del gas generator, ricavati da \cite{gg_manual}\cite{engine_manual}}
 \label{table:gas generator}
 
 \end{table}
