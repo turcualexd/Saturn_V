@@ -1,5 +1,9 @@
 \begin{thebibliography}{10}
 
+\bibitem{turbopump_manual}
+National Aeronautics and Space Administration.
+\newblock {\em {Turbopump Systems for Liquid Rocket Engines}}, 8 1974.
+
 \bibitem{nozzle_design}
 National Aeronautics and Space Administration.
 \newblock {\em {Liquid Rocket Engine Nozzles}}, 7 1976.
@@ -37,6 +41,11 @@ Howard~W. Douglass.
 \newblock {\em {Liquid Propellant Gas Generators}}.
 \newblock National Aeronautics and Space Administration, 3 1972.
 
+\bibitem{heroicrelics}
+Mike Jetzer.
+\newblock heroicrelics.org.
+\newblock \url{http://heroicrelics.org/info/f-1/lox-flowmeter.html}.
+
 \bibitem{JPP}
 {Joseph C. Oefelein, Vigor Yang}.
 \newblock {Comprehensive Review of Liquid-Propellant Combustion Instabilities
@@ -58,7 +67,25 @@ Manuel Martin-Sanchez.
 
 \bibitem{site_exhaust}
 Kimble~D. McCutcheon.
-\newblock Rocketdyne f-1 engine descripton, 2021.
+\newblock Rocketdyne f-1 engine descripton.
+\newblock
+  \url{https://www.enginehistory.org/Rockets/RPE08.11/F-1ExManNozzleExt.jpg},
+  2021.
+
+\bibitem{enginehistory}
+Kimble~D. McCutcheon.
+\newblock enginehistory.org.
+\newblock \url{https://www.enginehistory.org/Rockets/RPE08.10/RPE08.10.shtml},
+  2022.
+
+\bibitem{engine_information}
+National Aeronautics and Space Administration \& Rocketdyne.
+\newblock {\em {Technical information summary, Apollo-10 (AS-505)}}, 12 1966.
+
+\bibitem{f-1_rocket_manual}
+National Aeronautics and Space Administration \& Rocketdyne.
+\newblock {\em {R-3896-4 - Technical manual, Illustrated parts breakdown}}, 1
+  1970.
 
 \bibitem{turbine_design}
 NASA Design~Criteria Office.
