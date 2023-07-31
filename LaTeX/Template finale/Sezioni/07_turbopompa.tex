@@ -4,55 +4,57 @@
 \subsection{Descrizione generica Mark 10}
 \label{subsec:descrizione mark 10}
 
-Il gruppo turbopompa Mark 10 è montato parallelamente alla mezzeria longitudinale della camera di spinta ed è sostenuto principalmente da due gruppi stabilizzatori a tre gambe saldati al corpo della camera e dai quattro condotti del propellente ad alta pressione installati tra la turbopompa e la camera di spinta. 
+Il gruppo turbopompa Mark 10 è montato parallelamente alla mezzeria longitudinale della camera di spinta ed è sostenuto principalmente da due gruppi stabilizzatori a tre gambe saldati al corpo della camera e dai quattro condotti del propellente ad alta pressione installati tra la turbopompa e la camera di spinta.
 Il gruppo è composto da due pompe centrifughe montate schiena contro schiena (back-to-back) su un albero comune e azionate direttamente da una turbina a gas ad impulso.
 Le componenti rotanti sono collegate direttamente all'albero e sono bilanciate dinamicamente.
-L'albero è supportato da due gruppi di cuscinetti a sfere riscaldati elettricamente e raffreddati a carburante nell'area della pompa del LOX (per mantere l'ossigeno in fase liquida)e da un gruppo di cuscinetti a rulli raffreddati a carburante nell'area della turbina, mentre per isolare i propellenti, il fluido di raffreddamento e i gas caldi sono presenti un insieme di guarnizioni in carbonio, plastica (Kel-F, Teflon) e gomma sintetica (Buna-N, Viton-A).
+L'albero è supportato da due gruppi di cuscinetti a sfere riscaldati elettricamente e raffreddati a carburante nell'area della pompa del LOX (per mantere l'ossigeno in fase liquida) e da un gruppo di cuscinetti a rulli raffreddati a carburante nell'area della turbina, mentre, per isolare i propellenti, il fluido di raffreddamento e i gas caldi, sono presenti un insieme di guarnizioni in carbonio, plastica (Kel-F, Teflon) e gomma sintetica (Buna-N, Viton-A). \cite{enginehistory}
 
 \subsubsection{Pompe LOX e RP1}
 
-L'esigenza di avere un sistema a turbopompa in uno stadio di lanciatore nasce dalla richiesta di elevati requisiti di missione quali quelli caratterizzanti lo stadio SI-C. Un sistema a gas pressurizzante, per l'alimentazione dei 5 motori, dovrebbe essere progettato per sostenere elevate pressioni e quindi con un grande spessore delle pareti del serbatoio. In generale l'introduzione di un sistema di alimentazione a turbopompa, a patto di un corretto dimensionamento, permette di diminuire pesi e ingombri a discapito di un aumento del livello di complessità globale del progetto. Lo sviluppo moderno di tali sistemi prevede studi prelimiari con tecniche assodate, come tabelle di valori specifici per le varie esigenze, basate su dati raccolti durante gli anni di sviluppo. Al giorno d'oggi si conclude e si implementa la progettazione teorica tramite uno studio a CFD che non verrà trattato in queste pagine. 
+L'esigenza di avere un sistema a turbopompa in uno stadio di lanciatore nasce dalla richiesta di elevati requisiti di missione quali quelli caratterizzanti lo stadio S-IC. In generale l'introduzione di un sistema di alimentazione a turbopompa, a patto di un corretto dimensionamento, permette di diminuire pesi e ingombri a discapito di un aumento del livello di complessità globale del progetto. Lo sviluppo moderno di tali sistemi prevede studi prelimiari con tecniche assodate, come tabelle di valori specifici per le varie esigenze, basate su dati raccolti durante gli anni di sviluppo. Al giorno d'oggi si conclude e si implementa la progettazione teorica tramite uno studio a CFD che non verrà trattato in queste pagine. 
 
-L’F-1 è dotato di due pompe del sitema Mark 10 di tipo centrifugo, una per l’ossidante e il combustibile; questa tipologia permette di ottenere un salto di pressione $\Delta P$ maggiore per singolo stadio (rotore + statore) rispetto alle pompe assiali a discapito di un leggero decremento dell’efficienza. Infatti, si è soliti usare pompe assiali solo laddove sono richiesti più stadi per ottenere un dato incremento di pressione come nel caso di LH2 dove a causa della bassa densità, il $\Delta P$ risulta limitato dalla massima velocità raggiungibile dai rotori.  Per pompe con fluido di lavoro a densità simile, come RP-1 e LOX, e simili pressione di scarico, si può mantenere la velocità angolare costante. 
+L’F-1 è dotato di due pompe del sistema Mark 10 di tipo centrifugo, una per l’ossidante e una per il combustibile; questa tipologia permette di ottenere un salto di pressione $\Delta P$ maggiore per singolo stadio (rotore + statore) rispetto alle pompe assiali, a discapito di un leggero decremento dell’efficienza. Per pompe con fluido di lavoro a densità simile, come RP-1 e LOX, e simili pressione di scarico, si può mantenere la velocità angolare costante e uguale per entrambe le componenti.
 Il progetto di una turbopompa ricerca principalmente la massimizzazione della velocità operativa poiché questo permette di ridurre le dimensioni della pompa stessa e di conseguenza il suo peso. Tuttavia, possibili effetti di cavitazione all’ingresso della pompa e sforzi dovuti alla forza centrifuga, vistosi nell’impeller (girante) e nella turbina, impongono un limite massimo alla velocità raggiungibile nelle zone periferiche dei componenti.
 
 \subsubsection{Analisi pompa LOX}
-\rfig{OXIDIZER_PUMP}{Prospettiva e dettagli pompa LOX}{OXIDIZER_PUMP}{0.5}
-Nel seguente paragrafo, considerando un funzionamento in condizione di regime, si proporrà un'analisi della pompa LOX del sistema.
-Partendo da ragionevoli ipotesi e dati ricavati dai principali manuali di interesse \cite{turbopump_manual} \cite{AIAA_book_1}, verranno costruiti i triangoli di velocità di inducer e impeller e nel processo si cercherà di fornire un'analisi globale dei vari componenti costituenti. 
+
+\rfig{OXIDIZER_PUMP}{Prospettiva e dettagli pompa LOX \cite{engine_manual_supplement}}{OXIDIZER_PUMP}{0.42}
+
+Si considera il funzionamento in condizione di regime e si propone un'analisi della pompa LOX del sistema.
+Partendo da ragionevoli ipotesi e dati ricavati dai principali manuali di interesse \cite{turbopump_manual}\cite{AIAA_book_1}, verranno costruiti i triangoli di velocità di inducer e impeller e nel processo si cercherà di fornire un'analisi globale dei vari componenti costituenti.
 
 Per permettere al motore di generare la spinta per cui è stato progettato, la pompa deve essere in grado di fornire un adeguato valore di ‘prevalenza della pompa’ ed elaborare allo stesso tempo la portata volumetrica richiesta. Per la performance nel caso della pompa, al posto dell’incremento di pressione, è comune infatti usare il valore di prevalenza - headrise $H$- definito come l’altezza a cui può essere sollevato 1 kg di fluido con il lavoro compiuto idealmente per unità di massa dalla pompa. Si può usare la seguente formula per ricavarne il valore:
 \begin{empheq}{equation*}
-H = \frac{\Delta h_s}{g} = \int_{P_0}^{P_2} \frac{dp}{\rho g}
+H = \frac{\Delta h_s}{g} = \int_{P_0}^{P_2} \frac{dP}{\rho g}
 \end{empheq}
 
-$\Delta h_s$ è direttamente legata al lavoro della pompa, rappresenta l'entalpia specifica del fluido di lavoro, e anche nel caso di fluido con elevata comprimibilità si può sempre scrivere
+$\Delta h_s$ è direttamente legata al lavoro della pompa, rappresenta il salto entalpico specifico del fluido di lavoro, anche nel caso di fluido con elevata comprimibilità, e si può sempre scrivere:
 \begin{empheq}{equation*}
 \frac{Lavoro}{Massa} = {\Delta h_s} = \frac{g H}{\eta_P}
 \end{empheq}
 dove con $\eta_P$ si intende il rendimento della pompa.
-La prevalenza della pompa è inoltre direttamente proporzionale alla velocità periferica del disco della girante e alla velocità di efflusso dipendente da $\beta_{blp}$ angolo di back-leaning della palettatura e $v_{m2}$ velocità meridionale di uscita del flusso. Quest’ultimo termine è legato alla portata volumetrica Q della pompa, ulteriore requisito di progetto, che essa deve essere in grado di soddisfare e che viene principalmente dettata dalle condizioni presenti in camera di combustione e al gas generator, tenendo conto di eventuali perdite di carico, per attrito, lungo le tubazioni.
+La prevalenza della pompa è inoltre direttamente proporzionale alla velocità periferica del disco della girante e alla velocità di efflusso dipendente da $\beta_{blp}$, angolo di back-leaning della palettatura, e $v_{m2}$, velocità meridionale di uscita del flusso. Quest’ultimo termine è legato alla portata volumetrica Q della pompa, ovvero un ulteriore requisito di progetto che dev'essere soddisfatto e che viene principalmente dettato dalle condizioni presenti in camera di combustione e nel gas generator, tenendo conto di eventuali perdite di carico, per attrito, lungo le tubazioni.
 Dal bilancio del momento della quantità di moto è possibile ricavare la coppia necessaria a mantenere in moto la girante e risalire di conseguenza alla potenza:
 \begin{empheq}{gather*}
- \mathcal{P} = \dot{m}{(\omega R_2 )}^2{(1 - {\frac{v_{m2}}{\omega R_2}} {\tan \beta_{blp}})} = \dot{m}\frac{g H}{\eta_P}
+\mathcal{P} = \dot{m}{(\omega R_2 )}^2{(1 - {\frac{v_{m2}}{\omega R_2}} {\tan \beta_{blp}})} = \dot{m}\frac{g H}{\eta_P}
 \end{empheq}
 
-Al valore di potenza è legato il termine $\psi$ coefficiente di prevalenza -head coefficient- della pompa
+Al valore di potenza è legato il termine $\psi$ coefficiente di prevalenza -head coefficient- della pompa:
 \begin{empheq}{gather*}
 \psi = \eta_P {(1 - {\frac{v_{m2}}{\omega R_2}} {\tan \beta_{blp}})} = \frac {g H}{{(\omega R_2 )}^2}
 \end{empheq}
-e per un design ottimale di pompa centrifuga deve essere contenuto tra 0.2 e 0.8. Valori maggiori dell’unità sono indicativi di palette realizzate per impartire in avanti il flusso e il $\Delta P$ tenderebbe ad aumentare all’aumentare della portata portando ad una generale instabilità del sistema di pressurizzazione.\\
+e per un design ottimale di pompa centrifuga deve essere contenuto tra 0.2 e 0.8. Valori maggiori dell’unità sono indicativi di palette realizzate per impartire in avanti il flusso e il $\Delta P$ tenderebbe a crescere all’aumentare della portata portando ad una generale instabilità del sistema di pressurizzazione.\\
 
-\textbf{Parametri adimensionali}\\
-La pompa è progettata, come detto precedentemente, per fornire una specifica prevalenza e portata volumetrica. Queste due quantità vengono usate per ricavare due parametri adimensionali
+• \textbf{Parametri adimensionali}\\
+La pompa è progettata, come detto precedentemente, per fornire una specifica prevalenza e portata volumetrica. Queste due quantità vengono usate per ricavare due parametri adimensionali:
 \begin{empheq}{gather*}
 \text{Diametro specifico}\hspace{3pt}  d_s = \frac{D{(g H)}^\frac{1}{4}}{Q^\frac{1}{2}}         \qquad 
 \text{Velocità specifica}\hspace{3pt}    n_s = \frac{\omega Q^\frac{1}{2}}{{(gH)}^\frac{3}{4}} 
 \end{empheq}
 
-Si verifica facilmente che il prodotto dei due parametri $n_s d_s = {2}/{\sqrt\psi}$  e poiché le pompe centrifughe, per costruzione, hanno un coefficiente di prevalenza $\psi$ minore dell’unità allora $n_s d_s > 2$. Diagrammi empirici nel piano $n_s, d_s$ permettono di fare considerazioni sulle prestazioni delle pompe e l’individuazione di zone ottimali di funzionamento a regime tenendo anche conto, solo ad un livello semplificato, di eventuali tolleranze di costruzione e rugosità interne che potranno poi essere modificate dopo prove al banco.
+Si verifica facilmente che il prodotto dei due parametri $n_s d_s = {2}/{\sqrt\psi}$  e poiché le pompe centrifughe, per costruzione, hanno un coefficiente di prevalenza $\psi$ minore dell’unità allora $n_s d_s > 2$. Diagrammi empirici nel piano ($n_s, d_s$) permettono di fare considerazioni sulle prestazioni delle pompe e l’individuazione di zone ottimali di funzionamento a regime tenendo anche conto, solo ad un livello semplificato, di eventuali tolleranze di costruzione e rugosità interne che potranno poi essere modificate dopo prove al banco.
 
-Sono forniti i seguenti requisiti costruttivi della pompa \cite{turbopump_manual}
+Sono forniti i seguenti requisiti costruttivi della pompa: \cite{turbopump_manual}
 \begin{table}[H]
 \centering
 \begin{tabular}{|c|c|c|c|c|c|c|}
@@ -68,13 +70,13 @@ $0.746$ & $4.4816$ & $110.4500$ &  $1141$ & $1.5898$ & $0.4953$ & $575.12$  \\
 
 \end{table}
 
-da cui si ricavano i principali parametri prestazionali caratterizzanti la pompa in esame (il codice MATLAB è allegato in \autoref{appendix:codici}).
+da cui si ricavano i principali parametri prestazionali caratterizzanti la pompa in esame (il codice MATLAB con il dettaglio di tutti i conti eseguiti è riportato in \autoref{appendix:codici}).
 
 \begin{table}[H]
 \centering
 \begin{tabular}{|c|c|c|c|c|c|c|}
 \hline
-$\bm{H \, [m]}$ & $\bm{\Delta h_s \, [J/kg]}$ & $\bm{\psi \, [-]}$ & $\bm{ \mathcal{P} [W]}$ & $\bm{d_s \, [-]}$ & $\bm{n_s \, [-]}$ & $\bm{n_s d_s \, [-]}$  \\
+$\bm{H \, [m]}$ & $\bm{\Delta h_s \, [J/kg]}$ & $\bm{\psi \, [-]}$ & $\bm{\mathcal{P} \, [W]}$ & $\bm{d_s \, [-]}$ & $\bm{n_s \, [-]}$ & $\bm{n_s d_s \, [-]}$  \\
 \hline
 $944.7827$ & $1.2424e+04$ & $0.4569$ &  $2.2440e+07$ & $3.8543$ & $0.7677$ & $2.9588$  \\
 \hline
@@ -85,35 +87,34 @@ $944.7827$ & $1.2424e+04$ & $0.4569$ &  $2.2440e+07$ & $3.8543$ & $0.7677$ & $2.
 
 \end{table}
 
-Il punto di partenza nella progettazione della pompa è la scelta di un valore ottimale di velocità specifica $n_s$, definita sopra in condizioni di design e relazionabile al numero di giri al minuto $N$ prestabiliti in condizioni stazionarie. Questo valore permette di effettuare una prima selezione tra le varie tipologia di pompe (in particolare forma e tipologia di impeller) esistenti per concentrare lo studio su quella che meglio si potrebbe adattare ai requisiti di missione.
- \\
+Il punto di partenza nella progettazione della pompa è la scelta di un valore ottimale di velocità specifica $n_s$, definita sopra in condizioni di design e relazionabile al numero di giri al minuto $N$ prestabiliti in condizioni stazionarie. Questo valore permette di effettuare una prima selezione tra le varie tipologia di pompe (in particolare forma e tipologia di impeller) esistenti per concentrare lo studio su quella che meglio si potrebbe adattare ai requisiti di missione.\\
 
- \textbf{Analisi inducer}\\
-è la prima interfaccia tra il fluido di lavoro e il sistema pompa e deve essere progettata con l’intento di evitare il più possibile eventuali fenomeni di cavitazione che portano ad un grande degrado delle prestazioni generali. Il rischio di cavitazione è alto soprattutto nella zona di ingresso -inlet- della pompa dove il fluido di lavoro alla pressione più bassa che si riscontra in questa parte del ciclo, dovendo ancora cominciare la pressurizzazione, viene compresso grazie ai contributi di aumento di velocità meridionale e velocità di rotazione della palettatura. Per caratterizzare la condizione di cavitazione bisogna introdurre una nuova grandezza, detta NPSH (Net Positive Suction Head), indice di merito della pressione in ingresso alla pompa. In particolare:
+• \textbf{Analisi inducer}\\
+L'inducer è la prima interfaccia tra il fluido di lavoro e il sistema pompa e deve essere progettato con l’intento di evitare il più possibile eventuali fenomeni di cavitazione che portano ad un grande degrado delle prestazioni generali. Il rischio di cavitazione è alto soprattutto nella zona di ingresso -inlet- della pompa, dove il fluido di lavoro alla pressione minore che si riscontra in questa parte del ciclo, dovendo ancora cominciare la pressurizzazione, viene compresso grazie ai contributi di aumento di velocità meridionale e velocità di rotazione della palettatura. Per caratterizzare la condizione di cavitazione bisogna introdurre una nuova grandezza, detta NPSH (Net Positive Suction Head), indice di merito della pressione in ingresso alla pompa. In particolare:
 \begin{empheq}{equation*}
 \left(NPSH\right) = \frac{P_{TOT0} - P_{vap}}{\rho g} 
 \end{empheq}
-In fase di progettazione si utilizza il parametro $\left( NPSH \right)_c$ come valore critico all'ingresso per non avere cavitazione, determinato dal design globale del motore, ed è necessario che sia verificata la relazione $\left( NPSH \right) > \left( NPSH \right)_c $. 
-In aggiunta per comparare le caratteristiche di aspirazione tra differenti geometrie e organizzazioni del sistema pompa si utilizza un parametro derivante direttamente dalla velocità specifica $n_s$ definita sopra, la suction specific velocity $N_{ss}$:
+In fase di progettazione si utilizza il parametro $\left(NPSH \right)_c$ come valore critico all'ingresso per evitare la cavitazione, determinato dal design globale del motore, ed è necessario che sia verificata la relazione $\left( NPSH \right) > \left( NPSH \right)_c $.
+In aggiunta, per comparare le caratteristiche di aspirazione tra differenti geometrie e organizzazioni del sistema pompa si utilizza un parametro derivante direttamente dalla velocità specifica $n_s$, la suction specific velocity $N_{ss}$:
 \begin{empheq}{equation*}
 N_{ss} = \frac{N\sqrt{Q}}{\left( NPSH \right)_c^{0.75}}
 \end{empheq}
-Alti valore di $N_{ss}$ sono indicativi della presenza di un inducer, a monte dell'impeller. Questo elemento contribuisce attivamente a migliorare la prestazione globale della pompa dal momento che permette di ampliare il range di velocita rotazionali ammissibili senza incorrere nella cavitazione, portando quindi ad una diretta riduzione del peso della pompa a parità di livello di potenza e prevalenza forniti al fluido.\\
+Alti valore di $N_{ss}$ sono indicativi della presenza di un inducer, a monte dell'impeller. Questo elemento contribuisce attivamente a migliorare la prestazione globale della pompa dal momento che permette di ampliare il range di velocità rotazionali ammissibili senza incorrere nella cavitazione, portando quindi ad una diretta riduzione del peso della pompa a parità di livello di potenza e prevalenza forniti al fluido.\\
 \'E ora possibile andare a calcolare le velocità in ingresso, sezione 0, e in uscita, sezione 1, dall'inducer della pompa. Si effettua una ragionevole ipotesi sul 
-valore del coefficiente di prevalenza $\psi_{ind}$, pari a $0.06$, relativo al solo tratto iniziale \cite{AIAA_book_1}; da questo dato si trovano in cascata la velocita di rotazione riferita al valore medio del raggio della palettatura inducer e i relativi diametri effettivi della palettatura e dell'albero motore sezioni 0 e 1. Dalla conoscenza del valore di portata volumetrica all'ingresso dell'inducer, leggermente maggiore di quello presente nel corpo impeller per tenere conto di eventuali perdite, si sfrutta l'equazione di continuità per ricavare i vettori velocità nel sistema di riferimento assoluto e solidale con il case della pompa. Tali velocità sono indicate con $\overrightarrow{c_0} e \overrightarrow{c_1}$ , rispettivamente per inlet e outlet inducer, e sono costituite da $c_u$ per indicare la componente tangenziale della velocità assoluta e da $c_m$ per riferirsi alla velocità meridionale, ovvero la componente della velocità assoluta che appartiene al piano radiale e assiale. Sono anche noti i valori di $\overrightarrow{u}$, vettore velocità periferica media di rotazione della palettatura nelle sezione di ingresso e uscita, dal momento che si sono ricavati i diametri effettivi ed è noto il numero di giri al minuto effettuati. Usando le relazioni trigonometriche, e la conservazione della componente meridionale della velocità tra la velocità assoluta $\overrightarrow{c}$ e la velocità espressa nel sistema di riferimento relativo, solidale con la palettatura in rotazione, $\overrightarrow{v}$, si compone il triangolo di velocità complessivo e si determinano infine gli angoli di orientazione $\beta$ riferito all'inclinazione di  $\overrightarrow{v}$ e $\alpha$ riferito invece all'orientazione di $\overrightarrow{c}$.
-\'E anche possibile andare a trovare la velocità all'estremo superiore -tip- della paletta per valutare un ulteriore parametro di progetto, la -vane solidity tip $S_v$-, grandezze adimensionale definita in relazione alla sezione anulare normale alla direzione della velocità assiale di effettivo passaggio del fluido di lavoro.\\
+valore del coefficiente di prevalenza $\psi_{ind}$, pari a $0.06$, relativo al solo tratto iniziale \cite{AIAA_book_1}; da questo dato si trovano in cascata la velocità di rotazione riferita al valore medio del raggio della palettatura inducer e i relativi diametri effettivi della palettatura e dell'albero motore nelle sezioni 0 e 1. Dalla conoscenza del valore di portata volumetrica all'ingresso dell'inducer, leggermente maggiore di quello presente nel corpo impeller per tenere conto di eventuali perdite, si sfrutta l'equazione di continuità per ricavare i vettori velocità nel sistema di riferimento assoluto e solidale con il case della pompa. Tali velocità sono indicate con $\overrightarrow{c_0} e \overrightarrow{c_1}$, rispettivamente per inlet e outlet dell'inducer, e sono costituite da $c_u$ per indicare la componente tangenziale della velocità assoluta e da $c_m$ per riferirsi alla velocità meridionale, ovvero le componenti della velocità assoluta che appartengono al piano radiale e assiale. Sono anche noti i valori di $\overrightarrow{u}$, vettore velocità periferica media di rotazione della palettatura nelle sezione di ingresso e uscita, dal momento che si sono ricavati i diametri effettivi ed è noto il numero di giri al minuto effettuati. Usando le relazioni trigonometriche, e la conservazione della componente meridionale della velocità tra la velocità assoluta $\overrightarrow{c}$ e la velocità espressa nel sistema di riferimento relativo solidale con la palettatura in rotazione, $\overrightarrow{v}$, si compone il triangolo di velocità complessivo e si determinano infine gli angoli di orientazione $\beta$, riferito all'inclinazione di  $\overrightarrow{v}$, e $\alpha$, riferito invece all'orientazione di $\overrightarrow{c}$.
+\'E anche possibile andare a trovare la velocità all'estremo superiore -tip- della paletta per valutare un ulteriore parametro di progetto, la -vane solidity tip $S_v$-, grandezza adimensionale definita in relazione alla sezione anulare, normale alla direzione della velocità assiale di effettivo passaggio del fluido di lavoro.\\
 
-\textbf{Analisi impeller}\\
-Bisogna anche in questo caso fare riferimento ad una ragionevole ipotesi sulla perdita di prevalenza $H$ nella sezione anulare di passaggio del fluido a causa di attriti e conseguente dissipazione di energia, dal manuale risulta $H_e = 0.3H$ come termine di perdita \cite{AIAA_book_1}, e a questo punto è possibile calcolare la prevalenza effettiva fornita dalla sezione della girante -impeller-. Sono inoltre noti il diametro nella sezione 1 -outlet inducer/inlet impeller- e nella sezione 2 -outlet impeller-. Con un ragionamento del tutto analogo a quello relativo all'inducer è possibile costruire il triangolo di velocità dato dalla composizione della velocità assoluta  $\overrightarrow{c}$, della velocità relativa $\overrightarrow{v}$, con i rispettivi angoli di orientazione $\alpha$ e $\beta$ e della velocità periferica media di rotazione $\overrightarrow{u}$. Per i procedimenti di analisi della conservazione della portata e di calcolo effettivo mediante relazioni trigonometriche passo per passo si rimanda al codice matlab $POMPA_{LOX}$ in \autoref{appendix:codici}.
+• \textbf{Analisi impeller}\\
+Bisogna anche in questo caso fare riferimento ad una ragionevole ipotesi sulla perdita di prevalenza $H$ nella sezione anulare di passaggio del fluido a causa di attriti e conseguente dissipazione di energia, dal manuale risulta $H_e = 0.3H$ come termine di perdita \cite{AIAA_book_1}, e a questo punto è possibile calcolare la prevalenza effettiva fornita dalla sezione della girante -impeller-. Sono inoltre noti il diametro nella sezione 1 -outlet inducer/inlet impeller- e nella sezione 2 -outlet impeller-. Con un ragionamento del tutto analogo a quello relativo all'inducer è possibile costruire il triangolo di velocità dato dalla composizione della velocità assoluta  $\overrightarrow{c}$, della velocità relativa $\overrightarrow{v}$, con i rispettivi angoli di orientazione $\alpha$ e $\beta$ e della velocità periferica media di rotazione $\overrightarrow{u}$. Per i procedimenti di analisi della conservazione della portata e di calcolo effettivo mediante relazioni trigonometriche passo per passo si rimanda al codice MATLAB $POMPA_{LOX}$ allegato in \autoref{appendix:codici}.
 \\
 
-\textbf{Analisi casing pompa: vani diffusori}\\
-Il principale compito del casing è quello di convertire l'elevata energia cinetica del fluido di lavoro in uscita dalla sezione 2 dell'impeller in pressione statica; questo elemento non contribuisce quindi in alcun modo alla generazione di un valore di prevalenza. Il casing può essere formalmente diviso in due sezioni: una frontale nominata -suction nozzle- con il compito di convogliare debitamente il flusso nella seconda sezione, definita di uscita, -volute / (voluta in italiano)- che invece si occupa della effettiva conversione energetica. La sezione frontale ha una lughezza ridotta per cercare di limitare al minimo le perdite di pressione per attrito contro le pareti rigide. Con i dati in possesso si procede al dimensionamento di un casing con geometria double-volute ($180\degree$) e singola sezione di efflusso per il flusso.\\
+• \textbf{Analisi casing pompa: vani diffusori}\\
+Il principale compito del casing è quello di convertire l'elevata energia cinetica del fluido di lavoro in uscita dalla sezione 2 dell'impeller in pressione statica; questo elemento non contribuisce quindi in alcun modo alla generazione di un valore di prevalenza. Il casing può essere formalmente diviso in due sezioni: una frontale nominata -suction nozzle- con il compito di convogliare debitamente il flusso nella seconda sezione, definita di uscita, -volute / (voluta in italiano)- che invece si occupa della effettiva conversione energetica. La sezione frontale ha una lughezza ridotta per limitare al minimo le perdite di pressione per attrito contro le pareti rigide. Con i dati in possesso si procede al dimensionamento di un casing con geometria double-volute ($180\degree$) e singola sezione di efflusso.\\
 Per calcolare la velocità media del flusso all'interno della voluta si assume come riferimento un parametro $K_v$ determinato sperimentalemente tramite prove al banco di differenti tipologie di vani diffusori. Per i calcoli $K_v = 0.337$ da manuale \cite{AIAA_book_1}.
 \begin{empheq}{equation*}
 c_3 = K_v \sqrt{2 g H}
 \end{empheq}
-Si procede al calcolo dell'area del tratto divergente della voluta, imponendo per ciascuna sezione un valore di $\alpha_{volute}$ compreso tra $0\degree$ e $180\degree$. Nota la geometria e servendosi dell'equazione di continuità, è infine possibile ricavare i valori di velocità relativi alla sezione di ingresso alla voluta e di efflusso finale per valutare il corretto funzionamento del sistema pompa e l'incremento di pressione statica che riesce ad imporre al fluido.
+Si procede al calcolo dell'area del tratto divergente della voluta, imponendo per ciascuna sezione un valore di $\alpha_{volute}$ compreso tra $0\degree$ e $180\degree$. Nota la geometria e servendosi dell'equazione di continuità è infine possibile ricavare i valori di velocità relativi alla sezione di ingresso della voluta e di efflusso finale per valutare il corretto funzionamento del sistema pompa e l'incremento di pressione statica che riesce ad imporre al fluido.
 
 \begin{table}[H]
 \centering
@@ -130,54 +131,7 @@ $103.7019$ & $29.1447$   \\
 
 \end{table}
 
-\subsubsection{Analisi pompa RP-1}
-Si riportano i principali parametri di interesse calcolati con gli stessi procedimenti della pompa LOX.
-
-\begin{table}[H]
-\centering
-\begin{tabular}{|c|c|c|c|c|c|c|}
-\hline
-$\bm{\eta_P \, [-]}$ & $\bm{P_ {TOT0} \, [bar]}$ & $\bm{P_{TOT2} \, [bar]}$ & $\bm{\rho [kg/m^3]}$ & $\bm{Q \, [m^3/s]}$ & $\bm{D_2 \, [m]}$ & $\bm{\omega \, [rad/s]}$  \\
-\hline
-$0.760$ & $3.1026$ & $128.2400$ &  $808.9324$ & $0.9617$ & $0.59436$ & $574.020$  \\
-\hline
-\end{tabular}
-
-\caption{Requisiti del sistema pompa RP-1 \cite{turbopump_manual}}
-\label{table:RP-1 pump specs}
-
-\end{table}
-
-\begin{table}[H]
-\centering
-\begin{tabular}{|c|c|c|c|c|c|c|}
-\hline
-$\bm{H \, [m]}$ & $\bm{\Delta h_s \, [J/kg]}$ & $\bm{\psi \, [-]}$ & $\bm{ \mathcal{P} [W]}$ & $\bm{d_s \, [-]}$ & $\bm{n_s \, [-]}$ & $\bm{n_s d_s \, [-]}$  \\
-\hline
-$1.5774e+03$ & $2.0361e+04$ & $0.5318$ &  $1.6218e+07$ & $6.7598$ & $0.4057$ & $2.7427$  \\
-\hline
-\end{tabular}
-
-\caption{Parametri prestazionali del sistema pompa RP-1}
-\label{table:RP-1 pump performance}
-
-\end{table}
-
-\begin{table}[H]
-\centering
-\begin{tabular}{|c|c|}
-\hline
-$\bm{v_{voluteIN} \, [m/s]}$ & $\bm{v_{voluteOUT} \, [m/s]]}$  \\
-\hline
-$153.7897$ & $31.7356$   \\
-\hline
-\end{tabular}
-
-\caption{Velocità del sistema pompa RP-1: casing}
-\label{table:RP-1 pump casing}
-
-\end{table}
-
+Si rimanda a \autoref{appendix:turbopompa} per l'analisi della pompa RP-1.
 
 
 \subsection{Turbina}
@@ -185,13 +139,15 @@ $153.7897$ & $31.7356$   \\
 
 \subsubsection{Descrizione turbina}
 
-\rfig{turbina_general}{Turbina ad impulso VC dell'F-1. Fonte: \cite{engine_manual_supplement}}{turbina_general}{0.45}
+La turbina che fornisce la potenza necessaria alle pompe del sistema motore F-1 è definita come turbina a impulso (variazione di pressione statica solamente negli statori), e cosiddetta 2 row - velocity compounded (VC), ovvero costituita da 2 file di rotori intramezzati da uno statore. Il gas caldo, prima di passare in questa zona, viene espanso in una schiera di ugelli che ne aumenta notevolmente la velocità: per le turbina VC, idealmente, tutta l'espansione avviene in questa zona. Successivamente i rotori, investiti da un gas, sottraggono quantità di moto al fluido. Lo statore intermedio ha la funzione di reindirizzare il flusso all'ingresso dell'ultimo rotore. Oltre a questi elementi, nella turbina è presente una zona di ingresso (manifold) che convoglia il flusso ai nozzles. I nozzles, che sono generalmente convergenti-divergenti per una turbina VC, espandono il gas e lo deviano per affrontare il primo rotore.
 
-La turbina che fornisce la potenza necessaria alle pompe del sistema motore F-1 è definita come turbina a impulso (variazione di pressione statica solamente negli statori), e cosiddetta 2 row - velocity compounded (VC). Ovvero costituita da 2 file di rotori intramezzati da uno statore. Il gas caldo, prima di passare in questa zona, viene espanso in una schiera di ugelli che aumentano notevolmente la velocità: per le turbina VC, idealmente, tutta l'espansione avviene in questa zona. Successivamente i rotori, venendo impattati da un gas, sottraggono quantità di moto al fluido. Lo statore intermedio ha la funzione di reinidirizzare il flusso all'ingresso dell'ultimo rotore. Oltre a queste zone citate, nella turbina c'è una zona di ingresso ( manifold) che convoglia il flusso ai nozzles. I nozzles, che sono generalmente convergenti-divergenti per una turbina VC, espandono il gas e lo incurvano per affrontare il primo rotore. Entrambe i rotori della turbina sono costituiti da dischi i quali presentano dei 'fir tree' slot lungo la circonferenza, dove vengono inserite e rivettate le palette. Il rotore iniziale è calettato direttamente sull'albero, l'ultimo viene imbullonato sul primo e vengono separati da un distanziale. Le guarnizioni sono di diverso tipo, in questa sede non verranno approfondite, ma hanno il compito di contenere le perdite e quindi migliorare l'efficienza. \cite{AIAA_book_2} \cite{turbine_design}
+\rfig{turbina_general}{Turbina ad impulso VC dell'F-1 \cite{engine_manual_supplement}}{turbina_general}{0.40}
+
+Entrambi i rotori della turbina sono costituiti da dischi, i quali presentano dei 'fir tree' slot lungo la circonferenza dove vengono inserite e rivettate le palette. Il rotore iniziale è calettato direttamente sull'albero, l'ultimo viene imbullonato sul primo e vengono separati da un distanziale. Le guarnizioni sono di diverso tipo, in questa sede non verranno approfondite, ma hanno il compito di contenere le perdite e quindi migliorare l'efficienza. \cite{AIAA_book_2}\cite{turbine_design}
 
 \subsubsection{Turbina - scelte progettuali}
 
-Il sistema turbina di un endoreattore ha una vita breve ma è sottoposto a parecchi carichi critici. Il design deve essere compatto e leggero, il fluido che espande deve avere un alto contenuto energetico, il lavoro specifico in uscita deve essere alto. La progettazione dell'elemento turbina è direttamente collegato al tipo di ciclo di alimentazione del motore, nel caso di un GG si vuole massimizzare il salto di pressione per minimizzare la portata spillata prima della camera di spinta (questo infatti massimizza l'impulso specifico del sistema). 
+Il sistema turbina di un endoreattore ha una vita breve ma è sottoposto a parecchi carichi critici. Il design deve essere compatto e leggero, il fluido che espande deve avere un alto contenuto energetico e il lavoro specifico in uscita deve essere alto. La progettazione dell'elemento turbina è direttamente collegata al tipo di ciclo di alimentazione del motore, nel caso di un GG si vuole massimizzare il salto di pressione per minimizzare la portata spillata prima della camera di spinta (questo infatti massimizza l'impulso specifico del sistema). 
 
 Per l'analisi del percorso aerotermodinamico del gas si tratta un flusso di gas combusti a chimica congelata (FE). I parametri fisici di interesse sono stati interpolati tramite MATLAB da una tabella fornita dal libro \cite{AIAA_book_2}, dati ricavati da test sperimentali di NASA. Di seguito vediamo quali parametri principali vengono utilizzati per la scelta e il dimensionamento della turbina. 
 
@@ -204,14 +160,9 @@ C_0 = \sqrt{2C_{p,gg}T_{in} \left(1 - \epsilon^\frac{1-\gamma_{gc} }{\gamma_{gc}
 \end{empheq}
 
 \item
-\textbf{Rapporto isoentropico delle velocità:} è il rapporto tra velocità tangenziale del disco rotorico e la spouting velocity.
-
-\begin{empheq}{equation*}
-\frac{U}{C_0} 
-\end{empheq}
-
 \parbox[t]{\dimexpr\textwidth-\leftmargin}{%
-
+\textbf{Rapporto isoentropico delle velocità:} è il rapporto tra velocità tangenziale del disco rotorico e la spouting velocity ($U/C_0$).
+Questo valore è utile per capire la scelta progettuale effettuata per il tipo di turbina.
 \begin{wrapfigure}{r}{0.4\linewidth}
 	\centering
 	\vspace{-\baselineskip}
@@ -219,8 +170,7 @@ C_0 = \sqrt{2C_{p,gg}T_{in} \left(1 - \epsilon^\frac{1-\gamma_{gc} }{\gamma_{gc}
 	\caption{Rendimenti in funzione del rapporto di velocità}
 	\label{fig:rendimenti_turbina}
 \end{wrapfigure}
-
-Questo valore è utile per capire la scelta progettuale effettuata per il tipo di turbina. Infatti, come già detto, nei cicli GG il salto di pressione in turbina è molto alto: questo implica un valore di $C_0$ elevato. Per avere una buona efficienza si possono percorrere più scelte progettuali (basandosi sul grafico di \autoref{fig:rendimenti_turbina}). Si può scegliere di avere un alto rapporto di velocità con una singola ruota che 'assorba' tutta l'energia del flusso. Questo provocherebbe nel nostro caso una velocità di rotazione troppo elevata (quindi ingombro maggiore, inoltre la velocità di rotazione è fissata dalla pompa). Per usare altre turbine, cercando di avere un'alta efficienza si cerca di diminuire il rapporto di velocità aumentando gli stadi, ovvero la velocità del flusso è assorbita da più dischi che ruotano a velocità minori e sono più piccoli.
+Nei cicli GG il salto di pressione in turbina è molto alto: questo implica un valore di $C_0$ elevato. Per avere una buona efficienza si possono percorrere più scelte progettuali (basandosi sul grafico di \autoref{fig:rendimenti_turbina}). Si può scegliere di avere un alto rapporto di velocità con una singola ruota che 'assorba' tutta l'energia del flusso. Questo provocherebbe, nel caso in esame, una velocità di rotazione troppo elevata (quindi ingombro maggiore), inoltre la velocità di rotazione è fissata dalla pompa. Dovendo usare altre configurazioni e cercando di massimizzare l'efficienza, è necessario diminuire il rapporto di velocità aumentando gli stadi. In questo modo la velocità del flusso è assorbita da più dischi che ruotano a velocità minori e sono più piccoli.
 
 Le turbine PC (generano il salto di pressione in tutti gli statori) sono più efficienti ma più pesanti. Per cui nel caso del motore F-1 si è optato per un sistema VC, che ha buona efficienza a bassi rapporti di velocità e permette un risparmio in peso.
 }
@@ -228,13 +178,13 @@ Le turbine PC (generano il salto di pressione in tutti gli statori) sono più ef
 \subsubsection{Analisi quantitativa - dimensionamento}
 
 L'obiettivo ora è quello di cercare di dare un'idea a livello quantitativo del funzionamento della turbina, generando un diagramma di velocità nelle varie zone della stessa. 
-Per questa sezione si sono presi in considerazione i requisti del sistema turbina, si sono ipotizzati diversi valori di rendimenti e sono state fatte alcune assunzioni ragionevoli per questo tipo di sistema (\cite{AIAA_book_2}) riassunte nella seguente tabella: 
+Per questa sezione si sono presi in considerazione i requisti del sistema turbina, si sono ipotizzati diversi valori di rendimenti e sono state fatte alcune assunzioni ragionevoli per questo tipo di sistema \cite{AIAA_book_2} riassunte nella seguente tabella: 
 \begin{table}[H]
 
 \centering
 \begin{tabular}{|c|c|c|c|c|c|}
 \hline
-$\bm{T_in \, [K]}$ & $\bm{p_in \, [bar]}$ & $\bm{\epsilon}$ &  $\bm{O/F}$ & $\bm{\dot{m} \, [kg/s]}$ & $\bm{\omega \, [rad/s]}$  \\
+$\bm{T_{in} \, [K]}$ & $\bm{p_{in} \, [bar]}$ & $\bm{\epsilon}$ &  $\bm{O/F}$ & $\bm{\dot{m} \, [kg/s]}$ & $\bm{\omega \, [rad/s]}$  \\
 \hline
 $1062$ & $67.57$ & $16.4$ &  $0.416$ & $75.75$ & $574.4$ \\
 \hline
@@ -245,14 +195,14 @@ $1062$ & $67.57$ & $16.4$ &  $0.416$ & $75.75$ & $574.4$ \\
 
 \end{table}
 
-Assumendo tali dati, aggiungendo alcune ragionevoli ipotesi tratte dal libro AIAA meglio precisate nell'appendice \autoref{appendix:diagrammi velocita} e risolvendo il sistema di equazioni associato al problema, troviamo il seguente diagramma velocità e i corrispondenti valori di velocità e angoli. In appendice \autoref{appendix:codici} i codici relativi all'impostazione del problema e risoluzione del triangolo di velocità.
+Assumendo tali dati, aggiungendo alcune ragionevoli ipotesi tratte dal libro \cite{AIAA_book_2} meglio precisate in \autoref{appendix:turbopompa} e risolvendo il sistema di equazioni associato al problema, si trova il seguente diagramma velocità e i corrispondenti valori di velocità e angoli. In \autoref{appendix:codici} i codici relativi all'impostazione del problema e risoluzione del triangolo di velocità.
 
 \vspace{5pt}
 \begin{minipage}{0.5\linewidth}
     \centering
     \captionsetup{type=figure}
     \includegraphics[width=\linewidth]{triangoli_turbina}
-    \caption{Triangoli di velocità turbina}
+    \caption{Diagrammi di velocità turbina}
     \label{fig:triangoli_turbina}
 \end{minipage}\hfill
 \begin{minipage}{0.5\linewidth}
@@ -273,6 +223,6 @@ Assumendo tali dati, aggiungendo alcune ragionevoli ipotesi tratte dal libro AIA
         \textbf{4} & $217.29$ & $350.26$ & $274.71$ & $90.00$ & $38.34$ \\
         \hline
     \end{tabular}
-    \caption{Dati schema termodinamico}
+    \caption{Dati diagrammi di velocità}
     \label{table:dati_triangoli_turbina}
 \end{minipage}
