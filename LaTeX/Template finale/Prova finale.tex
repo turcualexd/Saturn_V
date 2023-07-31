@@ -117,6 +117,23 @@
 \end{figure}
 }
 
+\newcommand{\twofigII}[7]{
+\begin{figure}[H]
+	\begin{minipage}{0.48\linewidth}
+		\centering
+		\includegraphics[width=#7\linewidth]{#1}
+		\caption{#2}
+		\label{fig:#3}
+	\end{minipage}\hfill
+	\begin{minipage}{0.48\linewidth}
+		\centering
+		\includegraphics[width=#7\linewidth]{#4}
+		\caption{#5}
+		\label{fig:#6}
+	\end{minipage}
+\end{figure}
+}
+
 \newcommand{\cfig}[4]{
 \begin{figure}[H]
 	\centering
@@ -132,6 +149,7 @@
 	\includegraphics[width=\linewidth]{#1}
 	\caption{#2}
 	\label{fig:#3}
+	\vspace*{-13pt}
 \end{wrapfigure}
 }
 
@@ -141,6 +159,7 @@
 	\includegraphics[width=\linewidth]{#1}
 	\caption{#2}
 	\label{fig:#3}
+	\vspace*{-13pt}
 \end{wrapfigure}
 }
 
@@ -202,12 +221,13 @@
 
 \clearpage
 
-\setcounter{page}{1}
-\pagenumbering{arabic}
-
 %-----------------------------------------------------------------------------
 
 \input{Sezioni/01_nomenclatura}
+\pagebreak
+
+\setcounter{page}{1}
+\pagenumbering{arabic}
 
 %-----------------------------------------------------------------------------
 
