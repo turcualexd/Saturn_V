@@ -17,9 +17,7 @@ p_c = 77.6e5; % pressione in camera, Pa
 MM = 22.2095; % massa molare, Kg/kmol 
 
 c_star = (p_c .* A_t) ./ (GAMMA .* (p_c ./ (sqrt((R / MM).*T_c))) .* A_t); % velocità caratteristica, m/s
-
 t_r = L_star/c_star; % tempo residenza, s
-
 %% misure della parte cilindrica
 
 eps = 1.307; % A_cil/A_t rateo di contrazione
@@ -43,7 +41,6 @@ V_conv = ((A_cil + A_t + sqrt(A_cil*A_t))*L_conv)/3; %volume parte convergente
 L_cil = (V_cc -V_conv)/(A_cil);
 
 V_cil = L_cil*A_cil; % volume corretto della parte cilindrica
-
 
 %% area interna delle pareti
 
