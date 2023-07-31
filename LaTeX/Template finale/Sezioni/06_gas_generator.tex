@@ -1,7 +1,6 @@
 \section{Gas generator}
 \label{sec:gas generator}
 
-% Le difficoltà progettuali incontrate per il design del gas generator furono molte: vennero sviluppate molte geometrie diverse negli anni precedenti. Per ovviare a problemi futuri, tutte le scelte effettuate dai progettisti della NASA vennero raccolte in un manuale tecnico basato su un approccio sperimentale piuttosto che teorico, in cui vengono giustificate le scelte progettuali effettuate per il sistema GG di un LRE \cite{gg_manual}.
 Il gas generator del motore F-1 è il sistema adibito alla produzione di gas caldi per alimentare la turbopompa. Tale sistema è composto da una camera di combustione progettata ad hoc per questo tipo di sottosistema.
 Vengono utilizzati gli stessi propellenti utilizzati nella camera principale ma con diverso rapporto O/F (valore in \autoref{table:gas generator}). La necessità di avere un O/F lontano dal valore stechiometrico è dettata dal contenere le temperature del flusso che impatterà sulla turbina: questo lo si ottiene con miscele ricche in ossidante o ricche in combustibile.
 In questo caso è stata scelta una miscela ricca in combustibile per molteplici motivi: evitare ossidazioni di componenti che sarebbero convenute con una miscela ad alta percentuale in LOX, diminuire la possibilità di eventuali guasti causati da flussi surriscaldati (più probabili nel caso Oxider Rich) e contenere il consumo specifico della turbina, poiché il peso molecolare dei gas risulta minore nel caso Fuel Rich (\autoref{appendix:confronto_peso_molecolare}).
@@ -30,7 +29,7 @@ le perdite di pressione prodotte nella camera non devono essere troppo elevate.
 
 Di seguito troviamo raffigurato il GG di nostro interesse (più particolari in \autoref{appendix:gg_schematics}):
 
-\twofig{GG_schema}{Schema del gas generator}{gg_schema}{GG_esploso}{Esploso del gas generator}{gg_esploso}
+\twofigII{GG_schema}{Schema del gas generator}{gg_schema}{GG_esploso}{Esploso del gas generator}{gg_esploso}{0.8}
 
 %-----------------------------------------------------------------------------
 
@@ -54,7 +53,7 @@ La zona di ingresso dei gas in turbina è composta da una sezione ad area costan
 Il corpo della camera di combustione è convergente in maniera da differenziare la velocità e ottenere migliore atomizzazione.
 
 \item
-Il piatto di iniezione scelto per il GG è un semi-UMR (Uniform Mixture Ratio), ovvero ha le zone esterne più ricche in combustibile per ottenere film cooling, mentre la maggior parte dell’iniezione avviene a O/F predefinito.
+Il piatto di iniezione scelto per il GG è un semi-UMR, ovvero ha le zone esterne più ricche in combustibile per ottenere film cooling, mentre la maggior parte dell’iniezione avviene a O/F predefinito.
 Altri iniettori, come HCI, hanno una stratificazione dei gas e delle temperature: ciò non è consigliabile per gas che devono impattare sulle palettature. Inoltre, un iniettore HCI non è compatibile con la forma arrotondata del corpo poiché provocherebbe un surriscaldamento del fondo della camera.
 
 \item
@@ -65,7 +64,7 @@ Il TR (Turbulence Ring) visibile in \autoref{fig:gg_schema} viene posizionato po
 Questo permette un alto livello di mescolamento tra specie presenti per uniformare così la temperatura ed evitare stratificazioni del flusso, le quali causerebbero il fenomeno di “momentum separation”, un flusso chiaramente non sostenibile dalla turbina.
 Questo reverse flow è reso più efficace grazie alla porzione circolare della camera che accoglie questo moto vorticoso.
 La posizione del TR è scelta per evitare il surriscaldamento dello stesso, dato che a monte della camera i gas vaporizzati devono ancora essere igniti e hanno dunque temperature relativamente basse.
-Il TR deve inoltre essere in grado di non provocare alte cadute di pressione: questo è ottenuto rendendo il TR conico (visibile in \autoref{appendix:gg_schematics}).
+Il TR deve inoltre essere in grado di non provocare alte cadute di pressione: questo è ottenuto rendendo il TR conico.
 
 \item
 L’ignitore deve essere posizionato poco dopo il piatto di iniezione (una best practice è tra 2.5 e 3.8 cm dal piatto). Viene inoltre posizionato in zone molto vicine ai punti di ristagno del flusso, in cui la combustione viene resa efficace.
