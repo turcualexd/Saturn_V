@@ -85,48 +85,35 @@ Se per determinare il valore di $h_{gc}$ è sufficiente ripercorrere la trattazi
 Per i motivi illustrati in \autoref{appendix:cooling_temp_definitions} si predilige avere una pressione che sia tra il 30\% e il 70\% della pressione critica.
 Il dimensionamento del sistema di regenerative cooling è finalizzato a stabilire il numero di tubi che compongono la parete dell'ugello d'efflusso e le dimensioni dei singoli tubi, in particolare il diametro interno e lo spessore. Il dimensionamento viene effettuato nella condizione più critica, ossia vengono dimensionati i tubi di ritorno nella sezione di gola, perché la gola rappresenta il punto caratterizzato dal maggior valore di flusso termico e attraverso la sezione finale dei tubi di ritorno scorre il refrigerante alla sua temperatura massima raggiunta dopo aver percorso tutto il sistema di raffreddamento. La forma dell'ugello d'efflusso è nota (\autoref{subsec:modellazione ugello}, \autoref{appendix:rpa}). Il numero di tubi rimane costante fino al piano caratterizzato dal rapporto di espansione 1:3, per poi raddoppiare fino al piano con rapporto di espansione 1:10 (sdoppiamento spiegato in \autoref{subsec:descrizione camera spinta}). Avendo come variabili sia il numero di tubi che il loro spessore, è necessario fissare uno dei due dati. \'E stato scelto il numero reale di tubi che compongono l'ugello nel primo tratto (178).
 I calcoli preliminari al dimensionamento permettono di determinare, tramite una trattazione analoga a quella illustrata per lo scambio convettivo, il valore di flusso di calore specifico q, funzione della conduttività termica, della temperatura adiabatica a parete e della temperatura della parete lato gas. 
-La temperatura a parete lato gas $T_{wg}$ è determinata sperimentalmente, mentre la temperatura adiabatica a parete $T_{aw}$ è ottenuta moltiplicando la temperatura in camera di combustione $T_c$ per il fattore di recupero dello strato limite turbolento in gola (valore intermedio tra 0.9 e 0.98). Noto quindi il rapporto $T_{wg}/T_c$ e $\gamma$ dei gas combusti è possibile determinare il valore del fattore di correzione in gola $\left( \sigma \right)$ dai grafici riportati nella sezione precedente. Infine è possibile calcolare il coefficiente di scambio termico lato gas tramite la formula (*)
-e quindi il valore di $h_{gc}$.
+La temperatura a parete lato gas $T_{wg}$ è determinata sperimentalmente, mentre la temperatura adiabatica a parete $T_{aw}$ è ottenuta moltiplicando la temperatura in camera di combustione $T_c$ per il fattore di recupero dello strato limite turbolento in gola (valore intermedio tra 0.9 e 0.98). Noto quindi il rapporto $T_{wg}/T_c$ e $\gamma$ dei gas combusti è possibile determinare il valore del fattore di correzione in gola $\left( \sigma \right)$ dai grafici riportati nella sezione precedente. Infine è possibile calcolare il coefficiente di scambio termico lato gas tramite la formula (*) e quindi il valore di $h_{gc}$.
 
 Dalle precedenti formule è possibile definire $R_d$ la resistenza termica causata dal deposito solido in gola, R il raggio di curvatura dell'ugello calcolato come media dei due raggi di curvatura $R_1$ ed $R_n$, $D_t$ il diametro di gola calcolato come due volte $R_t$.
-Terminati i calcoli preliminari è possibile passare al dimensionamento vero e proprio del sistema di refrigerazione. Sono noti i valori relativi alla lega X750 (conducibilità termica $k_{lega}$, modulo di elasticità E, coefficiente di espansione termica a, coefficiente di Poisson $\nu$) e vengono assunti i valori di bulk temperature del combustibile in gola, la sua conducibilità termica $k_{fuel}$, la sua densità (di stivaggio) e una costante $C_1$ propria dell’RP1 utile per il calcolo del numero di Nusselt. \cite{AIAA_book_1}\cite{AIAA_book_2}
-A questo punto per determinare lo spessore t dei tubi è possibile implementare un ciclo in MATLAB che permetta di calcolare il numero dei tubi al variare dello spessore, per poi interrompere il ciclo quando il numero eguaglia il numero di tubi imposto: in questo modo si ottiene il valore dello spessore necessario. I calcoli svolti si basano su considerazioni fisiche e su formule empiriche.
-Il ciclo inizia con il calcolo della temperatura della parete lato combustibile.
+Terminati i calcoli preliminari è possibile passare al dimensionamento vero e proprio. Sono noti i valori relativi alla lega X750 (conducibilità termica $k_{lega}$, modulo di elasticità E, coefficiente di espansione termica a, coefficiente di Poisson $\nu$) e vengono assunti i valori di bulk temperature del combustibile in gola, la sua conducibilità termica $k_{fuel}$, la sua densità e una costante $C_1$ propria dell’RP1 utile per il calcolo del numero di Nusselt. \cite{AIAA_book_1}\cite{AIAA_book_2}
+Per determinare lo spessore t dei tubi è possibile implementare un ciclo in MATLAB che permetta di calcolare il numero dei tubi al variare dello spessore, per poi interrompere il ciclo quando il numero eguaglia il numero di tubi imposto. I calcoli svolti si basano su considerazioni fisiche e su formule empiriche.
+Il ciclo inizia con il calcolo della temperatura della parete lato combustibile necessario per determinare il valore del coefficiente  di scambio termico del combustibile $h_c$:
 
-\begin{empheq}{equation*}
-T_{wc} = T_{wg} - \frac{qt}{k}
-\end{empheq}
-
-Necessario per determinare il valore del coefficiente  di scambio termico del combustibile $h_c$
-
-\begin{empheq}{equation*}
+\begin{empheq}{gather*}
+T_{wc} = T_{wg} - \frac{qt}{k}  \qquad
 h_{c} = \frac{q}{T_{wc} - T_{co}}
 \end{empheq}
 
-Per regioni caratterizzate da temperatura subcritica e dall'assenza di nucleate boiling, la relazione tra temperatura a parete e flusso di calore, che dipende per l'appunto dal coefficiente di scambio termico $h_c$, può essere descritta tramite l'equazione di Sieder-Tate per il trasferimento turbolento di calore a liquidi che fluiscono nei canali:
+Per regioni caratterizzate da temperatura subcritica e dall'assenza di nucleate boiling, la relazione tra temperatura a parete e flusso di calore, che dipende per dal coefficiente di scambio termico $h_c$, può essere descritta tramite l'equazione di Sieder-Tate per il trasferimento turbolento di calore a liquidi che fluiscono nei canali (Questa relazione può essere riscritta esplicitando i singoli termini):
 
-\begin{empheq}{equation*}
-Nu = C_1 Re^{0.8} Pr^{0.4} \left(\frac{\mu}{\mu_w}\right)^{0.14}
-\end{empheq}
-
-Dove $\mu$ è la viscosità del combustibile alla temperatura $T_{co}$, mentre $\mu _w$ è la viscosità del combustibile alla temperatura della parete in gola. Questa relazione può essere riscritta esplicitando i singoli termini:
-
-\begin{empheq}{equation*}\tag{E1}
+\begin{empheq}{gather*}\tag{E1}
+Nu = C_1 Re^{0.8} Pr^{0.4} \left(\frac{\mu}{\mu_w}\right)^{0.14}  \qquad 
 Nu = \frac{h_c d}{k}=C_1 \left(\frac{\rho V_{co} d}{\mu}\right)^{0.8} \left(\frac{\mu C_p}{k}\right)^{0.4} \left(\frac{\mu}{\mu_w}\right)^{0.14}
 \end{empheq}
-
-Dove le incognite sono il diametro dei tubi d e la velocità media del combustibile $V_{co}$. Quest'ultima può essere calcolata in funzione del diametro dei tubi e del loro numero:
+Dove $\mu$ è la viscosità del combustibile alla temperatura $T_{co}$, mentre $\mu _w$ è la viscosità del combustibile alla temperatura della parete in gola, mentre le incognite sono il diametro dei tubi d e la velocità media del combustibile $V_{co}$. Quest'ultima può essere calcolata in funzione del diametro dei tubi e del loro numero:
 
 \begin{empheq}{equation*}
 V_{co} = \frac{\frac{\dot{W}_f}{\rho}}{\frac{N}{2} \frac{\left(\pi d^2\right)}{4}}
 \end{empheq}
 
-Con $\dot{W}_f$ la portata massica di combustibile, corrispondente al 70 \% della portata totale del combustibile.
 Il numero di tubi è ottenuto, qualitativamente, dividendo il perimetro dell'ugello della sezione di gola e il diametro del tubo considerato. Raffinando la formula con fattori correttivi si trova la seguente formula empirica:
 
 \begin{empheq}{equation*}\tag{E2}
 N = \frac{\pi \left[D_t + 0.8\left(d + 0.04 \right)\right]}{d + 0.04}
 \end{empheq}
 
-Il fattore 0.8 ha il ruolo di fattore di correzione: il centro dei tubi è collocato su una circonferenza, piuttosto che su una retta.
+Il valore 0.8 ha il ruolo di fattore di correzione, dovuto al fatto che il centro dei tubi è collocato su una circonferenza, piuttosto che su una retta.
 Sostituendo quindi $V_{co}$ all'interno dell'equazione (E1) esplicitandone N ed eguagliando l'espressione trovata all'equazione (E2) è possibile determinare il valore del diametro dei tubi. Sostituendo infine il valore trovato all'interno dell'equazione (E2) il si ottiene il numero dei tubi. Analizzando in un 'ciclo for' i passaggi appena visti, è possibile determinare il valore di t tale per cui si ha il numero di tubi N desiderato.
