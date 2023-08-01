@@ -66,23 +66,23 @@
 \contentsline {subsection}{\numberline {H.3}Grafico della resistenza termica prodotta dal deposito carbonioso}{34}{subsection.1.Alph8.3}%
 \contentsline {subsection}{\numberline {H.4}Dettagli sul sistema di introduzione dei gas combusti sulla parete interna dell'ugello aggiunto}{35}{subsection.1.Alph8.4}%
 \contentsline {subsection}{\numberline {H.5}Comportamento del fluido RP1 in relazione alla pressione critica}{35}{subsection.1.Alph8.5}%
-\contentsline {subsection}{\numberline {H.6}Procedimento dimensionamento tubi}{36}{subsection.1.Alph8.6}%
-\contentsline {section}{\numberline {I}RPA: definizione problema e funzionamento}{36}{appendix.1.Alph9}%
-\contentsline {section}{\numberline {J}Codici MATLAB usati}{37}{appendix.1.Alph10}%
-\contentsline {subsection}{\numberline {J.1}Simulazione di volo}{37}{subsection.1.Alph10.1}%
-\contentsline {subsubsection}{\numberline {J.1.1}Parametri adimensionali lanciatore}{41}{subsubsection.1.Alph10.1.1}%
-\contentsline {subsection}{\numberline {J.2}Serbatoi}{41}{subsection.1.Alph10.2}%
-\contentsline {subsubsection}{\numberline {J.2.1}Serbatoio RP-1}{41}{subsubsection.1.Alph10.2.1}%
-\contentsline {subsubsection}{\numberline {J.2.2}Serbatoio LOX}{43}{subsubsection.1.Alph10.2.2}%
-\contentsline {subsection}{\numberline {J.3}Schema termodinamico}{45}{subsection.1.Alph10.3}%
-\contentsline {subsection}{\numberline {J.4}Gas generator}{46}{subsection.1.Alph10.4}%
-\contentsline {subsubsection}{\numberline {J.4.1}Grafici di interpolazione}{46}{subsubsection.1.Alph10.4.1}%
-\contentsline {subsection}{\numberline {J.5}Turbopompa}{47}{subsection.1.Alph10.5}%
-\contentsline {subsubsection}{\numberline {J.5.1}Pompa LOX}{48}{subsubsection.1.Alph10.5.1}%
-\contentsline {subsubsection}{\numberline {J.5.2}Pompa RP-1}{55}{subsubsection.1.Alph10.5.2}%
-\contentsline {subsubsection}{\numberline {J.5.3}Triangoli di velocità turbina}{62}{subsubsection.1.Alph10.5.3}%
-\contentsline {subsection}{\numberline {J.6}Camera di spinta}{65}{subsection.1.Alph10.6}%
-\contentsline {subsubsection}{\numberline {J.6.1}Camera di combustione}{65}{subsubsection.1.Alph10.6.1}%
-\contentsline {subsubsection}{\numberline {J.6.2}Modellazione ugello}{66}{subsubsection.1.Alph10.6.2}%
-\contentsline {subsection}{\numberline {J.7}Sistemi di raffreddamento}{80}{subsection.1.Alph10.7}%
-\contentsline {section}{Bibliografia}{89}{lstnumber.-19.177}%
+\contentsline {subsection}{\numberline {H.6}Procedimento dimensionamento tubi}{35}{subsection.1.Alph8.6}%
+\contentsline {section}{\numberline {I}RPA: definizione problema e funzionamento}{37}{appendix.1.Alph9}%
+\contentsline {section}{\numberline {J}Codici MATLAB usati}{39}{appendix.1.Alph10}%
+\contentsline {subsection}{\numberline {J.1}Simulazione di volo}{39}{subsection.1.Alph10.1}%
+\contentsline {subsubsection}{\numberline {J.1.1}Parametri adimensionali lanciatore}{42}{subsubsection.1.Alph10.1.1}%
+\contentsline {subsection}{\numberline {J.2}Serbatoi}{43}{subsection.1.Alph10.2}%
+\contentsline {subsubsection}{\numberline {J.2.1}Serbatoio RP-1}{43}{subsubsection.1.Alph10.2.1}%
+\contentsline {subsubsection}{\numberline {J.2.2}Serbatoio LOX}{44}{subsubsection.1.Alph10.2.2}%
+\contentsline {subsection}{\numberline {J.3}Schema termodinamico}{46}{subsection.1.Alph10.3}%
+\contentsline {subsection}{\numberline {J.4}Gas generator}{47}{subsection.1.Alph10.4}%
+\contentsline {subsubsection}{\numberline {J.4.1}Grafici di interpolazione}{47}{subsubsection.1.Alph10.4.1}%
+\contentsline {subsection}{\numberline {J.5}Turbopompa}{48}{subsection.1.Alph10.5}%
+\contentsline {subsubsection}{\numberline {J.5.1}Pompa LOX}{49}{subsubsection.1.Alph10.5.1}%
+\contentsline {subsubsection}{\numberline {J.5.2}Pompa RP-1}{56}{subsubsection.1.Alph10.5.2}%
+\contentsline {subsubsection}{\numberline {J.5.3}Triangoli di velocità turbina}{63}{subsubsection.1.Alph10.5.3}%
+\contentsline {subsection}{\numberline {J.6}Camera di spinta}{66}{subsection.1.Alph10.6}%
+\contentsline {subsubsection}{\numberline {J.6.1}Camera di combustione}{66}{subsubsection.1.Alph10.6.1}%
+\contentsline {subsubsection}{\numberline {J.6.2}Modellazione ugello}{67}{subsubsection.1.Alph10.6.2}%
+\contentsline {subsection}{\numberline {J.7}Sistemi di raffreddamento}{81}{subsection.1.Alph10.7}%
+\contentsline {section}{Bibliografia}{90}{lstnumber.-19.177}%
