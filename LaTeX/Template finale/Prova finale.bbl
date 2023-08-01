@@ -1,5 +1,9 @@
 \begin{thebibliography}{10}
 
+\bibitem{propellenti}
+Esercitazione endoeattori liquidi.
+\newblock PDF, 2022.
+
 \bibitem{turbopump_manual}
 National Aeronautics and Space Administration.
 \newblock {\em {Turbopump Systems for Liquid Rocket Engines}}, 8 1974.
@@ -44,7 +48,7 @@ Howard~W. Douglass.
 \bibitem{heroicrelics}
 Mike Jetzer.
 \newblock heroicrelics.org.
-\newblock \url{http://heroicrelics.org/info/f-1/lox-flowmeter.html}.
+\newblock \url{http://heroicrelics.org}.
 
 \bibitem{JPP}
 {Joseph C. Oefelein, Vigor Yang}.
@@ -75,8 +79,7 @@ Kimble~D. McCutcheon.
 \bibitem{enginehistory}
 Kimble~D. McCutcheon.
 \newblock enginehistory.org.
-\newblock \url{https://www.enginehistory.org/Rockets/RPE08.10/RPE08.10.shtml},
-  2022.
+\newblock \url{https://www.enginehistory.org}, 2022.
 
 \bibitem{engine_information}
 National Aeronautics and Space Administration \& Rocketdyne.
@@ -101,5 +104,11 @@ Rocketdyne.
 \newblock {\em {R-3896-1A - Technical Manual Supplement - Engine Data F-1
   Rocket Engine}}.
 \newblock National Aeronautics and Space Administration \& Rocketdyne, 3 1967.
+
+\bibitem{injector}
+Joseph C. Oefelein \&~Vigor Yang.
+\newblock Comprehensive review of liquid-propellant combustion instabilities in
+  f-1 engines.
+\newblock PDF, 1993.
 
 \end{thebibliography}

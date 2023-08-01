@@ -1,0 +1,29 @@
+\babel@toc {italian}{}\relax 
+\babel@toc {italian}{}\relax 
+\contentsline {table}{\numberline {1}{\ignorespaces Parametri struttura lanciatore\relax }}{2}{table.caption.3}%
+\contentsline {table}{\numberline {2}{\ignorespaces Dati ideali per la coppia di propellenti RP-1 / LOX \cite {propellenti}\relax }}{2}{table.caption.4}%
+\contentsline {table}{\numberline {3}{\ignorespaces Tabella riassuntiva volumi\relax }}{4}{table.caption.6}%
+\contentsline {table}{\numberline {4}{\ignorespaces Tabella riassuntiva pressioni\relax }}{4}{table.caption.7}%
+\contentsline {table}{\numberline {5}{\ignorespaces Tabella riassuntiva spessori\relax }}{4}{table.caption.8}%
+\contentsline {table}{\numberline {6}{\ignorespaces Dati schema termodinamico \cite {gg_manual}\cite {turbine_design}\cite {engine_manual}\relax }}{5}{table.caption.10}%
+\contentsline {table}{\numberline {7}{\ignorespaces Dati reali del gas generator, ricavati da \cite {gg_manual}\cite {engine_manual}\relax }}{9}{table.caption.14}%
+\contentsline {table}{\numberline {8}{\ignorespaces Requisiti del sistema pompa LOX\relax }}{11}{table.caption.16}%
+\contentsline {table}{\numberline {9}{\ignorespaces Parametri prestazionali del sistema pompa LOX\relax }}{11}{table.caption.17}%
+\contentsline {table}{\numberline {10}{\ignorespaces Velocità del sistema pompa LOX: casing\relax }}{12}{table.caption.18}%
+\contentsline {table}{\numberline {11}{\ignorespaces Requisiti del sistema turbina\relax }}{14}{table.caption.21}%
+\contentsline {table}{\numberline {12}{\ignorespaces Dati diagrammi di velocità\relax }}{14}{table.caption.23}%
+\contentsline {table}{\numberline {13}{\ignorespaces Dati reali del piatto d'iniezione \cite {f-1_manual}\cite {JPP}\relax }}{15}{table.caption.25}%
+\contentsline {table}{\numberline {14}{\ignorespaces Tabella riassuntiva camera di combustione (codice in \autoref {appendix:codici})\relax }}{16}{table.caption.27}%
+\contentsline {table}{\numberline {15}{\ignorespaces Lega Alluminio 2219-T9\relax }}{22}{table.caption.45}%
+\contentsline {table}{\numberline {16}{\ignorespaces Dati geometrici\relax }}{22}{table.caption.46}%
+\contentsline {table}{\numberline {17}{\ignorespaces Dati in input CEAM\relax }}{25}{table.caption.58}%
+\contentsline {table}{\numberline {18}{\ignorespaces Dati in output CEAM\relax }}{25}{table.caption.59}%
+\contentsline {table}{\numberline {19}{\ignorespaces Percentuali in massa dei prodotti di combustione (CEAM)\relax }}{26}{table.caption.60}%
+\contentsline {table}{\numberline {20}{\ignorespaces Requisiti del sistema pompa RP-1 \cite {turbopump_manual}\relax }}{26}{table.caption.62}%
+\contentsline {table}{\numberline {21}{\ignorespaces Parametri prestazionali del sistema pompa RP-1\relax }}{26}{table.caption.63}%
+\contentsline {table}{\numberline {22}{\ignorespaces Velocità del sistema pompa RP-1: casing\relax }}{27}{table.caption.64}%
+\contentsline {table}{\numberline {23}{\ignorespaces Requisiti del sistema turbina tratti da \cite {engine_manual}, dato su rapporto U/C ricavato da \autoref {fig:rendimenti_turbina} da fonte \cite {AIAA_book_2}: il valore 0.225 massimizza il rendimento\relax }}{28}{table.caption.67}%
+\contentsline {table}{\numberline {24}{\ignorespaces Ipotesi rendimenti: ugelli e palette. Ipotesi tratte da \cite {AIAA_book_2} dove viene trattata una turbina VC per un motore booster-stage nominato 'A-1' a coppia (RP-1/LOX) con una spinta che è circa la metà di quella dell'F-1.\relax }}{28}{table.caption.68}%
+\contentsline {table}{\numberline {25}{\ignorespaces Confronto tra ugello 10:1 e 16:1\relax }}{32}{table.caption.75}%
+\contentsline {table}{\numberline {26}{\ignorespaces Proprietà termodinamiche in output da RPA - sezione performance analysis \relax }}{37}{table.caption.91}%
+\contentsline {table}{\numberline {27}{\ignorespaces Sistema di alimentazione del propellente (output RPA) - Sezione Engine Design \relax }}{37}{table.caption.92}%
