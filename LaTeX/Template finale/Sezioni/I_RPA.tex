@@ -10,25 +10,24 @@ Il software è organizzato in quattro macroaree:
 
 • \textbf{Initial Data}
 
-Questa sezione contiene le specifiche necessarie a definire il tipo di motore, il propellente e il modello dell'ugello.
-La caratterizzazione della camera di spinta avviene determinando il valore di pressione (77.556 bar) e fissando uno tra i seguenti parametri: la spinta e la pressione cui è riferita, la portata massica oppure il diametro di gola. Si è scelto di fissare come parametro di ingresso la spinta (6770.19 kN ad 1 bar) poichè rappresenta un requisito da soddisfare.
-Per caratterizzare il propellente è necessario definire il tipo di sistema, in questo caso bipropellente, il rapporto di miscela O/F, pari a 2.27, l'ossidante e il combustibile con le relative temperature di stivaggio. 
-In ultimo è necessario definire il modello dell'ugello, in particolare stabilire le condizioni di ingresso, le condizioni di uscita e la caratterizzazione del flusso in frozen equilibrium. La prima condizione è descritta dalla portata o, come nel caso in analisi, dal rateo di contrazione (1.301). La seconda condizione è descritta dal rateo di espansione (16). Infine il flusso viene considerato in frozen equilibrium dalla gola, ossia dal piano con rapporto di espansione 1.
+Questa sezione contiene 3 sottosezioni:
+\begin{itemize}
+\item \textit{Engine Definition}: in questa sottosezione deve essere definito il nome del problema con una breve descrizione. Si introduce il valore della pressione della camera di combustione. Si definisce la grandezza del sistema fissando uno tra i seguenti parametri: la spinta e la pressione cui è riferita, la portata massica oppure il diametro di gola. Si è scelto di fissare come parametro di ingresso la spinta (6770.19 kN ad 1 bar) poichè rappresenta un requisito da soddisfare. Infine si definisce il sistema di alimentazione: nel nostro caso un sistema a turbopompa.
+\item \textit{Propellant Specification} Per caratterizzare il propellente è necessario definire il tipo di sistema, in questo caso bipropellente, il rapporto di miscela O/F, l'ossidante e il combustibile con le relative temperature di stivaggio. 
+\item \textit{Nozzle Flow Model}: in questa sottosezione si definisce il modello di camera di combustione (infinita o finita) definendo il contraction ratio o la portata massica per unità di area all'inizio del convergente. La  condizione di uscita è descritta dal rapporto di espansione, come nel nostro caso, oppure attraverso la pressione all'efflusso. Infine, si definisce il modello di reazione chimica utilizzato. In particolare, viene assunto shifting equilibrium fino ad un punto prefissato. Dopo quel punto, definito in base a $A_{fr}/A_t$ o $p_t/p_{fr}$si applica il modello frozen equilibrium  
+\end{itemize}
 
 • \textbf{Performance Analysis}
 
-Questa sezione illustra le prestazioni della camera, in particolare le proprietà termodinamiche, le prestazioni ideali e stimate e le frazioni dei prodotti di combustione. Le prime sono riportate nella tabella sottostante (\autoref{table:valori RPA sezione performance analysis}) mentre le seconde determinano il valore di parametri quali la velocità caratteristica e l'impulso specifico. 
+Questa sezione contiene alcuni output. Illustra le prestazioni della camera, in particolare le proprietà termodinamiche (ovvero le percentuali in massa dei prodotti di combustione in vari punti del motore) e le prestazioni stimate dell'endoreattore. Nel nostro caso abbiamo riportato nella (tabella da mettere) le percentuali in massa, nella tabella \autoref{table:valori RPA sezione performance analysis} alcuni valori termodinamici in alcune sezioni del motore. E nella tabella (da mettere) le performance del motore.
 
 • \textbf{Engine Design}
 
 Questa macro-area è divisa in tre sezioni: \textit{Chamber geometry}, \textit{Thermal analysis} e \textit{Propellant feed system}.
 All'interno della prima sezione è possibile fissare il design della camera: per l'analisi sono stati fissati i valori di angolo di contrazione b, i rapporti tra i vari raggi di curvatura e l'approssimazione parabolica dell'ugello a campana. Inoltre è possibile visualizzare le grandezze di spinta, impulso e portata e i valori che riguardano la geometria della camera.
 All'interno della sezione \textit{Thermal analysis} è possibile studiare lo scambio termico convettivo, l'irraggiamento e il cooling. Questa sezione non è stata utilizzata, prediligendo uno studio del sistema di raffreddamento numerico (\autoref{sec:raffreddamento}).
-Dall'ultima sezione, \textit{Propellant feed system} è possibile ottenere il valore dei parametri di funzionamento dei vari sistemi di alimentazione, quali portata, temperatura, pressione in ingresso e in uscita. Nel caso in esame si è scelto di studiare il sistema di alimentazione di ossidante, combustibile e del gas generator. (TABELLA DI VALORI). Per ottenere gli output sopra citati è necessario inserire varie informazioni sul gas generator e sulle turbopompe. Per quanto riguarda il gas generator, è stato specificato che il ciclo in esame è Fuel Rich, e vanno indicati i valori di temperatura e di pressione di combustione, rispettivamente 1062.59 K e 67.5686 bar, oltre al coefficiente di perdita di pressione, pari a 0.966. La turbopompa è invece caratterizzata dal rapporto di pressione della turbina e dall'efficienza, rispettivamente 16.293 e 0.605. 
+Dall'ultima sezione, \textit{Propellant feed system} è possibile ottenere il valore dei parametri di funzionamento dei vari sistemi di alimentazione, quali portata, temperatura, pressione in ingresso e in uscita. Nel caso in esame si è scelto di studiare il sistema di alimentazione di ossidante, combustibile e del gas generator. (TABELLA DI VALORI). Per ottenere gli output sopra citati è necessario inserire varie informazioni sul gas generator e sulle turbopompe precisate nella tabella (da mettere). Per quanto riguarda il gas generator, è stato specificato che il ciclo in esame è Fuel Rich, e vanno indicati i valori di temperatura e di pressione di combustione, rispettivamente 1062.59 K e 67.5686 bar, oltre al coefficiente di perdita di pressione, pari a 0.966. La turbopompa è invece caratterizzata dal rapporto di pressione della turbina e dall'efficienza, rispettivamente 16.293 e 0.605. 
 
-• \textbf{Tools}
-
-Questa sezione contiene il database termodinamico, che descrive lo stato dei vari aggregati e la descrizione delle componenti di ogni aggregato.
 
 \begin{table}[H]
 \centering

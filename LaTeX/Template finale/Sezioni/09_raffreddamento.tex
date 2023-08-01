@@ -81,5 +81,35 @@ I calcoli preliminari al dimensionamento permettono di determinare, tramite una 
 
 
 \'E possibile passare al dimensionamento vero e proprio. Sono noti i valori relativi alla lega X750 (conducibilità termica $k_{lega}$, modulo di elasticità E, coefficiente di espansione termica a, coefficiente di Poisson $\nu$) e vengono assunti i valori di bulk temperature del combustibile in gola, la sua conducibilità termica $k_{fuel}$, la sua densità e una costante $C_1$ propria dell’RP-1 utile per il calcolo del numero di Nusselt. \cite{AIAA_book_1}\cite{AIAA_book_2}
-Per determinare lo spessore t dei tubi è possibile implementare un ciclo in MATLAB che permetta di calcolare il numero dei tubi al variare dello spessore, per poi interrompere il ciclo quando il numero eguaglia il numero di tubi imposto. I calcoli svolti si basano su considerazioni fisiche e su formule empiriche.
-\autoref{subsec:dimensionamento_tubi}
+Per determinare lo spessore t dei tubi è possibile implementare un ciclo in MATLAB che permetta di calcolare il numero dei tubi al variare dello spessore, per poi interrompere il ciclo quando il numero eguaglia il numero di tubi imposto. I calcoli svolti si basano su considerazioni fisiche e su formule empiriche 
+\autoref{subsec:dimensionamento_tubi}.
+\begin{table}[H]
+\centering
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|}
+\hline
+$\bm{R_d \, [in^2sF/btu]}$ & $\bm{T_{wg} \, [K]}$ & $\bm{f_{aw} \, [-]}$  & $\bm{\sigma \, [-]}$  & $\bm{k_{fuel} \, [btu/insF]}$ & $\bm{T_{co} \, [K]}$ & $\bm{c_1 \, [-]}$ & $\bm{\dot{m} \, [kg/s]}$ & $\bm{N_{tubi} \, [-]}$ \\ 
+\hline
+$1125$ & $660$ & $0.93$  & $1.42$ & $1.78 \, \cdot \, 10^{-6}$ & $333.3$ & $0.0214$ & $556.9$ & $178$ \\
+\hline
+\end{tabular}
+\caption{Dati usati per il dimensionamento dei tubi \cite{
+AIAA_book_2}}
+\label{table:tabella_regenerative_in}
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+$\bm{v_{co} \, [m/s]}$ & $\bm{h_{gc} \, [btu/in^2 sF]}$ & $\bm{\dot{q} \, [W/m^2]}$ & $\bm{d_{int} \, [cm]}$ & $\bm{t \, [mm]}$ \\
+\hline
+$44.2$ & $8.06\, \cdot \, 10^{-4} $ & $5.93\, \cdot \, 10^6 $ & $  1.49 $ & $0.81$ \\
+\hline
+\end{tabular}
+\caption{Risultati dimensionamento tubi}
+\label{table:tabella_regenerative_out}
+\end{table}
+
+\subsubsection{Grafici andamento flusso di calore e temperatura}
+
+In questo paragrafo verranno presentati i grafici degli andamenti del flusso di calore e dell'andamento delle temperature $T_{aw}$, $T_{wg}$ e $T_c$. In particolare viene considerato il tratto in cui è effettuato il raffreddamento rigenerativo. La temperatura del coolant viene considerata solo nel condotto di ritorno (risale l'ugello) per semplicità. Il metodo iterativo per il calcolo di tali grandezze è stato tratto dal manuale sulla trattazione dei raffreddamenti delle camere di spinta di LRE di RPA (\cite{rpa_thermal_manual}) ed è stato implementato in \textit{Matlab}. \autoref{appendix:codici}
+
+\twofigII{heat_flux}{Flusso di calore in funzione della posizione assiale}{heat_flux}{temperature_cooling}{Temperature di interesse in funzione della posizione assiale}{temperature_cooling}{0.7}
+
+Da \autoref{fig:heat_flux} si vede che il flusso di calore è massimo in gola. Da \autoref{fig:temperature_cooling} si nota come $T_{wg}$ sia minore della temperatura di fusione del materiale. Sempre nella stessa figura si può notare che lo sdoppiamento dei tubi genera un salto nel grafico delle temperature.

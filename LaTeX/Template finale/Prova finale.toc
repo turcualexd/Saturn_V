@@ -44,6 +44,7 @@
 \contentsline {subsubsection}{\numberline {9.1.1}Scambio termico convettivo e film cooling}{18}{subsubsection.9.1.1}%
 \contentsline {subsubsection}{\numberline {9.1.2}Regenerative cooling}{19}{subsubsection.9.1.2}%
 \contentsline {subsubsection}{\numberline {9.1.3}Dimensionamento tubi camera di spinta}{19}{subsubsection.9.1.3}%
+\contentsline {subsubsection}{\numberline {9.1.4}Grafici andamento flusso di calore e temperatura}{20}{subsubsection.9.1.4}%
 \contentsline {section}{\numberline {10}Conclusioni}{20}{section.10}%
 \contentsline {section}{Appendice}{21}{section.10}%
 \contentsline {section}{\numberline {A}Grafici di varie grandezze in funzione del tempo di volo}{21}{appendix.1.Alph1}%
@@ -66,7 +67,7 @@
 \contentsline {subsection}{\numberline {H.3}Grafico della resistenza termica prodotta dal deposito carbonioso}{34}{subsection.1.Alph8.3}%
 \contentsline {subsection}{\numberline {H.4}Dettagli sul sistema di introduzione dei gas combusti sulla parete interna dell'ugello aggiunto}{35}{subsection.1.Alph8.4}%
 \contentsline {subsection}{\numberline {H.5}Comportamento del fluido RP1 in relazione alla pressione critica}{35}{subsection.1.Alph8.5}%
-\contentsline {subsection}{\numberline {H.6}Procedimento dimensionamento tubi}{35}{subsection.1.Alph8.6}%
+\contentsline {subsection}{\numberline {H.6}Procedimento dimensionamento tubi}{36}{subsection.1.Alph8.6}%
 \contentsline {section}{\numberline {I}RPA: definizione problema e funzionamento}{37}{appendix.1.Alph9}%
 \contentsline {section}{\numberline {J}Codici MATLAB usati}{39}{appendix.1.Alph10}%
 \contentsline {subsection}{\numberline {J.1}Simulazione di volo}{39}{subsection.1.Alph10.1}%

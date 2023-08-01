@@ -20,38 +20,40 @@
 \contentsline {figure}{\numberline {18}{\ignorespaces Definizioni geometriche\relax }}{17}{figure.caption.28}%
 \contentsline {figure}{\numberline {19}{\ignorespaces Strato limite sulla parete dell'ugello\relax }}{18}{figure.caption.29}%
 \contentsline {figure}{\numberline {20}{\ignorespaces Variazione di temperatura attraverso la parete\relax }}{19}{figure.caption.40}%
-\contentsline {figure}{\numberline {21}{\ignorespaces Accelerazione in funzione del tempo\relax }}{21}{figure.caption.41}%
-\contentsline {figure}{\numberline {22}{\ignorespaces Drag in funzione del tempo\relax }}{21}{figure.caption.41}%
-\contentsline {figure}{\numberline {23}{\ignorespaces Massa totale in funzione del tempo\relax }}{21}{figure.caption.42}%
-\contentsline {figure}{\numberline {24}{\ignorespaces Accelerazione di gravità in funzione del tempo\relax }}{21}{figure.caption.42}%
-\contentsline {figure}{\numberline {25}{\ignorespaces Pressione ambientale in funzione del tempo\relax }}{21}{figure.caption.43}%
-\contentsline {figure}{\numberline {26}{\ignorespaces Temperatura ambientale in funzione del tempo\relax }}{21}{figure.caption.43}%
-\contentsline {figure}{\numberline {27}{\ignorespaces Numero di Mach in funzione del tempo\relax }}{22}{figure.caption.44}%
-\contentsline {figure}{\numberline {28}{\ignorespaces Grafico per K in funzione di k (k = 1.65) \cite {AIAA_book_2}\relax }}{22}{figure.caption.47}%
-\contentsline {figure}{\numberline {29}{\ignorespaces Raffigurazione serbatoi\relax }}{23}{figure.caption.48}%
-\contentsline {figure}{\numberline {30}{\ignorespaces Immagine con dati riguardo $P_{u}$ \cite {engine_information}\relax }}{23}{figure.caption.48}%
-\contentsline {figure}{\numberline {31}{\ignorespaces Esploso dello scambiatore di calore \cite {f-1_rocket_manual}\relax }}{23}{figure.caption.49}%
-\contentsline {figure}{\numberline {32}{\ignorespaces Massa Molare prodotti in funzione di O/F\relax }}{24}{figure.caption.50}%
-\contentsline {figure}{\numberline {33}{\ignorespaces Temperatura in uscita dal GG in funzione di O/F\relax }}{24}{figure.caption.50}%
-\contentsline {figure}{\numberline {34}{\ignorespaces $c_p$ in funzione dell' $O/F$\relax }}{24}{figure.caption.56}%
-\contentsline {figure}{\numberline {35}{\ignorespaces $\gamma $ in funzione dell' $O/F$\relax }}{24}{figure.caption.56}%
-\contentsline {figure}{\numberline {36}{\ignorespaces Lavoro specifico ideale della turbina\relax }}{25}{figure.caption.57}%
-\contentsline {figure}{\numberline {37}{\ignorespaces Piatto di Iniezione UMR - Gas Generator \cite {engine_manual_supplement}\relax }}{26}{figure.caption.61}%
-\contentsline {figure}{\numberline {38}{\ignorespaces Inducer LOX\relax }}{27}{figure.caption.65}%
-\contentsline {figure}{\numberline {39}{\ignorespaces Impeller LOX\relax }}{27}{figure.caption.65}%
-\contentsline {figure}{\numberline {40}{\ignorespaces Inducer RP-1\relax }}{28}{figure.caption.66}%
-\contentsline {figure}{\numberline {41}{\ignorespaces Impeller RP-1\relax }}{28}{figure.caption.66}%
-\contentsline {figure}{\numberline {42}{\ignorespaces Definizione grandezze\relax }}{29}{figure.caption.69}%
-\contentsline {figure}{\numberline {43}{\ignorespaces Rappresentazione piatto d'iniezione \cite {engine_manual_supplement}\relax }}{30}{figure.caption.70}%
-\contentsline {figure}{\numberline {44}{\ignorespaces Rappresentazione piatto d'iniezione \cite {injector}\relax }}{30}{figure.caption.71}%
-\contentsline {figure}{\numberline {45}{\ignorespaces Grafico di interpolazione degli angoli per la costruzione dell'ugello\relax }}{31}{figure.caption.72}%
-\contentsline {figure}{\numberline {46}{\ignorespaces Costruzione ugello 2D 1:10\relax }}{31}{figure.caption.73}%
-\contentsline {figure}{\numberline {47}{\ignorespaces Costruzione ugello 3D 1:10\relax }}{31}{figure.caption.73}%
-\contentsline {figure}{\numberline {48}{\ignorespaces Costruzione ugello 2D 1:16\relax }}{31}{figure.caption.74}%
-\contentsline {figure}{\numberline {49}{\ignorespaces Costruzione ugello 3D 1:16\relax }}{31}{figure.caption.74}%
-\contentsline {figure}{\numberline {50}{\ignorespaces Definizione della temperatura muro - lato gas\relax }}{33}{figure.caption.76}%
-\contentsline {figure}{\numberline {51}{\ignorespaces Andamenti di $\sigma $ in funzione di $\epsilon $\relax }}{33}{figure.caption.77}%
-\contentsline {figure}{\numberline {52}{\ignorespaces Grafico deposito carbonioso in funzione di $\epsilon $\relax }}{34}{figure.caption.78}%
-\contentsline {figure}{\numberline {53}{\ignorespaces Dettaglio 1\relax }}{35}{figure.caption.79}%
-\contentsline {figure}{\numberline {54}{\ignorespaces Dettaglio 2\relax }}{35}{figure.caption.79}%
-\contentsline {figure}{\numberline {55}{\ignorespaces Andamenti di T e flusso di calore, parametrizzati sul valore di pressione\relax }}{35}{figure.caption.80}%
+\contentsline {figure}{\numberline {21}{\ignorespaces Flusso di calore in funzione della posizione assiale\relax }}{20}{figure.caption.42}%
+\contentsline {figure}{\numberline {22}{\ignorespaces Temperature di interesse in funzione della posizione assiale\relax }}{20}{figure.caption.42}%
+\contentsline {figure}{\numberline {23}{\ignorespaces Accelerazione in funzione del tempo\relax }}{21}{figure.caption.43}%
+\contentsline {figure}{\numberline {24}{\ignorespaces Drag in funzione del tempo\relax }}{21}{figure.caption.43}%
+\contentsline {figure}{\numberline {25}{\ignorespaces Massa totale in funzione del tempo\relax }}{21}{figure.caption.44}%
+\contentsline {figure}{\numberline {26}{\ignorespaces Accelerazione di gravità in funzione del tempo\relax }}{21}{figure.caption.44}%
+\contentsline {figure}{\numberline {27}{\ignorespaces Pressione ambientale in funzione del tempo\relax }}{21}{figure.caption.45}%
+\contentsline {figure}{\numberline {28}{\ignorespaces Temperatura ambientale in funzione del tempo\relax }}{21}{figure.caption.45}%
+\contentsline {figure}{\numberline {29}{\ignorespaces Numero di Mach in funzione del tempo\relax }}{22}{figure.caption.46}%
+\contentsline {figure}{\numberline {30}{\ignorespaces Grafico per K in funzione di k (k = 1.65) \cite {AIAA_book_2}\relax }}{22}{figure.caption.49}%
+\contentsline {figure}{\numberline {31}{\ignorespaces Raffigurazione serbatoi\relax }}{23}{figure.caption.50}%
+\contentsline {figure}{\numberline {32}{\ignorespaces Immagine con dati riguardo $P_{u}$ \cite {engine_information}\relax }}{23}{figure.caption.50}%
+\contentsline {figure}{\numberline {33}{\ignorespaces Esploso dello scambiatore di calore \cite {f-1_rocket_manual}\relax }}{23}{figure.caption.51}%
+\contentsline {figure}{\numberline {34}{\ignorespaces Massa Molare prodotti in funzione di O/F\relax }}{24}{figure.caption.52}%
+\contentsline {figure}{\numberline {35}{\ignorespaces Temperatura in uscita dal GG in funzione di O/F\relax }}{24}{figure.caption.52}%
+\contentsline {figure}{\numberline {36}{\ignorespaces $c_p$ in funzione dell' $O/F$\relax }}{24}{figure.caption.53}%
+\contentsline {figure}{\numberline {37}{\ignorespaces $\gamma $ in funzione dell' $O/F$\relax }}{24}{figure.caption.53}%
+\contentsline {figure}{\numberline {38}{\ignorespaces Lavoro specifico ideale della turbina\relax }}{25}{figure.caption.54}%
+\contentsline {figure}{\numberline {39}{\ignorespaces Piatto di Iniezione UMR - Gas Generator \cite {engine_manual_supplement}\relax }}{26}{figure.caption.58}%
+\contentsline {figure}{\numberline {40}{\ignorespaces Inducer LOX\relax }}{27}{figure.caption.62}%
+\contentsline {figure}{\numberline {41}{\ignorespaces Impeller LOX\relax }}{27}{figure.caption.62}%
+\contentsline {figure}{\numberline {42}{\ignorespaces Inducer RP-1\relax }}{28}{figure.caption.63}%
+\contentsline {figure}{\numberline {43}{\ignorespaces Impeller RP-1\relax }}{28}{figure.caption.63}%
+\contentsline {figure}{\numberline {44}{\ignorespaces Definizione grandezze\relax }}{29}{figure.caption.66}%
+\contentsline {figure}{\numberline {45}{\ignorespaces Rappresentazione piatto d'iniezione \cite {engine_manual_supplement}\relax }}{30}{figure.caption.67}%
+\contentsline {figure}{\numberline {46}{\ignorespaces Rappresentazione piatto d'iniezione \cite {injector}\relax }}{30}{figure.caption.68}%
+\contentsline {figure}{\numberline {47}{\ignorespaces Grafico di interpolazione degli angoli per la costruzione dell'ugello\relax }}{31}{figure.caption.69}%
+\contentsline {figure}{\numberline {48}{\ignorespaces Costruzione ugello 2D 1:10\relax }}{31}{figure.caption.70}%
+\contentsline {figure}{\numberline {49}{\ignorespaces Costruzione ugello 3D 1:10\relax }}{31}{figure.caption.70}%
+\contentsline {figure}{\numberline {50}{\ignorespaces Costruzione ugello 2D 1:16\relax }}{31}{figure.caption.71}%
+\contentsline {figure}{\numberline {51}{\ignorespaces Costruzione ugello 3D 1:16\relax }}{31}{figure.caption.71}%
+\contentsline {figure}{\numberline {52}{\ignorespaces Definizione della temperatura muro - lato gas\relax }}{33}{figure.caption.73}%
+\contentsline {figure}{\numberline {53}{\ignorespaces Andamenti di $\sigma $ in funzione di $\epsilon $\relax }}{33}{figure.caption.74}%
+\contentsline {figure}{\numberline {54}{\ignorespaces Grafico deposito carbonioso in funzione di $\epsilon $\relax }}{35}{figure.caption.77}%
+\contentsline {figure}{\numberline {55}{\ignorespaces Dettaglio scarico gas\relax }}{35}{figure.caption.78}%
+\contentsline {figure}{\numberline {56}{\ignorespaces Dettaglio parete estensione ugello\relax }}{35}{figure.caption.78}%
+\contentsline {figure}{\numberline {57}{\ignorespaces Andamenti di T e flusso di calore, parametrizzati sul valore di pressione\relax }}{35}{figure.caption.79}%

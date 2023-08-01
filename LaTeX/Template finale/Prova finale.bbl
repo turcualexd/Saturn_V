@@ -94,6 +94,10 @@ National Aeronautics and Space Administration \& Rocketdyne.
 NASA Design~Criteria Office.
 \newblock {\em Liquid Rocket Engine Turbines}, 1 1974.
 
+\bibitem{rpa_thermal_manual}
+Alexander Ponomarenko.
+\newblock {\em RPA: Thermal Analysis of Thrust Chambers}, 3 2012.
+
 \bibitem{engine_manual}
 Rocketdyne.
 \newblock {\em {R-3896-1 - Technical Manual - Engine Data F-1 Rocket Engine}}.
