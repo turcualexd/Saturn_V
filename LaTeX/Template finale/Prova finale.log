@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.12.16)  1 AUG 2023 18:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.12.16)  4 AUG 2023 11:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2367,7 +2367,7 @@ Package rerunfilecheck Info: File `"Prova finale".out' has not changed.
 Here is how much of TeX's memory you used:
  38468 strings out of 475385
  697535 string characters out of 2793321
- 1771278 words of memory out of 3000000
+ 1772278 words of memory out of 3000000
  55775 multiletter control sequences out of 15000+600000
  636319 words of font info for 232 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2383,7 +2383,7 @@ s/type1/public/kpfonts/jkpmit8a.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpmn
 8a.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Miktex/fonts/type1/
 public/kpfonts/jkpsy.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpttbn8a.pfb><C
 :/Miktex/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on "Prova finale.pdf" (99 pages, 26238461 bytes).
+Output written on "Prova finale.pdf" (99 pages, 26238422 bytes).
 PDF statistics:
  5467 PDF objects out of 6186 (max. 8388607)
  3250 named destinations out of 3580 (max. 500000)

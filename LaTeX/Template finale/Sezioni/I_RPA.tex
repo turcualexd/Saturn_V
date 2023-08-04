@@ -6,15 +6,15 @@ RPA è un software che permette di prevedere le prestazioni per motori a razzo. 
 RPA utilizza una libreria di specie chimiche espandibile basata sul database termodinamico NASA Glenn, che include dati per numerosi combustibili e ossidanti. È inoltre possibile definire nuovi componenti del propellente o importare componenti da database di specie PROPEP o CEA2.
 Fornendo parametri propri del motore in analisi, come la pressione della camera di combustione, i componenti del propellente utilizzati e i parametri dell'ugello, il programma permette di ottenere la composizione di equilibrio chimico dei prodotti di combustione, determina le sue proprietà termodinamiche e predice le prestazioni teoriche del razzo. 
 
-Il software è organizzato in quattro macroaree: 
+Il software è organizzato in queste macroaree: 
 
 • \textbf{Initial Data}
 
 Questa sezione contiene 3 sottosezioni:
 \begin{itemize}
-\item \textit{Engine Definition}: in questa sottosezione deve essere definito il nome del problema con una breve descrizione. Si introduce il valore della pressione della camera di combustione. Si definisce la grandezza del sistema fissando uno tra i seguenti parametri: la spinta e la pressione cui è riferita, la portata massica oppure il diametro di gola. Si è scelto di fissare come parametro di ingresso la spinta (6770.19 kN ad 1 bar) poichè rappresenta un requisito da soddisfare. Infine si definisce il sistema di alimentazione: nel nostro caso un sistema a turbopompa.
+\item \textit{Engine Definition}: in questa sottosezione deve essere definito il nome del problema con una breve descrizione. Si introduce il valore della pressione della camera di combustione. Si definisce la grandezza del sistema fissando uno tra i seguenti parametri: la spinta e la pressione cui è riferita, la portata massica oppure il diametro di gola. Si è scelto di fissare come parametro di ingresso la spinta poichè rappresenta un requisito da soddisfare. Infine, si definisce il sistema di alimentazione che nel nostro caso è un sistema a turbopompa.
 \item \textit{Propellant Specification} Per caratterizzare il propellente è necessario definire il tipo di sistema, in questo caso bipropellente, il rapporto di miscela O/F, l'ossidante e il combustibile con le relative temperature di stivaggio. 
-\item \textit{Nozzle Flow Model}: in questa sottosezione si definisce il modello di camera di combustione (infinita o finita) definendo il contraction ratio o la portata massica per unità di area all'inizio del convergente. La  condizione di uscita è descritta dal rapporto di espansione, come nel nostro caso, oppure attraverso la pressione all'efflusso. Infine, si definisce il modello di reazione chimica utilizzato. In particolare, viene assunto shifting equilibrium fino ad un punto prefissato. Dopo quel punto, definito in base a $A_{fr}/A_t$ o $p_t/p_{fr}$si applica il modello frozen equilibrium  
+\item \textit{Nozzle Flow Model}: in questa sottosezione si definisce il modello di camera di combustione (infinita o finita) definendo il contraction ratio o la portata massica per unità di area all'inizio del convergente. La  condizione di uscita è descritta dal rapporto di espansione, come nel nostro caso, oppure attraverso la pressione all'efflusso. Infine, si definisce il modello di reazione chimica utilizzato. In particolare, viene assunto shifting equilibrium fino ad un punto prefissato. Dopo quel punto, definito in base a $A_{fr}/A_t$ o $p_t/p_{fr}$si applica il modello frozen equilibrium.
 \end{itemize}
 
 • \textbf{Performance Analysis}
