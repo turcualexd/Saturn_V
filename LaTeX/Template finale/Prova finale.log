@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.12.16)  4 AUG 2023 11:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.12.16)  4 AUG 2023 14:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1562,7 +1562,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./Images//01_quota_t-eps-converted-to.pdf): PDF 
 inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Images//01_quota_t-eps-converted-to.pdf, id=721, 256.96pt x 192.72pt>
+<Images//01_quota_t-eps-converted-to.pdf, id=739, 256.96pt x 192.72pt>
 File: Images//01_quota_t-eps-converted-to.pdf Graphic file (type pdf)
 <use Images//01_quota_t-eps-converted-to.pdf>
 Package pdftex.def Info: Images//01_quota_t-eps-converted-to.pdf  used on input
@@ -1583,7 +1583,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./Images//02_velocita_t-eps-converted-to.pdf): P
 DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Images//02_velocita_t-eps-converted-to.pdf, id=722, 256.96pt x 192.72pt>
+<Images//02_velocita_t-eps-converted-to.pdf, id=740, 256.96pt x 192.72pt>
 File: Images//02_velocita_t-eps-converted-to.pdf Graphic file (type pdf)
 <use Images//02_velocita_t-eps-converted-to.pdf>
 Package pdftex.def Info: Images//02_velocita_t-eps-converted-to.pdf  used on in
@@ -1603,7 +1603,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./Images//04_spinta_t-eps-converted-to.pdf): PDF
  inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Images//04_spinta_t-eps-converted-to.pdf, id=723, 256.96pt x 192.72pt>
+<Images//04_spinta_t-eps-converted-to.pdf, id=741, 256.96pt x 192.72pt>
 File: Images//04_spinta_t-eps-converted-to.pdf Graphic file (type pdf)
 <use Images//04_spinta_t-eps-converted-to.pdf>
 Package pdftex.def Info: Images//04_spinta_t-eps-converted-to.pdf  used on inpu
@@ -1624,7 +1624,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./Images//07_traiettoria-eps-converted-to.pdf): 
 PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Images//07_traiettoria-eps-converted-to.pdf, id=724, 256.96pt x 192.72pt>
+<Images//07_traiettoria-eps-converted-to.pdf, id=742, 256.96pt x 192.72pt>
 File: Images//07_traiettoria-eps-converted-to.pdf Graphic file (type pdf)
 <use Images//07_traiettoria-eps-converted-to.pdf>
 Package pdftex.def Info: Images//07_traiettoria-eps-converted-to.pdf  used on i
@@ -1634,14 +1634,14 @@ nput line 51.
 verted-to.pdf>]) (Sezioni/03_propellenti.tex) [2 <./Images//04_spinta_t-eps-con
 verted-to.pdf> <./Images//07_traiettoria-eps-converted-to.pdf>]
 (Sezioni/04_serbatoi_e_pressurizzazione.tex
-<Images//tank.jpg, id=770, 289.08pt x 325.57635pt>
+<Images//tank.jpg, id=788, 289.08pt x 325.57635pt>
 File: Images//tank.jpg Graphic file (type jpg)
 <use Images//tank.jpg>
 Package pdftex.def Info: Images//tank.jpg  used on input line 7.
 (pdftex.def)             Requested size: 204.85672pt x 230.71867pt.
  [3 <./Images//tank.jpg>]) [4]
 (Sezioni/05_schema_termodinamico.tex
-<Images//schema_termodinamico.jpg, id=798, 313.17pt x 349.305pt>
+<Images//schema_termodinamico.jpg, id=816, 313.17pt x 349.305pt>
 File: Images//schema_termodinamico.jpg Graphic file (type jpg)
 <use Images//schema_termodinamico.jpg>
 Package pdftex.def Info: Images//schema_termodinamico.jpg  used on input line 2
@@ -1662,7 +1662,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./Images//staged_comb-eps-converted-to.pdf): PDF
  inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Images//staged_comb-eps-converted-to.pdf, id=813, 481.8pt x 638.385pt>
+<Images//staged_comb-eps-converted-to.pdf, id=831, 481.8pt x 638.385pt>
 File: Images//staged_comb-eps-converted-to.pdf Graphic file (type pdf)
 <use Images//staged_comb-eps-converted-to.pdf>
 Package pdftex.def Info: Images//staged_comb-eps-converted-to.pdf  used on inpu
@@ -1682,7 +1682,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./Images//full_cycle-eps-converted-to.pdf): PDF 
 inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Images//full_cycle-eps-converted-to.pdf, id=814, 2007.5pt x 2549.525pt>
+<Images//full_cycle-eps-converted-to.pdf, id=832, 2007.5pt x 2549.525pt>
 File: Images//full_cycle-eps-converted-to.pdf Graphic file (type pdf)
 <use Images//full_cycle-eps-converted-to.pdf>
 Package pdftex.def Info: Images//full_cycle-eps-converted-to.pdf  used on input
@@ -1704,7 +1704,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./Images//I_spec_see-eps-converted-to.pdf): PDF 
 inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Images//I_spec_see-eps-converted-to.pdf, id=829, 265.99374pt x 192.72pt>
+<Images//I_spec_see-eps-converted-to.pdf, id=847, 265.99374pt x 192.72pt>
 File: Images//I_spec_see-eps-converted-to.pdf Graphic file (type pdf)
 <use Images//I_spec_see-eps-converted-to.pdf>
 Package pdftex.def Info: Images//I_spec_see-eps-converted-to.pdf  used on input
@@ -1715,25 +1715,25 @@ Package pdftex.def Info: Images//I_spec_see-eps-converted-to.pdf  used on input
 
 pdfTeX warning: pdflatex (file ./Images//GG_schema.pdf): PDF inclusion: found P
 DF version <1.6>, but at most version <1.5> allowed
-<Images//GG_schema.pdf, id=846, 482.50523pt x 405.8392pt>
+<Images//GG_schema.pdf, id=864, 482.50523pt x 405.8392pt>
 File: Images//GG_schema.pdf Graphic file (type pdf)
 <use Images//GG_schema.pdf>
 Package pdftex.def Info: Images//GG_schema.pdf  used on input line 32.
 (pdftex.def)             Requested size: 196.66444pt x 165.41672pt.
-<Images//GG_esploso.jpg, id=847, 1818.795pt x 2274.4975pt>
+<Images//GG_esploso.jpg, id=865, 1818.795pt x 2274.4975pt>
 File: Images//GG_esploso.jpg Graphic file (type jpg)
 <use Images//GG_esploso.jpg>
 Package pdftex.def Info: Images//GG_esploso.jpg  used on input line 32.
 (pdftex.def)             Requested size: 196.66444pt x 245.92667pt.
 [8 <./Images//GG_schema.pdf> <./Images//GG_esploso.jpg>])
 (Sezioni/07_turbopompa.tex [9]
-<Images//OXIDIZER_PUMP.pdf, id=876, 415.7934pt x 351.83444pt>
+<Images//OXIDIZER_PUMP.pdf, id=894, 415.7934pt x 351.83444pt>
 File: Images//OXIDIZER_PUMP.pdf Graphic file (type pdf)
 <use Images//OXIDIZER_PUMP.pdf>
 Package pdftex.def Info: Images//OXIDIZER_PUMP.pdf  used on input line 21.
 (pdftex.def)             Requested size: 215.1019pt x 182.01546pt.
  [10 <./Images//OXIDIZER_PUMP.pdf>] [11] [12]
-<Images//turbina_general.jpg, id=1004, 1904.11375pt x 1890.06125pt>
+<Images//turbina_general.jpg, id=1022, 1904.11375pt x 1890.06125pt>
 File: Images//turbina_general.jpg Graphic file (type jpg)
 <use Images//turbina_general.jpg>
 Package pdftex.def Info: Images//turbina_general.jpg  used on input line 144.
@@ -1742,7 +1742,7 @@ Package pdftex.def Info: Images//turbina_general.jpg  used on input line 144.
 
 pdfTeX warning: pdflatex (file ./Images//rendimenti_turbina.pdf): PDF inclusion
 : found PDF version <1.6>, but at most version <1.5> allowed
-<Images//rendimenti_turbina.pdf, id=1010, 243.44952pt x 178.03714pt>
+<Images//rendimenti_turbina.pdf, id=1028, 243.44952pt x 178.03714pt>
 File: Images//rendimenti_turbina.pdf Graphic file (type pdf)
 <use Images//rendimenti_turbina.pdf>
 Package pdftex.def Info: Images//rendimenti_turbina.pdf  used on input line 176
@@ -1764,14 +1764,14 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./Images//triangoli_turbina-eps-converted-to.pdf
 ): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Images//triangoli_turbina-eps-converted-to.pdf, id=1066, 513.92pt x 385.44pt>
+<Images//triangoli_turbina-eps-converted-to.pdf, id=1084, 513.92pt x 385.44pt>
 File: Images//triangoli_turbina-eps-converted-to.pdf Graphic file (type pdf)
 <use Images//triangoli_turbina-eps-converted-to.pdf>
 Package pdftex.def Info: Images//triangoli_turbina-eps-converted-to.pdf  used o
 n input line 204.
 (pdftex.def)             Requested size: 256.07481pt x 192.05493pt.
 ) (Sezioni/08_camera_spinta.tex
-<Images//iniettore.jpg, id=1069, 542.025pt x 542.025pt>
+<Images//iniettore.jpg, id=1087, 542.025pt x 542.025pt>
 File: Images//iniettore.jpg Graphic file (type jpg)
 <use Images//iniettore.jpg>
 Package pdftex.def Info: Images//iniettore.jpg  used on input line 24.
@@ -1791,27 +1791,27 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./Images//camera_comb-eps-converted-to.pdf): PDF
  inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Images//camera_comb-eps-converted-to.pdf, id=1090, 746.79pt x 557.08125pt>
+<Images//camera_comb-eps-converted-to.pdf, id=1108, 746.79pt x 557.08125pt>
 File: Images//camera_comb-eps-converted-to.pdf Graphic file (type pdf)
 <use Images//camera_comb-eps-converted-to.pdf>
 Package pdftex.def Info: Images//camera_comb-eps-converted-to.pdf  used on inpu
 t line 81.
 (pdftex.def)             Requested size: 153.64644pt x 114.61041pt.
 [15 <./Images//iniettore.jpg>]
-<Images//ugello_TOP.jpg, id=1106, 461.5644pt x 273.6624pt>
+<Images//ugello_TOP.jpg, id=1124, 461.5644pt x 273.6624pt>
 File: Images//ugello_TOP.jpg Graphic file (type jpg)
 <use Images//ugello_TOP.jpg>
 Package pdftex.def Info: Images//ugello_TOP.jpg  used on input line 161.
 (pdftex.def)             Requested size: 271.43867pt x 160.93326pt.
  [16 <./Images//camera_comb-eps-converted-to.pdf>]) (Sezioni/09_raffreddamento.
 tex [17 <./Images//ugello_TOP.jpg>]
-<Images//boundary_layer.jpg, id=1126, 2509.375pt x 2388.925pt>
+<Images//boundary_layer.jpg, id=1144, 2509.375pt x 2388.925pt>
 File: Images//boundary_layer.jpg Graphic file (type jpg)
 <use Images//boundary_layer.jpg>
 Package pdftex.def Info: Images//boundary_layer.jpg  used on input line 12.
 (pdftex.def)             Requested size: 204.85672pt x 195.01826pt.
  [18 <./Images//boundary_layer.jpg>]
-<Images//temp_dist.jpg, id=1148, 1528.71124pt x 1518.67375pt>
+<Images//temp_dist.jpg, id=1166, 1528.71124pt x 1518.67375pt>
 File: Images//temp_dist.jpg Graphic file (type jpg)
 <use Images//temp_dist.jpg>
 Package pdftex.def Info: Images//temp_dist.jpg  used on input line 57.
@@ -1831,7 +1831,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./Images//heat_flux-eps-converted-to.pdf): PDF i
 nclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Images//heat_flux-eps-converted-to.pdf, id=1162, 256.96pt x 192.72pt>
+<Images//heat_flux-eps-converted-to.pdf, id=1180, 256.96pt x 192.72pt>
 File: Images//heat_flux-eps-converted-to.pdf Graphic file (type pdf)
 <use Images//heat_flux-eps-converted-to.pdf>
 Package pdftex.def Info: Images//heat_flux-eps-converted-to.pdf  used on input 
@@ -1852,7 +1852,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./Images//temperature_cooling-eps-converted-to.p
 df): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Images//temperature_cooling-eps-converted-to.pdf, id=1163, 256.96pt x 192.72pt
+<Images//temperature_cooling-eps-converted-to.pdf, id=1181, 256.96pt x 192.72pt
 >
 File: Images//temperature_cooling-eps-converted-to.pdf Graphic file (type pdf)
 <use Images//temperature_cooling-eps-converted-to.pdf>
@@ -1877,7 +1877,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./Images//03_accelerazione_t-eps-converted-to.pd
 f): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Images//03_accelerazione_t-eps-converted-to.pdf, id=1181, 256.96pt x 192.72pt>
+<Images//03_accelerazione_t-eps-converted-to.pdf, id=1199, 256.96pt x 192.72pt>
 
 File: Images//03_accelerazione_t-eps-converted-to.pdf Graphic file (type pdf)
 <use Images//03_accelerazione_t-eps-converted-to.pdf>
@@ -1898,7 +1898,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./Images//05_drag_t-eps-converted-to.pdf): PDF i
 nclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Images//05_drag_t-eps-converted-to.pdf, id=1182, 256.96pt x 192.72pt>
+<Images//05_drag_t-eps-converted-to.pdf, id=1200, 256.96pt x 192.72pt>
 File: Images//05_drag_t-eps-converted-to.pdf Graphic file (type pdf)
 <use Images//05_drag_t-eps-converted-to.pdf>
 Package pdftex.def Info: Images//05_drag_t-eps-converted-to.pdf  used on input 
@@ -1918,7 +1918,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./Images//06_massa_t-eps-converted-to.pdf): PDF 
 inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Images//06_massa_t-eps-converted-to.pdf, id=1183, 256.96pt x 192.72pt>
+<Images//06_massa_t-eps-converted-to.pdf, id=1201, 256.96pt x 192.72pt>
 File: Images//06_massa_t-eps-converted-to.pdf Graphic file (type pdf)
 <use Images//06_massa_t-eps-converted-to.pdf>
 Package pdftex.def Info: Images//06_massa_t-eps-converted-to.pdf  used on input
@@ -1939,7 +1939,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./Images//08_gravita_t-eps-converted-to.pdf): PD
 F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Images//08_gravita_t-eps-converted-to.pdf, id=1184, 256.96pt x 192.72pt>
+<Images//08_gravita_t-eps-converted-to.pdf, id=1202, 256.96pt x 192.72pt>
 File: Images//08_gravita_t-eps-converted-to.pdf Graphic file (type pdf)
 <use Images//08_gravita_t-eps-converted-to.pdf>
 Package pdftex.def Info: Images//08_gravita_t-eps-converted-to.pdf  used on inp
@@ -1960,7 +1960,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./Images//09_pressione_t-eps-converted-to.pdf): 
 PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Images//09_pressione_t-eps-converted-to.pdf, id=1185, 256.96pt x 192.72pt>
+<Images//09_pressione_t-eps-converted-to.pdf, id=1203, 256.96pt x 192.72pt>
 File: Images//09_pressione_t-eps-converted-to.pdf Graphic file (type pdf)
 <use Images//09_pressione_t-eps-converted-to.pdf>
 Package pdftex.def Info: Images//09_pressione_t-eps-converted-to.pdf  used on i
@@ -1981,7 +1981,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./Images//10_temperatura_t-eps-converted-to.pdf)
 : PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Images//10_temperatura_t-eps-converted-to.pdf, id=1186, 256.96pt x 192.72pt>
+<Images//10_temperatura_t-eps-converted-to.pdf, id=1204, 256.96pt x 192.72pt>
 File: Images//10_temperatura_t-eps-converted-to.pdf Graphic file (type pdf)
 <use Images//10_temperatura_t-eps-converted-to.pdf>
 Package pdftex.def Info: Images//10_temperatura_t-eps-converted-to.pdf  used on
@@ -2001,7 +2001,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./Images//11_mach_t-eps-converted-to.pdf): PDF i
 nclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Images//11_mach_t-eps-converted-to.pdf, id=1187, 256.96pt x 192.72pt>
+<Images//11_mach_t-eps-converted-to.pdf, id=1205, 256.96pt x 192.72pt>
 File: Images//11_mach_t-eps-converted-to.pdf Graphic file (type pdf)
 <use Images//11_mach_t-eps-converted-to.pdf>
 Package pdftex.def Info: Images//11_mach_t-eps-converted-to.pdf  used on input 
@@ -2013,24 +2013,24 @@ line 10.
 onverted-to.pdf> <./Images//06_massa_t-eps-converted-to.pdf> <./Images//08_grav
 ita_t-eps-converted-to.pdf> <./Images//09_pressione_t-eps-converted-to.pdf> <./
 Images//10_temperatura_t-eps-converted-to.pdf>] (Sezioni/B_serbatoio.tex
-<Images//stress_factor.png, id=1240, 315.579pt x 382.42876pt>
+<Images//stress_factor.png, id=1258, 315.579pt x 382.42876pt>
 File: Images//stress_factor.png Graphic file (type png)
 <use Images//stress_factor.png>
 Package pdftex.def Info: Images//stress_factor.png  used on input line 36.
 (pdftex.def)             Requested size: 204.85672pt x 248.24895pt.
-<Images//tank_appendice.jpg, id=1243, 215.8464pt x 127.677pt>
+<Images//tank_appendice.jpg, id=1261, 215.8464pt x 127.677pt>
 File: Images//tank_appendice.jpg Graphic file (type jpg)
 <use Images//tank_appendice.jpg>
 Package pdftex.def Info: Images//tank_appendice.jpg  used on input line 39.
 (pdftex.def)             Requested size: 245.82962pt x 145.41301pt.
-<Images//tank_appendice_2.png, id=1244, 381.22424pt x 457.71pt>
+<Images//tank_appendice_2.png, id=1262, 381.22424pt x 457.71pt>
 File: Images//tank_appendice_2.png Graphic file (type png)
 <use Images//tank_appendice_2.png>
 Package pdftex.def Info: Images//tank_appendice_2.png  used on input line 39.
 (pdftex.def)             Requested size: 245.82962pt x 295.15434pt.
 
 [22 <./Images//11_mach_t-eps-converted-to.pdf> <./Images//stress_factor.png>]
-<Images//scambiatore_appendice.png, id=1261, 509.5035pt x 361.35pt>
+<Images//scambiatore_appendice.png, id=1279, 509.5035pt x 361.35pt>
 File: Images//scambiatore_appendice.png Graphic file (type png)
 <use Images//scambiatore_appendice.png>
 Package pdftex.def Info: Images//scambiatore_appendice.png  used on input line 
@@ -2052,7 +2052,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./Images//MM_to_OF-eps-converted-to.pdf): PDF in
 clusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Images//MM_to_OF-eps-converted-to.pdf, id=1266, 256.96pt x 192.72pt>
+<Images//MM_to_OF-eps-converted-to.pdf, id=1284, 256.96pt x 192.72pt>
 File: Images//MM_to_OF-eps-converted-to.pdf Graphic file (type pdf)
 <use Images//MM_to_OF-eps-converted-to.pdf>
 Package pdftex.def Info: Images//MM_to_OF-eps-converted-to.pdf  used on input l
@@ -2073,7 +2073,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./Images//temperatura_gg_of-eps-converted-to.pdf
 ): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Images//temperatura_gg_of-eps-converted-to.pdf, id=1267, 256.96pt x 192.72pt>
+<Images//temperatura_gg_of-eps-converted-to.pdf, id=1285, 256.96pt x 192.72pt>
 File: Images//temperatura_gg_of-eps-converted-to.pdf Graphic file (type pdf)
 <use Images//temperatura_gg_of-eps-converted-to.pdf>
 Package pdftex.def Info: Images//temperatura_gg_of-eps-converted-to.pdf  used o
@@ -2095,7 +2095,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./Images//c_p_gg-eps-converted-to.pdf): PDF incl
 usion: found PDF version <1.7>, but at most version <1.5> allowed
-<Images//c_p_gg-eps-converted-to.pdf, id=1278, 256.96pt x 192.72pt>
+<Images//c_p_gg-eps-converted-to.pdf, id=1296, 256.96pt x 192.72pt>
 File: Images//c_p_gg-eps-converted-to.pdf Graphic file (type pdf)
 <use Images//c_p_gg-eps-converted-to.pdf>
 Package pdftex.def Info: Images//c_p_gg-eps-converted-to.pdf  used on input lin
@@ -2115,7 +2115,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./Images//gamma_gg-eps-converted-to.pdf): PDF in
 clusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Images//gamma_gg-eps-converted-to.pdf, id=1279, 256.96pt x 192.72pt>
+<Images//gamma_gg-eps-converted-to.pdf, id=1297, 256.96pt x 192.72pt>
 File: Images//gamma_gg-eps-converted-to.pdf Graphic file (type pdf)
 <use Images//gamma_gg-eps-converted-to.pdf>
 Package pdftex.def Info: Images//gamma_gg-eps-converted-to.pdf  used on input l
@@ -2135,7 +2135,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./Images//delta_h_id-eps-converted-to.pdf): PDF 
 inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Images//delta_h_id-eps-converted-to.pdf, id=1280, 262.9825pt x 192.72pt>
+<Images//delta_h_id-eps-converted-to.pdf, id=1298, 262.9825pt x 192.72pt>
 File: Images//delta_h_id-eps-converted-to.pdf Graphic file (type pdf)
 <use Images//delta_h_id-eps-converted-to.pdf>
 Package pdftex.def Info: Images//delta_h_id-eps-converted-to.pdf  used on input
@@ -2159,19 +2159,19 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./Images//Injector_gg-eps-converted-to.pdf): PDF
  inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Images//Injector_gg-eps-converted-to.pdf, id=1316, 492.84125pt x 606.265pt>
+<Images//Injector_gg-eps-converted-to.pdf, id=1334, 492.84125pt x 606.265pt>
 File: Images//Injector_gg-eps-converted-to.pdf Graphic file (type pdf)
 <use Images//Injector_gg-eps-converted-to.pdf>
 Package pdftex.def Info: Images//Injector_gg-eps-converted-to.pdf  used on inpu
 t line 4.
 (pdftex.def)             Requested size: 230.46576pt x 283.51071pt.
 ) (Sezioni/F_turbopompa.tex [26 <./Images//Injector_gg-eps-converted-to.pdf>]
-<Images//Inducer_LOX.pdf, id=1329, 513.92pt x 385.44pt>
+<Images//Inducer_LOX.pdf, id=1347, 513.92pt x 385.44pt>
 File: Images//Inducer_LOX.pdf Graphic file (type pdf)
 <use Images//Inducer_LOX.pdf>
 Package pdftex.def Info: Images//Inducer_LOX.pdf  used on input line 75.
 (pdftex.def)             Requested size: 245.82962pt x 184.3739pt.
-<Images//Impeller_LOX.pdf, id=1330, 513.92pt x 385.44pt>
+<Images//Impeller_LOX.pdf, id=1348, 513.92pt x 385.44pt>
 File: Images//Impeller_LOX.pdf Graphic file (type pdf)
 <use Images//Impeller_LOX.pdf>
 Package pdftex.def Info: Images//Impeller_LOX.pdf  used on input line 75.
@@ -2182,12 +2182,12 @@ Package pdftex.def Info: Images//Impeller_LOX.pdf  used on input line 75.
 pdfTeX warning: pdflatex (file ./Images//Impeller_LOX.pdf): PDF inclusion: mult
 iple pdfs with page group included in a single page
 >]
-<Images//Inducer_RP-1.pdf, id=1362, 513.92pt x 385.44pt>
+<Images//Inducer_RP-1.pdf, id=1380, 513.92pt x 385.44pt>
 File: Images//Inducer_RP-1.pdf Graphic file (type pdf)
 <use Images//Inducer_RP-1.pdf>
 Package pdftex.def Info: Images//Inducer_RP-1.pdf  used on input line 101.
 (pdftex.def)             Requested size: 245.82962pt x 184.3739pt.
-<Images//Impeller_RP-1.pdf, id=1363, 513.92pt x 385.44pt>
+<Images//Impeller_RP-1.pdf, id=1381, 513.92pt x 385.44pt>
 File: Images//Impeller_RP-1.pdf Graphic file (type pdf)
 <use Images//Impeller_RP-1.pdf>
 Package pdftex.def Info: Images//Impeller_RP-1.pdf  used on input line 101.
@@ -2196,7 +2196,7 @@ Package pdftex.def Info: Images//Impeller_RP-1.pdf  used on input line 101.
 
 pdfTeX warning: pdflatex (file ./Images//velocity_diagram_AIAA.pdf): PDF inclus
 ion: found PDF version <1.6>, but at most version <1.5> allowed
-<Images//velocity_diagram_AIAA.pdf, id=1373, 232.10716pt x 192.86021pt>
+<Images//velocity_diagram_AIAA.pdf, id=1391, 232.10716pt x 192.86021pt>
 File: Images//velocity_diagram_AIAA.pdf Graphic file (type pdf)
 <use Images//velocity_diagram_AIAA.pdf>
 Package pdftex.def Info: Images//velocity_diagram_AIAA.pdf  used on input line 
@@ -2207,39 +2207,39 @@ Package pdftex.def Info: Images//velocity_diagram_AIAA.pdf  used on input line
 pdfTeX warning: pdflatex (file ./Images//Impeller_RP-1.pdf): PDF inclusion: mul
 tiple pdfs with page group included in a single page
 >]) [29 <./Images//velocity_diagram_AIAA.pdf>] (Sezioni/G_camera_spinta.tex
-<Images//inj_1.png, id=1454, 371.58826pt x 464.937pt>
+<Images//inj_1.png, id=1472, 371.58826pt x 464.937pt>
 File: Images//inj_1.png Graphic file (type png)
 <use Images//inj_1.png>
 Package pdftex.def Info: Images//inj_1.png  used on input line 6.
 (pdftex.def)             Requested size: 256.07481pt x 320.42377pt.
-<Images//inj_3.png, id=1457, 367.97475pt x 455.90324pt>
+<Images//inj_3.png, id=1475, 367.97475pt x 455.90324pt>
 File: Images//inj_3.png Graphic file (type png)
 <use Images//inj_3.png>
 Package pdftex.def Info: Images//inj_3.png  used on input line 7.
 (pdftex.def)             Requested size: 230.46576pt x 285.53708pt.
 
 [30 <./Images//inj_1.png> <./Images//inj_3.png>]
-<Images//angoli_bell.jpg, id=1466, 464.4552pt x 333.4056pt>
+<Images//angoli_bell.jpg, id=1484, 464.4552pt x 333.4056pt>
 File: Images//angoli_bell.jpg Graphic file (type jpg)
 <use Images//angoli_bell.jpg>
 Package pdftex.def Info: Images//angoli_bell.jpg  used on input line 12.
 (pdftex.def)             Requested size: 256.07481pt x 183.8264pt.
-<Images//2DNozzle_1_10.pdf, id=1467, 513.92pt x 385.44pt>
+<Images//2DNozzle_1_10.pdf, id=1485, 513.92pt x 385.44pt>
 File: Images//2DNozzle_1_10.pdf Graphic file (type pdf)
 <use Images//2DNozzle_1_10.pdf>
 Package pdftex.def Info: Images//2DNozzle_1_10.pdf  used on input line 13.
 (pdftex.def)             Requested size: 245.82962pt x 184.3739pt.
-<Images//3DNozzle_1_10.pdf, id=1468, 513.92pt x 385.44pt>
+<Images//3DNozzle_1_10.pdf, id=1486, 513.92pt x 385.44pt>
 File: Images//3DNozzle_1_10.pdf Graphic file (type pdf)
 <use Images//3DNozzle_1_10.pdf>
 Package pdftex.def Info: Images//3DNozzle_1_10.pdf  used on input line 13.
 (pdftex.def)             Requested size: 245.82962pt x 184.3739pt.
-<Images//2DNozzle_1_16.pdf, id=1469, 513.92pt x 385.44pt>
+<Images//2DNozzle_1_16.pdf, id=1487, 513.92pt x 385.44pt>
 File: Images//2DNozzle_1_16.pdf Graphic file (type pdf)
 <use Images//2DNozzle_1_16.pdf>
 Package pdftex.def Info: Images//2DNozzle_1_16.pdf  used on input line 14.
 (pdftex.def)             Requested size: 245.82962pt x 184.3739pt.
-<Images//3DNozzle_1_16.pdf, id=1470, 513.92pt x 385.44pt>
+<Images//3DNozzle_1_16.pdf, id=1488, 513.92pt x 385.44pt>
 File: Images//3DNozzle_1_16.pdf Graphic file (type pdf)
 <use Images//3DNozzle_1_16.pdf>
 Package pdftex.def Info: Images//3DNozzle_1_16.pdf  used on input line 14.
@@ -2250,41 +2250,53 @@ zle_1_10.pdf> <./Images//2DNozzle_1_16.pdf> <./Images//3DNozzle_1_16.pdf
 pdfTeX warning: pdflatex (file ./Images//3DNozzle_1_16.pdf): PDF inclusion: mul
 tiple pdfs with page group included in a single page
 >]) [32] (Sezioni/H_temperature_cooling.tex
-<Images//t_wg.jpg, id=1504, 2487.2925pt x 1500.60625pt>
+<Images//t_wg.jpg, id=1522, 2487.2925pt x 1500.60625pt>
 File: Images//t_wg.jpg Graphic file (type jpg)
 <use Images//t_wg.jpg>
 Package pdftex.def Info: Images//t_wg.jpg  used on input line 5.
 (pdftex.def)             Requested size: 256.07481pt x 154.4886pt.
-<Images//sigma.jpg, id=1506, 1229.59375pt x 534.99875pt>
+<Images//sigma.jpg, id=1524, 1229.59375pt x 534.99875pt>
 File: Images//sigma.jpg Graphic file (type jpg)
 <use Images//sigma.jpg>
 Package pdftex.def Info: Images//sigma.jpg  used on input line 22.
 (pdftex.def)             Requested size: 204.85672pt x 89.12814pt.
  [33 <./Images//t_wg.jpg> <./Images//sigma.jpg>]
-<Images//r_d_graph.jpg, id=1518, 388.45125pt x 358.33875pt>
+<Images//r_d_graph.jpg, id=1536, 388.45125pt x 358.33875pt>
 File: Images//r_d_graph.jpg Graphic file (type jpg)
 <use Images//r_d_graph.jpg>
 Package pdftex.def Info: Images//r_d_graph.jpg  used on input line 71.
 (pdftex.def)             Requested size: 189.49286pt x 174.80562pt.
  [34]
-<Images//exhaust_1.jpg, id=1526, 4504.0772pt x 2779.38374pt>
+<Images//exhaust_1.jpg, id=1544, 4504.0772pt x 2779.38374pt>
 File: Images//exhaust_1.jpg Graphic file (type jpg)
 <use Images//exhaust_1.jpg>
 Package pdftex.def Info: Images//exhaust_1.jpg  used on input line 75.
 (pdftex.def)             Requested size: 245.82962pt x 151.6579pt.
-<Images//exhaust_2.jpg, id=1527, 2851.65375pt x 2223.80812pt>
+<Images//exhaust_2.jpg, id=1545, 2851.65375pt x 2223.80812pt>
 File: Images//exhaust_2.jpg Graphic file (type jpg)
 <use Images//exhaust_2.jpg>
 Package pdftex.def Info: Images//exhaust_2.jpg  used on input line 75.
 (pdftex.def)             Requested size: 245.82962pt x 191.68489pt.
-<Images//satur.jpg, id=1528, 1709.38625pt x 1376.14125pt>
+<Images//satur.jpg, id=1546, 1709.38625pt x 1376.14125pt>
 File: Images//satur.jpg Graphic file (type jpg)
 <use Images//satur.jpg>
 Package pdftex.def Info: Images//satur.jpg  used on input line 79.
 (pdftex.def)             Requested size: 194.61935pt x 156.66754pt.
  [35 <./Images//r_d_graph.jpg> <./Images//exhaust_1.jpg> <./Images//exhaust_2.j
-pg> <./Images//satur.jpg>]) [36] (Sezioni/I_RPA.tex [37])
-[38] (Sezioni/J_matlab.tex (C:\Miktex\tex/latex/listings\lstlang1.sty
+pg> <./Images//satur.jpg>]) [36] (Sezioni/I_RPA.tex
+<Images//nozzle_definitions.jpg, id=1564, 206.57175pt x 75.28125pt>
+File: Images//nozzle_definitions.jpg Graphic file (type jpg)
+<use Images//nozzle_definitions.jpg>
+Package pdftex.def Info: Images//nozzle_definitions.jpg  used on input line 95.
+
+(pdftex.def)             Requested size: 194.85686pt x 71.01479pt.
+
+Overfull \hbox (25.00003pt too wide) in paragraph at lines 95--96
+[][] 
+ []
+
+[37] [38 <./Images//nozzle_definitions.jpg>]) [39] (Sezioni/J_matlab.tex
+(C:\Miktex\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
@@ -2296,79 +2308,79 @@ LaTeX Font Info:    Trying to load font information for T1+jkptt on input line
 File: t1jkptt.fd 2007/01/26 Fontinst v1.928 font definitions for T1/jkptt.
 ) (C:\Miktex\tex/latex/base\ansinew.def
 File: ansinew.def 2021/02/14 v1.3d Input encoding file
-) (Codici/Simulation.m [39] [40]
+) (Codici/Simulation.m [40] [41]
 LaTeX Font Info:    Trying to load font information for TS1+jkptt on input line
  128.
  (C:\Miktex\tex/latex/kpfonts\ts1jkptt.fd
 File: ts1jkptt.fd 2007/01/26 Fontinst v1.928 font definitions for TS1/jkptt.
 )
-[41]) (C:\Miktex\tex/latex/base\ansinew.def
-File: ansinew.def 2021/02/14 v1.3d Input encoding file
-) (Codici/parametri_lanciatore.m
 [42]) (C:\Miktex\tex/latex/base\ansinew.def
 File: ansinew.def 2021/02/14 v1.3d Input encoding file
-) (Codici/TANK_RP1.m [43])
+) (Codici/parametri_lanciatore.m
+[43]) (C:\Miktex\tex/latex/base\ansinew.def
+File: ansinew.def 2021/02/14 v1.3d Input encoding file
+) (Codici/TANK_RP1.m [44])
 (C:\Miktex\tex/latex/base\ansinew.def
 File: ansinew.def 2021/02/14 v1.3d Input encoding file
-) (Codici/TANK_LOX.m [44] [45])
+) (Codici/TANK_LOX.m [45] [46])
 (C:\Miktex\tex/latex/base\ansinew.def
 File: ansinew.def 2021/02/14 v1.3d Input encoding file
-) (Codici/new_Is.m [46])
+) (Codici/new_Is.m [47])
 (C:\Miktex\tex/latex/base\ansinew.def
 File: ansinew.def 2021/02/14 v1.3d Input encoding file
-) (Codici/graphs.m [47])
+) (Codici/graphs.m [48])
 (C:\Miktex\tex/latex/base\ansinew.def
 File: ansinew.def 2021/02/14 v1.3d Input encoding file
-) (Codici/turbopump.m [48])
+) (Codici/turbopump.m [49])
 (C:\Miktex\tex/latex/base\ansinew.def
 File: ansinew.def 2021/02/14 v1.3d Input encoding file
 ) (Codici/quiver2.m)
 (C:\Miktex\tex/latex/base\ansinew.def
 File: ansinew.def 2021/02/14 v1.3d Input encoding file
-) (Codici/POMPA_LOX.m [49] [50] [51]
-[52] [53] [54] [55]) (C:\Miktex\tex/latex/base\ansinew.def
+) (Codici/POMPA_LOX.m [50] [51] [52]
+[53] [54] [55] [56]) (C:\Miktex\tex/latex/base\ansinew.def
 File: ansinew.def 2021/02/14 v1.3d Input encoding file
-) (Codici/POMPA_RP1.m [56] [57] [58] [59] [60] [61] [62]) (C:\Miktex\tex/latex/
+) (Codici/POMPA_RP1.m [57] [58] [59] [60] [61] [62] [63]) (C:\Miktex\tex/latex/
 base\ansinew.def
 File: ansinew.def 2021/02/14 v1.3d Input encoding file
 )
-(Codici/turbine_def.m [63] [64] [65]) (C:\Miktex\tex/latex/base\ansinew.def
+(Codici/turbine_def.m [64] [65] [66]) (C:\Miktex\tex/latex/base\ansinew.def
 File: ansinew.def 2021/02/14 v1.3d Input encoding file
 )
-(Codici/camera_di_combustione.m [66]) (C:\Miktex\tex/latex/base\ansinew.def
+(Codici/camera_di_combustione.m [67]) (C:\Miktex\tex/latex/base\ansinew.def
 File: ansinew.def 2021/02/14 v1.3d Input encoding file
 )
-(Codici/bell_nozzle.m [67]) (C:\Miktex\tex/latex/base\ansinew.def
+(Codici/bell_nozzle.m [68]) (C:\Miktex\tex/latex/base\ansinew.def
 File: ansinew.def 2021/02/14 v1.3d Input encoding file
 )
-(Codici/bell_angles.m [68] [69] [70] [71] [72] [73] [74] [75] [76] [77]
-[78]) (C:\Miktex\tex/latex/base\ansinew.def
+(Codici/bell_angles.m [69] [70] [71] [72] [73] [74] [75] [76] [77] [78]
+[79]) (C:\Miktex\tex/latex/base\ansinew.def
 File: ansinew.def 2021/02/14 v1.3d Input encoding file
-) (Codici/test_bell.m [79] [80])
+) (Codici/test_bell.m [80] [81])
 (C:\Miktex\tex/latex/base\ansinew.def
 File: ansinew.def 2021/02/14 v1.3d Input encoding file
 ) (Codici/HeatTransfer_FilmCooling.m
-[81]) (C:\Miktex\tex/latex/base\ansinew.def
+[82]) (C:\Miktex\tex/latex/base\ansinew.def
 File: ansinew.def 2021/02/14 v1.3d Input encoding file
 )
-(Codici/HeatTransfer_FilmCooling_ciclato.m [82] [83])
+(Codici/HeatTransfer_FilmCooling_ciclato.m [83] [84])
 (C:\Miktex\tex/latex/base\ansinew.def
 File: ansinew.def 2021/02/14 v1.3d Input encoding file
 ) (Codici/RegenerativeCooling_Thickness.m
-[84] [85]) (C:\Miktex\tex/latex/base\ansinew.def
+[85] [86]) (C:\Miktex\tex/latex/base\ansinew.def
 File: ansinew.def 2021/02/14 v1.3d Input encoding file
 ) (Codici/grafici_finale.m
-[86] [87] [88]))) [89] (Prova finale.bbl) [90
+[87] [88] [89]))) [90] (Prova finale.bbl) [91
 
 ] (Prova finale.aux)
 Package rerunfilecheck Info: File `"Prova finale".out' has not changed.
 (rerunfilecheck)             Checksum: AD6311AE94845B4103A311F787B6CDB5;17172.
  ) 
 Here is how much of TeX's memory you used:
- 38468 strings out of 475385
- 697535 string characters out of 2793321
- 1772278 words of memory out of 3000000
- 55775 multiletter control sequences out of 15000+600000
+ 38510 strings out of 475385
+ 698482 string characters out of 2793321
+ 1772940 words of memory out of 3000000
+ 55807 multiletter control sequences out of 15000+600000
  636319 words of font info for 232 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  83i,24n,81p,1849b,4509s stack positions out of 10000i,1000n,20000p,200000b,80000s
@@ -2383,9 +2395,9 @@ s/type1/public/kpfonts/jkpmit8a.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpmn
 8a.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpmne.pfb><C:/Miktex/fonts/type1/
 public/kpfonts/jkpsy.pfb><C:/Miktex/fonts/type1/public/kpfonts/jkpttbn8a.pfb><C
 :/Miktex/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on "Prova finale.pdf" (99 pages, 26238422 bytes).
+Output written on "Prova finale.pdf" (100 pages, 26255920 bytes).
 PDF statistics:
- 5467 PDF objects out of 6186 (max. 8388607)
- 3250 named destinations out of 3580 (max. 500000)
- 1004 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 5499 PDF objects out of 6186 (max. 8388607)
+ 3260 named destinations out of 3580 (max. 500000)
+ 1009 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -29,5 +29,13 @@
 \contentsline {table}{\numberline {27}{\ignorespaces Confronto tra ugello 10:1 e 16:1\relax }}{32}{table.caption.72}%
 \contentsline {table}{\numberline {28}{\ignorespaces Dati usati per il calcolo del film cooling punto 1:10\relax }}{34}{table.caption.75}%
 \contentsline {table}{\numberline {29}{\ignorespaces Risultati calcolo film cooling punto 1:10\relax }}{34}{table.caption.76}%
-\contentsline {table}{\numberline {30}{\ignorespaces Proprietà termodinamiche in output da RPA - sezione performance analysis \relax }}{37}{table.caption.90}%
-\contentsline {table}{\numberline {31}{\ignorespaces Sistema di alimentazione del propellente (output RPA) - Sezione Engine Design \relax }}{38}{table.caption.91}%
+\contentsline {table}{\numberline {30}{\ignorespaces Input - engine definition\relax }}{37}{table.caption.90}%
+\contentsline {table}{\numberline {31}{\ignorespaces Input - propellant specification\relax }}{37}{table.caption.91}%
+\contentsline {table}{\numberline {32}{\ignorespaces Input - nozzle flow model\relax }}{37}{table.caption.92}%
+\contentsline {table}{\numberline {33}{\ignorespaces Chamber geometry - input\relax }}{38}{table.caption.94}%
+\contentsline {table}{\numberline {34}{\ignorespaces GG input data \relax }}{38}{table.caption.95}%
+\contentsline {table}{\numberline {35}{\ignorespaces turbine input data\relax }}{38}{table.caption.96}%
+\contentsline {table}{\numberline {36}{\ignorespaces Oxidizer branch\relax }}{38}{table.caption.97}%
+\contentsline {table}{\numberline {37}{\ignorespaces Fuel branch\relax }}{38}{table.caption.98}%
+\contentsline {table}{\numberline {38}{\ignorespaces Proprietà termodinamiche in output da RPA - sezione performance analysis \relax }}{39}{table.caption.99}%
+\contentsline {table}{\numberline {39}{\ignorespaces Sistema di alimentazione del propellente (output RPA) - Sezione Engine Design \relax }}{39}{table.caption.100}%
