@@ -1,7 +1,8 @@
 \section{RPA: definizione problema e funzionamento}
 \label{appendix:rpa}
 
-RPA è un software che permette di prevedere le prestazioni per motori a razzo. Il metodo di calcolo si basa su un approccio di minimizzazione dell'energia libera di Gibbs al fine di ottenere la composizione dei prodotti di combustione, l'analisi del flusso dell'ugello con shifting o frozen equilibrium e il calcolo delle prestazioni del motore, per camera di combustione finita o infinita.
+RPA è un software che permette di prevedere le prestazioni per motori a razzo. Per ottenere tali previsioni è necessario risolvere il problema di combustione a livello numerico e successivamente analizzare l'espansione gasdinamica dell'ugello. \\
+A livello di reazione chimica il metodo di calcolo si basa su un approccio di minimizzazione dell'energia libera di Gibbs al fine di ottenere la composizione dei prodotti di combustione.  L'analisi del flusso dell'ugello si può effettuare con approccio di shifting o frozen equilibrium e per camera di combustione finita o infinita.
 
 RPA utilizza una libreria di specie chimiche espandibile basata sul database termodinamico NASA Glenn, che include dati per numerosi combustibili e ossidanti. È inoltre possibile definire nuovi componenti del propellente o importare componenti da database di specie PROPEP o CEA2.
 Fornendo parametri propri del motore in analisi, come la pressione della camera di combustione, i componenti del propellente utilizzati e i parametri dell'ugello, il programma permette di ottenere la composizione di equilibrio chimico dei prodotti di combustione, determina le sue proprietà termodinamiche e predice le prestazioni teoriche del razzo. 
@@ -31,11 +32,11 @@ $6770.19$ & $77.556$ & {GG cycle} \\
 \item \textit{Propellant Specification} Per caratterizzare il propellente è necessario definire il tipo di sistema, in questo caso bipropellente, il rapporto di miscela O/F, l'ossidante e il combustibile con le relative temperature di stivaggio. 
 \begin{table}[H]
 \centering
-\begin{tabular}{|c|c|c|c|}
+\begin{tabular}{|c|c|c|c|c|}
 \hline
-\textbf{Fuel} & $\bm{T_{fuel} \, [K]}$ & \textbf{Ox} & $\bm{T_{ox} \, [K]}$  \\
+\textbf{Fuel} & $\bm{T_{fuel} \, [K]}$ & \textbf{Ox} & $\bm{T_{ox} \, [K]}$  & \textbf{O/F}\\
 \hline
-{RP-1} & $293.15$ & {LOX} & $90.15$ \\
+{RP-1} & $293.15$ & {LOX} & $90.15$ & $2.27$\\
 \hline
 \end{tabular}
 \caption{Input - propellant specification}
@@ -60,8 +61,8 @@ $1.307$ & $16$ & $1$ & $1.01325$ \\
 
 • \textbf{Performance Analysis}
 
-Questa sezione contiene alcuni output. Illustra le prestazioni della camera, in particolare le proprietà termodinamiche (ovvero le percentuali in massa dei prodotti di combustione in vari punti del motore) e le prestazioni stimate dell'endoreattore. Nel nostro caso abbiamo riportato nella (tabella da mettere) le percentuali in massa, nella tabella \autoref{table:valori RPA sezione performance analysis} alcuni valori termodinamici in alcune sezioni del motore. E nella tabella (da mettere) le performance del motore.\\
-In questa sezione è possibile definire come input alcune analisi parametrizzate sul sistema motore. Ad esempio, è possibile eseguire un'analisi a diverse altitudini. \'E anche possibile eseguire delle analisi variando i rapporti $O/F$, la pressione in camera $p_c$, le condizioni di inlet dell'ugello e plottare come queste variabili influenzino le prestazioni del motore.
+Questa sezione contiene alcuni output. Vengono illustrate le prestazioni della camera, in particolare le proprietà termodinamiche (ovvero le percentuali in massa dei prodotti di combustione in vari punti del motore) e le prestazioni stimate dell'endoreattore. Nel nostro caso abbiamo riportato nella tabella \autoref{table:valori RPA sezione performance analysis} alcuni valori termodinamici (i più rilevanti per i calcoli effettuati in sede) in alcune sezioni del motore. Nella \autoref{table:performance_real} sono state rappresentate le performance stimate del motore, in particolare la tabella considera i dati di performance con dei valori di rendimento di reazione e dell'ugello. \'E importante notare che tali performance si riferiscono solo alla camera di spinta e ugello gasdinamico, e non al sistema motore intero. I dati del sistema motore, in particolare l'impulso specifico, sono riportati in \autoref{table:performance_eng_real} e considerano l'introduzione del sistema GG e le sue ripercussioni sulle prestazioni \\
+In questa sezione è possibile anche  definire come input le analisi parametrizzate. Ad esempio, è possibile eseguire un'analisi a diverse altitudini oppure variando i rapporti $O/F$, la pressione in camera $p_c$, le condizioni di inlet dell'ugello e plottare come queste variabili influenzino le prestazioni del motore.
 \\
 • \textbf{Engine Design}
 
@@ -94,10 +95,10 @@ $1$ & $30$ & $1.5$ & $0.382$ & $0.5$ & $31.3109$ & $10.0405$ & $80$\% \\
 \end{table}
 }
 
-\item \textit{Thermal analysis}: in questa sezione è possibile studiare lo scambio termico impostando diverse tipologie di raffreddamento come regenrative cooling, film e radiation cooling. Questa sezione non è stata utilizzata, prediligendo uno studio del sistema di raffreddamento numerico (\autoref{sec:raffreddamento}).
+\item \textit{Thermal analysis}: in questa sezione è possibile studiare lo scambio termico impostando diverse tipologie di raffreddamento come regenerative cooling, film e radiation cooling. Questa sezione non è stata utilizzata, prediligendo uno studio del sistema di raffreddamento numerico (\autoref{sec:raffreddamento}).
 
 \item \textit{Propellant feed system}: qui è possibile definire alcune caratteristiche del sistema di alimentazione delle turbopompe. Si definisce il metodo di generazione della potenza (GG o preburner), impostando il funzionamento di tale camera di combustione. In particolare, si definisce il tipo di miscela (fuel o oxidizer rich), temperatura e pressione in camera e perdita di pressione attraverso la camera (\autoref{table:GG_in}).  Si specifica poi il salto di pressione in turbina, la sua efficienza e la sua velocità angolare (\autoref{table:turb_in}). Infine, si definiscono i rami che compongono il sistema. I condotti dell'oxidizer e del fuel sono entrambi composti da un main branch, e dal GG feed branch. Ovvero si riferiscono al condotto di oxidizer principale e al condotto di spillamento per rifornire la camera del GG (\autoref{table:fuel_branch}, \autoref{table:ox_branch}).\\
-Questa sezione contiene anche gli output, una volta runnato il programma. Si ottengono le grandezze di portata e pressione lungo tutti i condotti appena definiti. In base all'introduzione del tipo di sistema viene anche stimata la nuova performance del motore, influenzata dal sistema di alimentazione introdotto (come visto in \autoref{subsec:analisi performance ciclo a gas}). (fare riferimento agli output tabelle)
+In output, si ottengono le grandezze di portata e pressione lungo tutti i condotti appena definiti. In base all'introduzione del tipo di sistema viene anche stimata la nuova performance del motore, influenzata dal sistema di alimentazione introdotto (come visto in \autoref{subsec:analisi performance ciclo a gas}). (Differenze viste in \autoref{table:performance_real} e \autoref{table:performance_eng_real} sul valore $I_s$)
 
 \begin{table}[H]
 \centering
@@ -142,7 +143,7 @@ $4.48$ & $5$ & $0.012$ & $0.3$\\
 \centering
 \begin{tabular}{|c|c|c|c|}
 \hline
-$\bm{p_{in,pump} \, [bar]}$ & $\bm{v_{in,pump} \, [m/s]}$ & $\bm{\dot{m}_{f,gg}/\dot{m}_{f}, [-]}$ & $\bm{A_{in,gg}/A_{in,main} \, [-]}$ \\
+$\bm{p_{in,pump} \, [bar]}$ & $\bm{v_{in,pump} \, [m/s]}$ & $\bm{\dot{m}_{f,gg}/\dot{m}_{f} [-]}$ & $\bm{A_{in,gg}/A_{in,main} \, [-]}$ \\
 \hline
 $3.10$ & $5$ & $0.067$ & $0.3$\\
 \hline
@@ -152,6 +153,8 @@ $3.10$ & $5$ & $0.067$ & $0.3$\\
 \end{table}
 
 \end{itemize}
+
+\textbf{Output RPA}
 
 \begin{table}[H]
 \centering
@@ -176,10 +179,43 @@ $\bm{\gamma}$ & $1.1777$ & $1.1756$ & $1.1716$ & $1.2521$ & \text{-} \\
 \label{table:valori RPA sezione performance analysis}
 \end{table}
 
+\begin{table}[H]
+\centering
+\begin{tabular}{|c|c|c|c|}
+\hline
+\textbf{Parameter}& \textbf{Sea Level} & \textbf{Optimum Exp.} & \textbf{Vacuum}  \\
+\hline
+$\bm{c^*} \, [m/s]$ & $-$ & $1781.26$ & $-$  \\
+\hline
+$\bm{u_e} \, [m/s]$ & $2669.97$ & $2915.20$ & $3093.70$ \\
+\hline
+$\bm{I_s} \, [s]$ & $272.26$ & $297.27$ & $315.47$ \\
+\hline
+$\bm{c_T} \, [-]$ & $1.4989$ & $1.6366$ & $1.7368$ \\
+\hline
+\end{tabular}
+\caption{Performance reali stimate endoreattore - con $\eta_{reaz} = 0.9856$, $\eta_{nozzle} = 0.9765$ , $\eta_{tot} = 0.9624$}
+\label{table:performance_real}
+\end{table}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{|c|c|c|}
+\hline
+$\bm{I_s \; vac} \, [s]$ & $\bm{I_s \; opt} \, [s]$ & $\bm{I_s \; SL} \, [s]$ \\
+\hline
+$305.82$ & $288.19$ & $263.97$ \\
+\hline
+\end{tabular}
+\caption{Performance reali stimate motore - da notare le differenze rispetto a \autoref{table:performance_real} su $I_s$}
+\label{table:performance_eng_real}
+\end{table}
+
+
+
 \vspace{10pt}
 
 \begin{table}[H]
-
 \centering
 \begin{tabular}{|c|c|c|c|c|}
 \hline
@@ -192,9 +228,41 @@ $\bm{\gamma}$ & $1.1777$ & $1.1756$ & $1.1716$ & $1.2521$ & \text{-} \\
 \textbf{Injector} & $1756.218$ & $8.257$ & $7.757$ \\
 \hline
 \end{tabular}
-\caption{Sistema di alimentazione del propellente (output RPA) - Sezione Engine Design }
-\label{table:Sistema di alimentazione del propellente RPA - sezione engine design}
+\caption{Sistema di alimentazione LOX}
+\label{table:Sistema di alimentazione LOX}
 \end{table}
 
+\begin{table}[H]
+\centering
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+& $\bm{\dot{m} \, [kg/s]}$ & $\bm{p_{in} \, [MPa]}$ & $\bm{p_{out} \, [MPa]}$ \\
+\hline
+\textbf{Inlet} & $842.974$ & $0.310$ & $0.256$ \\
+\hline
+\textbf{Pump} & $842.974$ & $0.256$ & $8.519$ \\
+\hline
+\textbf{Injector} & $773.818$ & $8.257$ & $7.757$ \\
+\hline
+\end{tabular}
+\caption{Sistema di alimentazione RP-1}
+\label{table:Sistema di alimentazione RP-1}
+\end{table}
+Per \autoref{table:Sistema di alimentazione LOX} e \autoref{table:Sistema di alimentazione RP-1} si precisa che la differenza di portata tra sezione pump e injector equivale alla portata spillata per alimentare il GG. Inoltre, le differenze di pressione nelle due tabelle tra sezione 'out' pump e sezione 'in' injector sono date dalle perdita di carico introdotte principalmente da una valvola e il tubo di alimentazione. Si nota anche che per ogni elemento o sezione, sono presenti due valori di pressione (in e out), questo per considerare che viene introdotta una perdita di carico per ogni elemento.
+
+\begin{table}[H]
+\centering
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline
+& $\bm{\dot{m} \, [kg/s]}$ & $\bm{p_{in} \, [MPa]}$ & $\bm{p_{out} \, [MPa]}$ & $\bm{T_{in} \, [K]}$ & $\bm{T_{out} \, [K]}$ \\
+\hline
+\textbf{GG} & $82.198$ & $6.757$ & $6.527$ & $1061.897$ &  $1061.897$\\
+\hline
+\textbf{Turbine} & $82.198$ & $6.527$ & $0.401$ & $1061.897$ &  $642.453$\\
+\hline
+\end{tabular}
+\caption{Sistema di potenza}
+\label{table:sistema_potenza}
+\end{table}
 
 \pagebreak
