@@ -1,9 +1,5 @@
 \begin{thebibliography}{10}
 
-\bibitem{propellenti}
-Esercitazione endoeattori liquidi.
-\newblock PDF, 2022.
-
 \bibitem{turbopump_manual}
 National Aeronautics and Space Administration.
 \newblock {\em {Turbopump Systems for Liquid Rocket Engines}}, 8 1974.
@@ -28,6 +24,11 @@ Georce C. Marshall Space~Flight Center.
 {Configuration accounting, logistics engineering and training}.
 \newblock {\em {R-3896-1 - F-1 Engine Familiarization Training Manual}}.
 \newblock Rocketdyne, 7 1971.
+
+\bibitem{propellenti}
+Politecnico di~Milano.
+\newblock Esercitazione endoeattori liquidi.
+\newblock PDF, 2022.
 
 \bibitem{AIAA_book_1}
 D.H.~Huang D.K.~Huzel.

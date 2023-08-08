@@ -5,35 +5,34 @@ Reallocating 'name_of_file' (item size: 1) to 6 items.
 The style file: plain.bst
 Reallocating 'name_of_file' (item size: 1) to 13 items.
 Database file #1: bibliography.bib
-Warning--to sort, need author or key in propellenti
 You've used 22 entries,
             2118 wiz_defined-function locations,
-            592 strings with 6252 characters,
-and the built_in function-call counts, 4503 in all, are:
-= -- 433
-> -- 148
+            593 strings with 6273 characters,
+and the built_in function-call counts, 4548 in all, are:
+= -- 437
+> -- 154
 < -- 0
-+ -- 64
-- -- 42
++ -- 66
+- -- 44
 * -- 209
-:= -- 772
-add.period$ -- 61
+:= -- 789
+add.period$ -- 62
 call.type$ -- 22
-change.case$ -- 77
+change.case$ -- 78
 chr.to.int$ -- 0
-cite$ -- 23
+cite$ -- 22
 duplicate$ -- 189
-empty$ -- 438
-format.name$ -- 42
-if$ -- 952
+empty$ -- 437
+format.name$ -- 44
+if$ -- 957
 int.to.chr$ -- 0
 int.to.str$ -- 22
 missing$ -- 5
-newline$ -- 108
-num.names$ -- 38
+newline$ -- 109
+num.names$ -- 40
 pop$ -- 130
 preamble$ -- 1
-purify$ -- 67
+purify$ -- 68
 quote$ -- 0
 skip$ -- 136
 stack$ -- 0
@@ -43,8 +42,7 @@ text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 84
-warning$ -- 1
-while$ -- 39
+warning$ -- 0
+while$ -- 41
 width$ -- 24
-write$ -- 213
-(There was 1 warning)
+write$ -- 215

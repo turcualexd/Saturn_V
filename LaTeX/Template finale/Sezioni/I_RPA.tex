@@ -97,7 +97,7 @@ $1$ & $30$ & $1.5$ & $0.382$ & $0.5$ & $31.3109$ & $10.0405$ & $80$\% \\
 
 \item \textit{Thermal analysis}: in questa sezione è possibile studiare lo scambio termico impostando diverse tipologie di raffreddamento come regenerative cooling, film e radiation cooling. Questa sezione non è stata utilizzata, prediligendo uno studio del sistema di raffreddamento numerico (\autoref{sec:raffreddamento}).
 
-\item \textit{Propellant feed system}: qui è possibile definire alcune caratteristiche del sistema di alimentazione delle turbopompe. Si definisce il metodo di generazione della potenza (GG o preburner), impostando il funzionamento di tale camera di combustione. In particolare, si definisce il tipo di miscela (fuel o oxidizer rich), temperatura e pressione in camera e perdita di pressione attraverso la camera (\autoref{table:GG_in}).  Si specifica poi il salto di pressione in turbina, la sua efficienza e la sua velocità angolare (\autoref{table:turb_in}). Infine, si definiscono i rami che compongono il sistema. I condotti dell'oxidizer e del fuel sono entrambi composti da un main branch, e dal GG feed branch. Ovvero si riferiscono al condotto di oxidizer principale e al condotto di spillamento per rifornire la camera del GG (\autoref{table:ox_branch}, \autoref{table:fuel_branch}).\\
+\item \textit{Propellant feed system}: qui è possibile definire alcune caratteristiche del sistema di alimentazione delle turbopompe. Si definisce il metodo di generazione della potenza (GG o preburner), impostando il funzionamento di tale camera di combustione. In particolare, si definisce il tipo di miscela (fuel o oxidizer rich), temperatura e pressione in camera e perdita di pressione attraverso la camera (\autoref{table:GG_in}).  Si specifica poi il salto di pressione in turbina, la sua efficienza e la sua velocità angolare (\autoref{table:turb_in}). Infine, si definiscono i rami che compongono il sistema. I condotti dell'oxidizer e del fuel sono entrambi composti da un main branch, e dal GG feed branch. Ovvero si riferiscono al condotto di fuel/oxidizer principale e al condotto di spillamento per rifornire la camera del GG (\autoref{table:ox_branch}, \autoref{table:fuel_branch}).\\
 In output, si ottengono le grandezze di portata e pressione lungo tutti i condotti appena definiti. In base all'introduzione del tipo di sistema viene anche stimata la nuova performance del motore, influenzata dal sistema di alimentazione introdotto (come visto in \autoref{subsec:analisi performance ciclo a gas}). (Differenze viste in \autoref{table:performance_real} e \autoref{table:performance_eng_real} sul valore $I_s$)
 
 \begin{table}[H]
@@ -109,7 +109,7 @@ In output, si ottengono le grandezze di portata e pressione lungo tutti i condot
 {fuel rich} & $1062.59$ & $67.57$ & $0.966$\\
 \hline
 \end{tabular}
-\caption{GG input data }
+\caption{GG input data}
 \label{table:GG_in}
 \end{table}
 
