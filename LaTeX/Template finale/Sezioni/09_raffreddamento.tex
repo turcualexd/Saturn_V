@@ -32,11 +32,11 @@ h_g = \left[ \frac{0.026}{D_t^{0.2}} \left( \frac{\mu ^{0.2} C_p}{Pr^{0.6}} \rig
 \end{empheq}
 
 Esso dipende, tra gli altri parametri, dal numero di Prandtl, dalla viscosità $\mu$, dal raggio di curvatura in gola dell'ugello e dal fattore correttivo $\sigma$, che tiene conto delle variazioni di proprietà fisiche attraverso lo strato limite. La viscosità del gas al valore di interesse di ristagno (ns) è definita in questo modo:
-\begin{empheq}{equation*}\tag{*}
-\mu = \left(46.6 \times 10^{-10} \right) Mm^{0.5} T^{0.6}
+\begin{empheq}{equation*}
+\mu = \left(46.6 \times 10^{-10} \right) MM^{0.5} T^{0.6}
 \end{empheq}
-Dove $Mm$ è stato preso dalla simulazione RPA (\autoref{appendix:rpa}), ed è riferita al valore alla fine della camera di combustione.
-Il raggio di curvatura in gola dell'ugello è stato ricavato tramite approssimazione di Rao. Il valore nelle parentesi quadre è costante, una volta fissata la geometria della camera come lo sono parametri di combustione ($c^*$, $p_c$). Il valore nelle parentesi con pedice 'ns' si riferisce ai valori di $\mu$, $c_p$ e $Pr$ all'inizio del convergente. I fattori moltiplicativi al di fuori delle parentesi quadre dipendono dalla posizione in cui si vuole calcolare tale coefficiente. Supponendo conosciuto il punto in cui si vuole calcolare $h_g$, l'unica incognita è quindi $\sigma$. Questo fattore può essere determinato in termini di temperatura di combustione, temperatura locale a parete e numero di mach locale mediante un ulteriore relazione di Bartz. In alternativa è possibile determinarlo per interpolazione, in funzione del rapporto $T_{wg} / T_c$ e del valore di $\gamma$ dai grafici forniti dalla fonte \cite{AIAA_book_1}.
+Dove $MM$ è stato preso dalla simulazione RPA (\autoref{appendix:rpa}), ed è riferita al valore alla fine della camera di combustione.
+Il raggio di curvatura in gola dell'ugello è stato ricavato tramite approssimazione di Rao. Il valore nelle parentesi quadre è costante, una volta fissata la geometria della camera come lo sono i parametri di combustione ($c^*$, $p_c$). Il valore nelle parentesi con pedice 'ns' si riferisce ai valori di $\mu$, $c_p$ e $Pr$ all'inizio del convergente. I fattori moltiplicativi al di fuori delle parentesi quadre dipendono dalla posizione in cui si vuole calcolare tale coefficiente. Supponendo conosciuto il punto in cui si vuole calcolare $h_g$, l'unica incognita è quindi $\sigma$. Questo fattore può essere determinato in termini di temperatura di combustione, temperatura locale a parete e numero di Mach locale mediante un ulteriore relazione di Bartz. In alternativa è possibile determinarlo per interpolazione, in funzione del rapporto $T_{wg} / T_c$ e del valore di $\gamma$ dai grafici forniti dalla fonte \cite{AIAA_book_1}.
 
 
 Per il calcolo dello scambio termico nel caso di presenza di deposito solido sulle pareti della camera, l’equazione (*) viene corretta dalla seguente equazione, che vede una sostituzione del coefficiente di film con il coefficiente di conduttanza termica complessiva lato gas $h_{gc}$:
@@ -56,7 +56,7 @@ Il motore preso in esame sfrutta lo scambio termico rigenerativo come tecnica di
 
 \rfig{temp_dist}{Variazione di temperatura attraverso la parete}{temp_dist}{0.3}
 
-Il regenerative cooling utilizza una quota parte di combustibile, circa il 70\%, come refrigerante. Esso viene indirizzato in una serie di tubi opportunamente sagomati saldobrasati insieme che costituiscono la parete stessa dell'ugello di efflusso. Lo scambio di calore avviene quindi tra due flussi in movimento separati da una parete.Questa tecnica vanta di alcuni importanti vantaggi, tra i quali il fatto che non comporti nessuna perdita di prestazioni, infatti l'energia termica assorbita del refrigerante viene restituita all'iniettore, e abbia una struttura relativamente leggera. Tuttavia si possono riscontrare alcuni svantaggi, come alte perdite di pressione per elevati livelli di flusso di calore.
+Il regenerative cooling utilizza una quota parte di combustibile, circa il 70\%, come refrigerante. Esso viene indirizzato in una serie di tubi opportunamente sagomati saldobrasati insieme che costituiscono la parete stessa dell'ugello di efflusso. Lo scambio di calore avviene quindi tra due flussi in movimento separati da una parete. Questa tecnica vanta di alcuni importanti vantaggi, tra i quali il fatto che non comporti nessuna perdita di prestazioni, infatti l'energia termica assorbita dal refrigerante viene restituita all'iniettore, e abbia una struttura relativamente leggera. Tuttavia si possono riscontrare alcuni svantaggi, come alte perdite di pressione per elevati livelli di flusso di calore.
 Il calore che attraversa la parete viene assorbito dal liquido refrigerante, il quale subisce un aumento di temperatura lungo il percorso. A causa degli effetti viscosi nasce uno strato limite sul lato coolant.
 Il calore proveniente dal flusso di gas caldi è descritto dal parametro $h_{gc}$ analizzato precedentemente. Per mantenere la temperatura della parete entro valori contenuti, è necessario che la conduttività termica complessiva lato gas $h_{gc}$ sia minimizzata, mentre il coefficiente di scambio termico del refrigerante sia molto alto, così come il rapporto $t/k$. Dal momento che la differenza di temperatura è inversamente proporzionale al coefficiente di scambio termico del flusso di calore, la diminuzione della temperatura sarà più rapida tra gas caldo e parete interna della camera:
 
@@ -64,7 +64,7 @@ Il calore proveniente dal flusso di gas caldi è descritto dal parametro $h_{gc}
 q = h_{gc} \left(T_{aw} - T_{wg}\right) = \frac{k}{t} \left(T_{wg} - T_{wc}\right) = h_c \left(T_{wc} - T_{co} \right)
 \end{empheq}
 
-Avendo che il flusso di calore attraverso i tre strati (strato limite gassoso, parete solida, strato limite liquido) è lo stesso, è possibile calcolare il parametro H (serie delle conduttività dei tre strati):
+Poiché il flusso di calore attraverso i tre strati (strato limite gassoso, parete solida, strato limite liquido) è lo stesso, è possibile calcolare il parametro H (serie delle conduttività dei tre strati):
 \vspace{3pt}
 
 \begin{empheq}{gather*}
