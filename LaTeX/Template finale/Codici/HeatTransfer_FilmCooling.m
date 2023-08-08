@@ -1,6 +1,3 @@
-%% CALCOLO DELLO SCAMBIO TERMICO NELL'UGELLO AGGIUNTIVO
-% scambio convettivo, liquid rocket design da pagina 110
-
 clear
 clc
 close all 
