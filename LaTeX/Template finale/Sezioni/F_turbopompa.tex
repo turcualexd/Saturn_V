@@ -1,0 +1,161 @@
+\section{Turbopompa}
+\label{appendix:turbopompa}
+
+\subsection{Analisi pompa RP-1}
+Si riportano i principali parametri di interesse calcolati con gli stessi procedimenti della pompa LOX.
+
+\begin{table}[H]
+\centering
+\begin{tabular}{|c|c|c|c|c|c|c|}
+\hline
+$\bm{\eta_P \, [-]}$ & $\bm{P_ {TOT0} \, [bar]}$ & $\bm{P_{TOT2} \, [bar]}$ & $\bm{\rho [kg/m^3]}$ & $\bm{Q \, [m^3/s]}$ & $\bm{D_2 \, [m]}$ & $\bm{\omega \, [rad/s]}$  \\
+\hline
+$0.760$ & $3.1026$ & $128.2400$ &  $808.9324$ & $0.9617$ & $0.59436$ & $574.020$  \\
+\hline
+\end{tabular}
+
+\caption{Requisiti del sistema pompa RP-1 \cite{turbopump_manual}}
+\label{table:RP-1 pump specs}
+
+\end{table}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{|c|c|c|c|c|c|c|}
+\hline
+$\bm{H \, [m]}$ & $\bm{\Delta h_s \, [J/kg]}$ & $\bm{\psi \, [-]}$ & $\bm{\mathcal{P} [kW]}$ & $\bm{d_s \, [-]}$ & $\bm{n_s \, [-]}$ & $\bm{n_s d_s \, [-]}$  \\
+\hline
+$1.5774e+03$ & $2.0361\, \cdot \,10^4$ & $0.5318$ &  $1.6218\, \cdot \,10^4$ & $6.7598$ & $0.4057$ & $2.7427$  \\
+\hline
+\end{tabular}
+
+\caption{Parametri prestazionali del sistema pompa RP-1}
+\label{table:RP-1 pump performance}
+
+\end{table}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{|c|c|}
+\hline
+$\bm{v_{voluteIN} \, [m/s]}$ & $\bm{v_{voluteOUT} \, [m/s]}$  \\
+\hline
+$153.7897$ & $31.7356$   \\
+\hline
+\end{tabular}
+
+\caption{Velocità del sistema pompa RP-1: casing}
+\label{table:RP-1 pump casing}
+
+\end{table}
+
+\subsection{Triangoli velocità Pompa LOX}
+
+\begin{empheq}{gather*}
+\overrightarrow{u_{0 ind}} = 89.2475 \overrightarrow {i_u} + 0 \overrightarrow {i_m} \hspace{2pt} [m/s]\\
+\overrightarrow{v_{0 ind}} = -89.2475 \overrightarrow {i_u} + 11.8311 \overrightarrow {i_m} \hspace{2pt} [m/s]\\
+\overrightarrow{c_{0 ind}} = 0 \overrightarrow {i_u} + 11.8311 \overrightarrow {i_m} \hspace{2pt} [m/s]\\
+\end{empheq}
+\begin{empheq}{gather*}
+\overrightarrow{u_{1 ind}} = 86.1918 \overrightarrow {i_u} + 0 \overrightarrow {i_m} \hspace{2pt} [m/s]\\
+\overrightarrow{v_{1 ind}} = -76.4706 \overrightarrow {i_u} + 16.8556 \overrightarrow {i_m} \hspace{2pt} [m/s]\\
+\overrightarrow{c_{1 ind}} = 9.7212 \overrightarrow {i_u} + 16.8556 \overrightarrow {i_m} \hspace{2pt} [m/s]\\
+\end{empheq}
+\begin{empheq}{gather*}
+\overrightarrow{u_{1 imp}} = 115.3671 \overrightarrow {i_u} + 0 \overrightarrow {i_m} \hspace{2pt} [m/s]\\
+\overrightarrow{v_{1 imp}} = -70.9707 \overrightarrow {i_u} +   12.5769 \overrightarrow {i_m} \hspace{2pt} [m/s]\\
+\overrightarrow{c_{1 imp}} = 44.3964 \overrightarrow {i_u} + 12.5769 \overrightarrow {i_m} \hspace{2pt} [m/s]\\
+\end{empheq}
+\begin{empheq}{gather*}
+\overrightarrow{u_{2 imp}} =  142.4285 \overrightarrow {i_u} + 0 \overrightarrow {i_m} \hspace{2pt} [m/s]\\
+\overrightarrow{v_{2 imp}} = -44.6393 \overrightarrow {i_u} + 18.8654 \overrightarrow {i_m} \hspace{2pt} [m/s]\\
+\overrightarrow{c_{2 imp}} = 97.7891 \overrightarrow {i_u} + 18.8654 \overrightarrow {i_m} \hspace{2pt} [m/s]\\ 
+\end{empheq}
+
+\twofig{Inducer_LOX}{Inducer LOX}{Inducer_LOX}{Impeller_LOX}{Impeller LOX}{Impeller_LOX}
+
+
+\subsection{Triangoli velocità Pompa RP-1}
+
+\begin{empheq}{gather*}
+\overrightarrow{u_{0 ind}} = 73.1802 \overrightarrow {i_u} + 0 \overrightarrow {i_m} \hspace{2pt} [m/s]\\
+\overrightarrow{v_{0 ind}} = -73.1802 \overrightarrow {i_u} + 10.6488 \overrightarrow {i_m} \hspace{2pt} [m/s]\\
+\overrightarrow{c_{0 ind}} = 0 \overrightarrow {i_u} + 10.6488 \overrightarrow {i_m} \hspace{2pt} [m/s]\\
+\end{empheq}
+\begin{empheq}{gather*}
+\overrightarrow{u_{1 ind}} = 70.6747 \overrightarrow {i_u} + 0 \overrightarrow {i_m} \hspace{2pt} [m/s]\\
+\overrightarrow{v_{1 ind}} = -62.7036 \overrightarrow {i_u} + 15.1711 \overrightarrow {i_m} \hspace{2pt} [m/s]\\
+\overrightarrow{c_{1 ind}} = 7.9711 \overrightarrow {i_u} + 15.1711 \overrightarrow {i_m} \hspace{2pt} [m/s]\\
+\end{empheq}
+\begin{empheq}{gather*}
+\overrightarrow{u_{1 imp}} = 138.1757 \overrightarrow {i_u} + 0 \overrightarrow {i_m} \hspace{2pt} [m/s]\\
+\overrightarrow{v_{1 imp}} = -60.8308 \overrightarrow {i_u} +   5.2854 \overrightarrow {i_m} \hspace{2pt} [m/s]\\
+\overrightarrow{c_{1 imp}} = 77.3449 \overrightarrow {i_u} + 5.2854 \overrightarrow {i_m} \hspace{2pt} [m/s]\\
+\end{empheq}
+\begin{empheq}{gather*}
+\overrightarrow{u_{2 imp}} =  170.5873 \overrightarrow {i_u} + 0 \overrightarrow {i_m} \hspace{2pt} [m/s]\\
+\overrightarrow{v_{2 imp}} = -18.7596 \overrightarrow {i_u} + 7.9282 \overrightarrow {i_m} \hspace{2pt} [m/s]\\
+\overrightarrow{c_{2 imp}} = 151.8276 \overrightarrow {i_u} + 7.9282 \overrightarrow {i_m} \hspace{2pt} [m/s]\\
+\end{empheq}
+
+\twofig{Inducer_RP-1}{Inducer RP-1}{Inducer_RP-1}{Impeller_RP-1}{Impeller RP-1}{Impeller_RP-1}
+
+
+\subsection{Triangoli velocità Turbina}
+Per poter risolvere il problema si sono assunti i seguenti requisiti forniti dal manuale del motore F-1 \cite{engine_manual}
+\begin{table}[H]
+
+\centering
+\begin{tabular}{|c|c|c|c|c|c|c|}
+\hline
+$\bm{T_{in} \, [K]}$ & $\bm{p_{in} \, [bar]}$ & $\bm{\epsilon}$ &  $\bm{O/F}$ & $\bm{\dot{m} \, [kg/s]}$ & $\bm{\omega \, [rad/s]}$ & $\bm{U/C_0 \, [-]}$ \\
+\hline
+$1062$ & $67.57$ & $16.4$ &  $0.416$ & $75.75$ & $574.4$ & $0.225$ \\
+\hline
+\end{tabular}
+
+\caption{Requisiti del sistema turbina tratti da \cite{engine_manual}, dato su rapporto U/C ricavato da \autoref{fig:rendimenti_turbina} da fonte \cite{AIAA_book_2}: il valore 0.225 massimizza il rendimento}
+\label{table:turbine}
+
+\end{table}
+
+Inoltre abbiamo ipotizzato alcuni rendimenti:
+
+\begin{table}[H]
+
+\centering
+\begin{tabular}{|c|c|c|c|}
+\hline
+$\bm{\eta_{tot}}$ & $\bm{k_n}$ & $\bm{\eta_n = k_n ^2}$ &  $\bm{k_{blade}}$   \\
+\hline
+$0.6$ & $0.96$ & $0.9216$ &  $0.89$ \\
+\hline
+\end{tabular}
+
+\caption{Ipotesi rendimenti: ugelli e palette. Ipotesi tratte da \cite{AIAA_book_2} dove viene trattata una turbina VC per un motore booster-stage nominato 'A-1' a coppia (RP-1/LOX) con una spinta che è circa la metà di quella dell'F-1.}
+\label{table:rendimenti turbina}
+\end{table}
+
+Il parametro $k_n$ indica quanto la velocità $C_1$ si discosti in modulo dalla velocità isoentropica $C_0$. Il parametro $k_{blade}$ indica la perdita in modulo di velocità, provocata dall'attrito che il fluido incontra nell'attraversare la palettatura. In particolare, nei rotori la velocità scalata con questo parametro è la velocità relativa. Nello statore è la velocità assoluta ad essere scalata con questo parametro. \\
+\rfig{velocity_diagram_AIAA}{Definizione grandezze}{vel_diagram}{0.4}
+Definiamo infine le velocità e gli angoli da trovare in questo problema. Supponiamo la turbina VC costituita dai seguenti elementi: sezione nozzle, un rotore, uno statore e un rotore. La nomenclatura è definita dalla seguente immagine, con $\vec{v_i}$ si indica la velocità relativa mentre con $\vec{c_i}$ si indica la velocità assoluta. Con $\vec{U}$ si indica la velocità tangenziale, supponendo di essere ad un raggio medio della palettatura dall'albero. Supponiamo di voler definire tutte le velocità assolute in modulo $C_i$ e tutti gli angoli assoluti $\alpha_i$. Da cui si possono definire i valori vettoriali delle velocità $\vec{C_i}$.  In questo modo possiamo chiudere il problema perchè le velocità relative sono $\vec{V_i} = \vec{C_i} - \vec{U}$. Per cui possiamo definire il sistema di equazioni per trovare i valori di velocità e angoli assoluti. Si hanno in totale 8 valori incogniti, ovvero una coppia di valori $\left(C_i, \alpha_i\right)$ per ogni elemento del diagramma (nozzle, 1st rotor, stator, 2nd rotor). Le equazioni da risolvere sono le seguenti:
+
+\begin{empheq}[left=\empheqlbrace]{alignat*=2}
+	& C_1           = k_{blade}C_0              					  & &C_1  \\
+	& \frac{U}{C_1} = \frac{1}{4} \cos \alpha_1 					  & &\alpha_1 \\
+	& \alpha_2      = \alpha_3  				   					  & &\alpha_2 \; \alpha_3 \\
+	& \alpha_4      = \frac{\pi}{2}			   					  & &\alpha_4 \\
+    & C_4           = 0.5\sqrt{\gamma_{gc}R_{gc}T_{out,t}} 		  & &C_4 \\
+    & C_3           = k_nC_2										  & &C_3 \; C_2 \\
+    & V_2\left(C_2, \alpha_2 \right) = k_n V_1  \left(C_1, \alpha_1 \right)  & &C_1 \; C_2 \; \alpha_1 \; \alpha_2 \\
+    & V_4\left(C_4, \alpha_4 \right) = k_n V_3  \left(C_3, \alpha_3 \right) \qquad & &C_3 \; C_4 \; \alpha_3 \; \alpha_4 
+\end{empheq} 
+
+\vspace{5mm}
+La quantità $C_0$ è calcolata in questo modo, supponendo una espansione isoentropica:
+\begin{empheq}{gather*}
+C_0 = \sqrt{2c_{p,gg}T_{in}\left(1 - \epsilon^\frac{1 - \gamma_{gc}}{\gamma_{gc}} \right)} = 1172.085 \; m/s
+\end{empheq} 
+La seconda equazione è stata ricavata dalla massimizzazione del rendimento della paletta, ricavata dalla fonte \cite{AIAA_book_2}. La terza equazione ipotizza che la paletta dello statore sia simmetrica per cui gli angoli della velocità assoluta sono uguali. La quarta equazione assume che il flusso in uscita sia allineato con l'efflusso della turbina, ovvero un flusso totalmente assiale. La quinta equazione assume che il mach all'efflusso sia di $0.5$. Le ultime tre equazioni rappresentano la perdita del valore assoluto della velocità per via del passaggio nella palettatura rotorica e statorica. Elaborando il sistema, si possono scrivere le ultime due equazioni in due incognite ovvero si ricava un sottosistema autonomo non lineare, risolto tramite MATLAB. Da qui si ricavano tutti i valori di interesse, e si può tracciare il diagramma di velocità.
+
+\pagebreak
