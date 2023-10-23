@@ -5,7 +5,17 @@
 \rfig{t_wg}{Definizione della temperatura muro - lato gas}{t_wg}{0.50}
 
 La velocità del fluido all'esterno dello strato limite è la velocità del flusso libero e, attraversando lo strato limite perpendicolarmente alla parete, la velocità diminuisce fino ad annullarsi per soddisfare la condizione di aderenza. La temperatura a parete dovrebbe perciò essere pari alla temperatura di ristagno, ossia la temperatura raggiunta quando tutta l'energia cinetica viene trasformata in energia termica senza alcuna perdita. Nel caso di flussi molto veloci, l'aumento di temperatura è abbastanza elevato da provocare un processo di rallentamento viscoso non adiabatico. Per questo motivo, nell'ipotesi di parete adiabatica verso l'esterno, avviene un significativo scambio termico dal fluido in prossimità della parete, caratterizzato da bassa velocità e alta temperatura statica, verso il fluido più lontano dalla parete. A parete si avrà quindi una temperatura $T_{aw}$ più bassa della temperatura totale che caratterizza il flusso libero, mentre all'interno dello strato limite, affinché venga soddisfatta l'equazione dell'energia per flussi stazionari, deve essere necessariamente presente una regione in cui la temperatura è più alta di quella del flusso libero. Si delinea un andamento della temperatura come schematizzato in figura.
-\vspace{20pt}
+Nel caso preso in esame, il valore della temperatura $T_{aw}$ è determinabile scalando la temperatura in camera di combustione di un fattore detto "recovery factor" $f_{aw}$ , definito come legame tra $T_{aw}$ e le temperature statica e totale del flusso libero e con valore compreso tra 0.9 e 0.98. In particolare il recovery factor rappresenta il rapporto tra l'aumento della temperatura causato dall'attrito e l'aumento causato dalla compressione adiabatica. Esso è determinabile sperimentalmente o può essere stimato tramite la seguente relazione:
+
+\begin{empheq}{equation*}
+f_{aw} = \frac{1 + r \left(\frac{\gamma - 1}{2} M_x^2\right)}{1 + \left(\frac{\gamma - 1}{2} M_x^2\right)} 
+\qquad
+r = Pr^{0.33};
+\end{empheq}
+
+È necessario precisare che la temperatura in camera di combustione $T_c$ utilizzata è quella teorica moltiplicata per il fattore correttivo della velocità caratteristica elevato al quadrato. Quest'ultima velocità infatti dipende unicamente dalla variabile $\sqrt{T_c}$. Il suddetto fattore varia in un intervallo compreso tra 0.87 e 1.03, mentre il valore utilizzato nella trattazione, ossia 0.975, è il valore sperimentale adottato dalla fonte \cite{AIAA_book_1}.
+Per determinare la temperatura $T_{wg}$ è sufficiente moltiplicare la temperatura in camera di combustione per un fattore pari a 0.8, fattore che tiene conto della presenza di depositi solidi di carbonio sulle pareti.
+
 
 \subsection{Film cooling}
 
@@ -14,14 +24,7 @@ La velocità del fluido all'esterno dello strato limite è la velocità del flus
 Assumendo il rapporto $T_{wg}/T_c$ pari a 0.8, ricavato sperimentalmente e adottato nella trattazione dello stesso tipo di dimensionamento nel riferimento \cite{AIAA_book_2}, si tiene conto della presenza del deposito di carbonio sulle pareti. Noto il valore di $\gamma$, pari a 1.1754 (\autoref{appendix:rpa}), e ricordando che il fine ultimo del calcolo è progettare il film cooling dell'ugello aggiuntivo (intervallo di rapporto di espansione $\epsilon=10/16$), è possibile determinare dal grafico che il valore del fattore correttivo si attesta intorno a 0.7 in tutto l'intervallo in esame.
 Il coefficiente di film dipende infine anche dal rapporto $A_f/A$, dove A è l'area della sezione locale. Il valore di questo rapporto è stato fatto variare per via numerica tra 10 e 16, calcolando poi per ciascun valore il corrispondente coefficiente di film e, in seguito, la corrispondente portata minima in massa per effettuare un adeguato film cooling.
 Il valore di $h_g$ così ottenuto tiene unicamente conto del calore scambiato tra fluido e parete, senza considerare la presenza di eventuali prodotti di combustione allo stato solido. I prodotti di combustione della coppia LOX – RP-1 provenienti dalla combustione del Gas Generator, introdotti sulla parete dell'ugello aggiuntivo dal rapporto di espansione 10 fino all'efflusso, contengono circa il 37\% di particolato solido $C_{graf}$ (tale dato è stato  ottenuto tramite analisi CEA, presentata in \autoref{appendix:prodotti_gas_generator}). Queste particelle tendono a depositarsi sulle pareti della camera di combustione, formando un efficace strato isolante: la valutazione quantitativa dell’efficacia dell’isolamento di questo strato, necessaria per il corretto calcolo dello scambio di calore, può essere effettuata solo sperimentalmente. Lo strato isolante è formato a sua volta da uno strato superficiale di fuliggine, che ne sovrasta uno piu tenace: quest’ultimo aumenta la resistenza termica lato gas, tale che la temperatura del deposito di carbonio all’interfaccia lato gas si avvicini alla temperatura del gas all’aumentare dello spessore del layer di carbonio (questo giustifica qualitativamente il valore di 0.8 considerato per il rapporto di $T_{wg}/T_c$).
-Per il calcolo dello scambio termico nel caso di presenza di deposito solido sulle pareti della camera, l’equazione (*) viene corretta dalla seguente equazione, che vede una sostituzione del coefficiente di film con il coefficiente di conduttanza termica complessiva lato gas $h_{gc}$:
 
-\begin{empheq}{equation*}
-h_{gc} = \frac{1}{\frac{1}{h_g} + R_d}
-\end{empheq}
-
-
-Questo coefficiente considera sia $h_g$ sia il coefficiente di resistenza causata dal deposito solido $R_d$ , il cui valore è dipendente dal rapporto di espansione e dalle condizioni di pressione e rapporto di miscela (grafico specifico in \autoref{sec:raffreddamento}).
 Il film cooling delle pareti interne è ottenuto iniettando i gas di scarico della turbina, forniti alla cavità tra le pareti dal collettore di scarico della turbina, nel flusso di scarico della camera di spinta attraverso fessure formate da 23 file di scandole sovrapposte che formano la parete interna (\autoref{fig:exhaust_1}, \autoref{fig:exhaust_2}).
 Per lo sviluppo dei calcoli si consideri che il fluido di lavoro è gas con presenza di particolato, ed è quindi possibile utilizzare la relazione di Hatch e Papell, sostituendo al coefficiente $h_g$ il coefficiente $h_{gc}$ appena calcolato:
 
@@ -34,32 +37,83 @@ Per lo sviluppo dei calcoli si consideri che il fluido di lavoro è gas con pres
 Dove $T_{co}$ è la temperatura iniziale del fluido refrigerante, ossia la temperatura all'uscita dello scambiatore; $C_{pvc}$ è il calore specifico medio a pressione costante del fluido refrigerante, che è stato numericamente ottenuto interpolando i valori dopo la combustione nel Gas Generator in frozen equilibrium; infine $\eta_{c}$ è l'efficienza del film cooling ed è un fattore che ha scopo correttivo, ossia tiene conto della quantità di refrigerante gassoso perso nel flusso di gas di combustione che quindi non produce effetti di raffreddamento. I valori dell'efficienza variano dal 25 al 65 in percentuale in funzione della geometria dell'iniezione del refrigerante e dalle condizioni di flusso. Il valore $G_c$ rappresenta la portata di gas che costituisce il film cooling necessaria a ottenere il raffreddamento voluto.
 Dalla precedente equazione si evince che l'apporto termico dipende dal coefficiente di scambio $h_gc$ e dalla differenza tra temperatura adiabatica a parete e la temperatura del refrigerante; il calore assorbito è proporzionale alla capacità termica del film refrigerante dal valore di temperatura iniziale a quello finale. Esiste quindi un equilibrio tra apporto di calore e aumento di temperatura del refrigerante: raggiunto questo equilibrio si raggiunge la condizione adiabatica e la superficie della parete avrà localmente la medesima temperatura del film; infatti la temperatura della parete varierà assialmente dalla temperatura iniziale del refrigerante fino alla temperatura massima ammissibile.
 L'obiettivo del calcolo è perciò quello di determinare la portata massica di fluido refrigerante per unità di area $G_c$, che poi verrà moltiplicato per l'area dell'estensione dell'ugello ad ottenere il valore di portata massica necessaria per il film cooling. Si noti che la portata dipende dal valore $h_{gc}$ , a sua volta dipendente dal rapporto $A_t/A$, che è stato fatto variare tra 1:10 e 1:16 : la portata massica che sarà sufficiente a raggiungere un efficiente film cooling in ogni sezione dell'ugello sarà la portata massima tra le portate calcolate, ossia quella ottenuta per rapporto $A_t$ su A maggiore e perciò A minore, quindi l'area della sezione 1:10. Il valore di $G_c$ ottenuto è minore della portata elaborata dal Gas Generator, e questo è un risultato prevedibile in quanto il valore di portata passante per il Gas Generator è dettato dai requisiti di potenza della turbina e non dalle esigenze del film cooling. È stato perciò dimostrato che la portata massica elaborata è sufficiente a raggiungere l'obiettivo desiderato di raffreddamento delle pareti.
+\begin{table}[H]
+\centering
+\begin{tabular}{|c|c|c|c|}
+\hline
+$\bm{\sigma \, [-]}$ & $\bm{M_{1:10} \, [-]}$ & $\bm{T_{aw} \, [K]}$  & $\bm{T_{wg} \, [K]}$ \\
+\hline
+$0.7$ & $3.02$ & $  5953.2 $  & $  3307.3 $ \\
+\hline
+\end{tabular}
+\caption{Dati usati per il calcolo del film cooling punto 1:10}
+\label{table:tabella_film_in}
+\end{table}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{|c|c|c|}
+\hline
+$\bm{h_{gc} \, [btu/in^2 sF]}$ & $\bm{\dot{q} \, [W/m^2]}$ & $\bm{G_{tot} \, [kg/s]}$  \\
+\hline
+$2.58\, \cdot \, 10^{-4} $ & $4.49\, \cdot \, 10^5 $ & $  7.3591 $  \\
+\hline
+\end{tabular}
+\caption{Risultati calcolo film cooling punto 1:10}
+\label{table:tabella_film_out}
+\end{table}
+
+
 
 \subsection{Grafico della resistenza termica prodotta dal deposito carbonioso}
-\rfig{r_d_graph}{Grafico deposito carbonioso in funzione di $\epsilon$}{r_d_graph}{0.4}
 Il grafico di \autoref{fig:r_d_graph} rappresenta l'andamento della resistenza termica causata dal deposito carbonioso $R_d$ in funzione del rapporto di espansione $\epsilon$. Tale grafico è ricavato sperimentalmente da un endoreattore a propellente liquido LOX/RP-1 e rapporto di miscela $O/F$ pari a 2.35 e pressione camera di combustione $p_c$ di 1000 psia \cite{AIAA_book_2}. Tali valori ci permettono di concludere che, in prima approssimazione, il grafico possa essere sfruttato per ricavare il valore di $R_d$ del motore preso in esame. 
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
+
+\cfig{r_d_graph}{Grafico deposito carbonioso in funzione di $\epsilon$}{r_d_graph}{0.37}
+
 \subsection{Dettagli sul sistema di introduzione dei gas combusti sulla parete interna dell'ugello aggiunto}
-Le seguenti immagini mostrano come venga effettuato lo scarico dei gas combusti per il processo di film cooling. Fonti (\cite{site_exhaust} \cite{f-1_manual}
-\twofig{exhaust_1}{Dettaglio 1}{exhaust_1}{exhaust_2}{Dettaglio 2}{exhaust_2}
+Le seguenti immagini mostrano come viene effettuato lo scarico dei gas combusti per il processo di film cooling. Fonti (\cite{site_exhaust}\cite{f-1_manual})
+\twofig{exhaust_1}{Dettaglio scarico gas}{exhaust_1}{exhaust_2}{Dettaglio parete estensione ugello}{exhaust_2}
 
 \subsection{Comportamento del fluido RP1 in relazione alla pressione critica}
 
-\rfig{satur}{Andamenti di T e flusso di calore, parametrizzati sul valore di pressione}{satur}{0.4}
+\rfig{satur}{Andamenti di T e flusso di calore, parametrizzati sul valore di pressione}{satur}{0.38}
  
-Verranno analizzati due possibili scenari, rappresentati in figura: la curva $A_i$ descrive l'andamento del legame temperatura della parete – flusso di calore nel caso di pressione minore della pressione critica mentre la curva $B_i$ rappresenta l'andamento del legame nella condizione di pressione maggiore della pressione critica.
+Verranno analizzati due possibili scenari rappresentati in figura. La curva $A_i$ descrive l'andamento del legame tra la temperatura della parete e il flusso di calore nel caso di pressione minore della pressione critica mentre la curva $B_i$ rappresenta l'andamento dello stesso legame nella condizione di pressione maggiore della pressione critica.
 
-Studiando la curva A, il tratto A1-A2 rappresenta lo scambio di calore nelle condizioni in cui la temperatura della parete lato coolant non ha ancora raggiunto la temperatura di saturazione, in corrispondenza della pressione del refrigerante. Alla temperatura del punto A2, superata la temperatura di saturazione, il combustibile inizia a bollire, creando quindi delle “bolle” nella fascia a ridosso della parete. Queste crescono di dimensione nel flusso liquido piu freddo fino a che la velocità di condensazione del vapore supera la velocità di vaporizzazione: le bolle iniziano a collassare. Questo processo, che avviene ad alta frequenza, è detto “Nucleate boiling” (ebollizione nucleata). In corrispondenza di questo fenomeno il coefficiente di scambio termico aumenta, causando un aumento contenuto della temperatura a parete per un'ampia gamma di flussi di calore. Lo scambio di calore caratterizzato da ebollizione nucleata è rappresentato dal tratto A2-A3. Alla temperatura corrispondente al punto A3, un ulteriore aumento del flusso di calore porta ad un incremento di concentrazione di bolle tale per cui esse si combinano in un film di vapore a cui consegue una forte diminuzione del coefficiente del trasferimento del calore (tratto A3-A4). Lo scambio di calore raggiunto al punto A3 definisce il limite superiore del nucleate boiling, valore che viene quindi utilizzato come limite di progetto per il sistema di raffreddamento rigenerativo.
-La curva B descrive le varie fasi del legame flusso di calore- temperatura della parete nel caso in cui la pressione sia al di sopra di quella critica: in queste condizioni di il fenomeno di nucleate boiling non si manifesta. Queste condizioni portano ad un aumento di temperatura proporzionale all'incremento del flusso di calore: in questo modo si raggiunge la temperatura limite per un valore di scambio di calore minore.
+Studiando la curva A, il tratto A1-A2 rappresenta lo scambio di calore nelle condizioni in cui la temperatura della parete lato coolant non ha ancora raggiunto la temperatura di saturazione, in corrispondenza della pressione del refrigerante. Alla temperatura del punto A2, superata la temperatura di saturazione, il combustibile inizia a bollire, in particolare nella fascia a ridosso della parete. Questo effetto genera delle bolle di dimensioni sempre maggiori nel flusso liquido più freddo fino a che la velocità di condensazione del vapore supera la velocità di vaporizzazione. A quel punto le bolle iniziano a collassare. Questo processo, che avviene ad alta frequenza, è detto nucleate boiling. In corrispondenza di questo fenomeno il coefficiente di scambio termico aumenta, causando un aumento contenuto della temperatura a parete per un'ampia gamma di flussi di calore. Lo scambio di calore caratterizzato dal nucleate boiling è rappresentato dal tratto A2-A3. Alla temperatura corrispondente al punto A3, un ulteriore aumento del flusso di calore porta ad un incremento di concentrazione di bolle tale per cui esse si combinano in un film di vapore a cui consegue una forte diminuzione del coefficiente del trasferimento del calore (tratto A3-A4). Lo scambio di calore raggiunto al punto A3 definisce il limite superiore del nucleate boiling, valore che viene quindi utilizzato come limite di progetto per il sistema di raffreddamento rigenerativo.
+La curva B descrive le varie fasi del legame flusso di calore- temperatura della parete nel caso in cui la pressione sia al di sopra di quella critica. In queste condizioni il fenomeno di nucleate boiling non si manifesta. Queste condizioni portano ad un aumento di temperatura proporzionale all'incremento del flusso di calore. In questo modo si raggiunge la temperatura limite per un valore di scambio di calore minore.
+
+\subsection{Procedimento dimensionamento tubi}
+\label{subsec:dimensionamento_tubi}
+
+Il ciclo inizia con il calcolo della temperatura della parete lato combustibile necessario per determinare il valore del coefficiente  di scambio termico del combustibile $h_c$:
+
+\begin{empheq}{gather*}
+T_{wc} = T_{wg} - \frac{qt}{k}  \qquad
+h_{c} = \frac{q}{T_{wc} - T_{co}}
+\end{empheq}
+
+Per regioni caratterizzate da temperatura subcritica e dall'assenza di nucleate boiling, la relazione tra temperatura a parete e flusso di calore, che dipende per dal coefficiente di scambio termico $h_c$, può essere descritta tramite l'equazione di Sieder-Tate per il trasferimento turbolento di calore a liquidi che fluiscono nei canali (Questa relazione può essere riscritta esplicitando i singoli termini):
+
+\begin{empheq}{gather*}\tag{E1}\label{eq:e1}
+Nu = C_1 Re^{0.8} Pr^{0.4} \left(\frac{\mu}{\mu_w}\right)^{0.14}  \qquad 
+Nu = \frac{h_c d}{k}=C_1 \left(\frac{\rho V_{co} d}{\mu}\right)^{0.8} \left(\frac{\mu C_p}{k}\right)^{0.4} \left(\frac{\mu}{\mu_w}\right)^{0.14}
+\end{empheq}
+Dove $\mu$ è la viscosità del combustibile alla temperatura $T_{co}$, mentre $\mu _w$ è la viscosità del combustibile alla temperatura della parete in gola, mentre le incognite sono il diametro dei tubi d e la velocità media del combustibile $V_{co}$:
+
+\begin{empheq}{equation*}
+V_{co} = \frac{\frac{\dot{W}_f}{\rho}}{\frac{N}{2} \frac{\left(\pi d^2\right)}{4}}
+\end{empheq}
+
+Il numero di tubi è ottenuto, qualitativamente, dividendo il perimetro dell'ugello della sezione di gola e il diametro del tubo considerato. Raffinando la formula con fattori correttivi si trova la seguente formula empirica:
+
+\begin{empheq}{equation*}\tag{E2}\label{eq:e2}
+N = \frac{\pi \left[D_t + 0.8\left(d + 0.04 \right)\right]}{d + 0.04}
+\end{empheq}
+
+Il valore 0.8 ha il ruolo di fattore di correzione, dovuto al fatto che il centro dei tubi è collocato su una circonferenza, piuttosto che su una retta.
+Sostituendo quindi $V_{co}$ all'interno dell'equazione \autoref{eq:e1} esplicitandone N ed eguagliando l'espressione trovata all'equazione \autoref{eq:e2} è possibile determinare il valore del diametro dei tubi. Sostituendo infine il valore trovato all'interno dell'equazione \autoref{eq:e2} il si ottiene il numero dei tubi. Analizzando in un 'ciclo for' i passaggi appena visti, è possibile determinare il valore di t tale per cui si ha il numero di tubi N desiderato.
+
+
+
+\pagebreak

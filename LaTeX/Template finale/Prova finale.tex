@@ -172,7 +172,7 @@
 
 % Insert here the info that will be displayed into your Title page 
 % -> title of your work
-\renewcommand{\title}{Prova Finale di Propulsione Aerospaziale}
+\renewcommand{\title}{Analisi e caratterizzazione del primo stadio S-IC del vettore Saturn V}
 
 % -> author name and surname
 \newcommand{\authors}{
@@ -214,10 +214,34 @@
 \clearpage
 
 %-----------------------------------------------------------------------------
+
+\section*{Immagini stadio S-IC}
+\addcontentsline{toc}{section}{Immagini stadio S-IC}
+\label{immagini_stadio}
+
+\cfig{S-IC}{Immagine stadio S-IC completo}{S-IC}{0.7}
+\cfig{F-1}{Immagine motore F-1}{F-1}{0.45}
+
+\clearpage
+
+%-----------------------------------------------------------------------------
+
+%-----------------------------------------------------------------------------
 % INDICE
 %-----------------------------------------------------------------------------
 
 {\hypersetup{linkcolor=black}\tableofcontents}
+
+\clearpage
+
+%-----------------------------------------------------------------------------
+
+{\hypersetup{linkcolor=black}\listoftables}
+
+
+%-----------------------------------------------------------------------------
+
+{\hypersetup{linkcolor=black}\listoffigures}
 
 \clearpage
 
@@ -262,11 +286,15 @@
 \input{Sezioni/09_raffreddamento}
 
 %-----------------------------------------------------------------------------
+
+\input{Sezioni/10_conclusioni}
+
+%-----------------------------------------------------------------------------
 % APPENDICE
 %-----------------------------------------------------------------------------
 
 \clearpage
-\input{Sezioni/10_appendice}
+\input{Sezioni/11_appendice}
 
 %-----------------------------------------------------------------------------
 % BIBLIOGRAFIA

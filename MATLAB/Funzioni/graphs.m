@@ -13,7 +13,7 @@ grid on;
 grid minor;
 plot(temperature, cp, '.k', 'MarkerSize', 8);
 xlabel('Temperature [K]');
-ylabel('cp [kJ/(K kg)]')
+ylabel('cp [J/(K kg)]')
 hold on
 
 for i = 1:13

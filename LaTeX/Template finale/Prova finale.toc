@@ -1,16 +1,19 @@
 \babel@toc {italian}{}\relax 
 \babel@toc {italian}{}\relax 
 \contentsline {section}{Sommario}{I}{Doc-Start}%
-\contentsline {section}{Indice}{II}{Doc-Start}%
-\contentsline {section}{\numberline {1}Nomenclatura}{IV}{section.1}%
-\contentsline {subsection}{\numberline {1.2}Analisi della missione}{IV}{subsection.1.2}%
-\contentsline {subsection}{\numberline {1.3}Propellenti}{IV}{subsection.1.3}%
-\contentsline {subsection}{\numberline {1.4}Serbatoi e pressurizzazione}{IV}{subsection.1.4}%
-\contentsline {subsection}{\numberline {1.5}Schema termodinamico}{IV}{subsection.1.5}%
-\contentsline {subsection}{\numberline {1.6}Gas generator}{V}{subsection.1.6}%
-\contentsline {subsection}{\numberline {1.7}Turbopompa}{V}{subsection.1.7}%
-\contentsline {subsection}{\numberline {1.8}Camera di spinta}{VI}{subsection.1.8}%
-\contentsline {subsection}{\numberline {1.9}Sistemi di raffreddamento}{VII}{subsection.1.9}%
+\contentsline {section}{Immagini stadio S-IC}{II}{Doc-Start}%
+\contentsline {section}{Indice}{III}{figure.caption.2}%
+\contentsline {section}{Elenco delle tabelle}{V}{figure.caption.2}%
+\contentsline {section}{Elenco delle figure}{V}{figure.caption.2}%
+\contentsline {section}{\numberline {1}Nomenclatura}{VII}{section.1}%
+\contentsline {subsection}{\numberline {1.2}Analisi della missione}{VII}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Propellenti}{VII}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Serbatoi e pressurizzazione}{VII}{subsection.1.4}%
+\contentsline {subsection}{\numberline {1.5}Schema termodinamico}{VII}{subsection.1.5}%
+\contentsline {subsection}{\numberline {1.6}Gas generator}{VIII}{subsection.1.6}%
+\contentsline {subsection}{\numberline {1.7}Turbopompa}{VIII}{subsection.1.7}%
+\contentsline {subsection}{\numberline {1.8}Camera di spinta}{IX}{subsection.1.8}%
+\contentsline {subsection}{\numberline {1.9}Sistemi di raffreddamento}{X}{subsection.1.9}%
 \contentsline {section}{\numberline {2}Analisi della missione}{1}{section.2}%
 \contentsline {subsection}{\numberline {2.1}Parametri lanciatore}{2}{subsection.2.1}%
 \contentsline {section}{\numberline {3}Propellenti}{2}{section.3}%
@@ -41,42 +44,47 @@
 \contentsline {subsection}{\numberline {9.1}Cooling della camera di spinta}{18}{subsection.9.1}%
 \contentsline {subsubsection}{\numberline {9.1.1}Scambio termico convettivo e film cooling}{18}{subsubsection.9.1.1}%
 \contentsline {subsubsection}{\numberline {9.1.2}Regenerative cooling}{19}{subsubsection.9.1.2}%
-\contentsline {section}{Appendice}{22}{AMS.50}%
-\contentsline {section}{\numberline {A}Grafici di varie grandezze in funzione del tempo di volo}{22}{appendix.1.Alph1}%
-\contentsline {section}{\numberline {B}Tabelle e immagini serbatoi}{23}{appendix.1.Alph2}%
-\contentsline {section}{\numberline {C}Confronto peso molecolare gas generator tra caso Fuel Rich e Oxidizer Rich}{25}{appendix.1.Alph3}%
-\contentsline {section}{\numberline {D}Prodotti gas generator analizzati con software NASA CEA}{27}{appendix.1.Alph4}%
-\contentsline {section}{\numberline {E}Schemi del gas generator}{28}{appendix.1.Alph5}%
-\contentsline {section}{\numberline {F}Turbopompa}{28}{appendix.1.Alph6}%
-\contentsline {subsection}{\numberline {F.1}Analisi pompa RP-1}{28}{subsection.1.Alph6.1}%
-\contentsline {subsection}{\numberline {F.2}Triangoli velocità Pompa LOX}{29}{subsection.1.Alph6.2}%
-\contentsline {subsection}{\numberline {F.3}Triangoli velocità Pompa RP-1}{29}{subsection.1.Alph6.3}%
-\contentsline {subsection}{\numberline {F.4}Triangoli velocità Turbina}{30}{subsection.1.Alph6.4}%
-\contentsline {section}{\numberline {G}Camera di spinta}{31}{appendix.1.Alph7}%
-\contentsline {subsection}{\numberline {G.1}Modellazione ugello}{32}{subsection.1.Alph7.1}%
-\contentsline {subsection}{\numberline {G.2}Confronto tra ugello 10:1 e 16:1}{33}{subsection.1.Alph7.2}%
+\contentsline {subsubsection}{\numberline {9.1.3}Dimensionamento tubi camera di spinta}{19}{subsubsection.9.1.3}%
+\contentsline {subsubsection}{\numberline {9.1.4}Grafici andamento flusso di calore e temperatura}{20}{subsubsection.9.1.4}%
+\contentsline {section}{\numberline {10}Conclusioni}{20}{section.10}%
+\contentsline {section}{Appendice}{21}{section.10}%
+\contentsline {section}{\numberline {A}Grafici di varie grandezze in funzione del tempo di volo}{21}{appendix.1.Alph1}%
+\contentsline {section}{\numberline {B}Tabelle e immagini serbatoi}{22}{appendix.1.Alph2}%
+\contentsline {section}{\numberline {C}Confronto peso molecolare gas generator tra caso Fuel Rich e Oxidizer Rich}{23}{appendix.1.Alph3}%
+\contentsline {section}{\numberline {D}Prodotti gas generator analizzati con software NASA CEA}{25}{appendix.1.Alph4}%
+\contentsline {section}{\numberline {E}Schemi del gas generator}{26}{appendix.1.Alph5}%
+\contentsline {section}{\numberline {F}Turbopompa}{26}{appendix.1.Alph6}%
+\contentsline {subsection}{\numberline {F.1}Analisi pompa RP-1}{26}{subsection.1.Alph6.1}%
+\contentsline {subsection}{\numberline {F.2}Triangoli velocità Pompa LOX}{27}{subsection.1.Alph6.2}%
+\contentsline {subsection}{\numberline {F.3}Triangoli velocità Pompa RP-1}{27}{subsection.1.Alph6.3}%
+\contentsline {subsection}{\numberline {F.4}Triangoli velocità Turbina}{28}{subsection.1.Alph6.4}%
+\contentsline {section}{\numberline {G}Camera di spinta}{30}{appendix.1.Alph7}%
+\contentsline {subsection}{\numberline {G.1}Piatto d'iniezione}{30}{subsection.1.Alph7.1}%
+\contentsline {subsection}{\numberline {G.2}Modellazione ugello}{31}{subsection.1.Alph7.2}%
+\contentsline {subsection}{\numberline {G.3}Confronto tra ugello 10:1 e 16:1}{32}{subsection.1.Alph7.3}%
 \contentsline {section}{\numberline {H}Appendice ausiliaria capitolo 9}{33}{appendix.1.Alph8}%
 \contentsline {subsection}{\numberline {H.1}Definizione temperature usate nel cooling}{33}{subsection.1.Alph8.1}%
 \contentsline {subsection}{\numberline {H.2}Film cooling}{33}{subsection.1.Alph8.2}%
-\contentsline {subsection}{\numberline {H.3}Grafico della resistenza termica prodotta dal deposito carbonioso}{35}{subsection.1.Alph8.3}%
+\contentsline {subsection}{\numberline {H.3}Grafico della resistenza termica prodotta dal deposito carbonioso}{34}{subsection.1.Alph8.3}%
 \contentsline {subsection}{\numberline {H.4}Dettagli sul sistema di introduzione dei gas combusti sulla parete interna dell'ugello aggiunto}{35}{subsection.1.Alph8.4}%
 \contentsline {subsection}{\numberline {H.5}Comportamento del fluido RP1 in relazione alla pressione critica}{35}{subsection.1.Alph8.5}%
-\contentsline {section}{\numberline {I}RPA: definizione problema e funzionamento}{36}{appendix.1.Alph9}%
-\contentsline {section}{\numberline {J}Codici MATLAB usati}{37}{appendix.1.Alph10}%
-\contentsline {subsection}{\numberline {J.1}Simulazione di volo}{37}{subsection.1.Alph10.1}%
-\contentsline {subsubsection}{\numberline {J.1.1}Parametri adimensionali lanciatore}{40}{subsubsection.1.Alph10.1.1}%
-\contentsline {subsection}{\numberline {J.2}Serbatoi}{41}{subsection.1.Alph10.2}%
-\contentsline {subsubsection}{\numberline {J.2.1}Serbatoio RP-1}{41}{subsubsection.1.Alph10.2.1}%
-\contentsline {subsubsection}{\numberline {J.2.2}Serbatoio LOX}{43}{subsubsection.1.Alph10.2.2}%
-\contentsline {subsection}{\numberline {J.3}Schema termodinamico}{44}{subsection.1.Alph10.3}%
-\contentsline {subsection}{\numberline {J.4}Gas generator}{45}{subsection.1.Alph10.4}%
-\contentsline {subsubsection}{\numberline {J.4.1}Grafici di interpolazione}{45}{subsubsection.1.Alph10.4.1}%
-\contentsline {subsection}{\numberline {J.5}Turbopompa}{47}{subsection.1.Alph10.5}%
-\contentsline {subsubsection}{\numberline {J.5.1}Pompa LOX}{48}{subsubsection.1.Alph10.5.1}%
-\contentsline {subsubsection}{\numberline {J.5.2}Pompa RP-1}{54}{subsubsection.1.Alph10.5.2}%
-\contentsline {subsubsection}{\numberline {J.5.3}Triangoli di velocità turbina}{61}{subsubsection.1.Alph10.5.3}%
-\contentsline {subsection}{\numberline {J.6}Camera di spinta}{65}{subsection.1.Alph10.6}%
-\contentsline {subsubsection}{\numberline {J.6.1}Camera di combustione}{65}{subsubsection.1.Alph10.6.1}%
-\contentsline {subsubsection}{\numberline {J.6.2}Modellazione ugello}{66}{subsubsection.1.Alph10.6.2}%
-\contentsline {subsection}{\numberline {J.7}Sistemi di raffreddamento}{79}{subsection.1.Alph10.7}%
-\contentsline {section}{Bibliografia}{89}{lstnumber.-19.177}%
+\contentsline {subsection}{\numberline {H.6}Procedimento dimensionamento tubi}{36}{subsection.1.Alph8.6}%
+\contentsline {section}{\numberline {I}RPA: definizione problema e funzionamento}{37}{appendix.1.Alph9}%
+\contentsline {section}{\numberline {J}Codici MATLAB usati}{41}{appendix.1.Alph10}%
+\contentsline {subsection}{\numberline {J.1}Simulazione di volo}{41}{subsection.1.Alph10.1}%
+\contentsline {subsubsection}{\numberline {J.1.1}Parametri adimensionali lanciatore}{44}{subsubsection.1.Alph10.1.1}%
+\contentsline {subsection}{\numberline {J.2}Serbatoi}{45}{subsection.1.Alph10.2}%
+\contentsline {subsubsection}{\numberline {J.2.1}Serbatoio RP-1}{45}{subsubsection.1.Alph10.2.1}%
+\contentsline {subsubsection}{\numberline {J.2.2}Serbatoio LOX}{46}{subsubsection.1.Alph10.2.2}%
+\contentsline {subsection}{\numberline {J.3}Schema termodinamico}{48}{subsection.1.Alph10.3}%
+\contentsline {subsection}{\numberline {J.4}Gas generator}{49}{subsection.1.Alph10.4}%
+\contentsline {subsubsection}{\numberline {J.4.1}Grafici di interpolazione}{49}{subsubsection.1.Alph10.4.1}%
+\contentsline {subsection}{\numberline {J.5}Turbopompa}{50}{subsection.1.Alph10.5}%
+\contentsline {subsubsection}{\numberline {J.5.1}Pompa LOX}{51}{subsubsection.1.Alph10.5.1}%
+\contentsline {subsubsection}{\numberline {J.5.2}Pompa RP-1}{58}{subsubsection.1.Alph10.5.2}%
+\contentsline {subsubsection}{\numberline {J.5.3}Triangoli di velocità turbina}{65}{subsubsection.1.Alph10.5.3}%
+\contentsline {subsection}{\numberline {J.6}Camera di spinta}{68}{subsection.1.Alph10.6}%
+\contentsline {subsubsection}{\numberline {J.6.1}Camera di combustione}{68}{subsubsection.1.Alph10.6.1}%
+\contentsline {subsubsection}{\numberline {J.6.2}Modellazione ugello}{69}{subsubsection.1.Alph10.6.2}%
+\contentsline {subsection}{\numberline {J.7}Sistemi di raffreddamento}{83}{subsection.1.Alph10.7}%
+\contentsline {section}{Bibliografia}{93}{lstnumber.-19.177}%

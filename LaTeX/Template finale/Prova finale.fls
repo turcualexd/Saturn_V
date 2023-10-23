@@ -766,14 +766,35 @@ INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\vf\public\kpfonts\jkpmn
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmn8r.tfm
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmne.tfm
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\kpfonts\kpfonts-expert.enc
-INPUT .\Prova finale.toc
-INPUT Prova finale.toc
-INPUT Prova finale.toc
+INPUT .\Images\\S-IC.jpg
+INPUT Images\\S-IC.jpg
+INPUT .\Images\\S-IC.jpg
+INPUT .\Images\\S-IC.jpg
+INPUT .\Images\\S-IC.jpg
+INPUT .\Images\\S-IC.jpg
+INPUT .\Images\\F-1.jpg
+INPUT Images\\F-1.jpg
+INPUT .\Images\\F-1.jpg
+INPUT .\Images\\F-1.jpg
+INPUT .\Images\\F-1.jpg
+INPUT .\Images\\F-1.jpg
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbn8t.tfm
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\vf\public\kpfonts\jkpbn8t.vf
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbn8r.tfm
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbne.tfm
+INPUT .\Prova finale.toc
+INPUT Prova finale.toc
+INPUT Prova finale.toc
 OUTPUT Prova finale.toc
+INPUT .\Prova finale.lot
+INPUT Prova finale.lot
+INPUT Prova finale.lot
+OUTPUT Prova finale.lot
+INPUT .\Prova finale.lof
+INPUT Prova finale.lof
+INPUT Prova finale.lof
+INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\vf\public\kpfonts\jkpmn7t.vf
+OUTPUT Prova finale.lof
 INPUT .\Sezioni\01_nomenclatura.tex
 INPUT .\Sezioni\01_nomenclatura.tex
 INPUT Sezioni\01_nomenclatura.tex
@@ -820,18 +841,16 @@ INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpb
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\vf\public\kpfonts\jkpmn7t.vf
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmne.tfm
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmn8r.tfm
-INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\vf\public\kpfonts\jkpmn8t.vf
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\vf\public\kpfonts\jkpmn7t.vf
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmne.tfm
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmn8r.tfm
+INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\vf\public\kpfonts\jkpmn8t.vf
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\vf\public\kpfonts\jkpbn7t.vf
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbne.tfm
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbn8r.tfm
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\vf\public\kpfonts\jkpbn7t.vf
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbne.tfm
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbn8r.tfm
-INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmn8t.tfm
-INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmn8t.tfm
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmit8t.tfm
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\vf\public\kpfonts\jkpmit8t.vf
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmit8r.tfm
@@ -888,7 +907,6 @@ INPUT .\Images\\07_traiettoria-eps-converted-to.pdf
 INPUT .\Images\\07_traiettoria-eps-converted-to.pdf
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\vf\public\kpfonts\jkpmn7c.vf
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmnc.tfm
-INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\vf\public\kpfonts\jkpmn7t.vf
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbmia.tfm
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbsya.tfm
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbsyb.tfm
@@ -982,6 +1000,8 @@ INPUT .\Images\\full_cycle-eps-converted-to.pdf
 INPUT .\Images\\full_cycle-eps-converted-to.pdf
 INPUT .\Images\\full_cycle-eps-converted-to.pdf
 INPUT .\Images\\full_cycle-eps-converted-to.pdf
+INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmn8t.tfm
+INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmn8t.tfm
 INPUT .\Images\\I_spec_see.eps
 INPUT Images\\I_spec_see.eps
 INPUT .\Images\\I_spec_see.eps
@@ -1094,12 +1114,40 @@ INPUT .\Images\\temp_dist.jpg
 INPUT .\Images\\temp_dist.jpg
 INPUT .\Images\\temp_dist.jpg
 INPUT .\Images\\temp_dist.jpg
-INPUT .\Sezioni\10_appendice.tex
-INPUT .\Sezioni\10_appendice.tex
-INPUT Sezioni\10_appendice.tex
-INPUT .\Sezioni\10_appendice.tex
-INPUT .\Sezioni\10_appendice.tex
-INPUT Sezioni\10_appendice.tex
+INPUT .\Images\\heat_flux.eps
+INPUT Images\\heat_flux.eps
+INPUT .\Images\\heat_flux.eps
+INPUT .\Images\\heat_flux.eps
+INPUT .\Images\\heat_flux-eps-converted-to.pdf
+INPUT .\Images\\heat_flux-eps-converted-to.pdf
+INPUT .\Images\\heat_flux.eps
+INPUT .\Images\\heat_flux-eps-converted-to.pdf
+INPUT .\Images\\heat_flux-eps-converted-to.pdf
+INPUT .\Images\\heat_flux-eps-converted-to.pdf
+INPUT .\Images\\heat_flux-eps-converted-to.pdf
+INPUT .\Images\\temperature_cooling.eps
+INPUT Images\\temperature_cooling.eps
+INPUT .\Images\\temperature_cooling.eps
+INPUT .\Images\\temperature_cooling.eps
+INPUT .\Images\\temperature_cooling-eps-converted-to.pdf
+INPUT .\Images\\temperature_cooling-eps-converted-to.pdf
+INPUT .\Images\\temperature_cooling.eps
+INPUT .\Images\\temperature_cooling-eps-converted-to.pdf
+INPUT .\Images\\temperature_cooling-eps-converted-to.pdf
+INPUT .\Images\\temperature_cooling-eps-converted-to.pdf
+INPUT .\Images\\temperature_cooling-eps-converted-to.pdf
+INPUT .\Sezioni\10_conclusioni.tex
+INPUT .\Sezioni\10_conclusioni.tex
+INPUT Sezioni\10_conclusioni.tex
+INPUT .\Sezioni\10_conclusioni.tex
+INPUT .\Sezioni\10_conclusioni.tex
+INPUT Sezioni\10_conclusioni.tex
+INPUT .\Sezioni\11_appendice.tex
+INPUT .\Sezioni\11_appendice.tex
+INPUT Sezioni\11_appendice.tex
+INPUT .\Sezioni\11_appendice.tex
+INPUT .\Sezioni\11_appendice.tex
+INPUT Sezioni\11_appendice.tex
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpmn8t.tfm
 INPUT C:\Users\turcu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\kpfonts\jkpbn8t.tfm
 INPUT .\Sezioni\A_grafici_tempo_di_volo.tex
@@ -1336,6 +1384,18 @@ INPUT Sezioni\G_camera_spinta.tex
 INPUT .\Sezioni\G_camera_spinta.tex
 INPUT .\Sezioni\G_camera_spinta.tex
 INPUT Sezioni\G_camera_spinta.tex
+INPUT .\Images\\inj_1.png
+INPUT Images\\inj_1.png
+INPUT .\Images\\inj_1.png
+INPUT .\Images\\inj_1.png
+INPUT .\Images\\inj_1.png
+INPUT .\Images\\inj_1.png
+INPUT .\Images\\inj_3.png
+INPUT Images\\inj_3.png
+INPUT .\Images\\inj_3.png
+INPUT .\Images\\inj_3.png
+INPUT .\Images\\inj_3.png
+INPUT .\Images\\inj_3.png
 INPUT .\Images\\angoli_bell.jpg
 INPUT Images\\angoli_bell.jpg
 INPUT .\Images\\angoli_bell.jpg
@@ -1410,6 +1470,12 @@ INPUT Sezioni\I_RPA.tex
 INPUT .\Sezioni\I_RPA.tex
 INPUT .\Sezioni\I_RPA.tex
 INPUT Sezioni\I_RPA.tex
+INPUT .\Images\\nozzle_definitions.jpg
+INPUT Images\\nozzle_definitions.jpg
+INPUT .\Images\\nozzle_definitions.jpg
+INPUT .\Images\\nozzle_definitions.jpg
+INPUT .\Images\\nozzle_definitions.jpg
+INPUT .\Images\\nozzle_definitions.jpg
 INPUT .\Sezioni\J_matlab.tex
 INPUT .\Sezioni\J_matlab.tex
 INPUT Sezioni\J_matlab.tex

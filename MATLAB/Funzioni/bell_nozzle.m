@@ -18,7 +18,7 @@ y = [];
 % Equation for the throat:
 
 % Entrant section
-theta_i = [deg2rad(-135):0.01:deg2rad(-90)];
+theta_i = [deg2rad(-103):0.01:deg2rad(-90)];
 for i = 1:length(theta_i)
     x_i = 1.5*Rt*cos(theta_i(i));
     y_i = 1.5*Rt*sin(theta_i(i)) + 1.5*Rt + Rt;
@@ -27,7 +27,7 @@ for i = 1:length(theta_i)
 end
 
 % Exit section
-theta_exit = [deg2rad(-90):0.01:deg2rad(33-90)];
+theta_exit = [deg2rad(-90):0.01:deg2rad(theta_n-90)];
 for i = 1:length(theta_exit)
     x_i = 0.382*Rt*cos(theta_exit(i));
     y_i = 0.382*Rt*sin(theta_exit(i)) + 0.382*Rt + Rt;

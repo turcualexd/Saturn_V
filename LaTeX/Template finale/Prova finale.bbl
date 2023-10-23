@@ -25,6 +25,11 @@ Georce C. Marshall Space~Flight Center.
 \newblock {\em {R-3896-1 - F-1 Engine Familiarization Training Manual}}.
 \newblock Rocketdyne, 7 1971.
 
+\bibitem{propellenti}
+Politecnico di~Milano.
+\newblock Esercitazione endoeattori liquidi.
+\newblock PDF, 2022.
+
 \bibitem{AIAA_book_1}
 D.H.~Huang D.K.~Huzel.
 \newblock {\em Design of Liquid Propellant Rocket Engines, vol. 2}.
@@ -44,7 +49,7 @@ Howard~W. Douglass.
 \bibitem{heroicrelics}
 Mike Jetzer.
 \newblock heroicrelics.org.
-\newblock \url{http://heroicrelics.org/info/f-1/lox-flowmeter.html}.
+\newblock \url{http://heroicrelics.org}.
 
 \bibitem{JPP}
 {Joseph C. Oefelein, Vigor Yang}.
@@ -75,8 +80,7 @@ Kimble~D. McCutcheon.
 \bibitem{enginehistory}
 Kimble~D. McCutcheon.
 \newblock enginehistory.org.
-\newblock \url{https://www.enginehistory.org/Rockets/RPE08.10/RPE08.10.shtml},
-  2022.
+\newblock \url{https://www.enginehistory.org}, 2022.
 
 \bibitem{engine_information}
 National Aeronautics and Space Administration \& Rocketdyne.
@@ -91,6 +95,10 @@ National Aeronautics and Space Administration \& Rocketdyne.
 NASA Design~Criteria Office.
 \newblock {\em Liquid Rocket Engine Turbines}, 1 1974.
 
+\bibitem{rpa_thermal_manual}
+Alexander Ponomarenko.
+\newblock {\em RPA: Thermal Analysis of Thrust Chambers}, 3 2012.
+
 \bibitem{engine_manual}
 Rocketdyne.
 \newblock {\em {R-3896-1 - Technical Manual - Engine Data F-1 Rocket Engine}}.
@@ -101,5 +109,11 @@ Rocketdyne.
 \newblock {\em {R-3896-1A - Technical Manual Supplement - Engine Data F-1
   Rocket Engine}}.
 \newblock National Aeronautics and Space Administration \& Rocketdyne, 3 1967.
+
+\bibitem{injector}
+Joseph C. Oefelein \&~Vigor Yang.
+\newblock Comprehensive review of liquid-propellant combustion instabilities in
+  f-1 engines.
+\newblock PDF, 1993.
 
 \end{thebibliography}

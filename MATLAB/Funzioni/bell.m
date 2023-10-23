@@ -61,6 +61,8 @@ grid on;
 grid minor;
 hold on;
 plot(x, y);
+hold on;
+
 
 r_10     = y(196);
 r_16     = y(end);

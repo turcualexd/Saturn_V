@@ -1,4 +1,3 @@
-
 function [H_m, delta_h, psi, P, ds, ns, prod, NPSP, NPSH, sigma, phi_t, Cm, Ss, tao, Zt] = turbopump(eta_p, P01, P02, pho1, Q, m_dot, Dt2, b2, beta2, omega, P1, Psat, pho, rapportoD, theta)
 
 % g accelereazione di gravità

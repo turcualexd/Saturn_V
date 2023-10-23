@@ -21,18 +21,8 @@ Lo scambio convettivo per unità di area lato gas,all’interfaccia tra fluido e
 q = h_g \left( T_{aw} - T_{wg} \right)
 \end{empheq}
 
-Per determinare la temperatura $T_{wg}$ è sufficiente moltiplicare la temperatura in camera di combustione per un fattore pari a 0.8, fattore che tiene conto della presenza di depositi solidi di carbonio sulle pareti (tale valore verrà giustificato in questa trattazione).
-Per comprendere il significato della temperatura adiabatica $T_{aw}$ è necessaria una piccola digressione trattata in \autoref{appendix:cooling_temp_definitions}.
 
-Nel caso preso in esame, il valore della temperatura $T_{aw}$ è determinabile scalando la temperatura in camera di combustione di un fattore detto "recovery factor" $f_{aw}$ , definito come legame tra $T_{aw}$ e le temperature statica e totale del flusso libero e con valore compreso tra 0.9 e 0.98. In particolare il recovery factor rappresenta il rapporto tra l'aumento della temperatura causato dall'attrito e l'aumento causato dalla compressione adiabatica. Esso è determinabile sperimentalmente o può essere stimato tramite la sequente relazione:
-
-\begin{empheq}{equation*}
-f_{aw} = \frac{1 + r \left(\frac{\gamma - 1}{2} M_x^2\right)}{1 + \left(\frac{\gamma - 1}{2} M_x^2\right)} 
-\qquad
-r = Pr^{0.33};
-\end{empheq}
-
-È necessario precisare che la temperatura in camera di combustione $T_c$ utilizzata è quella teorica moltiplicata per il fattore correttivo della velocità caratteristica elevato al quadrato. Quest'ultima velocità infatti dipende unicamente dalla variabile $\sqrt{T_c}$. Il suddetto fattore varia in un intervallo compreso tra 0.87 e 1.03, mentre il valore utilizzato nella trattazione, ossia 0.975, è il valore sperimentale adottato dalla fonte \cite{AIAA_book_1}.
+Per comprendere il significato delle temperature  $T_{aw}$ e $T_{wg}$ è necessaria una piccola digressione trattata in \autoref{appendix:cooling_temp_definitions}.
 
 Per stabilire il valore di calore scambiato per unità di area rimane da calcolare solo il coefficiente di film $h_g$, che può essere ricavato mediante la formula empirica di Bartz:
 
@@ -42,34 +32,39 @@ h_g = \left[ \frac{0.026}{D_t^{0.2}} \left( \frac{\mu ^{0.2} C_p}{Pr^{0.6}} \rig
 \end{empheq}
 
 Esso dipende, tra gli altri parametri, dal numero di Prandtl, dalla viscosità $\mu$, dal raggio di curvatura in gola dell'ugello e dal fattore correttivo $\sigma$, che tiene conto delle variazioni di proprietà fisiche attraverso lo strato limite. La viscosità del gas al valore di interesse di ristagno (ns) è definita in questo modo:
-\begin{empheq}{equation*}\tag{*}
-\mu = \left(46.6 \times 10^{-10} \right) Mm^{0.5} T^{0.6}
+\begin{empheq}{equation*}
+\mu = \left(46.6 \times 10^{-10} \right) MM^{0.5} T^{0.6}
 \end{empheq}
-Dove $Mm$ è stato preso dalla simulazione RPA (\autoref{appendix:rpa}), ed è riferita al valore alla fine della camera di combustione.
-Il raggio di curvatura in gola dell'ugello è stato ricavato tramite approssimazione di Rao. Il valore nelle parentesi quadre è costante, una volta fissata la geometria della camera come lo sono parametri di combustione ($c^*$, $p_c$). Il valore nelle parentesi con pedice 'ns' si riferisce ai valori di $\mu$, $c_p$ e $Pr$ all'inizio del convergente. I fattori moltiplicativi al di fuori delle parentesi quadre dipendono dalla posizione in cui si vuole calcolare tale coefficiente. Supponendo conosciuto il punto in cui si vuole calcolare $h_g$, l'unica incognita è quindi $\sigma$. Questo fattore può essere determinato in termini di temperatura di combustione, temperatura locale a parete e numero di mach locale mediante un ulteriore relazione di Bartz. In alternativa è possibile determinarlo per interpolazione, in funzione del rapporto $T_{wg} / T_c$ e del valore di $\gamma$ dai grafici forniti dalla fonte \cite{AIAA_book_1}.
+Dove $MM$ è stato preso dalla simulazione RPA (\autoref{appendix:rpa}), ed è riferita al valore alla fine della camera di combustione.
+Il raggio di curvatura in gola dell'ugello è stato ricavato tramite approssimazione di Rao. Il valore nelle parentesi quadre è costante, una volta fissata la geometria della camera come lo sono i parametri di combustione ($c^*$, $p_c$). Il valore nelle parentesi con pedice 'ns' si riferisce ai valori di $\mu$, $c_p$ e $Pr$ all'inizio del convergente. I fattori moltiplicativi al di fuori delle parentesi quadre dipendono dalla posizione in cui si vuole calcolare tale coefficiente. Supponendo conosciuto il punto in cui si vuole calcolare $h_g$, l'unica incognita è quindi $\sigma$. Questo fattore può essere determinato in termini di temperatura di combustione, temperatura locale a parete e numero di Mach locale mediante un ulteriore relazione di Bartz. In alternativa è possibile determinarlo per interpolazione, in funzione del rapporto $T_{wg} / T_c$ e del valore di $\gamma$ dai grafici forniti dalla fonte \cite{AIAA_book_1}.
 
+
+Per il calcolo dello scambio termico nel caso di presenza di deposito solido sulle pareti della camera, l’equazione (*) viene corretta dalla seguente equazione, che vede una sostituzione del coefficiente di film con il coefficiente di conduttanza termica complessiva lato gas $h_{gc}$:
+
+\begin{empheq}{equation*}
+h_{gc} = \frac{1}{\frac{1}{h_g} + R_d}
+\end{empheq}
+
+
+Questo coefficiente considera sia $h_g$ sia il coefficiente di resistenza causata dal deposito solido $R_d$ , il cui valore è dipendente dal rapporto di espansione e dalle condizioni di pressione e rapporto di miscela (grafico specifico in \autoref{sec:raffreddamento}).
 La trattazione del film cooling del tratto di ugello 10:16 è lasciata in \autoref{appendix:cooling_temp_definitions}.
 
 \subsubsection{Regenerative cooling}
 \label{subsubsec:regenerative cooling}
 
-Il motore preso in esame sfrutta lo scambio termico rigenerativo come tecnica di raffreddamento delle pareti della camera di spinta, in particolare dalla gola e per la lunghezza dell'ugello fino al piano caratterizzato da rapporto di espansione 1:10. Il regenerative cooling utilizza una quota parte di combustibile, circa il 70\%, come refrigerante. Esso viene indirizzato in una serie di tubi opportunamente sagomati saldobrasati insieme che costituiscono la parete stessa dell'ugello di efflusso. Lo scambio di calore avviene quindi tra due flussi in movimento separati da una parete.
-Questa tecnica vanta di alcuni importanti vantaggi, tra i quali il fatto che non comporti nessuna perdita di prestazioni, infatti l'energia termica assorbita del refrigerante viene restituita all'iniettore, e abbia una struttura relativamente leggera. Tuttavia si possono riscontrare alcuni svantaggi, come alte perdite di pressione per elevati livelli di flusso di calore.
+Il motore preso in esame sfrutta lo scambio termico rigenerativo come tecnica di raffreddamento delle pareti della camera di spinta, in particolare dalla gola e per la lunghezza dell'ugello fino al piano caratterizzato da rapporto di espansione 1:10. 
 
 \rfig{temp_dist}{Variazione di temperatura attraverso la parete}{temp_dist}{0.3}
 
-La figura descrive la variazione di temperatura durante lo scambio di calore per regenerative cooling. A sinistra scorrono i gas combusti a contatto con il boundary layer e la cui temperatura è $T_{aw}$ che diminuisce sensibilmente all'interno del boundary layer fino a raggiungere la temperatura della parete lato gas $T_{wg}$. All'interno dello spessore della parete la temperatura continua a diminuire raggiungendo la temperatura $T_{wc}$, ossia la temperatura della parete a contatto con il refrigerante; quest'ultimo quindi sarà caratterizzato dalla temperatura $T_{c0}$ (bulk temperature del refrigerante).
-
-Proprio a causa dello scambio di calore tra gas e refrigerante, la temperatura $T_{c0}$ aumenterà dal punto di ingresso fino al momento in cui l'RP-1 lascerà il condotto di raffreddamento. A livello strutturale è necessario svolgere il dimensionamento nel punto più critico, ossia la sezione all'altezza della gola del tubo di ritorno, poichè corrisponde all'ultima sezione attraversata dal refrigerante prima di essere immesso nella camera di spinta.
-
-L'obiettivo ultimo del regenerative cooling è quello di mantenere la temperatura della parete al di sotto della temperatura critica alla quale possono realizzarsi fusioni localizzate o un decremento delle prestazioni del materiale. La temperatura limite nel caso della parete della camera di spinta dell'F-1, realizzata in Inconel X750, è tra 550 K e 670 K.
-Identificate le temperature caratteristiche del processo di raffreddamento è quindi possibile calcolare il flusso di calore come:
+Il regenerative cooling utilizza una quota parte di combustibile, circa il 70\%, come refrigerante. Esso viene indirizzato in una serie di tubi opportunamente sagomati saldobrasati insieme che costituiscono la parete stessa dell'ugello di efflusso. Lo scambio di calore avviene quindi tra due flussi in movimento separati da una parete. Questa tecnica vanta di alcuni importanti vantaggi, tra i quali il fatto che non comporti nessuna perdita di prestazioni (infatti l'energia termica assorbita dal refrigerante viene restituita all'iniettore) e che abbia una struttura relativamente leggera. Tuttavia si possono riscontrare alcuni svantaggi, come alte perdite di pressione per elevati livelli di flusso di calore.
+Il calore che attraversa la parete viene assorbito dal liquido refrigerante, il quale subisce un aumento di temperatura lungo il percorso. A causa degli effetti viscosi nasce uno strato limite sul lato coolant.
+Il calore proveniente dal flusso di gas caldi è descritto dal parametro $h_{gc}$ analizzato precedentemente. Per mantenere la temperatura della parete entro valori contenuti, è necessario che la conduttività termica complessiva lato gas $h_{gc}$ sia minimizzata, mentre il coefficiente di scambio termico del refrigerante sia molto alto, così come il rapporto $t/k$. Dal momento che la differenza di temperatura è inversamente proporzionale al coefficiente di scambio termico del flusso di calore, la diminuzione della temperatura sarà più rapida tra gas caldo e parete interna della camera:
 
 \begin{empheq}{equation*}
-q = h_{gc} \left(T_{aw} - T_{wg}\right) = \frac{k}{t} \left(T_{wg} - T_{wc}\right) 
+q = h_{gc} \left(T_{aw} - T_{wg}\right) = \frac{k}{t} \left(T_{wg} - T_{wc}\right) = h_c \left(T_{wc} - T_{co} \right)
 \end{empheq}
 
-Avendo che il flusso di calore attraverso i tre strati (strato limite gassoso, parete solida, strato limite liquido) è lo stesso, è possibile calcolare il parametro H (serie delle conduttività dei tre strati):
+Poiché il flusso di calore attraverso i tre strati (strato limite gassoso, parete solida, strato limite liquido) è lo stesso, è possibile calcolare il parametro H (serie delle conduttività dei tre strati):
 \vspace{3pt}
 
 \begin{empheq}{gather*}
@@ -78,55 +73,44 @@ q = H\left(T_{aw} - T_{co}\right)
 H = \frac{1}{\frac{1}{h_{gc}} + \frac{1}{h_c} + \frac{t}{k}}
 \end{empheq}
 
-Per mantenere la temperatura della parete entro valori contenuti, è necessario che la conduttività termica complessiva lato gas $h_{gc}$ sia minimizzata, mentre il coefficiente di scambio termico del refrigerante sia molto alto, così come il rapporto $t/k$. Dal momento che la differenza di temperatura è inversamente proporzionale al coefficiente di scambio termico del flusso di calore, la diminuzione della temperatura sarà più rapida tra gas caldo e parete interna della camera.
+Il coefficiente $h_c$ descrive il processo di scambio termico attraverso lo strato limite del fluido refrigerante. Per determinarne il valore è necessario approfondire il suo legame con pressione e temperatura critica (vedi \autoref{appendix:cooling_temp_definitions}).
 
-Se per determinare il valore di $h_{gc}$ è sufficiente ripercorrere la trattazione riguardante lo scambio termico convettivo, per comprendere il significato del coefficiente $h_c$ e determinarne il valore numerico è necessario approfondire il suo legame con pressione e temperatura critica del refrigerante (vedi \autoref{sec:raffreddamento}).
-
-Per i motivi illustrati in \autoref{appendix:cooling_temp_definitions} si predilige avere una pressione che sia tra il 30\% e il 70\% della pressione critica.
-Il dimensionamento del sistema di regenerative cooling è finalizzato a stabilire il numero di tubi che compongono la parete dell'ugello d'efflusso e le dimensioni dei singoli tubi, in particolare il diametro interno e lo spessore. Il dimensionamento viene effettuato nella condizione più critica, ossia vengono dimensionati i tubi di ritorno nella sezione di gola, perché la gola rappresenta il punto caratterizzato dal maggior valore di flusso termico e attraverso la sezione finale dei tubi di ritorno scorre il refrigerante alla sua temperatura massima raggiunta dopo aver percorso tutto il sistema di raffreddamento. La forma dell'ugello d'efflusso è nota (\autoref{subsec:modellazione ugello}, \autoref{appendix:rpa}). Il numero di tubi rimane costante fino al piano caratterizzato dal rapporto di espansione 1:3, per poi raddoppiare fino al piano con rapporto di espansione 1:10 (sdoppiamento spiegato in \autoref{subsec:descrizione camera spinta}). Avendo come variabili sia il numero di tubi che il loro spessore, è necessario fissare uno dei due dati. \'E stato scelto il numero reale di tubi che compongono l'ugello nel primo tratto (178).
+\subsubsection{Dimensionamento tubi camera di spinta}
+L'obiettivo del regenerative cooling è quello di mantenere la temperatura della parete al di sotto della temperatura critica alla quale possono realizzarsi fusioni localizzate o un decremento delle prestazioni del materiale. La temperatura di esercizio nel caso della parete della camera di spinta dell'F-1, realizzata in Inconel X750, è tra 550 K e 670 K \cite{AIAA_book_2}.
+Il dimensionamento del sistema di regenerative cooling è finalizzato a stabilire il numero di tubi che compongono la parete dell'ugello d'efflusso e le dimensioni dei singoli tubi, in particolare il diametro interno e lo spessore. Esso viene effettuato nella condizione più critica, ossia vengono dimensionati i tubi di ritorno nella sezione di gola, perché la gola rappresenta il punto caratterizzato dal maggior valore di flusso termico e attraverso la sezione finale dei tubi di ritorno scorre il refrigerante alla sua temperatura massima raggiunta dopo aver percorso tutto il sistema di raffreddamento. Il numero di tubi rimane costante fino al piano caratterizzato dal rapporto di espansione 1:3, per poi raddoppiare fino al piano con rapporto di espansione 1:10 (sdoppiamento spiegato in \autoref{subsec:descrizione camera spinta}). Avendo come variabili sia il numero di tubi che il loro spessore, è necessario fissare uno dei due dati. \'E stato scelto il numero reale di tubi che compongono l'ugello nel primo tratto (178).
 I calcoli preliminari al dimensionamento permettono di determinare, tramite una trattazione analoga a quella illustrata per lo scambio convettivo, il valore di flusso di calore specifico q, funzione della conduttività termica, della temperatura adiabatica a parete e della temperatura della parete lato gas. 
-La temperatura a parete lato gas $T_{wg}$ è determinata sperimentalmente, mentre la temperatura adiabatica a parete $T_{aw}$ è ottenuta moltiplicando la temperatura in camera di combustione $T_c$ per il fattore di recupero dello strato limite turbolento in gola (valore intermedio tra 0.9 e 0.98). Noto quindi il rapporto $T_{wg}/T_c$ e $\gamma$ dei gas combusti è possibile determinare il valore del fattore di correzione in gola $\left( \sigma \right)$ dai grafici riportati nella sezione precedente. Infine è possibile calcolare il coefficiente di scambio termico lato gas tramite la formula (*)
-e quindi il valore di $h_{gc}$.
 
-Dalle precedenti formule è possibile definire $R_d$ la resistenza termica causata dal deposito solido in gola, R il raggio di curvatura dell'ugello calcolato come media dei due raggi di curvatura $R_1$ ed $R_n$, $D_t$ il diametro di gola calcolato come due volte $R_t$.
-Terminati i calcoli preliminari è possibile passare al dimensionamento vero e proprio del sistema di refrigerazione. Sono noti i valori relativi alla lega X750 (conducibilità termica $k_{lega}$, modulo di elasticità E, coefficiente di espansione termica a, coefficiente di Poisson $\nu$) e vengono assunti i valori di bulk temperature del combustibile in gola, la sua conducibilità termica $k_{fuel}$, la sua densità (di stivaggio) e una costante $C_1$ propria dell’RP1 utile per il calcolo del numero di Nusselt. \cite{AIAA_book_1}\cite{AIAA_book_2}
-A questo punto per determinare lo spessore t dei tubi è possibile implementare un ciclo in MATLAB che permetta di calcolare il numero dei tubi al variare dello spessore, per poi interrompere il ciclo quando il numero eguaglia il numero di tubi imposto: in questo modo si ottiene il valore dello spessore necessario. I calcoli svolti si basano su considerazioni fisiche e su formule empiriche.
-Il ciclo inizia con il calcolo della temperatura della parete lato combustibile.
 
-\begin{empheq}{equation*}
-T_{wc} = T_{wg} - \frac{qt}{k}
-\end{empheq}
+\'E possibile passare al dimensionamento vero e proprio. Sono noti i valori relativi alla lega X750 (conducibilità termica $k_{lega}$, modulo di elasticità E, coefficiente di espansione termica a, coefficiente di Poisson $\nu$) e vengono assunti i valori di bulk temperature del combustibile in gola, la sua conducibilità termica $k_{fuel}$, la sua densità e una costante $C_1$ propria dell’RP-1 utile per il calcolo del numero di Nusselt. \cite{AIAA_book_1}\cite{AIAA_book_2}
+Per determinare lo spessore t dei tubi è possibile implementare un ciclo in MATLAB che permetta di calcolare il numero dei tubi al variare dello spessore, per poi interrompere il ciclo quando il numero eguaglia il numero di tubi imposto. I calcoli svolti si basano su considerazioni fisiche e su formule empiriche 
+\autoref{subsec:dimensionamento_tubi}.
+\begin{table}[H]
+\centering
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|}
+\hline
+$\bm{R_d \, [in^2sF/btu]}$ & $\bm{T_{wg} \, [K]}$ & $\bm{f_{aw} \, [-]}$  & $\bm{\sigma \, [-]}$  & $\bm{k_{fuel} \, [btu/insF]}$ & $\bm{T_{co} \, [K]}$ & $\bm{c_1 \, [-]}$ & $\bm{\dot{m} \, [kg/s]}$ & $\bm{N_{tubi} \, [-]}$ \\ 
+\hline
+$1125$ & $660$ & $0.93$  & $1.42$ & $1.78 \, \cdot \, 10^{-6}$ & $333.3$ & $0.0214$ & $556.9$ & $178$ \\
+\hline
+\end{tabular}
+\caption{Dati usati per il dimensionamento dei tubi \cite{
+AIAA_book_2}}
+\label{table:tabella_regenerative_in}
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+$\bm{v_{co} \, [m/s]}$ & $\bm{h_{gc} \, [btu/in^2 sF]}$ & $\bm{\dot{q} \, [W/m^2]}$ & $\bm{d_{int} \, [cm]}$ & $\bm{t \, [mm]}$ \\
+\hline
+$44.2$ & $8.06\, \cdot \, 10^{-4} $ & $5.93\, \cdot \, 10^6 $ & $  1.49 $ & $0.81$ \\
+\hline
+\end{tabular}
+\caption{Risultati dimensionamento tubi}
+\label{table:tabella_regenerative_out}
+\end{table}
 
-Necessario per determinare il valore del coefficiente  di scambio termico del combustibile $h_c$
+\subsubsection{Grafici andamento flusso di calore e temperatura}
 
-\begin{empheq}{equation*}
-h_{c} = \frac{q}{T_{wc} - T_{co}}
-\end{empheq}
+In questo paragrafo verranno presentati i grafici degli andamenti del flusso di calore e dell'andamento delle temperature $T_{aw}$, $T_{wg}$ e $T_c$. In particolare viene considerato il tratto in cui è effettuato il raffreddamento rigenerativo. La temperatura del coolant viene considerata solo nel condotto di ritorno (risale l'ugello) per semplicità. Il metodo iterativo per il calcolo di tali grandezze è stato tratto dal manuale sulla trattazione dei raffreddamenti delle camere di spinta di LRE di RPA (\cite{rpa_thermal_manual}) ed è stato implementato in \textit{Matlab}. \autoref{appendix:codici}
 
-Per regioni caratterizzate da temperatura subcritica e dall'assenza di nucleate boiling, la relazione tra temperatura a parete e flusso di calore, che dipende per l'appunto dal coefficiente di scambio termico $h_c$, può essere descritta tramite l'equazione di Sieder-Tate per il trasferimento turbolento di calore a liquidi che fluiscono nei canali:
+\twofigII{heat_flux}{Flusso di calore in funzione della posizione assiale}{heat_flux}{temperature_cooling}{Temperature di interesse in funzione della posizione assiale}{temperature_cooling}{0.7}
 
-\begin{empheq}{equation*}
-Nu = C_1 Re^{0.8} Pr^{0.4} \left(\frac{\mu}{\mu_w}\right)^{0.14}
-\end{empheq}
-
-Dove $\mu$ è la viscosità del combustibile alla temperatura $T_{co}$, mentre $\mu _w$ è la viscosità del combustibile alla temperatura della parete in gola. Questa relazione può essere riscritta esplicitando i singoli termini:
-
-\begin{empheq}{equation*}\tag{E1}
-Nu = \frac{h_c d}{k}=C_1 \left(\frac{\rho V_{co} d}{\mu}\right)^{0.8} \left(\frac{\mu C_p}{k}\right)^{0.4} \left(\frac{\mu}{\mu_w}\right)^{0.14}
-\end{empheq}
-
-Dove le incognite sono il diametro dei tubi d e la velocità media del combustibile $V_{co}$. Quest'ultima può essere calcolata in funzione del diametro dei tubi e del loro numero:
-
-\begin{empheq}{equation*}
-V_{co} = \frac{\frac{\dot{W}_f}{\rho}}{\frac{N}{2} \frac{\left(\pi d^2\right)}{4}}
-\end{empheq}
-
-Con $\dot{W}_f$ la portata massica di combustibile, corrispondente al 70 \% della portata totale del combustibile.
-Il numero di tubi è ottenuto, qualitativamente, dividendo il perimetro dell'ugello della sezione di gola e il diametro del tubo considerato. Raffinando la formula con fattori correttivi si trova la seguente formula empirica:
-
-\begin{empheq}{equation*}\tag{E2}
-N = \frac{\pi \left[D_t + 0.8\left(d + 0.04 \right)\right]}{d + 0.04}
-\end{empheq}
-
-Il fattore 0.8 ha il ruolo di fattore di correzione: il centro dei tubi è collocato su una circonferenza, piuttosto che su una retta.
-Sostituendo quindi $V_{co}$ all'interno dell'equazione (E1) esplicitandone N ed eguagliando l'espressione trovata all'equazione (E2) è possibile determinare il valore del diametro dei tubi. Sostituendo infine il valore trovato all'interno dell'equazione (E2) il si ottiene il numero dei tubi. Analizzando in un 'ciclo for' i passaggi appena visti, è possibile determinare il valore di t tale per cui si ha il numero di tubi N desiderato.
+Da \autoref{fig:heat_flux} si vede che il flusso di calore è massimo in gola. Da \autoref{fig:temperature_cooling} si nota come $T_{wg}$ sia minore della temperatura di fusione del materiale. Sempre nella stessa figura si può notare che lo sdoppiamento dei tubi genera un salto nel grafico delle temperature.
