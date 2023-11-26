@@ -93,8 +93,7 @@ else
     Pcrc = (E*tc^3)/(4*(1-v^2)*a^3);
 end
 
-%%
-
+%% spessori
 
 tk_m = tk/39.37
 tcr_m = tcr/39.37
